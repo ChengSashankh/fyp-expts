@@ -17,8 +17,8 @@ This repository contains the following information:
 
 The following papers are some relevant to this project.
 
-| Paper Title                                               | Paper Link                                                              |
-|-----------------------------------------------------------|-------------------------------------------------------------------------|
-| Equation Embeddings                                       | [Paper Link](https://arxiv.org/abs/1803.09123)                          |
-| A Comprehensive Review of Graph Convolution Networks      | [Paper Link](https://arxiv.org/pdf/1901.00596.pdf)                      |
-| Tangent-CFT: An Embedding Model for Mathematical Formulas | [Paper Link](https://www.cs.rit.edu/~rlaz/files/Mansouri_ICTIR2019.pdf) |
+| Paper Title                                               | Paper Link                                                              | Notes  |
+|-----------------------------------------------------------|-------------------------------------------------------------------------| -------|
+| Equation Embeddings                                       | [Paper Link](https://arxiv.org/abs/1803.09123)                          | [Notes](docs/paper-notes.md/#equation-embeddings)
+| A Comprehensive Review of Graph Convolution Networks      | [Paper Link](https://arxiv.org/pdf/1901.00596.pdf)                      | [Notes](docs/paper-notes.md/#gcn-comprehensive-review)
+| Tangent-CFT: An Embedding Model for Mathematical Formulas | [Paper Link](https://www.cs.rit.edu/~rlaz/files/Mansouri_ICTIR2019.pdf) | [Notes](docs/paper-notes.md/#tangent-ctf-mathematical-formula-embedding)
