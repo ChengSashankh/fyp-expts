@@ -4153,7 +4153,7 @@ dimensions $\Delta \in [2,10]$ at zero spatial momentum $\qn$.}
 \begin{table}
 \begin{center}
 \vspace{-0.5 cm}
-\caption{{\footnotesize Quasinormal frequency $w_0$ for integer $\Delta \in [1,6]$.} }
+\caption{{\footnotesize Quasinormal frequency $w_0$ for integer $\Delta \in [1,6]$.}}
 \vspace{0.2 cm}
 \begin{tabular}{||c|c|c||}
 \hline
