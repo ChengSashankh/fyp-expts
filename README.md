@@ -9,8 +9,9 @@ This repository contains the following information:
 | Source code for each experiment  |       `expt/experiment-name`       |
 |    Results for each experiment   |    `README.md` and GitHub Pages    |
 |      Slides at each meeting      |         `slides/slides.pdf`        |
-|       Datasets created/used      | Link in READMe.md and GitHub Pages |
+|       Datasets created/used      | Link in README.md and GitHub Pages |
 |        Material for report       |              `report/`             |
+|        Table Examples here       |              [examples](docs/table-examples.md)             |
 
 
 ## Some relevant literature
