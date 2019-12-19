@@ -1,6 +1,7 @@
 # Tables Page
 ## Example Number: 1
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \begin{tabular}{|c|c|c|}
@@ -21,9 +22,11 @@
 \label{delta}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 2
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -62,9 +65,11 @@
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 3
 ```
+{% raw %}
 \begin{table}[!t]
     \begin{center}
     \begin{tabular}{|c||c|c|c|}
@@ -77,9 +82,11 @@
     \caption{\small \label{Tab:QuntumNumber} Quantum numbers of quarks, $Q^i_A$, and gauge fields, $W_{[AB]}$, where {\bf ADJ} stands for the adjoint representation of $SO(N_c)$.}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 4
 ```
+{% raw %}
 \begin{table}[!t]
 
     \begin{center}
@@ -102,9 +109,11 @@
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 5
 ```
+{% raw %}
 \begin{table}[!t]
     \begin{center}
     \begin{tabular}{|c||c|c|c|}
@@ -119,9 +128,11 @@
     \caption{\label{Tab:COMP}\small Quantum numbers of superfields in the Higgs phase (the upper column) and the confining phase (the lower column), where {\bf SYM} stands for the symmetric representation of $SO(N_c)$ and $Q^{\{ij\}}$ denotes the symmetrization with respect to $i$ and $j$ in $Q^i_j$.}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 6
 ```
+{% raw %}
 \begin{table}[!t]
 
     \begin{center}
@@ -148,9 +159,11 @@
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 7
 ```
+{% raw %}
 \begin{table}[!ht]
 \begin{center}
 \begin{tabular}{|l||l|l|l|l|l|l|l|l|l|l|}\hline 
@@ -161,9 +174,11 @@ $(-1)_{B}$  &$l-e_7-e_1$&$l-e_7-e_2$&$e_3$&$e_4$&$e_5$&$e_6$& $l-e_1-e_2$& $e_8$
 \caption{The action of $(-1)_{B}$ on the canonical set of generators of $H_{2}(B,{\mathbb Z})$.}\label{tab(-1)}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 8
 ```
+{% raw %}
 \begin{table}[!ht]
 
 \begin{center}
@@ -182,9 +197,11 @@ $(-1)_{B}$  &$l-e_7-e_1$&$l-e_7-e_2$&$e_3$&$e_4$&$e_5$&$e_6$& $l-e_1-e_2$& $e_8$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 9
 ```
+{% raw %}
 \begin{table}[!ht]
 \begin{center}
 \begin{tabular}{|l||l|l|l|l|l|l|l|l|l|l|}\hline 
@@ -197,9 +214,11 @@ $\alpha_{B}$ &$e_6 $&$ 2l-(e_1+e_3+e_5+e_7+e_8)$&$l-e_7-e_8  $ &$e_9$ & $3l-(e_1
 \caption{The action of $\alpha_{B}$ on the canonical  set of generators of $H_{2}(B,{\mathbb Z})$.}\label{tab(al)}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 10
 ```
+{% raw %}
 \begin{table}[!ht]
 
 \begin{center}
@@ -222,9 +241,11 @@ $\alpha_{B}$ &$e_6 $&$ 2l-(e_1+e_3+e_5+e_7+e_8)$&$l-e_7-e_8  $ &$e_9$ & $3l-(e_1
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 11
 ```
+{% raw %}
 \begin{table}[!ht]
 \begin{center}
 \begin{tabular}{|l||c|c|c|c|c|c|c|c|} \hline
@@ -246,9 +267,11 @@ $o_6$ & $1$ & $1$ & $0$ & $o_6$ & $n_6$ & $o_5$ &  $o_5$ & $n_5$ \\ \hline
 \caption{The intersection of the components of the singular fibers with the sections $e, e_6$ and $e_4$, and their transformation under the automorphisms  $t_{e_6}$, $t_{e_4}$, $\alpha_B$, $\tau_{B1}$ and $\tau_{B2}$. }\label{tI2}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 12
 ```
+{% raw %}
 \begin{table}[!ht]
 
 \begin{center}
@@ -289,9 +312,11 @@ $o_6$ & $1$ & $1$ & $0$ & $o_6$ & $n_6$ & $o_5$ &  $o_5$ & $n_5$ \\ \hline
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 13
 ```
+{% raw %}
 \begin{table}[!ht]
 \begin{center}
 \begin{tabular}{|l||c|c|c|c|c|} \hline
@@ -305,9 +330,11 @@ $ e_7 $ & $0 $ & $1$ & $-1$ & $0  $ & $0$\\ \hline
 \caption{The coefficients $a_0,...,a_4$ for the expansion of the pull-back of the sections  $e_1,e_2,e_4$ and $e_7$ under the action of $t_{e_6}$.}\label{te6exept}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 14
 ```
+{% raw %}
 \begin{table}[!ht]
 
 \begin{center}
@@ -332,9 +359,11 @@ $ e_7 $ & $0 $ & $1$ & $-1$ & $0  $ & $0$\\ \hline
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 15
 ```
+{% raw %}
 \begin{table}[!ht]
 \begin{center}
 \begin{tabular}{|l||c|c|c|c|c|} \hline
@@ -348,9 +377,11 @@ $ e_7 $ & $0 $ & $1$ & $-1$ & $0 $  & $0$ \\ \hline
 \caption{The coefficients $a_0,...,a_4$ for the expansion of the pull-back of the sections  $e_1,e_2,e_6$ and $e_7$ under the action of $t_{e_4}$.}\label{te4exept}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 16
 ```
+{% raw %}
 \begin{table}[!ht]
 
 \begin{center}
@@ -375,9 +406,11 @@ $ e_7 $ & $0 $ & $1$ & $-1$ & $0 $  & $0$ \\ \hline
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 17
 ```
+{% raw %}
 \begin{table}[!ht]
 \begin{center}
 \begin{tabular}{|l||p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|} \hline
@@ -398,9 +431,11 @@ $l $ & $2l-(e_1+e_2+e_7)$ & $3l-(e_1+e_3+e_5+2e_7+e_8)$ & $2f-e_5+2e_6+e_7-e_8+2
 \caption{The action of $(-1)_{B}$, $\alpha_{B}$, $t_{e_6}$, $t_{e_4}$, $\tau_{B1} $ and  $\tau_{B2} $  on $H_{2}(B,{\mathbb Z})$. Note that $f$ can be expressed as $f=3l-\sum_{i=1}^{9}e_i$.}\label{table-auts}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 18
 ```
+{% raw %}
 \begin{table}[!ht]
 
 \begin{center}
@@ -439,9 +474,11 @@ $l $ & $2l-(e_1+e_2+e_7)$ & $3l-(e_1+e_3+e_5+2e_7+e_8)$ & $2f-e_5+2e_6+e_7-e_8+2
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 19
 ```
+{% raw %}
 \begin{table}[!ht]
 \begin{center}
 \begin{tabular}{|c||c|c|c|c|} \hline
@@ -455,9 +492,11 @@ $M$               & $0$  & $0$     & $0$              & $-4$ \\ \hline
 \caption{The intersection numbers of the generators of $H_2(B,{\mathbb Z})^{inv}.$}\label{inter}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 20
 ```
+{% raw %}
 \begin{table}[!ht]
 
 \begin{center}
@@ -482,9 +521,11 @@ $M$               & $0$  & $0$     & $0$              & $-4$ \\ \hline
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 21
 ```
+{% raw %}
 \begin{table}
 \centering
 \caption{
@@ -525,9 +566,11 @@ $n$    &$m=0$ 	  &$m=1$    &$m=2$
 \label{minmax}
 \end{table}\end{table}
 
+{% endraw %}
 ```
 ## Example Number: 22
 ```
+{% raw %}
 \begin{table}
 
 \centering
@@ -606,9 +649,11 @@ $n$    &$m=0$ 	  &$m=1$    &$m=2$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 23
 ```
+{% raw %}
 \begin{table}[h]
 \begin{center}
 \begin{tabular}{|c|c|c||c|c|c|}
@@ -631,9 +676,11 @@ the case where the field $\eta = 0$ (achieved by setting $\beta$ to zero).}
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 24
 ```
+{% raw %}
 \begin{table}[h]
 
 \begin{center}
@@ -676,9 +723,11 @@ the case where the field $\eta = 0$ (achieved by setting $\beta$ to zero).}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 25
 ```
+{% raw %}
 \begin{table}[h]
 \begin{center}
 \begin{tabular}{|c|c|c|c|c||c|c|c|c|c|}
@@ -702,9 +751,11 @@ values of $\kappa$ and $\beta$ for $m=1$ in the case of the SO(5) model.}
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 26
 ```
+{% raw %}
 \begin{table}[h]
 
 \begin{center}
@@ -749,9 +800,11 @@ values of $\kappa$ and $\beta$ for $m=1$ in the case of the SO(5) model.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 27
 ```
+{% raw %}
 \begin{table}[t]
 \caption{General spectrum on intersecting D6-branes at
 generic angles which is valid for both rectangular and tilted tori.
@@ -783,9 +836,11 @@ $ab'+b'a$ & $I_{ab'}$ $(\fund_a,\fund_b)$ fermions \\
 \label{spectrum}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 28
 ```
+{% raw %}
 \begin{table}[t]
 
 \caption{General spectrum on intersecting D6-branes at
@@ -846,9 +901,11 @@ $ab'+b'a$ & $I_{ab'}$ $(\fund_a,\fund_b)$ fermions \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 29
 ```
+{% raw %}
 \begin{table}[t]
 \caption{Wrapping numbers of the four O6-planes.}
 \vspace{0.4cm}
@@ -876,9 +933,11 @@ $ab'+b'a$ & $I_{ab'}$ $(\fund_a,\fund_b)$ fermions \\
 \label{orientifold}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 30
 ```
+{% raw %}
 \begin{table}[t]
 
 \caption{Wrapping numbers of the four O6-planes.}
@@ -931,9 +990,11 @@ $ab'+b'a$ & $I_{ab'}$ $(\fund_a,\fund_b)$ fermions \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 31
 ```
+{% raw %}
 \begin{table}[t]
 \caption{Model I. D6-brane configuration in (2p+1)-generation N=1
 supersymmetric $U(4)^3$ model. This model is built on three tilted
@@ -959,9 +1020,11 @@ n_g^3=-48(2p+1)^2+16$} \\
 \label{sol1}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 32
 ```
+{% raw %}
 \begin{table}[t]
 
 \caption{Model I. D6-brane configuration in (2p+1)-generation N=1
@@ -1010,9 +1073,11 @@ n_g^3=-48(2p+1)^2+16$} \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 33
 ```
+{% raw %}
 \begin{table}[t]
 
 \caption{Model II. D6-brane configuration in (8p)-generation N=1
@@ -1047,9 +1112,11 @@ $N_g$ & \multicolumn{3}{c|}{$N_g n_g^1 n_g^2 n_g^3=-48p^2+16$} \\
 \label{sol2}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 34
 ```
+{% raw %}
 \begin{table}[t]
 
 \caption{Model II. D6-brane configuration in (8p)-generation N=1
@@ -1098,9 +1165,11 @@ $N_g$ & \multicolumn{3}{c|}{$N_g n_g^1 n_g^2 n_g^3=-48p^2+16$} \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 35
 ```
+{% raw %}
 \begin{table}[t]
 
 \caption{Model III. D6-brane configuration in (2p)-generation N=1
@@ -1138,9 +1207,11 @@ $N_g$ & \multicolumn{3}{c|}{$N_g n_g^1 n_g^2 n_g^3=-48p^2+16$} \\
 \label{sol3}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 36
 ```
+{% raw %}
 \begin{table}[t]
 
 \caption{Model III. D6-brane configuration in (2p)-generation N=1
@@ -1191,9 +1262,11 @@ $N_g$ & \multicolumn{3}{c|}{$N_g n_g^1 n_g^2 n_g^3=-48p^2+16$} \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 37
 ```
+{% raw %}
 \begin{table}[t]
 \caption{Chiral open string spectrum for the $U(N)^3$
 GUT models. $N=4$ for Model I and Model II, and $N=8$ for Model III.
@@ -1216,9 +1289,11 @@ $ca + ac$ & $N_f \times ({\ov N},1,N)$ & $-1$ & $0$ & $1$ \\
 \label{spectrum4}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 38
 ```
+{% raw %}
 \begin{table}[t]
 
 \caption{Chiral open string spectrum for the $U(N)^3$
@@ -1261,9 +1336,11 @@ $ca + ac$ & $N_f \times ({\ov N},1,N)$ & $-1$ & $0$ & $1$ \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 39
 ```
+{% raw %}
 \begin{table}[t]
 \caption{Light open string spectrum in the Model I which can break
 the $U(4)^3$ gauge symmetry down to the Standard Model gauge
@@ -1294,9 +1371,11 @@ $ca' + ac'$ & $4 \times ({\ov 4}, 1, {\ov 4})$ & $-1$ & $0$ & $-1$
 \label{spectrum5}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 40
 ```
+{% raw %}
 \begin{table}[t]
 
 \caption{Light open string spectrum in the Model I which can break
@@ -1355,9 +1434,11 @@ $ca' + ac'$ & $4 \times ({\ov 4}, 1, {\ov 4})$ & $-1$ & $0$ & $-1$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 41
 ```
+{% raw %}
 \begin{table}[t]
 \caption{The variant model of Model I. D6-brane configuration in
 (2p+1)-generation N=1 supersymmetric $U(4)\times U(2)^4$ model.
@@ -1386,9 +1467,11 @@ n_g^3=-48(2p+1)^2+16$} \\
 \label{sol8}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 42
 ```
+{% raw %}
 \begin{table}[t]
 
 \caption{The variant model of Model I. D6-brane configuration in
@@ -1443,9 +1526,11 @@ n_g^3=-48(2p+1)^2+16$} \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 43
 ```
+{% raw %}
 \begin{table}
 \begin{tabular}{|l|c|c|c|c|}\hline
 Field & $\sigma$ & $\alpha$ & $w$ & $\varphi$ 
@@ -1456,9 +1541,11 @@ Equation & (\ref{asbc})& (\ref{asbc}) & (\ref{bcw}) & (\ref{bcphi})
 Summary of the boundary conditions for ghosts and bosons. 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 44
 ```
+{% raw %}
 \begin{table}
 
 \begin{tabular}{|l|c|c|c|c|}\hline
@@ -1477,9 +1564,11 @@ Summary of the boundary conditions for ghosts and bosons.
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 45
 ```
+{% raw %}
 \begin{table}
 
 \begin{tabular}{|l|c|c|c|c|}\hline
@@ -1505,9 +1594,11 @@ Equation & (\ref{bcU1D}), (\ref{bcUUN}) & (\ref{bcU2V1}), (\ref{bcV1N}) &
 Table 2. Summary of the boundary conditions for spinors.
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 46
 ```
+{% raw %}
 \begin{table}
 
 \begin{tabular}{|l|c|c|c|c|}\hline
@@ -1526,9 +1617,11 @@ Table 2. Summary of the boundary conditions for spinors.
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 47
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \caption{The homology classification of cycles where the NS5-branes can be wrapped on.}
@@ -1546,9 +1639,11 @@ $O0$&$H_5(\IRP^8;\IZ)=\IZdos$&-\\\hline\hline
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 48
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -1581,9 +1676,11 @@ $O0$&$H_5(\IRP^8;\IZ)=\IZdos$&-\\\hline\hline
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 49
 ```
+{% raw %}
 \begin{table}[H]
 \begin{displaymath}
 \begin{array}{l c@{ } c@{ } }
@@ -1600,9 +1697,11 @@ A _{\rm mm} & 1 & adj.  \\
 \label{table_N=1}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 50
 ```
+{% raw %}
 \begin{table}[H]
 
 \begin{displaymath}
@@ -1633,9 +1732,11 @@ A _{\rm mm} & 1 & adj.  \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 51
 ```
+{% raw %}
 \begin{table}
 \rotatebox{0}{\scalebox{.85}{
 \renewcommand{\arraystretch}{1.25}
@@ -1692,9 +1793,11 @@ table both traces for the anomalous generators are positive.}
 \labl{tab:AnomFixedModels}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 52
 ```
+{% raw %}
 \begin{table}
 
 \rotatebox{0}{\scalebox{.85}{
@@ -1805,9 +1908,11 @@ table both traces for the anomalous generators are positive.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 53
 ```
+{% raw %}
 \begin{table}
 \[
 \arry{|l|c|c|}{
@@ -1826,9 +1931,11 @@ that arise in the models with an anomalous $\U{1}$.}
 \labl{tab:indices}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 54
 ```
+{% raw %}
 \begin{table}
 
 \[
@@ -1863,9 +1970,11 @@ that arise in the models with an anomalous $\U{1}$.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 55
 ```
+{% raw %}
 \begin{table}[h!]
 \equ{
 \renewcommand{\arraystretch}{1.5}
@@ -1976,9 +2085,11 @@ Hermitian conjugation.
 \labl{tab:CmplxClifford}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 56
 ```
+{% raw %}
 \begin{table}[h!]
 
 \equ{
@@ -2197,9 +2308,11 @@ Hermitian conjugation.
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 57
 ```
+{% raw %}
 \begin{table}
 \renewcommand{\arraystretch}{1.25}
 \begin{center} 
@@ -2228,9 +2341,11 @@ tadpole diagrams in dependence of the fields and their components.}
 \labl{tab:SymmFact}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 58
 ```
+{% raw %}
 \begin{table}
 
 \renewcommand{\arraystretch}{1.25}
@@ -2285,9 +2400,11 @@ tadpole diagrams in dependence of the fields and their components.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 59
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \begin{tabular}{ccc}
@@ -2310,9 +2427,11 @@ $(-2,1^{14};0)$ & $SU(15) \ti U(1)^2$
 \label{tbt}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 60
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -2355,9 +2474,11 @@ $(-2,1^{14};0)$ & $SU(15) \ti U(1)^2$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 61
 ```
+{% raw %}
 \begin{table}
 $$
 \begin{array}{cc}
@@ -2375,9 +2496,11 @@ $$
 \label{tba}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 62
 ```
+{% raw %}
 \begin{table}
 
 $$
@@ -2410,9 +2533,11 @@ $$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 63
 ```
+{% raw %}
 \begin{table}
 $$
 \begin{array}{cc}
@@ -2431,9 +2556,11 @@ $$
 \label{tbb}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 64
 ```
+{% raw %}
 \begin{table}
 
 $$
@@ -2468,9 +2595,11 @@ $$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 65
 ```
+{% raw %}
 \begin{table}
 [htb] \footnotesize
 \renewcommand{\arraystretch}{1.25}
@@ -2503,9 +2632,11 @@ combine with the fermions given above to form chiral
 supermultiplets. \label{matter} }
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 66
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -2568,9 +2699,11 @@ supermultiplets. \label{matter} }
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 67
 ```
+{% raw %}
 \begin{table}
 [htb] \footnotesize
 \renewcommand{\arraystretch}{1.0}
@@ -2593,9 +2726,11 @@ supermultiplets. \label{matter} }
 %\caption{Model I.1} \label{modelI.1}
 %\end{table}
 
+{% endraw %}
 ```
 ## Example Number: 68
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -2638,9 +2773,11 @@ supermultiplets. \label{matter} }
 
 %\end{table}
 
+{% endraw %}
 ```
 ## Example Number: 69
 ```
+{% raw %}
 %\begin{table}
 
 %[htb] \footnotesize
@@ -2692,9 +2829,11 @@ supersymmetry conditions, as well as the gauge group for each
 model.} \label{models}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 70
 ```
+{% raw %}
 %\begin{table}
 
 %[htb] \footnotesize
@@ -2769,9 +2908,11 @@ model.} \label{models}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 71
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -2809,9 +2950,11 @@ model.} \label{models}
 %\caption{Model I.3} \label{modelI.3}
 %\end{table}
 
+{% endraw %}
 ```
 ## Example Number: 72
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -2858,9 +3001,11 @@ model.} \label{models}
 
 %\end{table}
 
+{% endraw %}
 ```
 ## Example Number: 73
 ```
+{% raw %}
 %\begin{table}
 
 %[htb] \footnotesize
@@ -2898,9 +3043,11 @@ three-family Standard-like models. Continued from table
 \ref{models}.} \label{models2}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 74
 ```
+{% raw %}
 %\begin{table}
 
 %[htb] \footnotesize
@@ -2947,9 +3094,11 @@ three-family Standard-like models. Continued from table
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 75
 ```
+{% raw %}
 \begin{table}
 [htb] \footnotesize
 \renewcommand{\arraystretch}{1.0}
@@ -2986,9 +3135,11 @@ at the same intersection. There are eight Higgs doublets of each
 type in this model. } \label{spectrumI.1}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 76
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -3059,9 +3210,11 @@ type in this model. } \label{spectrumI.1}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 77
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -3113,9 +3266,11 @@ $b_{\Yasymm}$ & $5\times(1,1,1,1)$ & 0 & 0 & $2$ & 0 & 0 & 0 & 0 & \\
 Higgs doublets of each type.} \label{spectrumI.2}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 78
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -3190,9 +3345,11 @@ Higgs doublets of each type.} \label{spectrumI.2}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 79
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -3245,9 +3402,11 @@ first three-family supersymmetric model obtained in
 \cite{CSU1,CSU2,CSU3}. } \label{spectrumI.3}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 80
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -3324,9 +3483,11 @@ first three-family supersymmetric model obtained in
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 81
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -3382,9 +3543,11 @@ same intersection but here there are twelve Higgs doublets of each
 type as in the original model I.3.} \label{spectrumI.4}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 82
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -3467,9 +3630,11 @@ type as in the original model I.3.} \label{spectrumI.4}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 83
 ```
+{% raw %}
 \begin{table}
 [htb] \footnotesize
 \renewcommand{\arraystretch}{1.0}
@@ -3493,9 +3658,11 @@ type as in the original model I.3.} \label{spectrumI.4}
 three-family left-right symmetric model} \label{modelII}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 84
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -3540,9 +3707,11 @@ three-family left-right symmetric model} \label{modelII}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 85
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -3585,9 +3754,11 @@ $c_{\Yasymm}$ & $5\times(1,1,1,1,1)$ & 0 & 0 & 2   & 0 & 0 & \\
 II} \label{spectrumII}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 86
 ```
+{% raw %}
 \begin{table}
 
 [htb] \footnotesize
@@ -3644,9 +3815,11 @@ II} \label{spectrumII}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 87
 ```
+{% raw %}
 \begin{table}[thb]
  \begin{center}
   \begin{tabular}{lccccccc}\hline
@@ -3661,9 +3834,11 @@ II} \label{spectrumII}
  \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 88
 ```
+{% raw %}
 \begin{table}[thb]
 
  \begin{center}
@@ -3690,9 +3865,11 @@ II} \label{spectrumII}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 89
 ```
+{% raw %}
 % \begin{table}{lll}
 %         ${1/945} \quad$ &{\rm for}& $j=-1$\\
 %         $-{3} \zeta_R'(-4)/2$& {\rm for} &$j=0$\\
@@ -3701,9 +3878,11 @@ II} \label{spectrumII}
 %         ${4d_j}\zeta_R(j-4) /(j-4)(j-2)$ &&       \rm{otherwise},
 % \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 90
 ```
+{% raw %}
 % \begin{table}{lll}
 
 %         ${1/945} \quad$ &{\rm for}& $j=-1$\\
@@ -3718,9 +3897,11 @@ II} \label{spectrumII}
 
 % \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 91
 ```
+{% raw %}
 \begin{table}[t!]
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\hline\hline
 &\multicolumn{4}{c|}{\bf DW} & \multicolumn{4}{c|}{\bf MDB} &
@@ -3848,9 +4029,11 @@ geodesics.}
 \label{td}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 92
 ```
+{% raw %}
 \begin{table}[t!]
 
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}\hline\hline
@@ -4103,9 +4286,11 @@ geodesics.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 93
 ```
+{% raw %}
 \begin{table}
 \caption{ Real (with  $\pm$ sign) and imaginary parts of the 
 ten lowest scalar quasinormal frequencies for integer conformal
@@ -4113,9 +4298,11 @@ dimensions $\Delta \in [2,10]$ at zero spatial momentum $\qn$.}
 \label{taba}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 94
 ```
+{% raw %}
 \begin{table}
 
 \caption{ Real (with  $\pm$ sign) and imaginary parts of the 
@@ -4128,17 +4315,21 @@ dimensions $\Delta \in [2,10]$ at zero spatial momentum $\qn$.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 95
 ```
+{% raw %}
 %\begin{table}
 %\caption{ }
 %\label{taba}
 %\end{table}
 
+{% endraw %}
 ```
 ## Example Number: 96
 ```
+{% raw %}
 %\begin{table}
 
 %\caption{ }
@@ -4147,13 +4338,15 @@ dimensions $\Delta \in [2,10]$ at zero spatial momentum $\qn$.}
 
 %\end{table}
 
+{% endraw %}
 ```
 ## Example Number: 97
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \vspace{-0.5 cm}
-\caption{{\footnotesize Quasinormal frequency $w_0$ for integer $\Delta \in [1,6]$.}}
+\caption{{\footnotesize Quasinormal frequency $w_0$ for integer $\Delta \in [1,6]$.} }
 \vspace{0.2 cm}
 \begin{tabular}{||c|c|c||}
 \hline
@@ -4170,9 +4363,11 @@ $\Delta$ & $\Re w_0$  &  $\Im w_0$  \\
 \label{qnm0}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 98
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -4211,9 +4406,11 @@ $\Delta$ & $\Re w_0$  &  $\Im w_0$  \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 99
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \vspace{-0.5 cm}
@@ -4235,9 +4432,11 @@ $\Delta$ & $\Re w_1$  &  $\Im w_1$  \\
 \label{qnm1}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 100
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -4278,9 +4477,11 @@ $\Delta$ & $\Re w_1$  &  $\Im w_1$  \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 101
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \vspace{-0.5 cm}
@@ -4305,9 +4506,11 @@ $\Delta$ & $\Re w_2$  &  $\Im w_2$  \\
 \label{qnm2}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 102
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -4354,9 +4557,11 @@ $\Delta$ & $\Re w_2$  &  $\Im w_2$  \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 103
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \vspace{-0.5 cm}
@@ -4382,9 +4587,11 @@ $\Delta$ & $\Re w_3$  &  $\Im w_3$  \\
 \label{qnm3}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 104
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -4433,9 +4640,11 @@ $\Delta$ & $\Re w_3$  &  $\Im w_3$  \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 105
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \vspace{-0.5 cm}
@@ -4464,9 +4673,11 @@ $\Delta$ & $\Re w_4$  &  $\Im w_4$  \\
 \label{qnm4}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 106
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -4521,9 +4732,11 @@ $\Delta$ & $\Re w_4$  &  $\Im w_4$  \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 107
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \vspace{-0.5 cm}
@@ -4553,9 +4766,11 @@ $\Delta$ & $\Re w_5$  &  $\Im w_5$  \\
 \label{qnm5}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 108
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -4612,9 +4827,11 @@ $\Delta$ & $\Re w_5$  &  $\Im w_5$  \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 109
 ```
+{% raw %}
 \begin{table}
   \centering
 \begin{tabular}{|c|c|c|c|}  \hline
@@ -4628,9 +4845,11 @@ $\half<a<1$ & $|0>\sim {\bar u}^{n-na}$ & $\psi_{a-\half}$  & $\psi^*_{\half-a} 
   \label{ring}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 110
 ```
+{% raw %}
 \begin{table}
 
   \centering
@@ -4655,9 +4874,11 @@ $\half<a<1$ & $|0>\sim {\bar u}^{n-na}$ & $\psi_{a-\half}$  & $\psi^*_{\half-a} 
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 111
 ```
+{% raw %}
 \begin{table}
   \centering
  \begin{tabular}{|c|c|c|c|c|c|}\hline
@@ -4675,9 +4896,11 @@ $++$ & $\psi_1,\psi_2$  & $\psi^*_1,\psi^*_2$  & $\psi_1^*\psi_2^*|0> $ & $|0> $
  rings. $+-$ means ($a_1-\half)>0,(a_2-\half)<0$.  }\label{modeNmonomial}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 112
 ```
+{% raw %}
 \begin{table}
 
   \centering
@@ -4710,9 +4933,11 @@ $++$ & $\psi_1,\psi_2$  & $\psi^*_1,\psi^*_2$  & $\psi_1^*\psi_2^*|0> $ & $|0> $
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 113
 ```
+{% raw %}
 \begin{table}
   \centering
 \begin{tabular}{|c||c|c||c|c|} \hline
@@ -4733,9 +4958,11 @@ u_1}^{na_1}{\bar u_2}^{na_2}$ & $ |a_1|+|a_2|$
   by the rule $q=\pm 2\Delta$. }\label{sign}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 114
 ```
+{% raw %}
 \begin{table}
 
   \centering
@@ -4774,9 +5001,11 @@ u_1}^{na_1}{\bar u_2}^{na_2}$ & $ |a_1|+|a_2|$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 115
 ```
+{% raw %}
 \begin{table}
   \centering
 \begin{tabular}{|c||c|c||c|c|} \hline
@@ -4795,9 +5024,11 @@ $  G_{ca}$ & $ u_1^{na_1}{\bar u}_2^{n(1-a_2)}$ & $ a_1-a_2+1$ & $ {\bar u_1}^{n
   for various choices of target space complex structures.  }\label{cplx}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 116
 ```
+{% raw %}
 \begin{table}
 
   \centering
@@ -4832,9 +5063,11 @@ $  G_{ca}$ & $ u_1^{na_1}{\bar u}_2^{n(1-a_2)}$ & $ a_1-a_2+1$ & $ {\bar u_1}^{n
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 117
 ```
+{% raw %}
 \begin{table}
   \centering
  \begin{tabular}{|c|c|c|c|c|}\hline
@@ -4848,9 +5081,11 @@ $  G_{ca}$ & $ u_1^{na_1}{\bar u}_2^{n(1-a_2)}$ & $ a_1-a_2+1$ & $ {\bar u_1}^{n
  an element of one of the 4 possible chiral rings.}\label{allring}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 118
 ```
+{% raw %}
 \begin{table}
 
   \centering
@@ -4875,9 +5110,11 @@ $  G_{ca}$ & $ u_1^{na_1}{\bar u}_2^{n(1-a_2)}$ & $ a_1-a_2+1$ & $ {\bar u_1}^{n
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 119
 ```
+{% raw %}
 \begin{table}
   \centering
 \begin{tabular}{|c|c|c|c|c|} \hline
@@ -4896,9 +5133,11 @@ $j$&$(p_1,p_2)$&$G=[3j/11]$&$ n-(p_1+p_2)$&process\\ \hline \hline
   \caption{All possible tachyon condensation process in 11(1,3) model}\label{t11.3}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 120
 ```
+{% raw %}
 \begin{table}
 
   \centering
@@ -4933,9 +5172,11 @@ $j$&$(p_1,p_2)$&$G=[3j/11]$&$ n-(p_1+p_2)$&process\\ \hline \hline
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 121
 ```
+{% raw %}
 \begin{table}
 
   \centering
@@ -4967,9 +5208,11 @@ process \\ \hline
   Notice that (5,5) is a marginal deformation.
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 122
 ```
+{% raw %}
 \begin{table}
 
   \centering
@@ -5004,9 +5247,11 @@ process \\ \hline
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 123
 ```
+{% raw %}
 \begin{table}
   \centering
 \begin{tabular}{|c|c|c|c|c|}\hline
@@ -5026,9 +5271,11 @@ $j$ & $(p_1,p_2)$ & G & $n-(p_1+p_2)$ & process \\ \hline \hline
   \label{t11.2}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 124
 ```
+{% raw %}
 \begin{table}
 
   \centering
@@ -5065,9 +5312,11 @@ $j$ & $(p_1,p_2)$ & G & $n-(p_1+p_2)$ & process \\ \hline \hline
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 125
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \begin{tabular}{|c|lr|lr|}
@@ -5101,9 +5350,11 @@ the light-cone energy in units of $\mu / 6$, that is,
 $E_0 = \mu e_0 /6$.}\label{string-states}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 126
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -5168,9 +5419,11 @@ $E_0 = \mu e_0 /6$.}\label{string-states}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 127
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \begin{tabular}{|c|lr|lr|}
@@ -5249,9 +5502,11 @@ ${\cal E}_0$
 \label{sugra-states}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 128
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -5406,9 +5661,11 @@ ${\cal E}_0$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 129
 ```
+{% raw %}
 \begin{table}[htb]
 \begin{center}
 \begin{tabular}{l|cccccc}
@@ -5431,9 +5688,11 @@ k}}^{2}\,}-\textstyle{\frac{|\mu|}{6}}~~~$ & 2 & 1 & 1 & 0\\
 \caption{Energy spectra and the numbers of bosons and fermions.} \label{T1}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 130
 ```
+{% raw %}
 \begin{table}[htb]
 
 \begin{center}
@@ -5476,18 +5735,22 @@ k}}^{2}\,}-\textstyle{\frac{|\mu|}{6}}~~~$ & 2 & 1 & 1 & 0\\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 131
 ```
+{% raw %}
 \newcommand{\preprint}[1]{\begin{table}[t]  %%
            \begin{flushright}               %%
            {#1}                             %%
            \end{flushright}                 %%
            \end{table}}                     %%
 
+{% endraw %}
 ```
 ## Example Number: 132
 ```
+{% raw %}
 \newcommand{\preprint}[1]{\begin{table}[t]  %%
 
            \begin{flushright}               %%
@@ -5498,9 +5761,11 @@ k}}^{2}\,}-\textstyle{\frac{|\mu|}{6}}~~~$ & 2 & 1 & 1 & 0\\
 
            \end{table}}                     %%
 
+{% endraw %}
 ```
 ## Example Number: 133
 ```
+{% raw %}
 \begin{table}[t]
 \begin{flushright}
    WIS/01/03/JAN-DPP\\
@@ -5508,9 +5773,11 @@ k}}^{2}\,}-\textstyle{\frac{|\mu|}{6}}~~~$ & 2 & 1 & 1 & 0\\
 \end{flushright}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 134
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{flushright}
@@ -5523,9 +5790,11 @@ k}}^{2}\,}-\textstyle{\frac{|\mu|}{6}}~~~$ & 2 & 1 & 1 & 0\\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 135
 ```
+{% raw %}
 \begin{table}[t]
 \begin{center}
 \begin{tabular}{c|lc}
@@ -5549,9 +5818,11 @@ denotes the representation of $\epsilon$ under ${\cal G}$.}
 \label{sgen}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 136
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -5596,9 +5867,11 @@ denotes the representation of $\epsilon$ under ${\cal G}$.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 137
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -5642,9 +5915,11 @@ subgroup of ${\cal G}$.}
 \label{ngen}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 138
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -5703,9 +5978,11 @@ subgroup of ${\cal G}$.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 139
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -5742,9 +6019,11 @@ denotes the representation of $\epsilon$ under ${\cal G}$.}
 \label{tgen}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 140
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -5789,9 +6068,11 @@ denotes the representation of $\epsilon$ under ${\cal G}$.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 141
 ```
+{% raw %}
 \begin{table}[t]
 \begin{center}
 \begin{tabular}{c|cc}
@@ -5813,9 +6094,11 @@ supersymmetries.}
 \label{static}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 142
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -5856,9 +6139,11 @@ supersymmetries.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 143
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -5892,9 +6177,11 @@ supersymmetries.}
 \label{wave}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 144
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -5933,9 +6220,11 @@ supersymmetries.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 145
 ```
+{% raw %}
  \begin{table}[th]
 \tbl{ Phases of $SU(n_c)$ gauge theory with $n_f$ flavors.       
 $ {\tilde n}_c
@@ -5968,9 +6257,11 @@ Free Magnetic
 \end{tabular}\label{tab1} }
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 146
 ```
+{% raw %}
  \begin{table}[th]
 
 \tbl{ Phases of $SU(n_c)$ gauge theory with $n_f$ flavors.       
@@ -6033,9 +6324,11 @@ Free Magnetic
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 147
 ```
+{% raw %}
   \begin{table}[th]
 
 \tbl{ Phases of $USp(2 n_c)$ gauge theory  with $n_f$ flavors  with
@@ -6068,9 +6361,11 @@ U(1)^{n_c -{\tilde n}_c} $               &  Free Magnetic
 \end{tabular}\label{tab2} }
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 148
 ```
+{% raw %}
   \begin{table}[th]
 
 \tbl{ Phases of $USp(2 n_c)$ gauge theory  with $n_f$ flavors  with
@@ -6115,9 +6410,11 @@ U(1)^{n_c -{\tilde n}_c} $               &  Free Magnetic
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 149
 ```
+{% raw %}
 \begin{table}[h]   
 \begin{center}
 \begin{tabular}{c  c   c}
@@ -6131,9 +6428,11 @@ $SU(N)/Z_N       $        &   $\Leftrightarrow$                 &    $SU(N)     
 \end{center}
 \end{table}} 
 
+{% endraw %}
 ```
 ## Example Number: 150
 ```
+{% raw %}
 \begin{table}[h]   
 
 \begin{center}
@@ -6158,9 +6457,11 @@ $SU(N)/Z_N       $        &   $\Leftrightarrow$                 &    $SU(N)     
 
 \end{table}} 
 
+{% endraw %}
 ```
 ## Example Number: 151
 ```
+{% raw %}
 \begin{table}[h]      
 \begin{center}
 \begin{tabular}{c  c   c}
@@ -6173,9 +6474,11 @@ $SU(N)/Z_N       $        &   $\Leftrightarrow$                 &    $SU(N)     
 \end{center}
 \end{table}   }
 
+{% endraw %}
 ```
 ## Example Number: 152
 ```
+{% raw %}
 \begin{table}[h]      
 
 \begin{center}
@@ -6198,9 +6501,11 @@ $SU(N)/Z_N       $        &   $\Leftrightarrow$                 &    $SU(N)     
 
 \end{table}   }
 
+{% endraw %}
 ```
 ## Example Number: 153
 ```
+{% raw %}
  \begin{table}[h]      
 \begin{center}
 \begin{tabular}{c  c   c c c  c c  }
@@ -6220,9 +6525,11 @@ ${ e}_{n-r-1}    $        &     $ {\underline 1  }$     &      $0$     & $0$    
 \end{center}
 \end{table}  
 
+{% endraw %}
 ```
 ## Example Number: 154
 ```
+{% raw %}
  \begin{table}[h]      
 
 \begin{center}
@@ -6259,9 +6566,11 @@ ${ e}_{n-r-1}    $        &     $ {\underline 1  }$     &      $0$     & $0$    
 
 \end{table}  
 
+{% endraw %}
 ```
 ## Example Number: 155
 ```
+{% raw %}
 \begin{table}[h]       
 \begin{center}    
  \begin{tabular}  {|l|l|} \hline Matrix & Charge \\
@@ -6275,9 +6584,11 @@ $M_3,M_6$&$(0,2,\pm 1,0)$  \\ $A_1,A_4$ & $(\pm 4,-2,\mp 1,0)$  \\
 \label{monopcharges}      
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 156
 ```
+{% raw %}
 \begin{table}[h]       
 
 \begin{center}    
@@ -6302,9 +6613,11 @@ $M_3,M_6$&$(0,2,\pm 1,0)$  \\ $A_1,A_4$ & $(\pm 4,-2,\mp 1,0)$  \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 157
 ```
+{% raw %}
 \begin{table}[h]
 \begin{center} 
 \begin{tabular}{|l|l|l|l|l|l|l|l|}
@@ -6330,9 +6643,11 @@ $(\mp 1,0)^4$ &$(\pm 1,0)^4$& $(\mp 1, \pm 1)^4$
 \end{center}
 \end{table}           
 
+{% endraw %}
 ```
 ## Example Number: 158
 ```
+{% raw %}
 \begin{table}[h]
 
 \begin{center} 
@@ -6381,9 +6696,11 @@ $(\mp 1,0)^4$ &$(\pm 1,0)^4$& $(\mp 1, \pm 1)^4$
 
 \end{table}           
 
+{% endraw %}
 ```
 ## Example Number: 159
 ```
+{% raw %}
 \begin{table}
 \renewcommand{\arraystretch}{1.2}
 \begin{center}
@@ -6410,9 +6727,11 @@ The g-factors are given in
 terms of $N^{4}= (5-\sqrt{5})/2$ and $\lambda ^{2}= (1+\sqrt{5})/2$.}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 160
 ```
+{% raw %}
 \begin{table}
 
 \renewcommand{\arraystretch}{1.2}
@@ -6463,9 +6782,11 @@ terms of $N^{4}= (5-\sqrt{5})/2$ and $\lambda ^{2}= (1+\sqrt{5})/2$.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 161
 ```
+{% raw %}
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{||c|c|c||}
@@ -6489,9 +6810,11 @@ The $SO(3)$ result was previously obtained in \cite{Salam:1985ft}.
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 162
 ```
+{% raw %}
 \begin{table}[ht]
 
 \begin{center}
@@ -6536,9 +6859,11 @@ The $SO(3)$ result was previously obtained in \cite{Salam:1985ft}.
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 163
 ```
+{% raw %}
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{||c||c|c|c|c||c||c||}
@@ -6560,9 +6885,11 @@ we indicate the equation where the uplifted solution to 11D is given. \label{sin
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 164
 ```
+{% raw %}
 \begin{table}[ht]
 
 \begin{center}
@@ -6603,9 +6930,11 @@ we indicate the equation where the uplifted solution to 11D is given. \label{sin
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 165
 ```
+{% raw %}
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{||c|c|c|c|c|c||}
@@ -6642,9 +6971,11 @@ VI$_a$ and VII$_a$ with special case VI$_0$, VII$_0$ and VI$_1$=III. }
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 166
 ```
+{% raw %}
 \begin{table}[ht]
 
 \begin{center}
@@ -6715,9 +7046,11 @@ VI$_a$ and VII$_a$ with special case VI$_0$, VII$_0$ and VI$_1$=III. }
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 167
 ```
+{% raw %}
 	\begin{table}[h]
 	
 	\begin{center}
@@ -6738,9 +7071,11 @@ VI$_a$ and VII$_a$ with special case VI$_0$, VII$_0$ and VI$_1$=III. }
 	\end{center}
 	\end{table}
 
+{% endraw %}
 ```
 ## Example Number: 168
 ```
+{% raw %}
 	\begin{table}[h]
 
 	
@@ -6779,9 +7114,11 @@ VI$_a$ and VII$_a$ with special case VI$_0$, VII$_0$ and VI$_1$=III. }
 
 	\end{table}
 
+{% endraw %}
 ```
 ## Example Number: 169
 ```
+{% raw %}
 \begin{table}[t]
 \begin{center}
 \begin{tabular}{|c|c|}
@@ -7578,9 +7915,11 @@ $ $ &
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 170
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -9171,9 +9510,11 @@ $ $ &
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 171
 ```
+{% raw %}
 \begin{table}[t]
 
 %%%%%%%%%%%%%%%%%        %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9594,9 +9935,11 @@ triple connections, $P$ stands for the number of vertex permutations leaving the
 degree.}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 172
 ```
+{% raw %}
 \begin{table}[t]
 
 %%%%%%%%%%%%%%%%%        %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -10409,9 +10752,11 @@ degree.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 173
 ```
+{% raw %}
 \begin{table}[t]
 %%%%%%%%%%%%%%%%%%%%
 \begin{center}
@@ -11373,9 +11718,11 @@ $ $ & \hspace*{3mm}
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 174
 ```
+{% raw %}
 \begin{table}[t]
 
 %%%%%%%%%%%%%%%%%%%%
@@ -13296,9 +13643,11 @@ $ $ & \hspace*{3mm}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 175
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -13844,9 +14193,11 @@ degree.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 176
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -14917,9 +15268,11 @@ degree.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 177
 ```
+{% raw %}
 \begin{table}[t]
 
 [end-of-con]
@@ -15361,9 +15714,11 @@ triple and fourfold connections, and of the vertex permutations leaving the
 vacuum diagram unchanged, respectively.}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 178
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -16230,9 +16585,11 @@ vacuum diagram unchanged, respectively.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 179
 ```
+{% raw %}
 \begin{table}[t]
 \begin{center}
 \begin{tabular}{|c|c|}
@@ -16950,9 +17307,11 @@ triple connections, $P$ stands for the number of vertex permutations leaving the
 degree.}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 180
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -18385,9 +18744,11 @@ degree.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 181
 ```
+{% raw %}
 \begin{table}[t]
 %%%%%%%%%%%%%%%%%%%%
 \begin{center}
@@ -19003,9 +19364,11 @@ triple connections, $P$ stands for the number of vertex permutations leaving the
 degree.}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 182
 ```
+{% raw %}
 \begin{table}[t]
 
 %%%%%%%%%%%%%%%%%%%%
@@ -20234,9 +20597,11 @@ degree.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 183
 ```
+{% raw %}
 \begin{table}[htb]
 \begin{center}
 \begin{tabular}{r|cccl}
@@ -20275,9 +20640,11 @@ $=$\quad
 \caption{Flow of primary operators $(r,s)\mapsto (r',s')$ displayed in the $A_4$ Kac table.}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 184
 ```
+{% raw %}
 \begin{table}[htb]
 
 \begin{center}
@@ -20352,9 +20719,11 @@ $=$\quad
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 185
 ```
+{% raw %}
 \begin{table}[htbp]
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|c||c|c|c|}\hline\hline
@@ -20390,9 +20759,11 @@ The degeneracies of all the levels reconstruct the mapping between the tricritic
 characters $\chi_{1,1}^4(q)\mapsto \chi_{1,1}^3(q)$.} 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 186
 ```
+{% raw %}
 \begin{table}[htbp]
 
 \begin{center}
@@ -20461,9 +20832,11 @@ characters $\chi_{1,1}^4(q)\mapsto \chi_{1,1}^3(q)$.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 187
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \begin{tabular}{|c|ccccc|} \hline
@@ -20478,9 +20851,11 @@ $l$ stands for the rank of the algebras.}
 \label{tab:modular}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 188
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -20507,9 +20882,11 @@ $l$ stands for the rank of the algebras.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 189
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 {\renewcommand{\arraystretch}{1.2}
@@ -20565,9 +20942,11 @@ weight of each field.
 \label{tab:field}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 190
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -20676,9 +21055,11 @@ weight of each field.
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 191
 ```
+{% raw %}
 \begin{table} \label{table:IIA}
 \centering
 \begin{tabular}{|c|c|c|} \hline\hline
@@ -20696,9 +21077,11 @@ $a_1,a_2,a_3,a_4$ arbitrary & 16 & U(1)$^4 \times \mathbb{Z}_4$ \\ \hline
 \caption{Classification of various \para\ backgrounds in non-chiral type IIA.}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 192
 ```
+{% raw %}
 \begin{table} \label{table:IIA}
 
 \centering
@@ -20731,9 +21114,11 @@ $a_1,a_2,a_3,a_4$ arbitrary & 16 & U(1)$^4 \times \mathbb{Z}_4$ \\ \hline
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 193
 ```
+{% raw %}
 \begin{table} \label{table:IIB}
 
 \centering
@@ -20767,9 +21152,11 @@ $a_1=a_2=a_3 \ne a_4$ & 16 & 16 \\ \hline
 \label{diag}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 194
 ```
+{% raw %}
 \begin{table} \label{table:IIB}
 
 \centering
@@ -20808,9 +21195,11 @@ $a_1=a_2=a_3 \ne a_4$ & 16 & 16 \\ \hline
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 195
 ```
+{% raw %}
 \begin{table}
 \caption{\label{perD} D-branes visible in string perturbation theory
 and their supersymmetries. $(m,n)$ denotes 
@@ -20847,9 +21236,11 @@ $(m,n)$ at $x_0$  & 0 &
 \end{indented}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 196
 ```
+{% raw %}
 \begin{table}
 
 \caption{\label{perD} D-branes visible in string perturbation theory
@@ -20920,9 +21311,11 @@ $(m,n)$ at $x_0$  & 0 &
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 197
 ```
+{% raw %}
 \begin{table}
 
 \caption{\label{nonperD} Branes that wrap only one of the 
@@ -20952,9 +21345,11 @@ $(+,0,1)$ and $(+,1,0)$ & 8 $q^-$ \\
 \end{indented}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 198
 ```
+{% raw %}
 \begin{table}
 
 \caption{\label{nonperD} Branes that wrap only one of the 
@@ -20985,9 +21380,11 @@ $(+,0,1)$ and $(+,1,0)$ & 8 $q^-$ \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 199
 ```
+{% raw %}
 \begin{table}
 \caption{\label{emb} Supersymmetric intersections in asymptotically flat 
 spacetimes, supersymmetric embedding in $AdS_5 \times S^5$, branes
@@ -21017,9 +21414,11 @@ $(+,-,n{+}1,n{+}3)_{x_0=0}$ & $(n{+}1)d$ dCFT \\
 \end{indented}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 200
 ```
+{% raw %}
 \begin{table}
 
 \caption{\label{emb} Supersymmetric intersections in asymptotically flat 
@@ -21076,9 +21475,11 @@ $(+,-,n{+}1,n{+}3)_{x_0=0}$ & $(n{+}1)d$ dCFT \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 201
 ```
+{% raw %}
 \begin{table}
 \caption{\label{tab:parities} The $Z_2$ parities of various gauge
 components.}
@@ -21088,9 +21489,11 @@ components.}
 \end{tabular}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 202
 ```
+{% raw %}
 \begin{table}
 
 \caption{\label{tab:parities} The $Z_2$ parities of various gauge
@@ -21107,9 +21510,11 @@ components.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 203
 ```
+{% raw %}
 %\begin{table}
 \nopagebreak[3]
 \begin{centering}
@@ -21134,9 +21539,11 @@ $c^{(2)}(1,1)$& $\frac{307}{5184 \pi^2}       $& $\frac{-391}{2592 \pi^2}$\cr\hl
 \end{centering}
 %\end{table}
 
+{% endraw %}
 ```
 ## Example Number: 204
 ```
+{% raw %}
 %\begin{table}
 
 \nopagebreak[3]
@@ -21183,9 +21590,11 @@ $c^{(2)}(1,1)$& $\frac{307}{5184 \pi^2}       $& $\frac{-391}{2592 \pi^2}$\cr\hl
 
 %\end{table}
 
+{% endraw %}
 ```
 ## Example Number: 205
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \begin{tabular}{lll}
@@ -21208,9 +21617,11 @@ BRST	& \'{a} la Kato-Ogawa \cite{Kato:1983im}		& $d \geq 2$ \\
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 206
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -21253,9 +21664,11 @@ BRST	& \'{a} la Kato-Ogawa \cite{Kato:1983im}		& $d \geq 2$ \\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 207
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \begin{tabular}{lc}
@@ -21273,9 +21686,11 @@ Step~2:& The no-ghost theorem
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 208
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -21308,9 +21723,11 @@ Step~2:& The no-ghost theorem
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 209
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \begin{tabular}{c}
@@ -21332,9 +21749,11 @@ The Vanishing Theorem for the $\hQ$-cohomology (Theorem~\ref{lemma:exact_sequenc
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 210
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -21375,9 +21794,11 @@ The Vanishing Theorem for the $\hQ$-cohomology (Theorem~\ref{lemma:exact_sequenc
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 211
 ```
+{% raw %}
 %\begin{table}
 
 %\begin{center}
@@ -21408,9 +21829,11 @@ The Vanishing Theorem for the $\hQ$-cohomology (Theorem~\ref{lemma:exact_sequenc
 %\end{center}
 %\end{table}
 
+{% endraw %}
 ```
 ## Example Number: 212
 ```
+{% raw %}
 %\begin{table}
 
 %\begin{center}
@@ -21447,9 +21870,11 @@ The Vanishing Theorem for the $\hQ$-cohomology (Theorem~\ref{lemma:exact_sequenc
 
 %\end{table}
 
+{% endraw %}
 ```
 ## Example Number: 213
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \[
@@ -21473,9 +21898,11 @@ b_{m} 	& -|m| 	\\
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 214
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -21520,9 +21947,11 @@ b_{m} 	& -|m| 	\\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 215
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \[
@@ -21544,9 +21973,11 @@ b_{-m} 		& -1 	\\
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 216
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -21587,9 +22018,11 @@ b_{-m} 		& -1 	\\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 217
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \[
@@ -21613,9 +22046,11 @@ b_{-m} 		& -1 	\\
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 218
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -21660,9 +22095,11 @@ b_{-m} 		& -1 	\\
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 219
 ```
+{% raw %}
 \begin{table}\centering
 \begin{tabular}[t]{|c|c||ccc|}\hline
 dim & $\grSO(6)$  & BPS & $+$ & $-$
@@ -21722,9 +22159,11 @@ according to their parity, \emph{cf}.\ \secref{sec:NoMystery}.}
 \label{tab:quarterBPS}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 220
 ```
+{% raw %}
 \begin{table}\centering
 
 \begin{tabular}[t]{|c|c||ccc|}\hline
@@ -21841,9 +22280,11 @@ according to their parity, \emph{cf}.\ \secref{sec:NoMystery}.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 221
 ```
+{% raw %}
 \begin{table}\centering
 \begin{tabular}[t]{|c|c|c||cc|}\hline
 dim & $\grSO(6)$ &$\grSU(2)$ & $+$ & $-$
@@ -21902,9 +22343,11 @@ $L=\Delta_0$.}
 \label{tab:onetrace}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 222
 ```
+{% raw %}
 \begin{table}\centering
 
 \begin{tabular}[t]{|c|c|c||cc|}\hline
@@ -22019,9 +22462,11 @@ $L=\Delta_0$.}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 223
 ```
+{% raw %}
 \begin{table}
 \begin{tabular}{||c||c|c|c|c|c||}
   \hline         
@@ -22037,9 +22482,11 @@ in the particle action and irreducible quantum Hilbert spaces.
 \label{correspondencetable}}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 224
 ```
+{% raw %}
 \begin{table}
 
 \begin{tabular}{||c||c|c|c|c|c||}
@@ -22068,9 +22515,11 @@ in the particle action and irreducible quantum Hilbert spaces.
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 225
 ```
+{% raw %}
 \begin{table}
 \caption{Slopes, $\zeta^{-1}_\ast$, of the characteristic length 
 $L_w(t)$ plotted in Fig.~\ref{fig:scaling}.
@@ -22133,9 +22582,11 @@ condition (\ref{eq:slope_condition}).
 \end{tabular}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 226
 ```
+{% raw %}
 \begin{table}
 
 \caption{Slopes, $\zeta^{-1}_\ast$, of the characteristic length 
@@ -22258,9 +22709,11 @@ condition (\ref{eq:slope_condition}).
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 227
 ```
+{% raw %}
 \begin{table}[h]
 \caption[table-1]{The coefficients of the 
 amplitude of $W^+W^-\rightarrow W^+W^-$ in
@@ -22284,9 +22737,11 @@ Both $O(E^4/m^4)$ and $O(E^2/m^2)$
 \label{table-1}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 228
 ```
+{% raw %}
 \begin{table}[h]
 
 \caption[table-1]{The coefficients of the 
@@ -22331,9 +22786,11 @@ Both $O(E^4/m^4)$ and $O(E^2/m^2)$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 229
 ```
+{% raw %}
 \begin{table}[h]
 \caption[table-2]{The coefficients of the 
 amplitude of $W^{(1/2)+}W^{(1/2)-}\rightarrow W^{(1/2)+}W^{(1/2)-}$ in
@@ -22357,9 +22814,11 @@ Power behaviors of $O(E^4/m^4)$ and $O(E^2/m^2)$
 \label{table-2}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 230
 ```
+{% raw %}
 \begin{table}[h]
 
 \caption[table-2]{The coefficients of the 
@@ -22404,9 +22863,11 @@ Power behaviors of $O(E^4/m^4)$ and $O(E^2/m^2)$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 231
 ```
+{% raw %}
 \begin{table}[h]
 \caption[table-3]{The coefficients of the 
 amplitude of $XX^*\rightarrow XX^*$ in
@@ -22430,9 +22891,11 @@ Both $O(E^4/m^4)$ and $O(E^2/m^2)$
 \label{table-3}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 232
 ```
+{% raw %}
 \begin{table}[h]
 
 \caption[table-3]{The coefficients of the 
@@ -22477,9 +22940,11 @@ Both $O(E^4/m^4)$ and $O(E^2/m^2)$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 233
 ```
+{% raw %}
 \begin{table}[h]
 \caption[table-4]{The coefficients of the 
  amplitude of $X^{(1/2)}X^{(1/2)*}\rightarrow X^{(1/2)}X^{(1/2)*}$ in
@@ -22504,9 +22969,11 @@ Power behaviors $O(E^4/m^4)$ and $O(E^2/m^2)$
 \label{table-4}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 234
 ```
+{% raw %}
 \begin{table}[h]
 
 \caption[table-4]{The coefficients of the 
@@ -22553,9 +23020,11 @@ Power behaviors $O(E^4/m^4)$ and $O(E^2/m^2)$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 235
 ```
+{% raw %}
 \begin{table}[h]
 \caption[table-5]{The coefficients of the 
  amplitude of $X^{(1/2)}X^{(1/2)*}\rightarrow X^{(3/2)}X^{(3/2)*}$ in
@@ -22580,9 +23049,11 @@ Power behaviors $O(E^4/m^4)$ and $O(E^2/m^2)$
 \label{table-5}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 236
 ```
+{% raw %}
 \begin{table}[h]
 
 \caption[table-5]{The coefficients of the 
@@ -22629,9 +23100,11 @@ Power behaviors $O(E^4/m^4)$ and $O(E^2/m^2)$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 237
 ```
+{% raw %}
 \begin{table}[h]
 \caption[table-6]{The coefficients of the 
  amplitude of $X^{(n/2)}X^{(n/2)*}\rightarrow X^{(l/2)}X^{(l/2)*}$ 
@@ -22657,9 +23130,11 @@ Power behaviors $O(E^4/m^4)$ and $O(E^2/m^2)$
 \label{table-6}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 238
 ```
+{% raw %}
 \begin{table}[h]
 
 \caption[table-6]{The coefficients of the 
@@ -22708,9 +23183,11 @@ Power behaviors $O(E^4/m^4)$ and $O(E^2/m^2)$
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 239
 ```
+{% raw %}
 %\begin{table}[htb] \footnotesize
 \begin{table} \footnotesize
 \renewcommand{\arraystretch}{1.25}
@@ -22742,9 +23219,11 @@ $ab'$ sectors with zero intersection, if the relevant branes
 overlap. \label{matter} }
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 240
 ```
+{% raw %}
 %\begin{table}[htb] \footnotesize
 
 \begin{table} \footnotesize
@@ -22805,9 +23284,11 @@ overlap. \label{matter} }
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 241
 ```
+{% raw %}
 \begin{table}
 \footnotesize
 %[htb] \footnotesize
@@ -22832,9 +23313,11 @@ $C_2$ &$USp(4)$& 4 & $(0,1) \times (1,0) \times (0,{\widetilde{-1}})$ \\
 model.} \label{cycles3family}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 242
 ```
+{% raw %}
 \begin{table}
 
 \footnotesize
@@ -22881,9 +23364,11 @@ model.} \label{cycles3family}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 243
 ```
+{% raw %}
 \begin{table} \footnotesize
 %[htb] \footnotesize
 \renewcommand{\arraystretch}{1.25}
@@ -22906,9 +23391,11 @@ contributions of three chiral 5-plets that are not localized at intersections.
 \label{gaugefactors}}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 244
 ```
+{% raw %}
 \begin{table} \footnotesize
 
 %[htb] \footnotesize
@@ -22951,9 +23438,11 @@ contributions of three chiral 5-plets that are not localized at intersections.
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 245
 ```
+{% raw %}
 \begin{table}[t]
 \begin{center}
 \begin{tabular}{||c||c|c|c||}
@@ -22971,9 +23460,11 @@ contributions of three chiral 5-plets that are not localized at intersections.
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 246
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -23006,9 +23497,11 @@ contributions of three chiral 5-plets that are not localized at intersections.
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 247
 ```
+{% raw %}
 \begin{table}[h]
 \begin{center}
 \begin{tabular}{||c||c|c|c|c||}
@@ -23025,9 +23518,11 @@ double domain wall solution. We give the two possible truncations and the corres
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 248
 ```
+{% raw %}
 \begin{table}[h]
 
 \begin{center}
@@ -23058,9 +23553,11 @@ double domain wall solution. We give the two possible truncations and the corres
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 249
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \begin{tabular}{cc}
@@ -23082,9 +23579,11 @@ be added automatically to satisfy Eq.~(\ref{Kacond}).}
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 250
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -23125,9 +23624,11 @@ be added automatically to satisfy Eq.~(\ref{Kacond}).}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 251
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \begin{tabular}{cc}
@@ -23176,9 +23677,11 @@ provide any new symmetry breaking patterns.
  }
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 252
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -23273,9 +23776,11 @@ provide any new symmetry breaking patterns.
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 253
 ```
+{% raw %}
 \begin{table}[t]
 \begin{center}
 \begin{tabular}{|c|c|c|}
@@ -23297,9 +23802,11 @@ which the rotation is contained.  }
 }
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 254
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -23340,9 +23847,11 @@ which the rotation is contained.  }
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 255
 ```
+{% raw %}
 \begin{table}[t]
 \begin{center}
 \begin{tabular}{|c|c|c|}
@@ -23363,9 +23872,11 @@ $\mathfrak{g}$ denotes the subgroup of $\mathfrak{so}(7)$ in
 which the rotation is contained. }}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 256
 ```
+{% raw %}
 \begin{table}[t]
 
 \begin{center}
@@ -23404,9 +23915,11 @@ which the rotation is contained. }}
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 257
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \begin{tabular}{lc}
@@ -23424,9 +23937,11 @@ Step~2:& The no-ghost theorem
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 258
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -23459,9 +23974,11 @@ Step~2:& The no-ghost theorem
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 259
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \begin{tabular}{c}
@@ -23483,9 +24000,11 @@ The Vanishing Theorem for the $\hQ$-cohomology (from the general property of fil
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 260
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -23526,9 +24045,11 @@ The Vanishing Theorem for the $\hQ$-cohomology (from the general property of fil
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 261
 ```
+{% raw %}
 \begin{table}
 \begin{center}
 \[
@@ -23552,9 +24073,11 @@ The Vanishing Theorem for the $\hQ$-cohomology (from the general property of fil
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 262
 ```
+{% raw %}
 \begin{table}
 
 \begin{center}
@@ -23599,9 +24122,11 @@ The Vanishing Theorem for the $\hQ$-cohomology (from the general property of fil
 
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 263
 ```
+{% raw %}
 \begin{table}[ht]
 \vskip -25pt \label{tableroots}\caption{Correspondence between
 the 63 non dilatonic scalar fields from type IIB string theory on
@@ -23782,9 +24307,11 @@ $\,\,\leftarrow$\\
 \end{center}
 \end{table}
 
+{% endraw %}
 ```
 ## Example Number: 264
 ```
+{% raw %}
 \begin{table}[ht]
 
 \vskip -25pt \label{tableroots}\caption{Correspondence between
@@ -24082,6 +24609,19783 @@ $\,\,\leftarrow$\\
 \hline $C_{1\,3\,4\,6}$ & $\frac{1}{2}(1,-1,1,1,-1, 1,\sqrt{2})$
 
 & $(1,1,2,3,1,2,1)$
+
+$\,\,\leftarrow$\\
+
+\hline
+
+ $C_{1\,3\,4\,5}$ &
+
+$\frac{1}{2}(1,-1,1,1,1,{-} 1,\sqrt{2})$ & $(1,1,2,3,2,2,1)$
+
+$\,\,\leftarrow$\\
+
+\hline
+
+ $C_{1\,2\,5\,6}$ &
+
+$\frac{1}{2}(1,1,-1,-1,1, 1,\sqrt{2})$ & $(1,2,2,2,1,2,1)$
+
+$\,\,\leftarrow$\\
+
+\hline $C_{1\,2\,4\,6}$ & $\frac{1}{2}(1,1,-1,1,-1, 1,\sqrt{2})$
+
+& $(1,2,2,3,1,2,1)$
+
+$\,\,\leftarrow$\\
+
+\hline $C_{1\,2\,4\,5}$ & $\frac{1}{2}(1,1,-1,1,1,{-}
+
+1,\sqrt{2})$ & $(1,2,2,3,2,2,1)$
+
+$\,\,\leftarrow$\\
+
+\hline
+
+ $C_{1\,2\,3\,6}$ &
+
+$\frac{1}{2}(1,1,1,-1,-1, 1,\sqrt{2})$ & $(1,2,3,3,1,2,1)$
+
+$\,\,\leftarrow$\\
+
+\hline $C_{1\,2\,3\,5}$ & $\frac{1}{2}(1,1,1,-1,1,{-}
+
+1,\sqrt{2})$ & $(1,2,3,3,2,2,1)$
+
+$\,\,\leftarrow$\\
+
+\hline
+
+ $C_{1\,2\,3\,4}$ &
+
+$\frac{1}{2}(1,1,1,1,-1,{-} 1,\sqrt{2})$ & $(1,2,3,4,2,2,1)$
+
+$\,\,\leftarrow$\\
+
+\hline
+
+\end{tabular}}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 265
+```
+{% raw %}
+\begin{table}
+\caption{\label{tab1}\it Root vectors $p_I$ in untwisted sector satisfying
+$p\cdot v=0$ and $p\cdot a_1=0$. The underlined entries
+allow permutations. The $+$ and $-$ in the spinor part
+denote $\frac12$ and $-\frac12$, respectively. $I, V,$
+and $U$ spin directions of $SU(3)$'s are also shown.}
+\vskip 0.3cm
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+vector & number of states  & gauge group \\
+\hline
+$ (\underline{1~ -1~~\ 0}~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0) \ \ $ & 6 & $SU(3)_1$\\
+\hline
+$ (0~~\ 0~~\ 0\ ~~ \ 1~~ \ 1~~\ 0~~\ 0~~\ 0)_{I_+} $ & 1 &\\
+$ ( 0~~\ 0~~\ 0~ -1 -1~\ 0~~\ 0~~\ 0)_{I_-} $ & 1 &\\
+$ (+~+~+~+~+~-~-~+)_{V_+} $ & 1 & \\
+$ (-~-~-~-~-~+~+~-)_{V_-} $ & 1 & $SU(3)_2$\\
+$ (+~+~+~-~-~-~-~+)_{U_+} $ & 1 & \\
+$ (-~-~-~+~+~+~+~-)_{U_-} $ & 1 & \\
+\hline
+$ (0~~\ 0~~\ 0~~\ 1~-1~~\ 0~~\ 0~~\ 0)_{I_+} $ & 1 &\\
+$ (0~~\ 0~~\ 0~-1~~\ 1~~\ 0~~\ 0~~\ 0)_{I_-} $ & 1 &\\
+$ (+~+~+~+~-~+~+~-)_{V_+} $ & 1 & \\
+$ (-~-~-~-~+~-~-~+)_{V_-} $ & 1 & $SU(3)_3$\\
+$ (+~+~+~-~+~+~+~-)_{U_+} $ & 1 & \\
+$ (-~-~-~+~-~-~-~+)_{U_-} $ & 1 & \\
+\hline
+$ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\underline{\ 1~-1}~\ 0)_{I_{\pm}} $ & 2 & \\
+$ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0 -1 -1)_{V_+} $ & 1 & \\
+$ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ \ 1~~\ \  1)_{V_-} $ & 1 & $SU(3)_4$\\
+$ (0~~\ 0~~\ 0~~\ 0~~\ 0 -1~~\ 0 -1)_{U_+} $ & 1 & \\
+$ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 1~~\ 0~~\ \ 1)_{U_-} $ & 1 & \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 266
+```
+{% raw %}
+\begin{table}
+
+\caption{\label{tab1}\it Root vectors $p_I$ in untwisted sector satisfying
+
+$p\cdot v=0$ and $p\cdot a_1=0$. The underlined entries
+
+allow permutations. The $+$ and $-$ in the spinor part
+
+denote $\frac12$ and $-\frac12$, respectively. $I, V,$
+
+and $U$ spin directions of $SU(3)$'s are also shown.}
+
+\vskip 0.3cm
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|}
+
+\hline
+
+vector & number of states  & gauge group \\
+
+\hline
+
+$ (\underline{1~ -1~~\ 0}~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0) \ \ $ & 6 & $SU(3)_1$\\
+
+\hline
+
+$ (0~~\ 0~~\ 0\ ~~ \ 1~~ \ 1~~\ 0~~\ 0~~\ 0)_{I_+} $ & 1 &\\
+
+$ ( 0~~\ 0~~\ 0~ -1 -1~\ 0~~\ 0~~\ 0)_{I_-} $ & 1 &\\
+
+$ (+~+~+~+~+~-~-~+)_{V_+} $ & 1 & \\
+
+$ (-~-~-~-~-~+~+~-)_{V_-} $ & 1 & $SU(3)_2$\\
+
+$ (+~+~+~-~-~-~-~+)_{U_+} $ & 1 & \\
+
+$ (-~-~-~+~+~+~+~-)_{U_-} $ & 1 & \\
+
+\hline
+
+$ (0~~\ 0~~\ 0~~\ 1~-1~~\ 0~~\ 0~~\ 0)_{I_+} $ & 1 &\\
+
+$ (0~~\ 0~~\ 0~-1~~\ 1~~\ 0~~\ 0~~\ 0)_{I_-} $ & 1 &\\
+
+$ (+~+~+~+~-~+~+~-)_{V_+} $ & 1 & \\
+
+$ (-~-~-~-~+~-~-~+)_{V_-} $ & 1 & $SU(3)_3$\\
+
+$ (+~+~+~-~+~+~+~-)_{U_+} $ & 1 & \\
+
+$ (-~-~-~+~-~-~-~+)_{U_-} $ & 1 & \\
+
+\hline
+
+$ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\underline{\ 1~-1}~\ 0)_{I_{\pm}} $ & 2 & \\
+
+$ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0 -1 -1)_{V_+} $ & 1 & \\
+
+$ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ \ 1~~\ \  1)_{V_-} $ & 1 & $SU(3)_4$\\
+
+$ (0~~\ 0~~\ 0~~\ 0~~\ 0 -1~~\ 0 -1)_{U_+} $ & 1 & \\
+
+$ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 1~~\ 0~~\ \ 1)_{U_-} $ & 1 & \\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 267
+```
+{% raw %}
+\begin{table}
+\caption{\label{tab2}
+\it Root vectors $p_I$ in untwisted sector satisfying
+$p\cdot v=\frac23$ and $p\cdot a_1=0$. The underlined entries
+allow permutations. The notations are the same as in Table I,
+except that} [\ ] {\it implies even numbers of sign flips.
+In the last column, we reverseed the chirality to compare directly
+with the twisted sectors.}
+\vskip 0.2cm
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+ \raisebox{-1.8ex}[0pt][0pt]{sector}
+            &
+         \multicolumn{2}{|c|}{From $E_8$ roots}
+ \\
+ \cline{2-3}
+ & \multicolumn{1}{|c|}{$E_8$ root} & \multicolumn{1}{|c|}{$SU(3)^4$}
+ \\
+\hline
+ & $ (\underline{~1~~\ 0~~\ 0}~~\ 0~~\ 0~\underline{-1~\ 0}~~\ 0~) $  & \\
+\raisebox{-1.8ex}[0pt][0pt]{UT} & $ (\underline{~1~~\ 0~~\ 0}~~\ 0~~\ 0~~\ 0~~\ 0~~\ 1~) $  &\\
+ & $ (\underline{+~-~~-}~[+~~+]~~\underline{+~~-}~~-) $
+& \raisebox{1.8ex}[0pt][0pt]{ 3${\bf (\bar 3, 3,1,\bar 3)}$}\\
+ & $ (\underline{+~-~~-}~[+~~+]~~+~+~+) $
+&  \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 268
+```
+{% raw %}
+\begin{table}
+
+\caption{\label{tab2}
+
+\it Root vectors $p_I$ in untwisted sector satisfying
+
+$p\cdot v=\frac23$ and $p\cdot a_1=0$. The underlined entries
+
+allow permutations. The notations are the same as in Table I,
+
+except that} [\ ] {\it implies even numbers of sign flips.
+
+In the last column, we reverseed the chirality to compare directly
+
+with the twisted sectors.}
+
+\vskip 0.2cm
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|}
+
+\hline
+
+ \raisebox{-1.8ex}[0pt][0pt]{sector}
+
+            &
+
+         \multicolumn{2}{|c|}{From $E_8$ roots}
+
+ \\
+
+ \cline{2-3}
+
+ & \multicolumn{1}{|c|}{$E_8$ root} & \multicolumn{1}{|c|}{$SU(3)^4$}
+
+ \\
+
+\hline
+
+ & $ (\underline{~1~~\ 0~~\ 0}~~\ 0~~\ 0~\underline{-1~\ 0}~~\ 0~) $  & \\
+
+\raisebox{-1.8ex}[0pt][0pt]{UT} & $ (\underline{~1~~\ 0~~\ 0}~~\ 0~~\ 0~~\ 0~~\ 0~~\ 1~) $  &\\
+
+ & $ (\underline{+~-~~-}~[+~~+]~~\underline{+~~-}~~-) $
+
+& \raisebox{1.8ex}[0pt][0pt]{ 3${\bf (\bar 3, 3,1,\bar 3)}$}\\
+
+ & $ (\underline{+~-~~-}~[+~~+]~~+~+~+) $
+
+&  \\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 269
+```
+{% raw %}
+\begin{table}
+\caption{\label{tab3}
+\it Root vectors $p_I$ in the T0 twisted sector
+satisfying $p\cdot \tilde v=\frac23,\frac43$. The notations
+are the same as in Table II.}
+\vskip 0.3cm
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+ \raisebox{-1.8ex}[0pt][0pt]{sector}  &   \multicolumn{2}{|c|}{
+ Weights} \\
+ \cline{2-3}
+ & \multicolumn{1}{|c|}{vector} & \multicolumn{1}{|c|}{$SU(3)^4$}
+ \\
+\hline
+ & $ (0~~0~~0~~0~~0~~ \ \ 0~~ \ \ 0~~ \ \ 0) $  & \\
+\raisebox{-9.2ex}[0pt][0pt] &
+$ (0~~0~~0~~0~~0~-1~~ \ 0~-1) $  & 27${\bf (1,1,1,
+ 3)}$\\ & $ (0~~0~~0~~0~~0~~ \ 0~-1~-1) $  & \\
+\cline{2-3}
+ & $ (\underline{-1~ 0~\ 0}~~ \ 0~~\ 0~~\ 0~~ \ 0~ -1) $  &\\
+ & $ (\underline{+~+~-}~[+~+]~-~-~-) $
+&\raisebox{1.6ex}[0pt][0pt]{ 9${\bf (\bar 3,3,1,1)}$}\\
+\cline{2-3}
+T0 & $ (\underline{1~~\ 0~~\ 0}~~\ 0~~\ 0~~\ 0~~\ 0 -1) $  &\\
+ & $ (\underline{+~-~-}~[+~-]~-~-~-) $
+&\raisebox{1.6ex}[0pt][0pt]{ 9${\bf (3,1,\bar 3,1)}$}\\
+\cline{2-3}
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0 -1 -1~\ 0) $  &\\
+ & $ (0~~\ 0~~\ 0~~\underline{1~~\ 0}~~\ 0~~\ 0 -1) $  &\\
+ & $ (0~~\ 0~~\ 0~\underline{-1~~\ 0}~~\ 0~~\ 0 -1) $
+& 9${\bf (1,\bar 3, 3,1)}$\\
+ & $ (+~+~+~[+~-]~-~-~-) $  &\\
+ & $ (-~-~-~[+~+]~-~-~-) $  & \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 270
+```
+{% raw %}
+\begin{table}
+
+\caption{\label{tab3}
+
+\it Root vectors $p_I$ in the T0 twisted sector
+
+satisfying $p\cdot \tilde v=\frac23,\frac43$. The notations
+
+are the same as in Table II.}
+
+\vskip 0.3cm
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|}
+
+\hline
+
+ \raisebox{-1.8ex}[0pt][0pt]{sector}  &   \multicolumn{2}{|c|}{
+
+ Weights} \\
+
+ \cline{2-3}
+
+ & \multicolumn{1}{|c|}{vector} & \multicolumn{1}{|c|}{$SU(3)^4$}
+
+ \\
+
+\hline
+
+ & $ (0~~0~~0~~0~~0~~ \ \ 0~~ \ \ 0~~ \ \ 0) $  & \\
+
+\raisebox{-9.2ex}[0pt][0pt] &
+
+$ (0~~0~~0~~0~~0~-1~~ \ 0~-1) $  & 27${\bf (1,1,1,
+
+ 3)}$\\ & $ (0~~0~~0~~0~~0~~ \ 0~-1~-1) $  & \\
+
+\cline{2-3}
+
+ & $ (\underline{-1~ 0~\ 0}~~ \ 0~~\ 0~~\ 0~~ \ 0~ -1) $  &\\
+
+ & $ (\underline{+~+~-}~[+~+]~-~-~-) $
+
+&\raisebox{1.6ex}[0pt][0pt]{ 9${\bf (\bar 3,3,1,1)}$}\\
+
+\cline{2-3}
+
+T0 & $ (\underline{1~~\ 0~~\ 0}~~\ 0~~\ 0~~\ 0~~\ 0 -1) $  &\\
+
+ & $ (\underline{+~-~-}~[+~-]~-~-~-) $
+
+&\raisebox{1.6ex}[0pt][0pt]{ 9${\bf (3,1,\bar 3,1)}$}\\
+
+\cline{2-3}
+
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0 -1 -1~\ 0) $  &\\
+
+ & $ (0~~\ 0~~\ 0~~\underline{1~~\ 0}~~\ 0~~\ 0 -1) $  &\\
+
+ & $ (0~~\ 0~~\ 0~\underline{-1~~\ 0}~~\ 0~~\ 0 -1) $
+
+& 9${\bf (1,\bar 3, 3,1)}$\\
+
+ & $ (+~+~+~[+~-]~-~-~-) $  &\\
+
+ & $ (-~-~-~[+~+]~-~-~-) $  & \\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 271
+```
+{% raw %}
+\begin{table}
+
+\caption{\label{tab4}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}
+\caption{\label{tab4}
+\it Root vectors $p_I$ in the T1 twisted sector.}
+\vskip 0.3cm
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+ \raisebox{-1.8ex}[0pt][0pt]{sector}  &   \multicolumn{2}{|c|}{
+ Weights} \\
+ \cline{2-3}
+ & \multicolumn{1}{|c|}{vector} & \multicolumn{1}{|c|}{$SU(3)^4$}
+ \\
+\hline
+ & $ (0~~0~~0~~0~~0~-1~-1~-2) $  & \\
+ & $ (-~-~-~[+~~+]~-~-~\frac{-5}{2}) $
+& \raisebox{1.6ex}[0pt][0pt]{ 27${\bf (1,\bar 3,1,1)}$}\\
+\cline{2-3}
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~\underline{-1~~0}~-3) $& \\
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0 -2) $  & \\
+T1 & $ (-~-~-~[+~-]~\underline{-~~\frac{-3}{2}}~
+ \frac{-5}{2}) $  & \raisebox{1.6ex}[0pt][0pt]{ 9
+ ${\bf (1,1,\bar 3, 3)}$}\\
+ & $ (-~-~-~[+~-]~-~-~\frac{-3}{2}) $  & \\
+\cline{2-3}
+ & $ (\underline{-1~~0~~0}~~0~~0~-1~-1~-3) $  &\\
+ & $ (\underline{-1~~\ 0~~\ 0}~~\ 0~~\ 0~~\underline{-1~~0}
+ ~-2) $  & \raisebox{1.6ex}[0pt][0pt]{ 9
+${\bf (\bar 3,1,1,\bar 3)}$}\\
+\cline{2-3}
+ & $ (\underline{+~-~-}~~[+~-~]~-~-~\frac{-5}{2}) $
+& \raisebox{-1.6ex}[0pt][0pt]{ $9{\bf ( 3,1,3,1)}$} \\
+ & $ (\underline{-1~-1~~0}~~0~~0 -1 -1 -2) $&  \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 272
+```
+{% raw %}
+\begin{table}
+
+\caption{\label{tab4}
+
+\it Root vectors $p_I$ in the T1 twisted sector.}
+
+\vskip 0.3cm
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|}
+
+\hline
+
+ \raisebox{-1.8ex}[0pt][0pt]{sector}  &   \multicolumn{2}{|c|}{
+
+ Weights} \\
+
+ \cline{2-3}
+
+ & \multicolumn{1}{|c|}{vector} & \multicolumn{1}{|c|}{$SU(3)^4$}
+
+ \\
+
+\hline
+
+ & $ (0~~0~~0~~0~~0~-1~-1~-2) $  & \\
+
+ & $ (-~-~-~[+~~+]~-~-~\frac{-5}{2}) $
+
+& \raisebox{1.6ex}[0pt][0pt]{ 27${\bf (1,\bar 3,1,1)}$}\\
+
+\cline{2-3}
+
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~\underline{-1~~0}~-3) $& \\
+
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0 -2) $  & \\
+
+T1 & $ (-~-~-~[+~-]~\underline{-~~\frac{-3}{2}}~
+
+ \frac{-5}{2}) $  & \raisebox{1.6ex}[0pt][0pt]{ 9
+
+ ${\bf (1,1,\bar 3, 3)}$}\\
+
+ & $ (-~-~-~[+~-]~-~-~\frac{-3}{2}) $  & \\
+
+\cline{2-3}
+
+ & $ (\underline{-1~~0~~0}~~0~~0~-1~-1~-3) $  &\\
+
+ & $ (\underline{-1~~\ 0~~\ 0}~~\ 0~~\ 0~~\underline{-1~~0}
+
+ ~-2) $  & \raisebox{1.6ex}[0pt][0pt]{ 9
+
+${\bf (\bar 3,1,1,\bar 3)}$}\\
+
+\cline{2-3}
+
+ & $ (\underline{+~-~-}~~[+~-~]~-~-~\frac{-5}{2}) $
+
+& \raisebox{-1.6ex}[0pt][0pt]{ $9{\bf ( 3,1,3,1)}$} \\
+
+ & $ (\underline{-1~-1~~0}~~0~~0 -1 -1 -2) $&  \\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 273
+```
+{% raw %}
+\begin{table}
+
+\caption{\label{tab5}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}
+\caption{\label{tab5}
+\it Root vectors $p_I$ in the T2 twisted sector.}
+\begin{center}
+\vskip 0.3cm
+\begin{tabular}{|c|c|c|}
+\hline
+ \raisebox{-1.8ex}[0pt][0pt]{sector}  &   \multicolumn{2}{|c|}{
+ Weights} \\
+ \cline{2-3}
+ & \multicolumn{1}{|c|}{vector} & \multicolumn{1}{|c|}{$SU(3)^4$}
+ \\
+\hline
+& $ (\underline{~1~~\ 0~~\ 0}~~\ 0~~\ 0~~\ 0~~\ 0 -1) $
+& 27${\bf (3,1,1,1)}$\\
+\cline{2-3}
+ & $ (+~+~+~[+~-]~+~-~+) $  &\\
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0 -1~~\ 1) $  & \\
+ & $ (+~+~+~[+~-]~-~+~+) $  & \\
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0 -1~~\ 0~~\ 1) $
+& \raisebox{1.6ex}[0pt][0pt]{ 9${\bf (1,1,3,3)}$}\\
+ & $ (+~+~+~[+~-]~+~+~\frac{+3}{2}) $ & \\
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 2) $  & \\
+\cline{2-3}
+ & $ (1~~\ 1~~\ 1~~\ 0~~\ 0~~\ 0~~\ 0~~\ 1) $  & \\
+ & $ (+~+~+~[+~+]~+~+~+) $  &    \\
+T2 & $ (+~+~+~+~-~-~-~\frac{+3}{2}) $  & \\
+ & $ (0~~\ 0~~\ 0~~\ 1~~\ 0~~\ 0~~\ 0~~\ 1) $
+& \raisebox{-1.6ex}[0pt][0pt]{ 9 ${\bf (1,\bar 3,\bar 3,1)}$}\\
+ & $ (0~~\ 0~~\ 0~~\ 0 -1~~\ 0~~\ 0~~\ 1) $  & \\
+ & $ (+~+~+~-~+~-~-~\frac{+3}{2}) $  & \\
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 1~~\ 0~~\ 0~~\ 1) $  & \\
+ & $ (0~~\ 0~~\ 0 -1~~\ 0~~\ 0~~\ 0~~\ 1) $  & \\
+\cline{2-3}
+ & $ (+~+~+~[+~+]~-~-~+) $  &    \\
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0) $  & \\
+ & $ (+~+~+~[+~+]~+~-~\frac{+3}{2}) $  & \\
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 1~~\ 0~~\ 1) $
+& \raisebox{1.6ex}[0pt][0pt]{ 9 ${\bf (1,3,1,\bar 3)}$}\\
+ & $ (+~+~+~[+~+]~-~+~\frac{+3}{2}) $  & \\
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 1~~\ 1) $  & \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 274
+```
+{% raw %}
+\begin{table}
+
+\caption{\label{tab5}
+
+\it Root vectors $p_I$ in the T2 twisted sector.}
+
+\begin{center}
+
+\vskip 0.3cm
+
+\begin{tabular}{|c|c|c|}
+
+\hline
+
+ \raisebox{-1.8ex}[0pt][0pt]{sector}  &   \multicolumn{2}{|c|}{
+
+ Weights} \\
+
+ \cline{2-3}
+
+ & \multicolumn{1}{|c|}{vector} & \multicolumn{1}{|c|}{$SU(3)^4$}
+
+ \\
+
+\hline
+
+& $ (\underline{~1~~\ 0~~\ 0}~~\ 0~~\ 0~~\ 0~~\ 0 -1) $
+
+& 27${\bf (3,1,1,1)}$\\
+
+\cline{2-3}
+
+ & $ (+~+~+~[+~-]~+~-~+) $  &\\
+
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0 -1~~\ 1) $  & \\
+
+ & $ (+~+~+~[+~-]~-~+~+) $  & \\
+
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0 -1~~\ 0~~\ 1) $
+
+& \raisebox{1.6ex}[0pt][0pt]{ 9${\bf (1,1,3,3)}$}\\
+
+ & $ (+~+~+~[+~-]~+~+~\frac{+3}{2}) $ & \\
+
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 2) $  & \\
+
+\cline{2-3}
+
+ & $ (1~~\ 1~~\ 1~~\ 0~~\ 0~~\ 0~~\ 0~~\ 1) $  & \\
+
+ & $ (+~+~+~[+~+]~+~+~+) $  &    \\
+
+T2 & $ (+~+~+~+~-~-~-~\frac{+3}{2}) $  & \\
+
+ & $ (0~~\ 0~~\ 0~~\ 1~~\ 0~~\ 0~~\ 0~~\ 1) $
+
+& \raisebox{-1.6ex}[0pt][0pt]{ 9 ${\bf (1,\bar 3,\bar 3,1)}$}\\
+
+ & $ (0~~\ 0~~\ 0~~\ 0 -1~~\ 0~~\ 0~~\ 1) $  & \\
+
+ & $ (+~+~+~-~+~-~-~\frac{+3}{2}) $  & \\
+
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 1~~\ 0~~\ 0~~\ 1) $  & \\
+
+ & $ (0~~\ 0~~\ 0 -1~~\ 0~~\ 0~~\ 0~~\ 1) $  & \\
+
+\cline{2-3}
+
+ & $ (+~+~+~[+~+]~-~-~+) $  &    \\
+
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0) $  & \\
+
+ & $ (+~+~+~[+~+]~+~-~\frac{+3}{2}) $  & \\
+
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 1~~\ 0~~\ 1) $
+
+& \raisebox{1.6ex}[0pt][0pt]{ 9 ${\bf (1,3,1,\bar 3)}$}\\
+
+ & $ (+~+~+~[+~+]~-~+~\frac{+3}{2}) $  & \\
+
+ & $ (0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 0~~\ 1~~\ 1) $  & \\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 275
+```
+{% raw %}
+\begin{table}
+\begin{center}
+\begin{tabular}{|lcc|lcc|} \hline
+  \multicolumn{3}{|c|}{Matter} & \multicolumn{3}{c|}{Higgs} \\
+  \cline{1-6} 
+    &  $F_{++}\twbar$  &  $F_{-+}\thbar$  &
+    &  $H_{++}\tw$     &  $H_{-+}\thh$    \\ 
+  $\mathcal{F}'$  &  $F^c_{--}\tw$     &  $F^c_{+-}\thh$ & 
+  $\mathcal{H}$   &  $H^c_{--}\twbar$  &  $H^c_{+-}\thbar$
+    \\ \cline{1-6} 
+    &  $F_{-+}\twbar$  &  $F_{++}\thbar$  &
+    &  $H_{++}\twbar$  &  $H_{-+}\thbar$  \\ 
+  $\mathcal{F}$        &  $F^c_{+-}\tw$  &  $F^c_{--}\thh$  &
+  $\bar{\mathcal{H}}$  &  $H^c_{--}\tw$  &  $H^c_{+-}\thh$  \\ \hline
+\end{tabular}
+\caption{Superfields from matter and Higgs fields are listed by 
+ their quantum numbers and parity assignments before the supersymmetry 
+ breaking twist.  The quantum numbers represent those under 
+ $SU(3)_C \times SU(2)_L \times U(1)_Y$. The far left column 
+ indicates what hypermultiplet the fields are contained in. 
+ $\mathcal{F}$ and $\mathcal{F}'$ are $\bar{\bf 5}$'s of matter 
+ while $\mathcal{H}$ and $\bar{\mathcal{H}}$ are Higgs multiplets.}
+\label{fig:notwist}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 276
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{tabular}{|lcc|lcc|} \hline
+
+  \multicolumn{3}{|c|}{Matter} & \multicolumn{3}{c|}{Higgs} \\
+
+  \cline{1-6} 
+
+    &  $F_{++}\twbar$  &  $F_{-+}\thbar$  &
+
+    &  $H_{++}\tw$     &  $H_{-+}\thh$    \\ 
+
+  $\mathcal{F}'$  &  $F^c_{--}\tw$     &  $F^c_{+-}\thh$ & 
+
+  $\mathcal{H}$   &  $H^c_{--}\twbar$  &  $H^c_{+-}\thbar$
+
+    \\ \cline{1-6} 
+
+    &  $F_{-+}\twbar$  &  $F_{++}\thbar$  &
+
+    &  $H_{++}\twbar$  &  $H_{-+}\thbar$  \\ 
+
+  $\mathcal{F}$        &  $F^c_{+-}\tw$  &  $F^c_{--}\thh$  &
+
+  $\bar{\mathcal{H}}$  &  $H^c_{--}\tw$  &  $H^c_{+-}\thh$  \\ \hline
+
+\end{tabular}
+
+\caption{Superfields from matter and Higgs fields are listed by 
+
+ their quantum numbers and parity assignments before the supersymmetry 
+
+ breaking twist.  The quantum numbers represent those under 
+
+ $SU(3)_C \times SU(2)_L \times U(1)_Y$. The far left column 
+
+ indicates what hypermultiplet the fields are contained in. 
+
+ $\mathcal{F}$ and $\mathcal{F}'$ are $\bar{\bf 5}$'s of matter 
+
+ while $\mathcal{H}$ and $\bar{\mathcal{H}}$ are Higgs multiplets.}
+
+\label{fig:notwist}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 277
+```
+{% raw %}
+\begin{table}
+\begin{center}
+\begin{tabular}{|lcc|lcc|} \hline
+  \multicolumn{3}{|c|}{Matter} & \multicolumn{3}{c|}{Higgs} \\
+    \cline{1-6} 
+  & $\phi_{+-}\twbar$    & $\phi_{--}\thbar$ &
+  & $\phi_{++}\tw$       & $\phi_{-+}\thh$    \\ 
+  $\mathcal{F}'$   & $\psi_{++}\twbar$ & $\psi_{-+}\thbar$ & 
+  $\mathcal{H}$          & $\psi_{+-}\tw$    & $\psi_{--}\thh$ \\
+  & $\phi^c_{-+}\tw$   &
+  $\phi^c_{++}\thh$    & & $\phi^c_{--}\twbar$ &
+  $\phi^c_{+-}\thbar$ \\ 
+  & $\psi^c_{--}\tw$   &
+  $\psi^c_{+-}\thh$    & & $\psi^c_{-+}\twbar$ &
+  $\psi^c_{++}\thbar$ \\  \cline{1-6} 
+  & $\phi_{--}\twbar$  & $\phi_{+-}\thbar$     &
+  & $\phi_{++}\twbar$  & $\phi_{-+}\thbar$     \\ 
+  $\mathcal{F}$        & $\psi_{-+}\twbar$     &  $\psi_{++}\thbar$&
+  $\bar{\mathcal{H}}$  & $\psi_{+-}\twbar$     &  $\psi_{--}\thbar$ \\ 
+  & $\phi^c_{++}\tw$   &
+  $\phi^c_{-+}\thh$    & & $\phi^c_{--}\tw$  & 
+  $\phi^c_{+-}\thh$  \\ 
+  & $\psi^c_{+-}\tw$   & $\psi^c_{--}\thh$   &
+  & $\psi^c_{-+}\tw$   & $\psi^c_{++}\thh$ \\ \hline
+\end{tabular}
+\caption{Fields from $\bar{\bf 5}$ matter and Higgs multiplets are 
+ listed by their quantum numbers and parity assignments after the 
+ supersymmetry breaking twist. $\phi$ and $\phi^c$ ($\psi$ and $\psi^c$) 
+ represent complex scalar (Weyl fermion) fields in $\Phi$ and $\Phi^c$ 
+ superfields, respectively, where $\Phi = F, F', H, \bar{H}$.}
+\label{fig:twist}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 278
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{tabular}{|lcc|lcc|} \hline
+
+  \multicolumn{3}{|c|}{Matter} & \multicolumn{3}{c|}{Higgs} \\
+
+    \cline{1-6} 
+
+  & $\phi_{+-}\twbar$    & $\phi_{--}\thbar$ &
+
+  & $\phi_{++}\tw$       & $\phi_{-+}\thh$    \\ 
+
+  $\mathcal{F}'$   & $\psi_{++}\twbar$ & $\psi_{-+}\thbar$ & 
+
+  $\mathcal{H}$          & $\psi_{+-}\tw$    & $\psi_{--}\thh$ \\
+
+  & $\phi^c_{-+}\tw$   &
+
+  $\phi^c_{++}\thh$    & & $\phi^c_{--}\twbar$ &
+
+  $\phi^c_{+-}\thbar$ \\ 
+
+  & $\psi^c_{--}\tw$   &
+
+  $\psi^c_{+-}\thh$    & & $\psi^c_{-+}\twbar$ &
+
+  $\psi^c_{++}\thbar$ \\  \cline{1-6} 
+
+  & $\phi_{--}\twbar$  & $\phi_{+-}\thbar$     &
+
+  & $\phi_{++}\twbar$  & $\phi_{-+}\thbar$     \\ 
+
+  $\mathcal{F}$        & $\psi_{-+}\twbar$     &  $\psi_{++}\thbar$&
+
+  $\bar{\mathcal{H}}$  & $\psi_{+-}\twbar$     &  $\psi_{--}\thbar$ \\ 
+
+  & $\phi^c_{++}\tw$   &
+
+  $\phi^c_{-+}\thh$    & & $\phi^c_{--}\tw$  & 
+
+  $\phi^c_{+-}\thh$  \\ 
+
+  & $\psi^c_{+-}\tw$   & $\psi^c_{--}\thh$   &
+
+  & $\psi^c_{-+}\tw$   & $\psi^c_{++}\thh$ \\ \hline
+
+\end{tabular}
+
+\caption{Fields from $\bar{\bf 5}$ matter and Higgs multiplets are 
+
+ listed by their quantum numbers and parity assignments after the 
+
+ supersymmetry breaking twist. $\phi$ and $\phi^c$ ($\psi$ and $\psi^c$) 
+
+ represent complex scalar (Weyl fermion) fields in $\Phi$ and $\Phi^c$ 
+
+ superfields, respectively, where $\Phi = F, F', H, \bar{H}$.}
+
+\label{fig:twist}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 279
+```
+{% raw %}
+\begin{table}
+\begin{center}
+\begin{tabular}{|cccccc|} \hline
+  Standard Model Matter & $\psi\tq$ 
+  & $\psi(\bar{\bf 3},{\bf 1})_{-\frac23}$ 
+  & $\psi(\bar{\bf 3},{\bf 1})_{\frac13~}$ 
+  & $\psi({\bf 1},{\bf 2})_{-\frac12}$ 
+  & $\psi({\bf 1},{\bf 1})_{1}$
+  \\ \cline{1-6}
+  $SU(5), N=2$ Partners 
+  & $\phi^{c}\tqbar$ 
+  & $\phi^{c}({\bf 3},{\bf 1})_{\frac23~}$ 
+  & $\phi^{c}({\bf 3},{\bf 1})_{-\frac13}$ 
+  & $\phi^{c}({\bf 1},{\bf 2})_{\frac12~}$ 
+  & $\phi^{c}({\bf 1},{\bf 1})_{-1}$
+  \\ \hline
+\end{tabular}
+\caption{Matter fields which have zero modes: standard model quarks 
+ and leptons and their $SU(5)$, $N=2$ partners.}
+\label{fig:zeromodes}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 280
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{tabular}{|cccccc|} \hline
+
+  Standard Model Matter & $\psi\tq$ 
+
+  & $\psi(\bar{\bf 3},{\bf 1})_{-\frac23}$ 
+
+  & $\psi(\bar{\bf 3},{\bf 1})_{\frac13~}$ 
+
+  & $\psi({\bf 1},{\bf 2})_{-\frac12}$ 
+
+  & $\psi({\bf 1},{\bf 1})_{1}$
+
+  \\ \cline{1-6}
+
+  $SU(5), N=2$ Partners 
+
+  & $\phi^{c}\tqbar$ 
+
+  & $\phi^{c}({\bf 3},{\bf 1})_{\frac23~}$ 
+
+  & $\phi^{c}({\bf 3},{\bf 1})_{-\frac13}$ 
+
+  & $\phi^{c}({\bf 1},{\bf 2})_{\frac12~}$ 
+
+  & $\phi^{c}({\bf 1},{\bf 1})_{-1}$
+
+  \\ \hline
+
+\end{tabular}
+
+\caption{Matter fields which have zero modes: standard model quarks 
+
+ and leptons and their $SU(5)$, $N=2$ partners.}
+
+\label{fig:zeromodes}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 281
+```
+{% raw %}
+\begin{table}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}\hline \hline
+&
+&
+&
+\\[-1mm]
+${\cal T}_1=
+\frac{{\rm SU}(n+m)}{{\rm SU}(n)\otimes{\rm SU}(m)\otimes{\rm U}(1)} $ &
+ ${\cal T}_2= \frac{{\rm Sp}(n)}{{\rm SU}(n)\otimes{\rm U}(1)}$ &
+${\cal T}_3= \frac{{\rm SO}(2n)}{{\rm SU}(n)\otimes{\rm SO}(2)}$ &
+${\cal T}_4= \frac{{\rm SO}(n+2)}{{\rm SO}(n)\otimes{\rm SO}(2)}$
+\\[3mm]
+\hline
+$b=m+n$ &
+$ b= n+1$  &
+ $ b= n-1$  &
+$b= n$
+\\
+\hline\hline
+\end{tabular}
+\caption{Coefficients $b$ in the
+Gell-Mann--Low function for four classes of
+${\cal N}=2$ compact homogenious symmetric
+K\"{a}hler sigma models.}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 282
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|c|}\hline \hline
+
+&
+
+&
+
+&
+
+\\[-1mm]
+
+${\cal T}_1=
+
+\frac{{\rm SU}(n+m)}{{\rm SU}(n)\otimes{\rm SU}(m)\otimes{\rm U}(1)} $ &
+
+ ${\cal T}_2= \frac{{\rm Sp}(n)}{{\rm SU}(n)\otimes{\rm U}(1)}$ &
+
+${\cal T}_3= \frac{{\rm SO}(2n)}{{\rm SU}(n)\otimes{\rm SO}(2)}$ &
+
+${\cal T}_4= \frac{{\rm SO}(n+2)}{{\rm SO}(n)\otimes{\rm SO}(2)}$
+
+\\[3mm]
+
+\hline
+
+$b=m+n$ &
+
+$ b= n+1$  &
+
+ $ b= n-1$  &
+
+$b= n$
+
+\\
+
+\hline\hline
+
+\end{tabular}
+
+\caption{Coefficients $b$ in the
+
+Gell-Mann--Low function for four classes of
+
+${\cal N}=2$ compact homogenious symmetric
+
+K\"{a}hler sigma models.}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 283
+```
+{% raw %}
+\begin{table}
+ \caption{Comparison of the AdS-black hole with de
+ Sitter space in the wave equation approach.}
+ %\begin{ruledtabular}
+ \begin{tabular}{lp{5.5cm}p{5cm}}
+ Physical consequences   & AdS-black hole & dS space \\ \hline
+ Absorption cross section   & Not found but it can be obtained from
+ its dual CFT. & Not found. \\
+ Quasinormal modes & Well-defined and it is consitent with the
+ CFT results.   & Not defined.\\
+ Bulk/boundary correspondence & Thermal AdS/CFT correspondence is realized.      &
+ Thermal dS/CFT correspondence is not realized.
+ \end{tabular}
+ %\end{ruledtabular}
+ \end{table}
+
+{% endraw %}
+```
+## Example Number: 284
+```
+{% raw %}
+\begin{table}
+
+ \caption{Comparison of the AdS-black hole with de
+
+ Sitter space in the wave equation approach.}
+
+ %\begin{ruledtabular}
+
+ \begin{tabular}{lp{5.5cm}p{5cm}}
+
+ Physical consequences   & AdS-black hole & dS space \\ \hline
+
+ Absorption cross section   & Not found but it can be obtained from
+
+ its dual CFT. & Not found. \\
+
+ Quasinormal modes & Well-defined and it is consitent with the
+
+ CFT results.   & Not defined.\\
+
+ Bulk/boundary correspondence & Thermal AdS/CFT correspondence is realized.      &
+
+ Thermal dS/CFT correspondence is not realized.
+
+ \end{tabular}
+
+ %\end{ruledtabular}
+
+ \end{table}
+
+{% endraw %}
+```
+## Example Number: 285
+```
+{% raw %}
+\begin{table}[ht]
+{\footnotesize 
+\centerline{
+\begin{tabular}{|c||c|c|c|}
+\hline 
+regime & 
+$\rho(\beta)=E/\Vp$ & 
+$- p_{bulk}$ &
+$a_0(t)/a_0(0)$  \\
+\hline
+\hline
+&&& \\
+$d_o=0$ &
+$\frac{1}{\Vt}(\beta-\beta_H)^{-2}$ & 
+$\rho^{\frac{1}{2}}$ & 
+$t^{\frac{4}{p}}$\\
+$d_o=1$ &
+$(\beta-\beta_H)^{-\frac{3}{2}}$ & 
+$\rho^{\frac{1}{3}}$ & 
+$t^{\frac{6}{p}}$ \\
+$d_o=2$ &
+$(\beta-\beta_H)^{-1}$ & 
+$\log \rho$ & 
+$\exp \left( {-C t^2 + D t }\right) $ \\
+$d_0=3$ &
+$ (\beta-\beta_H)^{-\frac{1}{2}} $ & 
+$ \rho^{-1} $ & 
+$ t^{-\frac{2}{p}} $ \\
+$d_0=4$ &
+$-\log (\beta-\beta_H)$ & 
+$e^{- \rho}$ & 
+const \\
+&&& \\ \hline 
+\end{tabular}
+}}
+\caption{Cosmological regimes for open strings in the Hagedorn phase
+with $p$ large parallel dimensions, where $p=3$ for
+our observable universe as a 3-brane. 
+Here $d_0$ is the number of dimensions transverse to the brane
+in which there are no windings; in our standard ``high-energy''
+regime we take $d_0 = 0$.  Here $\rho$ is the energy density
+of strings, \ie , the $T_{00}$ component of the bulk energy-momentum
+tensor. In addition, $T_{55} = p_{bulk}$ is the negative bulk pressure
+that drives inflation of our scale factor $a_0(t)$. Note
+inflationary expansion 
+for $d_o \leq 2$, i.e., at most 2 directions without windings.
+The constants 
+$C$ and $D$ are given for $p=3$ in eq.(\ref{expinf}).  }
+\label{table1}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 286
+```
+{% raw %}
+\begin{table}[ht]
+
+{\footnotesize 
+
+\centerline{
+
+\begin{tabular}{|c||c|c|c|}
+
+\hline 
+
+regime & 
+
+$\rho(\beta)=E/\Vp$ & 
+
+$- p_{bulk}$ &
+
+$a_0(t)/a_0(0)$  \\
+
+\hline
+
+\hline
+
+&&& \\
+
+$d_o=0$ &
+
+$\frac{1}{\Vt}(\beta-\beta_H)^{-2}$ & 
+
+$\rho^{\frac{1}{2}}$ & 
+
+$t^{\frac{4}{p}}$\\
+
+$d_o=1$ &
+
+$(\beta-\beta_H)^{-\frac{3}{2}}$ & 
+
+$\rho^{\frac{1}{3}}$ & 
+
+$t^{\frac{6}{p}}$ \\
+
+$d_o=2$ &
+
+$(\beta-\beta_H)^{-1}$ & 
+
+$\log \rho$ & 
+
+$\exp \left( {-C t^2 + D t }\right) $ \\
+
+$d_0=3$ &
+
+$ (\beta-\beta_H)^{-\frac{1}{2}} $ & 
+
+$ \rho^{-1} $ & 
+
+$ t^{-\frac{2}{p}} $ \\
+
+$d_0=4$ &
+
+$-\log (\beta-\beta_H)$ & 
+
+$e^{- \rho}$ & 
+
+const \\
+
+&&& \\ \hline 
+
+\end{tabular}
+
+}}
+
+\caption{Cosmological regimes for open strings in the Hagedorn phase
+
+with $p$ large parallel dimensions, where $p=3$ for
+
+our observable universe as a 3-brane. 
+
+Here $d_0$ is the number of dimensions transverse to the brane
+
+in which there are no windings; in our standard ``high-energy''
+
+regime we take $d_0 = 0$.  Here $\rho$ is the energy density
+
+of strings, \ie , the $T_{00}$ component of the bulk energy-momentum
+
+tensor. In addition, $T_{55} = p_{bulk}$ is the negative bulk pressure
+
+that drives inflation of our scale factor $a_0(t)$. Note
+
+inflationary expansion 
+
+for $d_o \leq 2$, i.e., at most 2 directions without windings.
+
+The constants 
+
+$C$ and $D$ are given for $p=3$ in eq.(\ref{expinf}).  }
+
+\label{table1}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 287
+```
+{% raw %}
+\begin{table}[t]
+  \begin{flushright}
+     OUTP-03-02P    \\ 
+     hep-th/0301147 \\
+     January 2003   
+  \end{flushright}  
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 288
+```
+{% raw %}
+\begin{table}[t]
+
+  \begin{flushright}
+
+     OUTP-03-02P    \\ 
+
+     hep-th/0301147 \\
+
+     January 2003   
+
+  \end{flushright}  
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 289
+```
+{% raw %}
+\begin{table}
+\label{rlambda}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}                  
+\hline
+ $ r $        & 0               & 1               & 2 
+              & 3               & 4               & 5
+              & 6               & 7               & 8             \\
+\hline
+ $ \lambda $  & 1/18            & 1/16            & 1/14   
+              & 1/12            & 1/10            & 1/8    
+              & 1/6             & 1/4             & 1/2           \\
+\hline
+ $ q $        & 20/9            & 9/4             & 16/7
+              & 7/3             & 12/5            & 5/2
+              & 8/3             & 3               & 4             \\
+\hline 
+\end{tabular}
+\caption{The second line contains the $ n=4 $ del Pezzo $ dP_{r} $ values
+for $ \lambda $ given by~(\ref{lambdar}).
+$ q \equiv n \left( \frac{1}{2} + \lambda \right) $ must be an integer
+for the $ G_{\mathbb{C}} = SU(n)_{\mathbb{C}} $ bundle
+constraint~(\ref{BCsigma}) to be satisfied.} 
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 290
+```
+{% raw %}
+\begin{table}
+
+\label{rlambda}
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}                  
+
+\hline
+
+ $ r $        & 0               & 1               & 2 
+
+              & 3               & 4               & 5
+
+              & 6               & 7               & 8             \\
+
+\hline
+
+ $ \lambda $  & 1/18            & 1/16            & 1/14   
+
+              & 1/12            & 1/10            & 1/8    
+
+              & 1/6             & 1/4             & 1/2           \\
+
+\hline
+
+ $ q $        & 20/9            & 9/4             & 16/7
+
+              & 7/3             & 12/5            & 5/2
+
+              & 8/3             & 3               & 4             \\
+
+\hline 
+
+\end{tabular}
+
+\caption{The second line contains the $ n=4 $ del Pezzo $ dP_{r} $ values
+
+for $ \lambda $ given by~(\ref{lambdar}).
+
+$ q \equiv n \left( \frac{1}{2} + \lambda \right) $ must be an integer
+
+for the $ G_{\mathbb{C}} = SU(n)_{\mathbb{C}} $ bundle
+
+constraint~(\ref{BCsigma}) to be satisfied.} 
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 291
+```
+{% raw %}
+\begin{table}[!th]
+\begin{center}
+\setlength{\tabcolsep}{0.45em}
+\begin{tabular}{|c|c|cc|c|c|c|}
+\hline
+dim($M$) & ${\cal N}$ & 
+   Hol($\nabla^{+}$) & Hol($\nabla^{-}$)& $G$-structure & 
+   calibrated cycle \\ 
+\hline\hline
+4 & (1,0)     & $\SU(2)$    & $\Spin(4)$   & $\SU(2)$   & 
+   point in $CY_2$ \\
+6 & 1         & $\SU(3)$    & $\Spin(6)$   & $\SU(3)$   & 
+   \Ka-2 in $CY_3$ \\
+7 & 1        & $G_2$       & $\Spin(7)$   & $G_2$      & 
+   associative  in $G_2$ \\
+8 & (4,0)  & $\SU(2)^2$  & $\Spin(8)$ & $\SU(2)^2$ & 
+   $CY_2$ and/or $CY_2'$ in $CY_2\times CY_2'$ \\
+8 & (3,0)  & $\Symp(2)$  & $\Spin(8)$   & $\Symp(2)$ & 
+   Quaternionic  in $HK_2$ \\
+8 & (2,0)  & $\SU(4)$    & $\Spin(8)$   & $\SU(4)$   & 
+   \Ka-4  in $CY_4$ \\
+8 & (1,0)  & $\Spin(7)$  & $\Spin(8)$   & $\Spin(7)$ & 
+   Cayley in $\Spin(7)$  \\
+\hline
+\end{tabular}
+\end{center}
+\caption{$G$-structures when $\nabla^+$ has special holonomy.}
+\label{green}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 292
+```
+{% raw %}
+\begin{table}[!th]
+
+\begin{center}
+
+\setlength{\tabcolsep}{0.45em}
+
+\begin{tabular}{|c|c|cc|c|c|c|}
+
+\hline
+
+dim($M$) & ${\cal N}$ & 
+
+   Hol($\nabla^{+}$) & Hol($\nabla^{-}$)& $G$-structure & 
+
+   calibrated cycle \\ 
+
+\hline\hline
+
+4 & (1,0)     & $\SU(2)$    & $\Spin(4)$   & $\SU(2)$   & 
+
+   point in $CY_2$ \\
+
+6 & 1         & $\SU(3)$    & $\Spin(6)$   & $\SU(3)$   & 
+
+   \Ka-2 in $CY_3$ \\
+
+7 & 1        & $G_2$       & $\Spin(7)$   & $G_2$      & 
+
+   associative  in $G_2$ \\
+
+8 & (4,0)  & $\SU(2)^2$  & $\Spin(8)$ & $\SU(2)^2$ & 
+
+   $CY_2$ and/or $CY_2'$ in $CY_2\times CY_2'$ \\
+
+8 & (3,0)  & $\Symp(2)$  & $\Spin(8)$   & $\Symp(2)$ & 
+
+   Quaternionic  in $HK_2$ \\
+
+8 & (2,0)  & $\SU(4)$    & $\Spin(8)$   & $\SU(4)$   & 
+
+   \Ka-4  in $CY_4$ \\
+
+8 & (1,0)  & $\Spin(7)$  & $\Spin(8)$   & $\Spin(7)$ & 
+
+   Cayley in $\Spin(7)$  \\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\caption{$G$-structures when $\nabla^+$ has special holonomy.}
+
+\label{green}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 293
+```
+{% raw %}
+\begin{table}[!th]
+\begin{center}
+\setlength{\tabcolsep}{0.45em}
+\begin{tabular}{|c|c|c|cc|c|c|}
+\hline
+dim($M$) & ${\cal N}_{\mathrm{IIB}}$ & ${\cal N}_{\mathrm{IIA}}$ & 
+   Hol($\nabla^{+}$) & Hol($\nabla^{-}$)& $G$-structure & 
+   calibrated cycle \\ 
+\hline\hline
+4 & (1,1) & (2,0) & $\SU(2)$   & $\SU(2)$   & $\{\id\}$  & 
+   point in $\bbR^4$         \\
+6 & 2     & 2     & $\SU(3)$   & $\SU(3)$   & $\SU(2)$   & 
+   \Ka-2  in $CY_2$        \\
+7 & 2     & 2     & $G_2$      & $G_2$      & $\SU(3)$   & 
+   SLAG-3 in $CY_3$       \\
+8 & (2,2) & (4,0) & $\SU(4)$   & $\SU(4)$   & $\SU(3)$   & 
+   \Ka-4  in $CY_3$       \\
+8 & (4,0) & (2,2) & $\SU(4)$   & $\SU(4)$   & $\SU(2)^2$ & 
+   \Ka-2$\times$\Ka-2 in $CY_2\times CY_2'$         \\
+8 & (3,0) & (2,1) & $\SU(4)$   & $\Spin(7)$ & $\Symp(2)$ & 
+   C-LAG-4 in $HK_2$      \\
+8 & (2,0) & (1,1) & $\Spin(7)$ & $\Spin(7)$ & $\SU(4)$   & 
+   SLAG-4  in $CY_4$      \\
+8 & (1,1) & (2,0) & $\Spin(7)$ & $\Spin(7)$ & $G_2$      & 
+   coassociative in $G_2$\\
+\hline
+\end{tabular}
+\end{center}
+\caption{$G$-structures in type II theories when both $\nabla^\pm$ have
+special holonomy.}
+\label{blue}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 294
+```
+{% raw %}
+\begin{table}[!th]
+
+\begin{center}
+
+\setlength{\tabcolsep}{0.45em}
+
+\begin{tabular}{|c|c|c|cc|c|c|}
+
+\hline
+
+dim($M$) & ${\cal N}_{\mathrm{IIB}}$ & ${\cal N}_{\mathrm{IIA}}$ & 
+
+   Hol($\nabla^{+}$) & Hol($\nabla^{-}$)& $G$-structure & 
+
+   calibrated cycle \\ 
+
+\hline\hline
+
+4 & (1,1) & (2,0) & $\SU(2)$   & $\SU(2)$   & $\{\id\}$  & 
+
+   point in $\bbR^4$         \\
+
+6 & 2     & 2     & $\SU(3)$   & $\SU(3)$   & $\SU(2)$   & 
+
+   \Ka-2  in $CY_2$        \\
+
+7 & 2     & 2     & $G_2$      & $G_2$      & $\SU(3)$   & 
+
+   SLAG-3 in $CY_3$       \\
+
+8 & (2,2) & (4,0) & $\SU(4)$   & $\SU(4)$   & $\SU(3)$   & 
+
+   \Ka-4  in $CY_3$       \\
+
+8 & (4,0) & (2,2) & $\SU(4)$   & $\SU(4)$   & $\SU(2)^2$ & 
+
+   \Ka-2$\times$\Ka-2 in $CY_2\times CY_2'$         \\
+
+8 & (3,0) & (2,1) & $\SU(4)$   & $\Spin(7)$ & $\Symp(2)$ & 
+
+   C-LAG-4 in $HK_2$      \\
+
+8 & (2,0) & (1,1) & $\Spin(7)$ & $\Spin(7)$ & $\SU(4)$   & 
+
+   SLAG-4  in $CY_4$      \\
+
+8 & (1,1) & (2,0) & $\Spin(7)$ & $\Spin(7)$ & $G_2$      & 
+
+   coassociative in $G_2$\\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\caption{$G$-structures in type II theories when both $\nabla^\pm$ have
+
+special holonomy.}
+
+\label{blue}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 295
+```
+{% raw %}
+\begin{table}[htb] \footnotesize
+\renewcommand{\arraystretch}{1.25}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\hspace{2cm} {\bf Sector} \hspace{2cm} &
+\hspace{1.5cm} {\bf Representation} \hspace{2.5cm} \\
+\hline\hline
+$aa$   &  $U(N_a/2)$ vector multiplet  \\
+       & 3 Adj. chiral multiplets   \\
+\hline\hline
+$ab+ba$   & $I_{ab}$ $(\fund_a,\antifund_b)$ fermions   \\
+\hline\hline
+$ab'+b'a$ & $I_{ab'}$ $(\fund_a,\fund_b)$ fermions   \\
+\hline\hline
+$aa'+a'a$ & $\frac 12 (I_{aa'} - 4 I_{a,Op}) \;\;
+\Ysymm\;\;$ fermions  \\
+          & $\frac 12 (I_{aa'} +  4 I_{a,Op}) \;\;
+\Yasymm\;\;$ fermions \\
+\hline
+\end{tabular}
+\end{center}
+\caption{\small General chiral spectrum on generic magnetised 
+D9$_a$-branes in the $\Omega R$ orientifold of $\IT^6/(\IZ_2\times \IZ_2)$. 
+The models may contain additional non-chiral pieces
+which we ingnore here. In supersymmetric situations, scalars combine
+with the fermions given above to form chiral supermultiplets.
+\label{matter} }
+\end{table}           
+
+{% endraw %}
+```
+## Example Number: 296
+```
+{% raw %}
+\begin{table}[htb] \footnotesize
+
+\renewcommand{\arraystretch}{1.25}
+
+\begin{center}
+
+\begin{tabular}{|c|c|}
+
+\hline
+
+\hspace{2cm} {\bf Sector} \hspace{2cm} &
+
+\hspace{1.5cm} {\bf Representation} \hspace{2.5cm} \\
+
+\hline\hline
+
+$aa$   &  $U(N_a/2)$ vector multiplet  \\
+
+       & 3 Adj. chiral multiplets   \\
+
+\hline\hline
+
+$ab+ba$   & $I_{ab}$ $(\fund_a,\antifund_b)$ fermions   \\
+
+\hline\hline
+
+$ab'+b'a$ & $I_{ab'}$ $(\fund_a,\fund_b)$ fermions   \\
+
+\hline\hline
+
+$aa'+a'a$ & $\frac 12 (I_{aa'} - 4 I_{a,Op}) \;\;
+
+\Ysymm\;\;$ fermions  \\
+
+          & $\frac 12 (I_{aa'} +  4 I_{a,Op}) \;\;
+
+\Yasymm\;\;$ fermions \\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\caption{\small General chiral spectrum on generic magnetised 
+
+D9$_a$-branes in the $\Omega R$ orientifold of $\IT^6/(\IZ_2\times \IZ_2)$. 
+
+The models may contain additional non-chiral pieces
+
+which we ingnore here. In supersymmetric situations, scalars combine
+
+with the fermions given above to form chiral supermultiplets.
+
+\label{matter} }
+
+\end{table}           
+
+{% endraw %}
+```
+## Example Number: 297
+```
+{% raw %}
+\begin{table}[htb] \footnotesize
+\renewcommand{\arraystretch}{1.25}
+\begin{center}
+\begin{tabular}{|c||c|c|c|}
+\hline
+$N_a$ & $(m_a^1,n_a^1)$ & $(m_a^2,n_a^2)$ & $(m_a^3,n_a^3)$ \\
+\hline\hline
+ $10$ & $(1,1)$ & $(1,1)$ & $(-1,1)$ \\
+ $6$ & $(0,1)$ & $(1,0)$ & $(-1,0)$ \\
+ $6$ & $(1,0)$ & $(0,1)$ & $(-1,0)$ \\
+ $26$ & $(1,0)$ & $(-1,0)$ & $(0,1)$\\
+$90$ & $(0,-1)$ & $(0,-1)$ & $(0,-1)$\\
+\hline
+\end{tabular}
+\end{center}
+\caption{\small D9-brane configuration for the $SU(5)$ GUT model}
+\label{chiralone}
+\end{table}   
+
+{% endraw %}
+```
+## Example Number: 298
+```
+{% raw %}
+\begin{table}[htb] \footnotesize
+
+\renewcommand{\arraystretch}{1.25}
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|}
+
+\hline
+
+$N_a$ & $(m_a^1,n_a^1)$ & $(m_a^2,n_a^2)$ & $(m_a^3,n_a^3)$ \\
+
+\hline\hline
+
+ $10$ & $(1,1)$ & $(1,1)$ & $(-1,1)$ \\
+
+ $6$ & $(0,1)$ & $(1,0)$ & $(-1,0)$ \\
+
+ $6$ & $(1,0)$ & $(0,1)$ & $(-1,0)$ \\
+
+ $26$ & $(1,0)$ & $(-1,0)$ & $(0,1)$\\
+
+$90$ & $(0,-1)$ & $(0,-1)$ & $(0,-1)$\\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\caption{\small D9-brane configuration for the $SU(5)$ GUT model}
+
+\label{chiralone}
+
+\end{table}   
+
+{% endraw %}
+```
+## Example Number: 299
+```
+{% raw %}
+\begin{table}[htb] \footnotesize
+\renewcommand{\arraystretch}{1.25}
+\begin{center}
+\begin{tabular}{|c||c|c|c|}
+\hline
+$N_a$ & $(m_a^1,n_a^1)$ & $(m_a^2,n_a^2)$ & $(m_a^3,n_a^3)$ \\
+\hline\hline
+$6$ & $(1,1)$ & $(-2,1)$ & $(0,1)$ \\
+$4$ & $(0,1)$ & $(2,1)$ & $(-1,1)$ \\
+$4$ & $(1,0)$ & $(-1,0)$ & $(0,1)$ \\
+$16$ & $(1,0)$ & $(0,1)$ & $(-1,0)$ \\
+$8$ & $(0,1)$ & $(1,0)$ & $(-1,0)$ \\
+\hline
+\end{tabular}
+\end{center}
+\caption{\small D-brane configuration for the four-family model}
+\label{chiraltwo}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 300
+```
+{% raw %}
+\begin{table}[htb] \footnotesize
+
+\renewcommand{\arraystretch}{1.25}
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|}
+
+\hline
+
+$N_a$ & $(m_a^1,n_a^1)$ & $(m_a^2,n_a^2)$ & $(m_a^3,n_a^3)$ \\
+
+\hline\hline
+
+$6$ & $(1,1)$ & $(-2,1)$ & $(0,1)$ \\
+
+$4$ & $(0,1)$ & $(2,1)$ & $(-1,1)$ \\
+
+$4$ & $(1,0)$ & $(-1,0)$ & $(0,1)$ \\
+
+$16$ & $(1,0)$ & $(0,1)$ & $(-1,0)$ \\
+
+$8$ & $(0,1)$ & $(1,0)$ & $(-1,0)$ \\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\caption{\small D-brane configuration for the four-family model}
+
+\label{chiraltwo}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 301
+```
+{% raw %}
+\begin{table}[htb] \footnotesize
+\renewcommand{\arraystretch}{1.25}
+\begin{center}
+\begin{tabular}{|c||c|c|c|}
+\hline
+$N_a$ & $(m_a^1,n_a^1)$ & $(m_a^2,n_a^2)$ & $(m_a^3,{\tilde n}_a^3)$ \\
+\hline\hline
+$8$ & $(-1,1)$ & $(1,0)$ & $(-2,-1)$ \\
+$4$ & $(-1,0)$ & $(1,-1)$ & $(2,1)$ \\
+$2$ & $(0,1)$ & $(0,1)$ & $(0,1)$ \\
+$12$ & $(1,0)$ & $(-1,0)$ & $(0,1)$\\
+$12$ & $(1,0)$ & $(0,1)$ & $(-2,0)$ \\
+\hline
+\end{tabular}
+\end{center}
+\caption{\small D9-brane configuration for the model with B-flux}
+\label{chiralthree}
+\end{table}   
+
+{% endraw %}
+```
+## Example Number: 302
+```
+{% raw %}
+\begin{table}[htb] \footnotesize
+
+\renewcommand{\arraystretch}{1.25}
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|}
+
+\hline
+
+$N_a$ & $(m_a^1,n_a^1)$ & $(m_a^2,n_a^2)$ & $(m_a^3,{\tilde n}_a^3)$ \\
+
+\hline\hline
+
+$8$ & $(-1,1)$ & $(1,0)$ & $(-2,-1)$ \\
+
+$4$ & $(-1,0)$ & $(1,-1)$ & $(2,1)$ \\
+
+$2$ & $(0,1)$ & $(0,1)$ & $(0,1)$ \\
+
+$12$ & $(1,0)$ & $(-1,0)$ & $(0,1)$\\
+
+$12$ & $(1,0)$ & $(0,1)$ & $(-2,0)$ \\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\caption{\small D9-brane configuration for the model with B-flux}
+
+\label{chiralthree}
+
+\end{table}   
+
+{% endraw %}
+```
+## Example Number: 303
+```
+{% raw %}
+\begin{table}[h]
+\begin{tabular}{|c|c|c|c|c|}\hline\hline
+Particles &  States                           & $I_3$ &  Y  &  Q\\ \hline 
+$e_R$     & $\Gamma\cdot d^{'}_7|0>_{\alpha}$ &  0    & -2  & -1 \\ \hline
+$ \left(
+\begin{array}{c}
+\nu_L \\ e_L \\ 
+\end{array}  \right) 
+$ 
+&
+$
+\left ( \begin{array}{c}
+\Gamma\cdot d'_8|0>_{\alpha}\\
+\Gamma\cdot d'_9|0>_{\alpha} \\
+\end{array} \right )     
+$
+&
+$
+\begin{array}{c}
+1/2 \\
+-1/2 \\
+\end{array}
+$  
+&
+$
+\begin{array}{c}
+-1 \\
+-1 \\
+\end{array}
+$
+&
+$
+\begin{array}{c}
+0 \\
+-1 \\ 
+\end{array} $ \\ 
+\hline
+$u^{a,b,c}_R$  & $\Gamma\cdot d_{1,2,3}|0>_{\alpha}$ & 0 & 4/3 &2/3\\ \hline
+$d^{a,b,c}_R$  & $\Gamma\cdot d_{4,5,6}|0>_{\alpha}$ & 0 & -2/3 &-1/3\\ \hline
+$ \left (
+\begin{array}{c}
+u^{a,b,c}_L\\
+d^{a,b,c}_L\\
+\end{array}
+\right )
+$
+&
+$\left (
+\begin{array}{c}
+\Gamma\cdot (d_{1,2,3} + d'_{10})|0>_{\alpha}\\
+\Gamma\cdot (d_{4,5,6} + d'_{11})|0>_{\alpha}\\
+\end{array}
+\right )
+$
+&
+$
+\begin{array}{c}
+1/2\\
+-1/2\\
+\end{array}
+$
+&
+$
+\begin{array}{c}
+1/3\\
+1/3\\
+\end{array}
+$
+&
+$
+\begin{array}{c}
+2/3\\
+-1/3\\
+\end{array}$\\ 
+\hline\hline
+%\caption{Particle Spectra, States and Quantum Numbers}
+\end{tabular}
+\caption{Particle Spectra, States and Quantum Numbers (SM)}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 304
+```
+{% raw %}
+\begin{table}[h]
+
+\begin{tabular}{|c|c|c|c|c|}\hline\hline
+
+Particles &  States                           & $I_3$ &  Y  &  Q\\ \hline 
+
+$e_R$     & $\Gamma\cdot d^{'}_7|0>_{\alpha}$ &  0    & -2  & -1 \\ \hline
+
+$ \left(
+
+\begin{array}{c}
+
+\nu_L \\ e_L \\ 
+
+\end{array}  \right) 
+
+$ 
+
+&
+
+$
+
+\left ( \begin{array}{c}
+
+\Gamma\cdot d'_8|0>_{\alpha}\\
+
+\Gamma\cdot d'_9|0>_{\alpha} \\
+
+\end{array} \right )     
+
+$
+
+&
+
+$
+
+\begin{array}{c}
+
+1/2 \\
+
+-1/2 \\
+
+\end{array}
+
+$  
+
+&
+
+$
+
+\begin{array}{c}
+
+-1 \\
+
+-1 \\
+
+\end{array}
+
+$
+
+&
+
+$
+
+\begin{array}{c}
+
+0 \\
+
+-1 \\ 
+
+\end{array} $ \\ 
+
+\hline
+
+$u^{a,b,c}_R$  & $\Gamma\cdot d_{1,2,3}|0>_{\alpha}$ & 0 & 4/3 &2/3\\ \hline
+
+$d^{a,b,c}_R$  & $\Gamma\cdot d_{4,5,6}|0>_{\alpha}$ & 0 & -2/3 &-1/3\\ \hline
+
+$ \left (
+
+\begin{array}{c}
+
+u^{a,b,c}_L\\
+
+d^{a,b,c}_L\\
+
+\end{array}
+
+\right )
+
+$
+
+&
+
+$\left (
+
+\begin{array}{c}
+
+\Gamma\cdot (d_{1,2,3} + d'_{10})|0>_{\alpha}\\
+
+\Gamma\cdot (d_{4,5,6} + d'_{11})|0>_{\alpha}\\
+
+\end{array}
+
+\right )
+
+$
+
+&
+
+$
+
+\begin{array}{c}
+
+1/2\\
+
+-1/2\\
+
+\end{array}
+
+$
+
+&
+
+$
+
+\begin{array}{c}
+
+1/3\\
+
+1/3\\
+
+\end{array}
+
+$
+
+&
+
+$
+
+\begin{array}{c}
+
+2/3\\
+
+-1/3\\
+
+\end{array}$\\ 
+
+\hline\hline
+
+%\caption{Particle Spectra, States and Quantum Numbers}
+
+\end{tabular}
+
+\caption{Particle Spectra, States and Quantum Numbers (SM)}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 305
+```
+{% raw %}
+\begin{table}[ht]
+  \begin{center}
+    \begin{equation*}
+      \begin{array}{|c|c|c|} \hline
+                                % "Uberschrift
+        \multicolumn{3}{|c|}{\rule[-3mm]{0mm}{8mm} 
+\text{\bf General chiral spectrum}} \\ \hline\hline
+       & \text{multiplicity} & \text{representation}
+\\ \hline\hline
+aa  & & U(N_a/2)\\
+ &  3+\frac{1}{2}((n^a_1)^2+(m^a_1)^2)((N^a_2)^2+(M^a_2)^2) & {\bf Adj}_a \\
+ab  & I_{ab} + I_{ a(\Theta b)} & ({\bf F}_a,\ov{\bf F}_b)\\
+ab' & I_{ab'} + I_{a(\Theta b)'} & ({\bf F}_a,{\bf F}_b)\\
+%%%%%%%%%%%
+aa' & \frac{1}{2}(I_{aa'}+I_{a(\Theta a)'})  & {\bf Sym}_a\\
+&-\frac{1}{2}(I^{\OR\Theta}_{a(\Theta a)'}+I^{\OR\Theta^3}_{a(\Theta a)'}
++I^{\OR\Theta\omega}_{a(\Theta a)'}+I^{\OR\Theta^3\omega}_{a(\Theta a)'})\!\! & \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ &  \frac{1}{2}(I_{aa'}+I_{a(\Theta a)'})  & {\bf Anti}_a\\
+&+\frac{1}{2}(I^{\OR\Theta}_{a(\Theta a)'}+I^{\OR\Theta^3}_{a(\Theta a)'}) 
++I^{\OR\Theta\omega}_{a(\Theta a)'}+I^{\OR\Theta^3\omega}_{a(\Theta a)'})\!\! & 
+\\\hline 
+      \end{array}
+    \end{equation*}
+  \end{center}
+\caption{General chiral spectrum for the  $T^6/(\OR \times \Z_4 \times\Z_2)$ orientifold. 
+${\bf F}_a = {\bf N_a/2}$ denotes the fundamental representation of 
+$U(N_a/2)$. ${\bf Adj}_a$, ${\bf Sym}_a$ and ${\bf Anti}_a$ denote the adjoint, symmetric and 
+antisymmetric representations. The explicit
+expressions for the intersection numbers are given in appendix~\ref{AppIntersectionNumbers} 
+equation~(\ref{EqAppInters}).}
+\label{TableGenSpectrum}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 306
+```
+{% raw %}
+\begin{table}[ht]
+
+  \begin{center}
+
+    \begin{equation*}
+
+      \begin{array}{|c|c|c|} \hline
+
+                                % "Uberschrift
+
+        \multicolumn{3}{|c|}{\rule[-3mm]{0mm}{8mm} 
+
+\text{\bf General chiral spectrum}} \\ \hline\hline
+
+       & \text{multiplicity} & \text{representation}
+
+\\ \hline\hline
+
+aa  & & U(N_a/2)\\
+
+ &  3+\frac{1}{2}((n^a_1)^2+(m^a_1)^2)((N^a_2)^2+(M^a_2)^2) & {\bf Adj}_a \\
+
+ab  & I_{ab} + I_{ a(\Theta b)} & ({\bf F}_a,\ov{\bf F}_b)\\
+
+ab' & I_{ab'} + I_{a(\Theta b)'} & ({\bf F}_a,{\bf F}_b)\\
+
+%%%%%%%%%%%
+
+aa' & \frac{1}{2}(I_{aa'}+I_{a(\Theta a)'})  & {\bf Sym}_a\\
+
+&-\frac{1}{2}(I^{\OR\Theta}_{a(\Theta a)'}+I^{\OR\Theta^3}_{a(\Theta a)'}
+
++I^{\OR\Theta\omega}_{a(\Theta a)'}+I^{\OR\Theta^3\omega}_{a(\Theta a)'})\!\! & \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ &  \frac{1}{2}(I_{aa'}+I_{a(\Theta a)'})  & {\bf Anti}_a\\
+
+&+\frac{1}{2}(I^{\OR\Theta}_{a(\Theta a)'}+I^{\OR\Theta^3}_{a(\Theta a)'}) 
+
++I^{\OR\Theta\omega}_{a(\Theta a)'}+I^{\OR\Theta^3\omega}_{a(\Theta a)'})\!\! & 
+
+\\\hline 
+
+      \end{array}
+
+    \end{equation*}
+
+  \end{center}
+
+\caption{General chiral spectrum for the  $T^6/(\OR \times \Z_4 \times\Z_2)$ orientifold. 
+
+${\bf F}_a = {\bf N_a/2}$ denotes the fundamental representation of 
+
+$U(N_a/2)$. ${\bf Adj}_a$, ${\bf Sym}_a$ and ${\bf Anti}_a$ denote the adjoint, symmetric and 
+
+antisymmetric representations. The explicit
+
+expressions for the intersection numbers are given in appendix~\ref{AppIntersectionNumbers} 
+
+equation~(\ref{EqAppInters}).}
+
+\label{TableGenSpectrum}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 307
+```
+{% raw %}
+\begin{table}
+  \begin{center}
+    \begin{equation*}
+      \begin{array}{|c|c|c|} \hline
+                                % "Uberschrift
+        \multicolumn{3}{|c|}{\rule[-3mm]{0mm}{8mm} 
+\text{\bf General chiral spectrum containing `filler branes' $c$}} \\ \hline\hline
+       & \text{multiplicity} & \text{representation}
+\\ \hline\hline
+cc  & & Sp(N_c/2)\\
+ &  3+2 & {\bf Anti}_{c} \\
+cb  & I_{cb} + I_{ c(\Theta b)}  & ({\bf F}_{c},\ov{\bf F}_b)\\\hline 
+      \end{array}
+    \end{equation*}
+  \end{center}
+\caption{General contribution to the chiral spectrum for the  $T^6/(\OR \times \Z_4 \times\Z_2)$ orientifold from
+sectors including `filler branes' $c$ and branes $b$ with arbitrary positions. The explicit
+expressions for the intersection numbers are given in appendix~\ref{AppIntersectionNumbers}, equation~(\ref{AppIntersFillerBranes}).}
+\label{TableSympSpectrum}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 308
+```
+{% raw %}
+\begin{table}
+
+  \begin{center}
+
+    \begin{equation*}
+
+      \begin{array}{|c|c|c|} \hline
+
+                                % "Uberschrift
+
+        \multicolumn{3}{|c|}{\rule[-3mm]{0mm}{8mm} 
+
+\text{\bf General chiral spectrum containing `filler branes' $c$}} \\ \hline\hline
+
+       & \text{multiplicity} & \text{representation}
+
+\\ \hline\hline
+
+cc  & & Sp(N_c/2)\\
+
+ &  3+2 & {\bf Anti}_{c} \\
+
+cb  & I_{cb} + I_{ c(\Theta b)}  & ({\bf F}_{c},\ov{\bf F}_b)\\\hline 
+
+      \end{array}
+
+    \end{equation*}
+
+  \end{center}
+
+\caption{General contribution to the chiral spectrum for the  $T^6/(\OR \times \Z_4 \times\Z_2)$ orientifold from
+
+sectors including `filler branes' $c$ and branes $b$ with arbitrary positions. The explicit
+
+expressions for the intersection numbers are given in appendix~\ref{AppIntersectionNumbers}, equation~(\ref{AppIntersFillerBranes}).}
+
+\label{TableSympSpectrum}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 309
+```
+{% raw %}
+\begin{table}
+  \begin{center}
+    \begin{equation*}
+      \begin{array}{|c|c|c|} \hline
+                                % "Uberschrift
+        \multicolumn{3}{|c|}{\rule[-3mm]{0mm}{8mm} 
+\text{\bf Non-chiral spectrum}} \\ \hline\hline
+       & \text{multiplicity} & \text{representation}\\ \hline\hline
+ab  & \prod_{i\neq i_0}I^i_{ab} + \prod_{i\neq i_0}I^i_{ a(\Theta b)}  
+& ({\bf F}_a,\ov{\bf F}_b) + (\ov{\bf F}_a,{\bf F}_b)  \\\hline 
+ab'  & \prod_{i\neq i_0}I^i_{ab'} + \prod_{i\neq i_0}I^i_{ a(\Theta b)'}  
+& ({\bf F}_a,{\bf F}_b) + (\ov{\bf F}_a,\ov{\bf F}_b)  \\\hline
+ac &  \prod_{i\neq i_0}I^i_{ac} + \prod_{i\neq i_0}I^i_{ a(\Theta c)}   
+& ({\bf F}_a,{\bf F}_c) + (\ov{\bf F}_a,{\bf F}_c)  \\\hline 
+%%%%%%%%%%%%%%%%%%%%
+c_1c_2 & 3 \cdot 4^b & ({\bf F}_{c_1},{\bf F}_{c_2})  \\\hline 
+c_1c_3 & 2           & ({\bf F}_{c_1},{\bf F}_{c_3})  \\\hline 
+c_1c_4 &  4^b        & ({\bf F}_{c_1},{\bf F}_{c_4})  \\\hline 
+c_2c_3 &  4^b        & ({\bf F}_{c_2},{\bf F}_{c_3})  \\\hline 
+c_2c_4 & 2           & ({\bf F}_{c_2},{\bf F}_{c_4})  \\\hline 
+c_3c_4 & 3 \cdot 4^b & ({\bf F}_{c_3},{\bf F}_{c_4})  \\\hline 
+      \end{array}
+    \end{equation*}
+  \end{center}
+\caption{Massless non-chiral spectrum for the  $T^6/(\OR \times \Z_4 \times\Z_2)$ orientifold with
+sectors including `filler branes'. In addition, representations $({\bf Anti}_a+\ov{\bf Anti}_a)$ and 
+$({\bf Sym}_a+\ov{\bf Sym}_a)$ occur at intersection of $a$ with $a'$ and $(\Theta a)'$ if they are parallel
+on at least one torus.}
+\label{TableNonchiralSpectrum}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 310
+```
+{% raw %}
+\begin{table}
+
+  \begin{center}
+
+    \begin{equation*}
+
+      \begin{array}{|c|c|c|} \hline
+
+                                % "Uberschrift
+
+        \multicolumn{3}{|c|}{\rule[-3mm]{0mm}{8mm} 
+
+\text{\bf Non-chiral spectrum}} \\ \hline\hline
+
+       & \text{multiplicity} & \text{representation}\\ \hline\hline
+
+ab  & \prod_{i\neq i_0}I^i_{ab} + \prod_{i\neq i_0}I^i_{ a(\Theta b)}  
+
+& ({\bf F}_a,\ov{\bf F}_b) + (\ov{\bf F}_a,{\bf F}_b)  \\\hline 
+
+ab'  & \prod_{i\neq i_0}I^i_{ab'} + \prod_{i\neq i_0}I^i_{ a(\Theta b)'}  
+
+& ({\bf F}_a,{\bf F}_b) + (\ov{\bf F}_a,\ov{\bf F}_b)  \\\hline
+
+ac &  \prod_{i\neq i_0}I^i_{ac} + \prod_{i\neq i_0}I^i_{ a(\Theta c)}   
+
+& ({\bf F}_a,{\bf F}_c) + (\ov{\bf F}_a,{\bf F}_c)  \\\hline 
+
+%%%%%%%%%%%%%%%%%%%%
+
+c_1c_2 & 3 \cdot 4^b & ({\bf F}_{c_1},{\bf F}_{c_2})  \\\hline 
+
+c_1c_3 & 2           & ({\bf F}_{c_1},{\bf F}_{c_3})  \\\hline 
+
+c_1c_4 &  4^b        & ({\bf F}_{c_1},{\bf F}_{c_4})  \\\hline 
+
+c_2c_3 &  4^b        & ({\bf F}_{c_2},{\bf F}_{c_3})  \\\hline 
+
+c_2c_4 & 2           & ({\bf F}_{c_2},{\bf F}_{c_4})  \\\hline 
+
+c_3c_4 & 3 \cdot 4^b & ({\bf F}_{c_3},{\bf F}_{c_4})  \\\hline 
+
+      \end{array}
+
+    \end{equation*}
+
+  \end{center}
+
+\caption{Massless non-chiral spectrum for the  $T^6/(\OR \times \Z_4 \times\Z_2)$ orientifold with
+
+sectors including `filler branes'. In addition, representations $({\bf Anti}_a+\ov{\bf Anti}_a)$ and 
+
+$({\bf Sym}_a+\ov{\bf Sym}_a)$ occur at intersection of $a$ with $a'$ and $(\Theta a)'$ if they are parallel
+
+on at least one torus.}
+
+\label{TableNonchiralSpectrum}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 311
+```
+{% raw %}
+\begin{table}[h]
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{|c|cccccc|c|}\hline
+%$F_0^*$&\multicolumn{6}{c}{Minimal points}\vline&Lie\\[-.5mm]
+%\cline{2-7}
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&AKMA\\[-.5mm]
+\hline\hline
+
+
+1&$-1/3$&$-1$&$-1$&$1$&-&-&$E\sst 6$\\[-.5mm]
+\cline{2-8}
+&$-1$&$-1$&$-1$&$-1$&-&-&$C\sst {0}$\\[-.5mm]
+\cline{2-8}
+&$-1$&$-1$&$-1$&$z_3$&-&-&$A\sst {3z_3+2}$\\[-.5mm]
+\hline\hline
+
+
+2&$-1/2$&$-1$&$-1$&$0$&$i$&-&$D\sst {2i+4}$\\[-.5mm]
+\cline{2-8}
+&$-1$&$-1$&$-1$&$-1$&$i-1$&-&$C\sst i$\\[-.5mm]
+\cline{2-8}
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&-&$A\sst {2z_3+2z_4+3}$\\[-.5mm]
+\hline\hline
+
+
+3&$-1/3$&$-1$&$-1$&$1$&$1$&-&$E\sst 6$\\[-.5mm]
+\cline{2-8}
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&-&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-8}
+&$-1$&$-1$&$-1$&$-1$&$i-1$&-&$C\sst i$\\[-.5mm]
+\cline{2-8}
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&-&$A\sst {z_3+2z_4+2}$\\[-.5mm]
+\hline\hline
+
+
+4&$-1/4$&$-1$&$-1$&$1/2$&$2$&-&$E\sst 7$\\[-.5mm]
+\cline{2-8}
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&-&$D\sst {2i+4} / B\sst 3$\\[-.5mm]
+\cline{2-8}
+&$-1$&$-1$&$-1$&$-1$&$i-1$&-&$C\sst i$\\[-.5mm]
+\cline{2-8}
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&-&$A\sst {2z_4+1}$\\[-.5mm]
+\hline\hline
+
+5&$-1/3$&$-1$&$-1$&$1$&$1$&$-1$&$E\sst 6$\\[-.5mm]
+\cline{2-8}
+&$-1/2$&$-1$&$-1$&$0$&$i$&$i$&$B\sst {2i+4}$\\[-.5mm]
+\cline{2-8}
+&$-1/2$&$-1$&$-1$&$0$&$i + 1$&$i$&$B\sst {2i+5}$\\[-.5mm]
+\cline{2-8}
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$C\sst i$\\[-.5mm]
+\cline{2-8}
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$A\sst {2z_3+z_4+z_5+3}$\\[-.5mm]
+
+\hline\hline
+
+6&$-1/4$&$-1$&$-1$&$1/2$&$2$&$2$&$E\sst 7$\\[-.5mm]
+\cline{2-8}
+&$-1/3$&$-1$&$-1$&$1/2$&$2$&$1$&$E\sst 6$\\[-.5mm]
+\cline{2-8}
+&$-1/3$&$-1$&$-1$&$1$&$3$&$1$&$E\sst 6$\\[-.5mm]
+\cline{2-8}
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1$&$D\sst {2i+4} / B\sst {3}$\\[-.5mm]
+\cline{2-8}
+&$-1/2$&$-1$&$-1$&$0$&$i+2$&$i+1$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-8}
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$C\sst i$\\[-.5mm]
+\cline{2-8}
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$A\sst {z_4+z_5+1}$\\[-.5mm]
+\hline\hline
+
+
+\end{tabular}
+\caption{Duals $\top^*$ of tops with $F_0^*$ one of the polygons 
+$1,\ldots,6$ of figure~\ref{fig:16pol}.}
+\label{tab:results1to6}
+\end{footnotesize}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 312
+```
+{% raw %}
+\begin{table}[h]
+
+\begin{center}
+
+\begin{footnotesize}
+
+\begin{tabular}{|c|cccccc|c|}\hline
+
+%$F_0^*$&\multicolumn{6}{c}{Minimal points}\vline&Lie\\[-.5mm]
+
+%\cline{2-7}
+
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&AKMA\\[-.5mm]
+
+\hline\hline
+
+
+
+
+
+1&$-1/3$&$-1$&$-1$&$1$&-&-&$E\sst 6$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1$&$-1$&$-1$&$-1$&-&-&$C\sst {0}$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1$&$-1$&$-1$&$z_3$&-&-&$A\sst {3z_3+2}$\\[-.5mm]
+
+\hline\hline
+
+
+
+
+
+2&$-1/2$&$-1$&$-1$&$0$&$i$&-&$D\sst {2i+4}$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1$&$-1$&$-1$&$-1$&$i-1$&-&$C\sst i$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&-&$A\sst {2z_3+2z_4+3}$\\[-.5mm]
+
+\hline\hline
+
+
+
+
+
+3&$-1/3$&$-1$&$-1$&$1$&$1$&-&$E\sst 6$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&-&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1$&$-1$&$-1$&$-1$&$i-1$&-&$C\sst i$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&-&$A\sst {z_3+2z_4+2}$\\[-.5mm]
+
+\hline\hline
+
+
+
+
+
+4&$-1/4$&$-1$&$-1$&$1/2$&$2$&-&$E\sst 7$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&-&$D\sst {2i+4} / B\sst 3$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1$&$-1$&$-1$&$-1$&$i-1$&-&$C\sst i$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&-&$A\sst {2z_4+1}$\\[-.5mm]
+
+\hline\hline
+
+
+
+5&$-1/3$&$-1$&$-1$&$1$&$1$&$-1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1/2$&$-1$&$-1$&$0$&$i$&$i$&$B\sst {2i+4}$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1/2$&$-1$&$-1$&$0$&$i + 1$&$i$&$B\sst {2i+5}$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$C\sst i$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$A\sst {2z_3+z_4+z_5+3}$\\[-.5mm]
+
+
+
+\hline\hline
+
+
+
+6&$-1/4$&$-1$&$-1$&$1/2$&$2$&$2$&$E\sst 7$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1/3$&$-1$&$-1$&$1/2$&$2$&$1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1/3$&$-1$&$-1$&$1$&$3$&$1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1$&$D\sst {2i+4} / B\sst {3}$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+2$&$i+1$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$C\sst i$\\[-.5mm]
+
+\cline{2-8}
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$A\sst {z_4+z_5+1}$\\[-.5mm]
+
+\hline\hline
+
+
+
+
+
+\end{tabular}
+
+\caption{Duals $\top^*$ of tops with $F_0^*$ one of the polygons 
+
+$1,\ldots,6$ of figure~\ref{fig:16pol}.}
+
+\label{tab:results1to6}
+
+\end{footnotesize}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 313
+```
+{% raw %}
+\begin{table}
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{|c|ccccccc|c|}
+\hline
+
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&AKMA\\[-.3mm]
+\hline\hline
+
+7&$-1/3$&$-1$&$-1$&$1$&$1$&$1$&$-1$&$E\sst 6$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i$&$i$&$D\sst {2i+4}$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i+1$&$i$&$D\sst {2i+5}$\\[-.3mm]
+\cline{2-9}
+&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$C\sst i$\\[-.3mm]
+\cline{2-9}
+
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$A\sst {z_3+z_4+z_5+z_6+3}$\\[-.3mm]
+\hline\hline
+
+
+8&$-1/4$&$-1$&$-1$&$1/2$&$2$&$3/2$&$1$&$E\sst 7$\\[-.3mm]
+\cline{2-9}
+&$-1/4$&$-1$&$-1$&$1/2$&$2$&$2$&$2$&$E\sst 7$\\[-.3mm]
+\cline{2-9}
+&$-1/3$&$-1$&$-1$&$1/2$&$2$&$1$&$1$&$E\sst 6$\\[-.3mm]
+\cline{2-9}
+&$-1/3$&$-1$&$-1$&$1$&$3$&$1$&$1$&$E\sst 6$\\[-.3mm]
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1/2$&$i$&$D\sst {2i+4} \yy B\sst {3}^a\xx$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$0$&$i+2$&$i+1$&$i$&$D\sst {2i+4} \yy D\sst 4^a\xx$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1$&$i+1$&$B\sst {2i+4} \yy B\sst 3\xx$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$i$&$2i+2$&$i+1$&$0$&$B\sst {2i+4} \yy D\sst 4^a\xx$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$0$&$i+2$&$i+1$&$i+1$&$B\sst {2i+5}$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$i+1$&$2i+3$&$i+1$&$0$&$B\sst {2i+5}$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$i/2$&$i+1$&$(i+1)/2$&$0$&$B\sst {i+3} \yy B\sst {3}^a\xx$\\[-.3mm]
+\cline{2-9}
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&$C\sst i$\\[-.3mm]
+\cline{2-9}
+&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$i-1$&$-1$&$C\sst i$\\[-.3mm]
+\cline{2-9}
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$A\sst {z_4+z_6+1}$\\[-.3mm]
+\hline\hline
+
+9&$-1/4$&$2$&$-1$&$-1$&$-1$&$1/2$&$2$&$E\sst 7$\\[-.3mm]
+\cline{2-9}
+&$-1/3$&$-1$&$-1$&$1$&$1$&$1/2$&$0$&$E\sst 6$\\[-.3mm]
+\cline{2-9}
+&$-1/3$&$-1$&$-1$&$1$&$1$&$1$&$1$&$E\sst 6$\\[-.3mm]
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$0$&$i + 1$&$i$&$i$&$D\sst {2i+4} \yy D\sst 4^a\xx$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$i$&$i + 1$&$0$&$0$&$D\sst {2i+4} \yy D\sst 4^a\xx$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$i+1$&$i+1$&$0$&$-1$&$D\sst {2i+4} \yy B\sst 3\xx$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1/2$&$i$&$D\sst {2i+5}$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1$&$i+1$&$D\sst {2i+5}$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$i+1$&$i+1$&$0$&$0$&$D\sst {2i+5}$\\[-.3mm]
+\cline{2-9}
+
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&$C\sst i$\\[-.3mm]
+\cline{2-9}
+&$-1$&$-1$&$-1$&$i-1$&$i-1$&$-1$&$-1$&$C\sst i$\\[-.3mm]
+\cline{2-9}
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$A\sst {z_3+z_4+z_6+2}$\\[-.3mm]
+\hline\hline
+
+10&$-1/6$&$-1$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.3mm]
+\cline{2-9}
+&$-1/4$&$-1$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.3mm]
+\cline{2-9}
+&$-1/4$&$-1$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.3mm]
+\cline{2-9}
+&$-1/3$&$-1$&$-1$&$1/3$&$5/3$&$3$&$1$&$F\sst 4$\\[-.3mm]
+\cline{2-9}
+&$-1/3$&$-1$&$-1$&$1/2$&$2$&$4$&$1$&$E\sst 6$\\[-.3mm]
+\cline{2-9}
+&$-1/3$&$-1$&$-1$&$1$&$3$&$5$&$1$&$E\sst 6$\\[-.3mm]
+\cline{2-9}
+
+
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$2i+3$&$i+1$&$D\sst {2i+4} \yy B\sst 3\xx$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$0$&$i +2$&$2i+4$&$i+1$&$D\sst {2i+5}$\\[-.3mm]
+\cline{2-9}
+&$-1/2$&$-1$&$-1$&$0$&$i/2+1$&$i+2$&$(i+1)/2$&$B\sst {i+3} \yy G\sst 2\xx$\\[-.3mm]
+\cline{2-9}
+
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$i-1$&$C\sst i$\\[-.3mm]
+\cline{2-9}
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$A\sst {z_5}$\\[-.3mm]
+\hline\hline
+
+
+\end{tabular}
+\caption{Duals $\top^*$ of tops with $F_0^*$ one of the polygons $7,8,9,10$ of figure~\ref{fig:16pol}.}\label{tab:results7to10}
+\end{footnotesize}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 314
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{footnotesize}
+
+\begin{tabular}{|c|ccccccc|c|}
+
+\hline
+
+
+
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&AKMA\\[-.3mm]
+
+\hline\hline
+
+
+
+7&$-1/3$&$-1$&$-1$&$1$&$1$&$1$&$-1$&$E\sst 6$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i$&$i$&$D\sst {2i+4}$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i+1$&$i$&$D\sst {2i+5}$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$C\sst i$\\[-.3mm]
+
+\cline{2-9}
+
+
+
+
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$A\sst {z_3+z_4+z_5+z_6+3}$\\[-.3mm]
+
+\hline\hline
+
+
+
+
+
+8&$-1/4$&$-1$&$-1$&$1/2$&$2$&$3/2$&$1$&$E\sst 7$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/4$&$-1$&$-1$&$1/2$&$2$&$2$&$2$&$E\sst 7$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/3$&$-1$&$-1$&$1/2$&$2$&$1$&$1$&$E\sst 6$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/3$&$-1$&$-1$&$1$&$3$&$1$&$1$&$E\sst 6$\\[-.3mm]
+
+\cline{2-9}
+
+
+
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1/2$&$i$&$D\sst {2i+4} \yy B\sst {3}^a\xx$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+2$&$i+1$&$i$&$D\sst {2i+4} \yy D\sst 4^a\xx$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1$&$i+1$&$B\sst {2i+4} \yy B\sst 3\xx$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$i$&$2i+2$&$i+1$&$0$&$B\sst {2i+4} \yy D\sst 4^a\xx$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+2$&$i+1$&$i+1$&$B\sst {2i+5}$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$i+1$&$2i+3$&$i+1$&$0$&$B\sst {2i+5}$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$i/2$&$i+1$&$(i+1)/2$&$0$&$B\sst {i+3} \yy B\sst {3}^a\xx$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&$C\sst i$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$i-1$&$-1$&$C\sst i$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$A\sst {z_4+z_6+1}$\\[-.3mm]
+
+\hline\hline
+
+
+
+9&$-1/4$&$2$&$-1$&$-1$&$-1$&$1/2$&$2$&$E\sst 7$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/3$&$-1$&$-1$&$1$&$1$&$1/2$&$0$&$E\sst 6$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/3$&$-1$&$-1$&$1$&$1$&$1$&$1$&$E\sst 6$\\[-.3mm]
+
+\cline{2-9}
+
+
+
+&$-1/2$&$-1$&$-1$&$0$&$i + 1$&$i$&$i$&$D\sst {2i+4} \yy D\sst 4^a\xx$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$i$&$i + 1$&$0$&$0$&$D\sst {2i+4} \yy D\sst 4^a\xx$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$i+1$&$i+1$&$0$&$-1$&$D\sst {2i+4} \yy B\sst 3\xx$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1/2$&$i$&$D\sst {2i+5}$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1$&$i+1$&$D\sst {2i+5}$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$i+1$&$i+1$&$0$&$0$&$D\sst {2i+5}$\\[-.3mm]
+
+\cline{2-9}
+
+
+
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&$C\sst i$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1$&$-1$&$-1$&$i-1$&$i-1$&$-1$&$-1$&$C\sst i$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$A\sst {z_3+z_4+z_6+2}$\\[-.3mm]
+
+\hline\hline
+
+
+
+10&$-1/6$&$-1$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/4$&$-1$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/4$&$-1$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/3$&$-1$&$-1$&$1/3$&$5/3$&$3$&$1$&$F\sst 4$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/3$&$-1$&$-1$&$1/2$&$2$&$4$&$1$&$E\sst 6$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/3$&$-1$&$-1$&$1$&$3$&$5$&$1$&$E\sst 6$\\[-.3mm]
+
+\cline{2-9}
+
+
+
+
+
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$2i+3$&$i+1$&$D\sst {2i+4} \yy B\sst 3\xx$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$0$&$i +2$&$2i+4$&$i+1$&$D\sst {2i+5}$\\[-.3mm]
+
+\cline{2-9}
+
+&$-1/2$&$-1$&$-1$&$0$&$i/2+1$&$i+2$&$(i+1)/2$&$B\sst {i+3} \yy G\sst 2\xx$\\[-.3mm]
+
+\cline{2-9}
+
+
+
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$i-1$&$C\sst i$\\[-.3mm]
+
+\cline{2-9}
+
+
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$A\sst {z_5}$\\[-.3mm]
+
+\hline\hline
+
+
+
+
+
+\end{tabular}
+
+\caption{Duals $\top^*$ of tops with $F_0^*$ one of the polygons $7,8,9,10$ of figure~\ref{fig:16pol}.}\label{tab:results7to10}
+
+\end{footnotesize}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 315
+```
+{% raw %}
+\begin{table}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{|c|cccccccc|c|}
+\hline
+
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&AKMA\\[-.4mm]
+\hline\hline
+
+11&$-1/6$&$-1$&$-1$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.4mm]
+\cline{2-10}
+&$-1/4$&$-1$&$-1$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.4mm]
+\cline{2-10}
+&$-1/4$&$-1$&$-1$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.4mm]
+\cline{2-10}
+&$-1/4$&$-1$&$-1$&$0$&$2/3$&$4/3$&$2$&$1/2$&$E\sst 7$\\[-.4mm]
+\cline{2-10}
+&$-1/4$&$-1$&$-1$&$1$&$1$&$3/2$&$2$&$1/2$&$E\sst 7$\\[-.4mm]
+\cline{2-10}
+&$-1/4$&$-1$&$-1$&$2$&$2$&$2$&$2$&$1/2$&$E\sst 7$\\[-.4mm]
+\cline{2-10}
+&$-1/3$&$-1$&$-1$&$-1$&$1/3$&$5/3$&$3$&$1$&$F\sst 4$\\[-.4mm]
+\cline{2-10}
+&$-1/3$&$-1$&$1$&$1$&$1/2$&$0$&$0$&$-1$&$E\sst 6$\\[-.4mm]
+\cline{2-10}
+&$-1/3$&$-1$&$1$&$1$&$1$&$1$&$1$&$-1$&$E\sst 6$\\[-.4mm]
+\cline{2-10}
+&$-1/3$&$-1$&$-1$&$0$&$1/2$&$1$&$2$&$1/2$&$E\sst 6$\\[-.4mm]
+\cline{2-10}
+&$-1/3$&$-1$&$-1$&$1$&$1$&$1$&$2$&$1/2$&$E\sst 6$\\[-.4mm]
+\cline{2-10}
+&$-1/3$&$-1$&$-1$&$0$&$1/2$&$1$&$3$&$1$&$E\sst 6$\\[-.4mm]
+\cline{2-10}
+&$-1/3$&$-1$&$-1$&$1$&$1$&$1$&$3$&$1$&$E\sst 6$\\[-.4mm]
+\cline{2-10}
+
+
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i+1$&$2i+2$&$i$&$D\sst {2i+4} \yy D\sst 4^a\xx$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i+1$&$2i+3$&$i+1$&$D\sst {2i+4} \yy B\sst 3\xx$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$i$&$i$&$i+1/2$&$i+1$&$0$&$D\sst {2i+4} \yy B\sst 3^a\xx$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$i$&$i$&$i+1$&$i+2$&$0$&$D\sst {2i+4} \yy D\sst 4^a\xx$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$i+1$&$i+1$&$i+1$&$i+1$&$0$&$D\sst {2i+4} \yy B\sst 3\xx$\\[-.4mm]
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i+1$&$2i+3$&$i+1$&$D\sst {2i+5}$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i +2$&$2i+4$&$i+1$&$D\sst {2i+5}$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$i$&$i+1/2$&$i+1$&$i+2$&$0$&$D\sst {2i+5}$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$i$&$i+1$&$i+2$&$i+3$&$0$&$D\sst {2i+5}$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$i+1$&$i+1$&$i+1$&$i+2$&$0$&$D\sst {2i+5}$\\[-.4mm]
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$0$&$0$&$(i+1)/2$&$i+1$&$i/2$&$B\sst {i+3} \yy B\sst 3^a\xx$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i/2+1$&$i+2$&$(i+1)/2$&$B\sst {i+3} \yy G\sst 2\xx$\\[-.4mm]
+\cline{2-10}
+
+&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&$i-1$&$-1$&$C\sst i$\\[-.4mm]
+\cline{2-10}
+&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$i-1$&$C\sst i$\\[-.4mm]
+\cline{2-10}
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$A\sst {z_3+z_6+1}$\\[-.4mm]
+\hline\hline
+
+\del
+\end{tabular}
+\caption{Duals $\top^*$ of tops with $F_0^*$ one of the polygons $7,8,9,10$ of figure~\ref{fig:16pol}.}\label{tab:results3}
+\end{footnotesize}
+%\end{adjustwidth}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 316
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{footnotesize}
+
+\begin{tabular}{|c|cccccccc|c|}
+
+\hline
+
+
+
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&AKMA\\[-.4mm]
+
+\hline\hline
+
+
+
+11&$-1/6$&$-1$&$-1$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/4$&$-1$&$-1$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/4$&$-1$&$-1$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/4$&$-1$&$-1$&$0$&$2/3$&$4/3$&$2$&$1/2$&$E\sst 7$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/4$&$-1$&$-1$&$1$&$1$&$3/2$&$2$&$1/2$&$E\sst 7$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/4$&$-1$&$-1$&$2$&$2$&$2$&$2$&$1/2$&$E\sst 7$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/3$&$-1$&$-1$&$-1$&$1/3$&$5/3$&$3$&$1$&$F\sst 4$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/3$&$-1$&$1$&$1$&$1/2$&$0$&$0$&$-1$&$E\sst 6$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/3$&$-1$&$1$&$1$&$1$&$1$&$1$&$-1$&$E\sst 6$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/3$&$-1$&$-1$&$0$&$1/2$&$1$&$2$&$1/2$&$E\sst 6$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/3$&$-1$&$-1$&$1$&$1$&$1$&$2$&$1/2$&$E\sst 6$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/3$&$-1$&$-1$&$0$&$1/2$&$1$&$3$&$1$&$E\sst 6$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/3$&$-1$&$-1$&$1$&$1$&$1$&$3$&$1$&$E\sst 6$\\[-.4mm]
+
+\cline{2-10}
+
+
+
+
+
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i+1$&$2i+2$&$i$&$D\sst {2i+4} \yy D\sst 4^a\xx$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i+1$&$2i+3$&$i+1$&$D\sst {2i+4} \yy B\sst 3\xx$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$i$&$i$&$i+1/2$&$i+1$&$0$&$D\sst {2i+4} \yy B\sst 3^a\xx$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$i$&$i$&$i+1$&$i+2$&$0$&$D\sst {2i+4} \yy D\sst 4^a\xx$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$i+1$&$i+1$&$i+1$&$i+1$&$0$&$D\sst {2i+4} \yy B\sst 3\xx$\\[-.4mm]
+
+\cline{2-10}
+
+
+
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i+1$&$2i+3$&$i+1$&$D\sst {2i+5}$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i +2$&$2i+4$&$i+1$&$D\sst {2i+5}$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$i$&$i+1/2$&$i+1$&$i+2$&$0$&$D\sst {2i+5}$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$i$&$i+1$&$i+2$&$i+3$&$0$&$D\sst {2i+5}$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$i+1$&$i+1$&$i+1$&$i+2$&$0$&$D\sst {2i+5}$\\[-.4mm]
+
+\cline{2-10}
+
+
+
+&$-1/2$&$-1$&$-1$&$0$&$0$&$(i+1)/2$&$i+1$&$i/2$&$B\sst {i+3} \yy B\sst 3^a\xx$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i/2+1$&$i+2$&$(i+1)/2$&$B\sst {i+3} \yy G\sst 2\xx$\\[-.4mm]
+
+\cline{2-10}
+
+
+
+&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&$i-1$&$-1$&$C\sst i$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$i-1$&$C\sst i$\\[-.4mm]
+
+\cline{2-10}
+
+
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$A\sst {z_3+z_6+1}$\\[-.4mm]
+
+\hline\hline
+
+
+
+\del
+
+\end{tabular}
+
+\caption{Duals $\top^*$ of tops with $F_0^*$ one of the polygons $7,8,9,10$ of figure~\ref{fig:16pol}.}\label{tab:results3}
+
+\end{footnotesize}
+
+%\end{adjustwidth}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 317
+```
+{% raw %}
+\begin{table}%[h]
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}%[h]
+\begin{center}
+%\beginadjustwidth}{-0.2in}{-0.2in}
+\begin{footnotesize}
+\begin{tabular}{|c|cccccccc|c|}
+\hline
+%$F_0^*$&\multicolumn{9}{c}{Minimal points}\vline&Lie\\[-.4mm]
+%\cline{2-10}
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&AKMA\\[-.4mm]
+\hline\hline
+\enddel
+12&$-1/4$&$-3/2$&$-2$&$-1$&$2$&$2$&$1/2$&$-1$&$E\sst 7$\\[-.4mm]
+\cline{2-10}
+&$-1/4$&$-1$&$-1$&$-1$&$2$&$2$&$1/2$&$-1$&$E\sst 7$\\[-.4mm]
+\cline{2-10}
+&$-1/3$&$-3/2$&$-2$&$-1$&$1$&$2$&$1/2$&$-1$&$E\sst 6$\\[-.4mm]
+\cline{2-10}
+&$-1/3$&$-3/2$&$-2$&$-1$&$1$&$3$&$1$&$-1$&$E\sst 6$\\[-.4mm]
+\cline{2-10}
+&$-1/3$&$-1$&$-1$&$-1$&$1$&$3$&$1$&$-1$&$E\sst 6$\\[-.4mm]
+\cline{2-10}
+&$-1/3$&$-1$&$-1$&$-1$&$1$&$1$&$1/2$&$0$&$E\sst 6$\\[-.4mm]
+\cline{2-10}
+&$-1/3$&$-1$&$-1$&$-1$&$1$&$1$&$1$&$1$&$E\sst 6$\\[-.4mm]
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i$&$i-1/2$&$i-1$&$D\sst {2i+4}\yy B\sst 3^a\xx$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i$&$i$&$i$&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i+1$&$i$&$i-1$&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i+1$&$i$&$i$&$D\sst {2i+4}\yy D\sst 4\xx$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$i$&$-1$&$-1$&$0$&$0$&$i$&$2i+1$&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i+1$&$i$&$i$&$D\sst {2i+5}$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i+1$&$i+1/2$&$i$&$D\sst {2i+5}$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i+1$&$i+1$&$i+1$&$D\sst {2i+5}$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i+2$&$i+1$&$i$&$D\sst {2i+5}$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$i$&$-1$&$-1$&$0$&$0$&$i+1$&$2i+2$&$D\sst {2i+5}$\\[-.4mm]
+\cline{2-10}
+&$-1/2$&$(i-1)/2$&$-1$&$-1$&$0$&$0$&$i/2$&$i$&$B\sst {i+3}\yy B\sst 3^a\xx$\\[-.4mm]
+\cline{2-10}
+
+&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&$C\sst i$\\[-.4mm]
+\cline{2-10}
+&$-1$&$i-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$C\sst i$\\[-.4mm]
+\cline{2-10}
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$A\sst {z_3+z_4+z_5+z_7+3}$\\[-.4mm]
+\hline\hline
+
+
+\end{tabular}
+\caption{Duals $\top^*$ of tops with $F_0^*$ one of the polygons $11,12$ of figure~\ref{fig:16pol}.}\label{tab:results1112}
+\end{footnotesize}
+%\end{adjustwidth}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 318
+```
+{% raw %}
+\begin{table}%[h]
+
+\begin{center}
+
+%\beginadjustwidth}{-0.2in}{-0.2in}
+
+\begin{footnotesize}
+
+\begin{tabular}{|c|cccccccc|c|}
+
+\hline
+
+%$F_0^*$&\multicolumn{9}{c}{Minimal points}\vline&Lie\\[-.4mm]
+
+%\cline{2-10}
+
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&AKMA\\[-.4mm]
+
+\hline\hline
+
+\enddel
+
+12&$-1/4$&$-3/2$&$-2$&$-1$&$2$&$2$&$1/2$&$-1$&$E\sst 7$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/4$&$-1$&$-1$&$-1$&$2$&$2$&$1/2$&$-1$&$E\sst 7$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/3$&$-3/2$&$-2$&$-1$&$1$&$2$&$1/2$&$-1$&$E\sst 6$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/3$&$-3/2$&$-2$&$-1$&$1$&$3$&$1$&$-1$&$E\sst 6$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/3$&$-1$&$-1$&$-1$&$1$&$3$&$1$&$-1$&$E\sst 6$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/3$&$-1$&$-1$&$-1$&$1$&$1$&$1/2$&$0$&$E\sst 6$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/3$&$-1$&$-1$&$-1$&$1$&$1$&$1$&$1$&$E\sst 6$\\[-.4mm]
+
+\cline{2-10}
+
+
+
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i$&$i-1/2$&$i-1$&$D\sst {2i+4}\yy B\sst 3^a\xx$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i$&$i$&$i$&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i+1$&$i$&$i-1$&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i+1$&$i$&$i$&$D\sst {2i+4}\yy D\sst 4\xx$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$i$&$-1$&$-1$&$0$&$0$&$i$&$2i+1$&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$0$&$0$&$i+1$&$i$&$i$&$D\sst {2i+5}$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i+1$&$i+1/2$&$i$&$D\sst {2i+5}$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i+1$&$i+1$&$i+1$&$D\sst {2i+5}$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$i+2$&$i+1$&$i$&$D\sst {2i+5}$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$i$&$-1$&$-1$&$0$&$0$&$i+1$&$2i+2$&$D\sst {2i+5}$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1/2$&$(i-1)/2$&$-1$&$-1$&$0$&$0$&$i/2$&$i$&$B\sst {i+3}\yy B\sst 3^a\xx$\\[-.4mm]
+
+\cline{2-10}
+
+
+
+&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&$C\sst i$\\[-.4mm]
+
+\cline{2-10}
+
+&$-1$&$i-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$C\sst i$\\[-.4mm]
+
+\cline{2-10}
+
+
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$A\sst {z_3+z_4+z_5+z_7+3}$\\[-.4mm]
+
+\hline\hline
+
+
+
+
+
+\end{tabular}
+
+\caption{Duals $\top^*$ of tops with $F_0^*$ one of the polygons $11,12$ of figure~\ref{fig:16pol}.}\label{tab:results1112}
+
+\end{footnotesize}
+
+%\end{adjustwidth}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 319
+```
+{% raw %}
+\begin{table}%[h]
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}%[h]
+\begin{center}
+%\beginadjustwidth}{-0.2in}{-0.2in}
+\begin{footnotesize}
+\begin{tabular}{|c|ccccccccc|c|}
+\hline
+%$F_0^*$&\multicolumn{9}{c}{Minimal points}\vline&Lie\\[-.5mm]
+%\cline{2-10}
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&AKMA\\[-.5mm]
+\hline\hline
+
+13&$-1/6$&$3/2$&$-1$&$-3/2$&$-2$&$-1$&$2/3$&$7/3$&$4$&$E\sst 8$\\[-.5mm]
+\cline{2-11}
+&$-1/6$&$3/2$&$-1$&$-1$&$-1$&$-1$&$2/3$&$7/3$&$4$&$E\sst 8$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$1/2$&$2$&$-1$&$-4$&$-13/4$&$-5/2$&$-7/4$&$-1$&$E\sst 6^{(2)}$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$3/2$&$-1$&$-3/2$&$-2$&$-1$&$1/2$&$2$&$4$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$3/2$&$-1$&$-1$&$-1$&$-1$&$1/2$&$2$&$4$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$2$&$-1$&$-1$&$-1$&$-1$&$1/2$&$2$&$5$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$1/2$&$2$&$-1$&$-3$&$-3$&$-7/3$&$-5/3$&$-1$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$1/2$&$2$&$-1$&$-3$&$-5/2$&$-2$&$-3/2$&$-1$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$1/2$&$2$&$-1$&$-2$&$-2$&$-2$&$-3/2$&$-1$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$1/2$&$2$&$-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$1/2$&$-1$&$-1$&$-1$&$-1/3$&$1/3$&$1$&$2$&$F\sst 4$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$1$&$-1$&$-1$&$-1$&$-1/3$&$1/3$&$1$&$3$&$F\sst 4$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$1/2$&$-1$&$-1$&$0$&$0$&$1/2$&$1$&$2$&$E\sst 6$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$1/2$&$-1$&$-1$&$1$&$1$&$1$&$1$&$2$&$E\sst 6$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$1$&$-1$&$-1$&$0$&$0$&$1/2$&$1$&$3$&$E\sst 6$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$1$&$-1$&$-1$&$1$&$1$&$1$&$1$&$3$&$E\sst 6$\\[-.5mm]
+
+
+\cline{2-11}
+&$-1/2$&$i$&$-1$&$-1$&$0$&$0$&$0$&$i+1$&$2i+2$&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$i+1$&$-1$&$-1$&$-1$&$-1$&$0$&$i+1$&$2i+3$&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1/2$&$i$&$i-1/2$&$i-1$&$D\sst {2i+4}\yy D\sst 3^{(2)a}\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1$&$i+1$&$i+1$&$i+1$&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$0$&$i+2$&$i+1$&$i$&$i$&$i$&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1/2$&$i$&$i$&$i$&$D\sst {2i+4}\yy B\sst 3^a\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$i+1$&$-1$&$-1$&$0$&$0$&$0$&$i+1$&$2i+3$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$0$&$i+2$&$i+1$&$i+1/2$&$i$&$i$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$0$&$i+2$&$i+1$&$i+1$&$i+1$&$i+1$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-11}
+
+&$-1/2$&$i/2$&$-1$&$-1$&$0$&$0$&$0$&$(i+1)/2$&$i+1$&$B\sst {i+3}\yy B\sst 3^a\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$(i+1)/2$&$-1$&$-1$&$-1$&$-1$&$0$&$i/2+1$&$i+2$&$B\sst {i+3}\yy G\sst 2\xx$\\[-.5mm] 
+\cline{2-11}
+&$-1/2$&$i+1/2$&$-1$&$-1$&$-1$&$-1/2$&$0$&$i+1$&$2i+2$&$D\sst {2i+4}^{(2)}$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$i$&$-1$&$-1$&$-1$&$-1/2$&$0$&$i+1/2$&$2i+1$&$D\sst {2i+3}^{(2)}\yy D\sst 3^{(2)a}\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$i-1/2$&$-1$&$-1/2$&$0$&$0$&$0$&$i$&$2i$&$D\sst
+{2i+3}^{(2)}\yy A\sst 2^{(2)}\xx$\\[-.5mm]
+\cline{2-11}
+
+
+&$-1$&$i-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$C\sst i$\\[-.5mm]
+\cline{2-11}
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&$i-1$&$i-1$&$C\sst i$\\[-.5mm]
+\cline{2-11}
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&$A\sst {z_4+z_8+1}$\\[-.5mm]
+
+
+\hline\hline
+
+\end{tabular}
+\caption{Duals $\top^*$ of tops with $F_0^*$ being polygon $13$ of figure~\ref{fig:16pol}.}\label{tab:results13}
+\end{footnotesize}
+%\end{adjustwidth}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 320
+```
+{% raw %}
+\begin{table}%[h]
+
+\begin{center}
+
+%\beginadjustwidth}{-0.2in}{-0.2in}
+
+\begin{footnotesize}
+
+\begin{tabular}{|c|ccccccccc|c|}
+
+\hline
+
+%$F_0^*$&\multicolumn{9}{c}{Minimal points}\vline&Lie\\[-.5mm]
+
+%\cline{2-10}
+
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&AKMA\\[-.5mm]
+
+\hline\hline
+
+
+
+13&$-1/6$&$3/2$&$-1$&$-3/2$&$-2$&$-1$&$2/3$&$7/3$&$4$&$E\sst 8$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/6$&$3/2$&$-1$&$-1$&$-1$&$-1$&$2/3$&$7/3$&$4$&$E\sst 8$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$1/2$&$2$&$-1$&$-4$&$-13/4$&$-5/2$&$-7/4$&$-1$&$E\sst 6^{(2)}$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$3/2$&$-1$&$-3/2$&$-2$&$-1$&$1/2$&$2$&$4$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$3/2$&$-1$&$-1$&$-1$&$-1$&$1/2$&$2$&$4$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$2$&$-1$&$-1$&$-1$&$-1$&$1/2$&$2$&$5$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$1/2$&$2$&$-1$&$-3$&$-3$&$-7/3$&$-5/3$&$-1$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$1/2$&$2$&$-1$&$-3$&$-5/2$&$-2$&$-3/2$&$-1$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$1/2$&$2$&$-1$&$-2$&$-2$&$-2$&$-3/2$&$-1$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$1/2$&$2$&$-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$1/2$&$-1$&$-1$&$-1$&$-1/3$&$1/3$&$1$&$2$&$F\sst 4$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$1$&$-1$&$-1$&$-1$&$-1/3$&$1/3$&$1$&$3$&$F\sst 4$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$1/2$&$-1$&$-1$&$0$&$0$&$1/2$&$1$&$2$&$E\sst 6$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$1/2$&$-1$&$-1$&$1$&$1$&$1$&$1$&$2$&$E\sst 6$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$1$&$-1$&$-1$&$0$&$0$&$1/2$&$1$&$3$&$E\sst 6$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$1$&$-1$&$-1$&$1$&$1$&$1$&$1$&$3$&$E\sst 6$\\[-.5mm]
+
+
+
+
+
+\cline{2-11}
+
+&$-1/2$&$i$&$-1$&$-1$&$0$&$0$&$0$&$i+1$&$2i+2$&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$i+1$&$-1$&$-1$&$-1$&$-1$&$0$&$i+1$&$2i+3$&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1/2$&$i$&$i-1/2$&$i-1$&$D\sst {2i+4}\yy D\sst 3^{(2)a}\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1$&$i+1$&$i+1$&$i+1$&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+2$&$i+1$&$i$&$i$&$i$&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+1$&$i+1/2$&$i$&$i$&$i$&$D\sst {2i+4}\yy B\sst 3^a\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$i+1$&$-1$&$-1$&$0$&$0$&$0$&$i+1$&$2i+3$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+2$&$i+1$&$i+1/2$&$i$&$i$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$0$&$i+2$&$i+1$&$i+1$&$i+1$&$i+1$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-11}
+
+
+
+&$-1/2$&$i/2$&$-1$&$-1$&$0$&$0$&$0$&$(i+1)/2$&$i+1$&$B\sst {i+3}\yy B\sst 3^a\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$(i+1)/2$&$-1$&$-1$&$-1$&$-1$&$0$&$i/2+1$&$i+2$&$B\sst {i+3}\yy G\sst 2\xx$\\[-.5mm] 
+
+\cline{2-11}
+
+&$-1/2$&$i+1/2$&$-1$&$-1$&$-1$&$-1/2$&$0$&$i+1$&$2i+2$&$D\sst {2i+4}^{(2)}$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$i$&$-1$&$-1$&$-1$&$-1/2$&$0$&$i+1/2$&$2i+1$&$D\sst {2i+3}^{(2)}\yy D\sst 3^{(2)a}\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$i-1/2$&$-1$&$-1/2$&$0$&$0$&$0$&$i$&$2i$&$D\sst
+
+{2i+3}^{(2)}\yy A\sst 2^{(2)}\xx$\\[-.5mm]
+
+\cline{2-11}
+
+
+
+
+
+&$-1$&$i-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$C\sst i$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&$i-1$&$i-1$&$C\sst i$\\[-.5mm]
+
+\cline{2-11}
+
+
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&$A\sst {z_4+z_8+1}$\\[-.5mm]
+
+
+
+
+
+\hline\hline
+
+
+
+\end{tabular}
+
+\caption{Duals $\top^*$ of tops with $F_0^*$ being polygon $13$ of figure~\ref{fig:16pol}.}\label{tab:results13}
+
+\end{footnotesize}
+
+%\end{adjustwidth}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 321
+```
+{% raw %}
+\begin{table}%[h]
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}%[h]
+\begin{center}
+%\beginadjustwidth}{-0.2in}{-0.2in}
+\begin{footnotesize}
+\begin{tabular}{|c|ccccccccc|c|}
+\hline
+%$F_0^*$&\multicolumn{9}{c}{Minimal points}\vline&Lie\\[-.5mm]
+%\cline{2-10}
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&AKMA\\[-.5mm]
+\hline\hline
+
+
+14&$-1/6$&$-1$&$-2$&$-3/2$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.5mm]
+\cline{2-11}
+&$-1/6$&$-1$&$-1$&$-1$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$2$&$2$&$1/2$&$-1$&$-5/3$&$-7/3$&$-3$&$-1$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$2$&$2$&$1/2$&$-1$&$-3/2$&$-2$&$-2$&$-1$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$2$&$2$&$1/2$&$-1$&$-1$&$-1$&$-1$&$-1$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$-1$&$-2$&$-3/2$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$-1$&$-2$&$-3/2$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$-1$&$-1$&$-1$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/4$&$-1$&$-1$&$-1$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$-1$&$0$&$1/2$&$1$&$1/3$&$-1/3$&$-1$&$-1$&$F\sst 4$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$-1$&$1$&$1$&$1$&$1/3$&$-1/3$&$-1$&$-1$&$F\sst 4$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$-1$&$0$&$1/2$&$1$&$1/2$&$0$&$0$&$-1$&$E\sst 6$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$-1$&$0$&$1/2$&$1$&$1$&$1$&$1$&$-1$&$E\sst 6$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$-1$&$1$&$1$&$1$&$1/2$&$0$&$0$&$-1$&$E\sst 6$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$-1$&$1$&$1$&$1$&$1$&$1$&$1$&$-1$&$E\sst 6$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$-1$&$-1$&$-1$&$0$&$1/2$&$1$&$2$&$1/2$&$E\sst 6$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$-1$&$-1$&$-1$&$1$&$1$&$1$&$2$&$1/2$&$E\sst 6$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$-1$&$-1$&$-1$&$0$&$1/2$&$1$&$3$&$1$&$E\sst 6$\\[-.5mm]
+\cline{2-11}
+&$-1/3$&$-1$&$-1$&$-1$&$1$&$1$&$1$&$3$&$1$&$E\sst 6$\\[-.5mm]
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1$&$i$&$i$&$i+1/2$&$i+1$&$0$&$D\sst {2i+4}\yy B\sst 3^a\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1$&$i$&$i$&$i+1$&$i+2$&$0$&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1$&$i+1$&$i+1$&$i+1$&$i+1$&$0$&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$0$&$i$&$2i+1$&$i$&$D\sst {2i+4}\yy B\sst 3^b\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$0$&$1$&$0$&$i$&$2i+1$&$i$&$D\sst {2i+4}$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$0$&$i+1$&$2i+2$&$i$&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1$&$-1$&$0$&$i+1$&$2i+3$&$i+1$&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1$&$i$&$i+1/2$&$i+1$&$i+2$&$0$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1$&$i$&$i+1$&$i+2$&$i+3$&$0$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1$&$i+1$&$i+1$&$i+1$&$i+2$&$0$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$0$&$i+1$&$2i+2$&$i$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$0$&$1$&$0$&$i+1$&$2i+2$&$i$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$0$&$i+1$&$2i+3$&$i+1$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1$&$-1$&$0$&$i+2$&$2i+4$&$i+1$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$0$&$i/2$&$i$&$(i-1)/2$&$B\sst {i+3}\yy G\sst 2\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$0$&$1$&$0$&$i/2$&$i$&$(i-1)/2$&$B\sst {i+3}\yy B\sst 3^b\xx$\\[-.5mm]
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$0$&$(i+1)/2$&$i+1$&$i/2$&$B\sst {i+3}\yy B\sst 3^a\xx$\\[-.5mm] 
+\cline{2-11}
+&$-1/2$&$-1$&$-1$&$-1$&$-1$&$0$&$i/2+1$&$i+2$&$(i+1)/2$&$B\sst {i+3}\yy G\sst 2\xx$\\[-.5mm]
+\cline{2-11}
+
+&$-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$i-1$&$C\sst i$\\[-.5mm]
+\cline{2-11}
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&$i-1$&$-1$&$C\sst i$\\[-.5mm]
+\cline{2-11}
+
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&$A\sst {z_4+z_7+1}$\\[-.5mm]
+
+\hline\hline
+
+\end{tabular}
+\caption{Duals $\top^*$ of tops with $F_0^*$ being polygon $14$ of figure~\ref{fig:16pol}.}\label{tab:results14}
+\end{footnotesize}
+%\end{adjustwidth}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 322
+```
+{% raw %}
+\begin{table}%[h]
+
+\begin{center}
+
+%\beginadjustwidth}{-0.2in}{-0.2in}
+
+\begin{footnotesize}
+
+\begin{tabular}{|c|ccccccccc|c|}
+
+\hline
+
+%$F_0^*$&\multicolumn{9}{c}{Minimal points}\vline&Lie\\[-.5mm]
+
+%\cline{2-10}
+
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&AKMA\\[-.5mm]
+
+\hline\hline
+
+
+
+
+
+14&$-1/6$&$-1$&$-2$&$-3/2$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/6$&$-1$&$-1$&$-1$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$2$&$2$&$1/2$&$-1$&$-5/3$&$-7/3$&$-3$&$-1$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$2$&$2$&$1/2$&$-1$&$-3/2$&$-2$&$-2$&$-1$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$2$&$2$&$1/2$&$-1$&$-1$&$-1$&$-1$&$-1$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$-1$&$-2$&$-3/2$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$-1$&$-2$&$-3/2$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$-1$&$-1$&$-1$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/4$&$-1$&$-1$&$-1$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$-1$&$0$&$1/2$&$1$&$1/3$&$-1/3$&$-1$&$-1$&$F\sst 4$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$-1$&$1$&$1$&$1$&$1/3$&$-1/3$&$-1$&$-1$&$F\sst 4$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$-1$&$0$&$1/2$&$1$&$1/2$&$0$&$0$&$-1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$-1$&$0$&$1/2$&$1$&$1$&$1$&$1$&$-1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$-1$&$1$&$1$&$1$&$1/2$&$0$&$0$&$-1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$-1$&$1$&$1$&$1$&$1$&$1$&$1$&$-1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$-1$&$-1$&$-1$&$0$&$1/2$&$1$&$2$&$1/2$&$E\sst 6$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$-1$&$-1$&$-1$&$1$&$1$&$1$&$2$&$1/2$&$E\sst 6$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$-1$&$-1$&$-1$&$0$&$1/2$&$1$&$3$&$1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/3$&$-1$&$-1$&$-1$&$1$&$1$&$1$&$3$&$1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-11}
+
+
+
+&$-1/2$&$-1$&$-1$&$-1$&$i$&$i$&$i+1/2$&$i+1$&$0$&$D\sst {2i+4}\yy B\sst 3^a\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1$&$i$&$i$&$i+1$&$i+2$&$0$&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1$&$i+1$&$i+1$&$i+1$&$i+1$&$0$&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$0$&$i$&$2i+1$&$i$&$D\sst {2i+4}\yy B\sst 3^b\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$0$&$1$&$0$&$i$&$2i+1$&$i$&$D\sst {2i+4}$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$0$&$i+1$&$2i+2$&$i$&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1$&$-1$&$0$&$i+1$&$2i+3$&$i+1$&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1$&$i$&$i+1/2$&$i+1$&$i+2$&$0$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1$&$i$&$i+1$&$i+2$&$i+3$&$0$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1$&$i+1$&$i+1$&$i+1$&$i+2$&$0$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$0$&$i+1$&$2i+2$&$i$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$0$&$1$&$0$&$i+1$&$2i+2$&$i$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$0$&$i+1$&$2i+3$&$i+1$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1$&$-1$&$0$&$i+2$&$2i+4$&$i+1$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$0$&$i/2$&$i$&$(i-1)/2$&$B\sst {i+3}\yy G\sst 2\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$0$&$1$&$0$&$i/2$&$i$&$(i-1)/2$&$B\sst {i+3}\yy B\sst 3^b\xx$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$0$&$(i+1)/2$&$i+1$&$i/2$&$B\sst {i+3}\yy B\sst 3^a\xx$\\[-.5mm] 
+
+\cline{2-11}
+
+&$-1/2$&$-1$&$-1$&$-1$&$-1$&$0$&$i/2+1$&$i+2$&$(i+1)/2$&$B\sst {i+3}\yy G\sst 2\xx$\\[-.5mm]
+
+\cline{2-11}
+
+
+
+&$-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$i-1$&$C\sst i$\\[-.5mm]
+
+\cline{2-11}
+
+&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&$i-1$&$-1$&$C\sst i$\\[-.5mm]
+
+\cline{2-11}
+
+
+
+
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&$A\sst {z_4+z_7+1}$\\[-.5mm]
+
+
+
+\hline\hline
+
+
+
+\end{tabular}
+
+\caption{Duals $\top^*$ of tops with $F_0^*$ being polygon $14$ of figure~\ref{fig:16pol}.}\label{tab:results14}
+
+\end{footnotesize}
+
+%\end{adjustwidth}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 323
+```
+{% raw %}
+\begin{table}%[h]
+\begin{center}
+%\beginadjustwidth}{-0.7in}{-0.7in}
+\begin{footnotesize}
+\begin{tabular}{|c|cccccccccc|c|}
+\hline
+%$F_0^*$&\multicolumn{10}{c}{Minimal points}\vline&Lie\\[-.5mm]
+%\cline{2-11}
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&$z_9$&AKMA\\[-.5mm]
+\hline\hline
+
+15&$-1/4$&$-1$&$1$&$3/2$&$2$&$1/2$&$-1$&$-3/2$&$-2$&-&$E\sst 7$\\[-.5mm]
+\cline{2-12}
+&$-1/4$&$-1$&$1$&$3/2$&$2$&$1/2$&$-1$&$-1$&$-1$&-&$E\sst 7$\\[-.5mm]
+\cline{2-12}
+&$-1/4$&$-1$&$2$&$2$&$2$&$1/2$&$-1$&$-1$&$-1$&-&$E\sst 7$\\[-.5mm]
+\cline{2-12}
+&$-1/3$&$-1$&$-1$&$-1$&$0$&$1/2$&$1$&$1/2$&$0$&-&$E\sst 6$\\[-.5mm]
+\cline{2-12}
+&$-1/3$&$-1$&$-1$&$-1$&$0$&$1/2$&$1$&$1$&$1$&-&$E\sst 6$\\[-.5mm]
+\cline{2-12}
+&$-1/3$&$-1$&$-1$&$-1$&$1$&$1$&$1$&$1$&$1$&-&$E\sst 6$\\[-.5mm]
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$0$&$i$&$i-1/2$&$i-1$&-&$D\sst {2i+4}\yy D\sst 3^{(2)a}\xx$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$0$&$i$&$i$&$i$&-&$D\sst {2i+4}\yy B\sst 3^a\xx$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$0$&$1$&$0$&$i$&$i$&$i$&-&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$0$&$1$&$0$&$i+1$&$i$&$i-1$&-&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$0$&$i+1$&$i$&$i$&-&$D\sst {2i+4}$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$i$&$-1$&$-1$&$0$&$0$&$0$&$i$&$2i+1$&-&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$0$&$i+1$&$i$&$i$&-&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$0$&$1$&$0$&$i+1$&$i$&$i$&-&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$i$&$-1$&$-1$&$0$&$0$&$0$&$i+1$&$2i+2$&-&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$(i-1)/2$&$-1$&$-1$&$0$&$0$&$0$&$i/2$&$i$&-&$B\sst {i+3}\yy B\sst 3^a\xx$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$(i-1)/2$&$-1$&$-1$&$-1$&$-1/2$&$0$&$i/2$&$i$&-&$D\sst {i+3}^{(2)}\yy D\sst 3^{(2)a}\xx$\\[-.5mm]
+\cline{2-12}
+
+&$-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&-&$C\sst i$\\[-.5mm]
+\cline{2-12}
+&$-1$&$i-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&-&$C\sst i$\\[-.5mm]
+\cline{2-12}
+
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&-&$A\sst {z_4+z_6+z_8+2}$\\[-.5mm]
+\hline\hline
+\del
+
+
+\end{tabular}
+\caption{Duals $\top^*$ of tops with $F_0^*$ one of the polygons $$ of figure~\ref{fig:16pol}.}\label{tab:results15}
+\end{footnotesize}
+%\end{adjustwidth}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 324
+```
+{% raw %}
+\begin{table}%[h]
+
+\begin{center}
+
+%\beginadjustwidth}{-0.7in}{-0.7in}
+
+\begin{footnotesize}
+
+\begin{tabular}{|c|cccccccccc|c|}
+
+\hline
+
+%$F_0^*$&\multicolumn{10}{c}{Minimal points}\vline&Lie\\[-.5mm]
+
+%\cline{2-11}
+
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&$z_9$&AKMA\\[-.5mm]
+
+\hline\hline
+
+
+
+15&$-1/4$&$-1$&$1$&$3/2$&$2$&$1/2$&$-1$&$-3/2$&$-2$&-&$E\sst 7$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/4$&$-1$&$1$&$3/2$&$2$&$1/2$&$-1$&$-1$&$-1$&-&$E\sst 7$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/4$&$-1$&$2$&$2$&$2$&$1/2$&$-1$&$-1$&$-1$&-&$E\sst 7$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/3$&$-1$&$-1$&$-1$&$0$&$1/2$&$1$&$1/2$&$0$&-&$E\sst 6$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/3$&$-1$&$-1$&$-1$&$0$&$1/2$&$1$&$1$&$1$&-&$E\sst 6$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/3$&$-1$&$-1$&$-1$&$1$&$1$&$1$&$1$&$1$&-&$E\sst 6$\\[-.5mm]
+
+\cline{2-12}
+
+
+
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$0$&$i$&$i-1/2$&$i-1$&-&$D\sst {2i+4}\yy D\sst 3^{(2)a}\xx$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$0$&$i$&$i$&$i$&-&$D\sst {2i+4}\yy B\sst 3^a\xx$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$0$&$1$&$0$&$i$&$i$&$i$&-&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$0$&$1$&$0$&$i+1$&$i$&$i-1$&-&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$0$&$i+1$&$i$&$i$&-&$D\sst {2i+4}$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$i$&$-1$&$-1$&$0$&$0$&$0$&$i$&$2i+1$&-&$D\sst {2i+4}\yy D\sst 4^a\xx$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$0$&$i+1$&$i$&$i$&-&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$0$&$1$&$0$&$i+1$&$i$&$i$&-&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$i$&$-1$&$-1$&$0$&$0$&$0$&$i+1$&$2i+2$&-&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$(i-1)/2$&$-1$&$-1$&$0$&$0$&$0$&$i/2$&$i$&-&$B\sst {i+3}\yy B\sst 3^a\xx$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$(i-1)/2$&$-1$&$-1$&$-1$&$-1/2$&$0$&$i/2$&$i$&-&$D\sst {i+3}^{(2)}\yy D\sst 3^{(2)a}\xx$\\[-.5mm]
+
+\cline{2-12}
+
+
+
+&$-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$i-1$&$i-1$&-&$C\sst i$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1$&$i-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&-&$C\sst i$\\[-.5mm]
+
+\cline{2-12}
+
+
+
+
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&-&$A\sst {z_4+z_6+z_8+2}$\\[-.5mm]
+
+\hline\hline
+
+\del
+
+
+
+
+
+\end{tabular}
+
+\caption{Duals $\top^*$ of tops with $F_0^*$ one of the polygons $$ of figure~\ref{fig:16pol}.}\label{tab:results15}
+
+\end{footnotesize}
+
+%\end{adjustwidth}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 325
+```
+{% raw %}
+\begin{table}%[h]
+\begin{center}
+%\beginadjustwidth}{-0.7in}{-0.7in}
+\begin{footnotesize}
+\begin{tabular}{|c|cccccccccc|c|}
+\hline
+%$F_0^*$&\multicolumn{10}{c}{Minimal points}\vline&Lie\\[-.5mm]
+%\cline{2-12}
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&$z_9$&AKMA\\[-.5mm]
+
+\hline\hline
+
+\enddel
+16&$-1/6$&$-1$&$-3$&$-2$&$-3/2$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.5mm]
+\cline{2-12}
+&$-1/6$&$-1$&$-3$&$-7/3$&$-5/3$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.5mm]
+\cline{2-12}
+&$-1/6$&$-1$&$-1$&$-1$&$-1$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.5mm]
+\cline{2-12}
+
+&$-1/4$&$-1$&$-3$&$-7/3$&$-5/3$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.5mm]
+\cline{2-12}
+&$-1/4$&$-1$&$-3$&$-7/3$&$-5/3$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.5mm]
+\cline{2-12}
+&$-1/4$&$-1$&$-2$&$-2$&$-3/2$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.5mm]
+\cline{2-12}
+&$-1/4$&$-1$&$-2$&$-2$&$-3/2$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.5mm]
+\cline{2-12}
+&$-1/4$&$-1$&$-1$&$-1$&$-1$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.5mm]
+\cline{2-12}
+&$-1/4$&$-1$&$-1$&$-1$&$-1$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.5mm]
+\cline{2-12}
+&$-1/3$&$-1$&$-1$&$-1/3$&$1/3$&$1$&$1/3$&$-1/3$&$-1$&$-1$&$D\sst 4^{(3)}$\\[-.5mm]
+\cline{2-12}
+&$-1/3$&$-1$&$-1$&$-1/3$&$1/3$&$1$&$1/2$&$0$&$0$&$-1$&$F\sst 4$\\[-.5mm]
+\cline{2-12}
+&$-1/3$&$-1$&$-1$&$-1/3$&$1/3$&$1$&$1$&$1$&$1$&$-1$&$F\sst 4$\\[-.5mm]
+\cline{2-12}
+&$-1/3$&$-1$&$0$&$0$&$1/2$&$1$&$1/2$&$0$&$0$&$-1$&$E\sst 6$\\[-.5mm]
+\cline{2-12}
+&$-1/3$&$-1$&$0$&$0$&$1/2$&$1$&$1$&$1$&$1$&$-1$&$E\sst 6$\\[-.5mm]
+\cline{2-12}
+&$-1/3$&$-1$&$1$&$1$&$1$&$1$&$1$&$1$&$1$&$-1$&$E\sst 6$\\[-.5mm]
+\cline{2-12}
+&$-1/3$&$-1$&$-2$&$-3/2$&$-1$&$0$&$1/2$&$1$&$2$&$1/2$&$E\sst 6$\\[-.5mm]
+\cline{2-12}
+&$-1/3$&$-1$&$-2$&$-3/2$&$-1$&$1$&$1$&$1$&$2$&$1/2$&$E\sst 6$\\[-.5mm]
+\cline{2-12}
+&$-1/3$&$-1$&$-2$&$-3/2$&$-1$&$1$&$1$&$1$&$3$&$1$&$E\sst 6$\\[-.5mm]
+\cline{2-12}
+&$-1/3$&$-1$&$-1$&$-1$&$-1$&$1$&$1$&$1$&$3$&$1$&$E\sst 6$\\[-.5mm]
+\cline{2-12}
+
+
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$1$&$0$&$i$&$2i$&$i-1$&$D\sst {2i+4}\yy B\sst 3^a\xx$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$0$&$1$&$2$&$0$&$i$&$2i$&$i-1$&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$1$&$0$&$i$&$2i+1$&$i$&$D\sst {2i+4}$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$1$&$0$&$i$&$2i+1$&$i$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$0$&$1$&$2$&$0$&$i$&$2i+1$&$i$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$1$&$0$&$i+1$&$2i+2$&$i$&$D\sst {2i+5}$\\[-.5mm]
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$1$&$0$&$(i-1)/2$&$i-1$&$i/2-1$&$B\sst {i+3}\yy G\sst 2\xx$\\[-.5mm] 
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$0$&$1$&$2$&$0$&$(i-1)/2$&$i-1$&$i/2-1$&$B\sst {i+3}\yy G\sst 2\xx$\\[-.5mm] 
+\cline{2-12}
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$1$&$0$&$i/2$&$i$&$(i-1)/2$&$B\sst {i+3}\yy B\sst 3^a\xx$\\[-.5mm] 
+\cline{2-12}
+
+
+&$-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$i-1$&$C\sst i$\\[-.5mm]
+\cline{2-12}
+
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&$z_9$&$A\sst {z_5+z_8+1}$
+\\[-.5mm]
+
+\hline\hline
+\end{tabular}
+\caption{Duals $\top^*$ of tops with $F_0^*$ one of the polygons $15,16$ 
+of figure~\ref{fig:16pol}.}
+\label{tab:results16}
+\end{footnotesize}
+%\end{adjustwidth}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 326
+```
+{% raw %}
+\begin{table}%[h]
+
+\begin{center}
+
+%\beginadjustwidth}{-0.7in}{-0.7in}
+
+\begin{footnotesize}
+
+\begin{tabular}{|c|cccccccccc|c|}
+
+\hline
+
+%$F_0^*$&\multicolumn{10}{c}{Minimal points}\vline&Lie\\[-.5mm]
+
+%\cline{2-12}
+
+$F_0^*$&$z_0$&$z_1$&$z_2$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&$z_9$&AKMA\\[-.5mm]
+
+
+
+\hline\hline
+
+
+
+\enddel
+
+16&$-1/6$&$-1$&$-3$&$-2$&$-3/2$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/6$&$-1$&$-3$&$-7/3$&$-5/3$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/6$&$-1$&$-1$&$-1$&$-1$&$-1$&$2/3$&$7/3$&$4$&$3/2$&$E\sst 8$\\[-.5mm]
+
+\cline{2-12}
+
+
+
+&$-1/4$&$-1$&$-3$&$-7/3$&$-5/3$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/4$&$-1$&$-3$&$-7/3$&$-5/3$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/4$&$-1$&$-2$&$-2$&$-3/2$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/4$&$-1$&$-2$&$-2$&$-3/2$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/4$&$-1$&$-1$&$-1$&$-1$&$-1$&$1/2$&$2$&$4$&$3/2$&$E\sst 7$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/4$&$-1$&$-1$&$-1$&$-1$&$-1$&$1/2$&$2$&$5$&$2$&$E\sst 7$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/3$&$-1$&$-1$&$-1/3$&$1/3$&$1$&$1/3$&$-1/3$&$-1$&$-1$&$D\sst 4^{(3)}$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/3$&$-1$&$-1$&$-1/3$&$1/3$&$1$&$1/2$&$0$&$0$&$-1$&$F\sst 4$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/3$&$-1$&$-1$&$-1/3$&$1/3$&$1$&$1$&$1$&$1$&$-1$&$F\sst 4$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/3$&$-1$&$0$&$0$&$1/2$&$1$&$1/2$&$0$&$0$&$-1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/3$&$-1$&$0$&$0$&$1/2$&$1$&$1$&$1$&$1$&$-1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/3$&$-1$&$1$&$1$&$1$&$1$&$1$&$1$&$1$&$-1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/3$&$-1$&$-2$&$-3/2$&$-1$&$0$&$1/2$&$1$&$2$&$1/2$&$E\sst 6$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/3$&$-1$&$-2$&$-3/2$&$-1$&$1$&$1$&$1$&$2$&$1/2$&$E\sst 6$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/3$&$-1$&$-2$&$-3/2$&$-1$&$1$&$1$&$1$&$3$&$1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/3$&$-1$&$-1$&$-1$&$-1$&$1$&$1$&$1$&$3$&$1$&$E\sst 6$\\[-.5mm]
+
+\cline{2-12}
+
+
+
+
+
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$1$&$0$&$i$&$2i$&$i-1$&$D\sst {2i+4}\yy B\sst 3^a\xx$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$0$&$1$&$2$&$0$&$i$&$2i$&$i-1$&$D\sst {2i+4}\yy B\sst 3\xx$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$1$&$0$&$i$&$2i+1$&$i$&$D\sst {2i+4}$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$1$&$0$&$i$&$2i+1$&$i$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$0$&$1$&$2$&$0$&$i$&$2i+1$&$i$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$1$&$0$&$i+1$&$2i+2$&$i$&$D\sst {2i+5}$\\[-.5mm]
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$-1/2$&$0$&$1$&$0$&$(i-1)/2$&$i-1$&$i/2-1$&$B\sst {i+3}\yy G\sst 2\xx$\\[-.5mm] 
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$0$&$1$&$2$&$0$&$(i-1)/2$&$i-1$&$i/2-1$&$B\sst {i+3}\yy G\sst 2\xx$\\[-.5mm] 
+
+\cline{2-12}
+
+&$-1/2$&$-1$&$-1$&$-1$&$0$&$1$&$0$&$i/2$&$i$&$(i-1)/2$&$B\sst {i+3}\yy B\sst 3^a\xx$\\[-.5mm] 
+
+\cline{2-12}
+
+
+
+
+
+&$-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$-1$&$i-1$&$2i-1$&$i-1$&$C\sst i$\\[-.5mm]
+
+\cline{2-12}
+
+
+
+
+
+&$-1$&$-1$&$-1$&$z_3$&$z_4$&$z_5$&$z_6$&$z_7$&$z_8$&$z_9$&$A\sst {z_5+z_8+1}$
+
+\\[-.5mm]
+
+
+
+\hline\hline
+
+\end{tabular}
+
+\caption{Duals $\top^*$ of tops with $F_0^*$ one of the polygons $15,16$ 
+
+of figure~\ref{fig:16pol}.}
+
+\label{tab:results16}
+
+\end{footnotesize}
+
+%\end{adjustwidth}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 327
+```
+{% raw %}
+\begin{table}[th]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+  & D1 & D3 & D5 & D7 \\
+\hline
+$\Gamma_{wv}\epsilon=\epsilon$ & 0 susy  & 1/8 susy & 0 susy & 1/4 susy \\
+\hline
+$\Gamma_{wv}\epsilon=-\epsilon$ & 0 susy & 1/8 susy & 1/4 susy & 1/4 susy \\ 
+\hline
+\end{tabular}
+\end{center}
+\caption{Summary of the results for Dp-branes.}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 328
+```
+{% raw %}
+\begin{table}[th]
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|c|c|}
+
+\hline
+
+  & D1 & D3 & D5 & D7 \\
+
+\hline
+
+$\Gamma_{wv}\epsilon=\epsilon$ & 0 susy  & 1/8 susy & 0 susy & 1/4 susy \\
+
+\hline
+
+$\Gamma_{wv}\epsilon=-\epsilon$ & 0 susy & 1/8 susy & 1/4 susy & 1/4 susy \\ 
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\caption{Summary of the results for Dp-branes.}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 329
+```
+{% raw %}
+\begin{table}[ht]
+\label{table1}
+{\bf Table 1: } The period of the accelerated expansion for $d=3$. \\
+ \\
+\begin{tabular}{|c|c|c|c|} \hline
+$~n~$ & $t_i\cong $ & $t_f\cong$ & Ratio
+$f=\frac{a(\tau_2)}{a(\tau_1)}$
+\\ \hline \hline $2$ & $ -\,0.7367 $ & $-\, 0.1991 $ & $ 1.99$\\ \hline
+$3$ & $-\, 0.7249 $ & $ -\,0.1359$ & $2.25$
+\\ \hline $4$ & $ -\,0.7259 $ & $-\,0.1051 $ & $2.48 $ \\
+\hline $5$ & $-\, 0.7287 $ & $-\, 0.0861 $ & $2.68$ \\
+\hline $6$ & $-\, 0.7316 $ & $ -\,0.0731 $ & $2.83 $ \\
+\hline $7$ & $-\, 0.7341$ & $ -\,0.0636$ & $3.04 $
+\\ \hline
+\end{tabular}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 330
+```
+{% raw %}
+\begin{table}[ht]
+
+\label{table1}
+
+{\bf Table 1: } The period of the accelerated expansion for $d=3$. \\
+
+ \\
+
+\begin{tabular}{|c|c|c|c|} \hline
+
+$~n~$ & $t_i\cong $ & $t_f\cong$ & Ratio
+
+$f=\frac{a(\tau_2)}{a(\tau_1)}$
+
+\\ \hline \hline $2$ & $ -\,0.7367 $ & $-\, 0.1991 $ & $ 1.99$\\ \hline
+
+$3$ & $-\, 0.7249 $ & $ -\,0.1359$ & $2.25$
+
+\\ \hline $4$ & $ -\,0.7259 $ & $-\,0.1051 $ & $2.48 $ \\
+
+\hline $5$ & $-\, 0.7287 $ & $-\, 0.0861 $ & $2.68$ \\
+
+\hline $6$ & $-\, 0.7316 $ & $ -\,0.0731 $ & $2.83 $ \\
+
+\hline $7$ & $-\, 0.7341$ & $ -\,0.0636$ & $3.04 $
+
+\\ \hline
+
+\end{tabular}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 331
+```
+{% raw %}
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{ccc}
+{ Type IIB string theory} && { ${\cal N}=4$ SYM in 4D with}\\  { on
+${\rm AdS}^5\times {\rm S}^5$} && {gauge group $SU(N)$}
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 332
+```
+{% raw %}
+\begin{table}[ht]
+
+\begin{center}
+
+\begin{tabular}{ccc}
+
+{ Type IIB string theory} && { ${\cal N}=4$ SYM in 4D with}\\  { on
+
+${\rm AdS}^5\times {\rm S}^5$} && {gauge group $SU(N)$}
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 333
+```
+{% raw %}
+\begin{table} [ht] 
+\begin{center}
+\begin{tabular}{c|c|c}
+& $SO(1,5) \times SO(4)$ & $SO(1,3) \times U(1)_J \times SU(2)_L
+\times SU(2)_R$ \\ \hline && \\ $V_M$ & $(6,1)$ &  $(4_0,1,1) \oplus
+(1_\pm,1,1)$ \\&& \\$\phi^A$  & $(1,4)$  & $ (1_0,2,2)$ \\
+&&\\$\psi^{+}$ & $(4,2)$ & $ (2_+,2,1) \oplus  (\bar 2_-,2,1)$ \\ &&
+\\$\psi^{-}$ & $(4',2')$ & $ (\bar 2_+,1,2) \oplus (2_-,1,2)$
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 334
+```
+{% raw %}
+\begin{table} [ht] 
+
+\begin{center}
+
+\begin{tabular}{c|c|c}
+
+& $SO(1,5) \times SO(4)$ & $SO(1,3) \times U(1)_J \times SU(2)_L
+
+\times SU(2)_R$ \\ \hline && \\ $V_M$ & $(6,1)$ &  $(4_0,1,1) \oplus
+
+(1_\pm,1,1)$ \\&& \\$\phi^A$  & $(1,4)$  & $ (1_0,2,2)$ \\
+
+&&\\$\psi^{+}$ & $(4,2)$ & $ (2_+,2,1) \oplus  (\bar 2_-,2,1)$ \\ &&
+
+\\$\psi^{-}$ & $(4',2')$ & $ (\bar 2_+,1,2) \oplus (2_-,1,2)$
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 335
+```
+{% raw %}
+\begin{table} [ht] 
+\begin{center}
+\begin{tabular}{c|c}
+& $SO(1,3) \times U(1)$ \\ \hline \\ $V_M$ & $4_{0} \oplus 1_{\pm}$ \\
+\\$\phi^A$  &  $ 2 \times 1_{0} \oplus  1_{+} \oplus 1_{-}$ \\
+\\$\psi^{\pm}$ & $\begin{matrix} 2\times 2_{0}\oplus 2\times 2_{++} \\
+2 \times \bar 2_{0} \oplus 2 \times \bar 2_{--}\end{matrix}$
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 336
+```
+{% raw %}
+\begin{table} [ht] 
+
+\begin{center}
+
+\begin{tabular}{c|c}
+
+& $SO(1,3) \times U(1)$ \\ \hline \\ $V_M$ & $4_{0} \oplus 1_{\pm}$ \\
+
+\\$\phi^A$  &  $ 2 \times 1_{0} \oplus  1_{+} \oplus 1_{-}$ \\
+
+\\$\psi^{\pm}$ & $\begin{matrix} 2\times 2_{0}\oplus 2\times 2_{++} \\
+
+2 \times \bar 2_{0} \oplus 2 \times \bar 2_{--}\end{matrix}$
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 337
+```
+{% raw %}
+\begin{table} [ht] 
+\begin{center}
+\begin{tabular}{c|c}
+& $SO(1,3) \times U(1)$ \\ \hline  \\ $V_M$ & $4_{0} \oplus 1_{\pm}$
+\\  \\$\phi^A$  &  $ 2 \times 1_{+} \oplus 2 \times 1_{-}$ \\
+\\$\psi^{\pm}$ & $\begin{matrix} 2_{0}\oplus  2_{++} \oplus 2\times
+2_{-} \\ \bar 2_{0} \oplus \bar 2_{--} \oplus 2 \times \bar 2_{+}
+\end{matrix}$
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 338
+```
+{% raw %}
+\begin{table} [ht] 
+
+\begin{center}
+
+\begin{tabular}{c|c}
+
+& $SO(1,3) \times U(1)$ \\ \hline  \\ $V_M$ & $4_{0} \oplus 1_{\pm}$
+
+\\  \\$\phi^A$  &  $ 2 \times 1_{+} \oplus 2 \times 1_{-}$ \\
+
+\\$\psi^{\pm}$ & $\begin{matrix} 2_{0}\oplus  2_{++} \oplus 2\times
+
+2_{-} \\ \bar 2_{0} \oplus \bar 2_{--} \oplus 2 \times \bar 2_{+}
+
+\end{matrix}$
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 339
+```
+{% raw %}
+\newcommand{\Table}[1]{\begin{table}
+  \caption{#1}
+  \begin{indented}
+  \lineup
+  \item[]\begin{tabular}{@{}l*{15}{l}}}
+
+\def\endTable{\end{tabular}\end{indented}\end{table}}
+
+{% endraw %}
+```
+## Example Number: 340
+```
+{% raw %}
+\newcommand{\Table}[1]{\begin{table}
+
+  \caption{#1}
+
+  \begin{indented}
+
+  \lineup
+
+  \item[]\begin{tabular}{@{}l*{15}{l}}}
+
+
+
+\def\endTable{\end{tabular}\end{indented}\end{table}}
+
+{% endraw %}
+```
+## Example Number: 341
+```
+{% raw %}
+\newcommand{\fulltable}[1]{\begin{table}
+
+  \caption{#1}
+
+  \lineup
+
+[end-of-con]
+
+
+[start-of-table]
+
+\newcommand{\fulltable}[1]{\begin{table}
+  \caption{#1}
+  \lineup
+  \begin{tabular*}{\textwidth}{@{}l*{15}{@{\extracolsep{0pt plus 12pt}}l}}}
+\def\endfulltable{\end{tabular*}\end{table}}
+
+{% endraw %}
+```
+## Example Number: 342
+```
+{% raw %}
+\newcommand{\fulltable}[1]{\begin{table}
+
+  \caption{#1}
+
+  \lineup
+
+  \begin{tabular*}{\textwidth}{@{}l*{15}{@{\extracolsep{0pt plus 12pt}}l}}}
+
+\def\endfulltable{\end{tabular*}\end{table}}
+
+{% endraw %}
+```
+## Example Number: 343
+```
+{% raw %}
+\begin{table}[tbp]
+	\centering
+	\caption{Colour singlet composite operators for 
+	$gl_{2}(1/{\{}{3}{\}}+{\{}\overline{3}{\}}) \simeq gl(1/1)$, listed by fermion
+	content $(K,L)$, and $gl(1)$ content
+	${\{}\overline{K}{\}}\cdot{\{}L{\}}$ (one dimensonal 
+	representations with $gl(1)$ quantum number $K-L$). 
+	Mesons have $K=L$, baryons have $K=0$
+	or $L=0$.  The
+	 adjoint module has
+	even dimension 4, and odd dimension 
+	2 (including the 2 odd and 2 even generators of 
+	$gl(1/1)$).}\vspace*{1cm}
+		\begin{tabular}{|c||c|}
+			\hline
+			$(K,L)$ & ${\{}\overline{K}{\}}\cdot{\{}L{\}}$  \\
+			\hline \hline
+			\rule[-.6cm]{0cm}{1.2cm}$(0,0)$ & ${\{}\overline{0}{\}}\cdot{\{}0{\}}$    \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(1,1)$ & ${\{}\overline{1}{\}}\cdot{\{}1{\}}$    \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(2,2)$ & ${\{}\overline{2}{\}}\cdot{\{}2{\}}$   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(3,3)$ & ${\{}\overline{3}{\}}\cdot{\{}3{\}}$   \\
+			\hline \hline
+			\rule[-.6cm]{0cm}{1.2cm}$(0,3)$ & ${\{}\overline{0}{\}}\cdot{\{}3{\}}$   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(3,0)$ & ${\{}\overline{3}{\}}\cdot{\{}0{\}}$   \\
+			\hline \hline
+			
+		\end{tabular}
+		
+		
+	\label{tbl:OperatorsGl1}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 344
+```
+{% raw %}
+\begin{table}[tbp]
+
+	\centering
+
+	\caption{Colour singlet composite operators for 
+
+	$gl_{2}(1/{\{}{3}{\}}+{\{}\overline{3}{\}}) \simeq gl(1/1)$, listed by fermion
+
+	content $(K,L)$, and $gl(1)$ content
+
+	${\{}\overline{K}{\}}\cdot{\{}L{\}}$ (one dimensonal 
+
+	representations with $gl(1)$ quantum number $K-L$). 
+
+	Mesons have $K=L$, baryons have $K=0$
+
+	or $L=0$.  The
+
+	 adjoint module has
+
+	even dimension 4, and odd dimension 
+
+	2 (including the 2 odd and 2 even generators of 
+
+	$gl(1/1)$).}\vspace*{1cm}
+
+		\begin{tabular}{|c||c|}
+
+			\hline
+
+			$(K,L)$ & ${\{}\overline{K}{\}}\cdot{\{}L{\}}$  \\
+
+			\hline \hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(0,0)$ & ${\{}\overline{0}{\}}\cdot{\{}0{\}}$    \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(1,1)$ & ${\{}\overline{1}{\}}\cdot{\{}1{\}}$    \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(2,2)$ & ${\{}\overline{2}{\}}\cdot{\{}2{\}}$   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(3,3)$ & ${\{}\overline{3}{\}}\cdot{\{}3{\}}$   \\
+
+			\hline \hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(0,3)$ & ${\{}\overline{0}{\}}\cdot{\{}3{\}}$   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(3,0)$ & ${\{}\overline{3}{\}}\cdot{\{}0{\}}$   \\
+
+			\hline \hline
+
+			
+
+		\end{tabular}
+
+		
+
+		
+
+	\label{tbl:OperatorsGl1}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 345
+```
+{% raw %}
+\begin{table}[tbp]
+
+	\centering
+
+	\caption{Colour singlet composite operators for 
+
+	$gl_{2}(2/ {\{}{3}{\}}+{\{}\overline{3}{\}})$, listed by fermion
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[tbp]
+	\centering
+	\caption{Colour singlet composite operators for 
+	$gl_{2}(2/ {\{}{3}{\}}+{\{}\overline{3}{\}})$, listed by fermion
+	content $(K,L)$, $gl(2)$ content
+	${\{}\overline{\rho}{\}}\cdot{\{}\sigma{\}}$ for partitions in the
+	standard $3 \times (n=2)$ rectangular envelope, and $sl(2)$ spin
+	content $j \times k$ with dimension $N=(2j+1)(2k+1)$.  Mesons
+	have $K=L$, baryons and dibaryons and their conjugates have $K=0$
+	or $L=0$, and exotic baryons have $K > L > 0$ or $L > K >0$.  The
+	 adjoint module has
+	even dimension 52, and odd dimension 
+	40 (including the 8 odd and 4 even generators).}\vspace*{1cm}
+	\parbox[tbp]{15cm}{
+		\begin{tabular}{|c||c|c|c|}
+			\hline
+			$(K,K)$ & ${\{}\overline{\sigma}{\}}\cdot{\{}\sigma{\}}$ & $j\times j$ & 
+			$N$   \\
+			\hline \hline
+			\rule[-.6cm]{0cm}{1.2cm}$(0,0)$ & ${\{}\overline{0}{\}}\cdot{\{}0{\}}$ & $0 \times 0$ & 1   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(1,1)$ & ${\{}\overline{1}{\}}\cdot{\{}1{\}}$ & $\frac 12 \times \frac 
+			12$ & 4   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(2,2)$ & ${\{}\overline{2}{\}}\cdot{\{}2{\}}$ & $1 \times 1$ & 9   \\
+			
+			 & ${\{}\overline{1^{2}}{\}}\cdot{\{}1^{2}{\}}$ & $0 \times 0$ & 1   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(3,3)$ & ${\{}\overline{3}{\}}\cdot{\{}3{\}}$ & $\frac 32 \times \frac 
+			32$ & 16   \\
+			
+			 & ${\{}\overline{2,1}{\}}\cdot{\{}2,1{\}}$ & $\frac 12 \times \frac 
+			12$ & 4   \\
+			\hline
+		\rule[-.6cm]{0cm}{1.2cm}	$(4,4)$ & ${\{}\overline{3,1}{\}}\cdot{\{}3,1{\}}$ & $1 \times 1$ & 9   \\
+			
+			 & ${\{}\overline{2,2}{\}}\cdot{\{}2,2{\}}$ & $0 \times 0$ & 1   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(5,5)$ & ${\{}\overline{3,2}{\}}\cdot{\{}3,2{\}}$ & $\frac 12 \times \frac 
+			12$ & 4   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(6,6)$ & ${\{}\overline{3,3}{\}}\cdot{\{}3,3{\}}$ & $0 \times 0$ & 1   \\
+			\hline \hline
+			
+		\end{tabular}
+\hspace{1cm}
+		\begin{tabular}{|c||c|c|c|}
+			\hline
+			$(K,L)$ & ${\{}\overline{\rho}{\}}\cdot{\{}\sigma{\}}$ & $j\times k$ & 
+			$N$   \\
+			\hline \hline
+			\rule[-.6cm]{0cm}{1.2cm}$(0,3)$ & ${\{}\overline{0}{\}}\cdot{\{}3{\}}$ & $0 \times \frac 32$ & 4   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(3,0)$ & ${\{}\overline{3}{\}}\cdot{\{}0{\}}$ & $\frac 32 \times 0$ & 4   \\
+			\hline \hline
+			\rule[-.6cm]{0cm}{1.2cm}$(1,4)$ & ${\{}\overline{1}{\}}\cdot{\{}3,1{\}}$ & $\frac 12 \times 1$ & 6   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(2,5)$ & ${\{}\overline{2}{\}}\cdot{\{}3,2{\}}$ & $1 \times \frac 12$ & 6   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(3,6)$ & ${\{}\overline{3}{\}}\cdot{\{}3^{2}{\}}$ & $\frac 32 \times 0$ & 4   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(4,1)$ & ${\{}\overline{3,1}{\}}\cdot{\{}1{\}}$ & $1 \times \frac 12$ & 6   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(5,2)$ & ${\{}\overline{3,2}{\}}\cdot{\{}2{\}}$ & $\frac 12 \times 1$ & 6   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(6,3)$ & ${\{}\overline{3^{2}}{\}}\cdot{\{}3{\}}$ & $0 \times \frac 32$ & 4   \\
+			\hline \hline
+			\rule[-.6cm]{0cm}{1.2cm}$(0,6)$ & ${\{}\overline{0}{\}}\cdot{\{}3^{2}{\}}$ & $0 \times 0$ & 1   \\
+			\hline
+			\rule[-.6cm]{0cm}{1.2cm}$(6,0)$ & ${\{}\overline{3^{2}}{\}}\cdot{\{}0{\}}$ & $0 \times  0$ & 1   \\
+			\hline \hline
+			
+		\end{tabular}
+	}	\label{tbl:OperatorsGl2}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 346
+```
+{% raw %}
+\begin{table}[tbp]
+
+	\centering
+
+	\caption{Colour singlet composite operators for 
+
+	$gl_{2}(2/ {\{}{3}{\}}+{\{}\overline{3}{\}})$, listed by fermion
+
+	content $(K,L)$, $gl(2)$ content
+
+	${\{}\overline{\rho}{\}}\cdot{\{}\sigma{\}}$ for partitions in the
+
+	standard $3 \times (n=2)$ rectangular envelope, and $sl(2)$ spin
+
+	content $j \times k$ with dimension $N=(2j+1)(2k+1)$.  Mesons
+
+	have $K=L$, baryons and dibaryons and their conjugates have $K=0$
+
+	or $L=0$, and exotic baryons have $K > L > 0$ or $L > K >0$.  The
+
+	 adjoint module has
+
+	even dimension 52, and odd dimension 
+
+	40 (including the 8 odd and 4 even generators).}\vspace*{1cm}
+
+	\parbox[tbp]{15cm}{
+
+		\begin{tabular}{|c||c|c|c|}
+
+			\hline
+
+			$(K,K)$ & ${\{}\overline{\sigma}{\}}\cdot{\{}\sigma{\}}$ & $j\times j$ & 
+
+			$N$   \\
+
+			\hline \hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(0,0)$ & ${\{}\overline{0}{\}}\cdot{\{}0{\}}$ & $0 \times 0$ & 1   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(1,1)$ & ${\{}\overline{1}{\}}\cdot{\{}1{\}}$ & $\frac 12 \times \frac 
+
+			12$ & 4   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(2,2)$ & ${\{}\overline{2}{\}}\cdot{\{}2{\}}$ & $1 \times 1$ & 9   \\
+
+			
+
+			 & ${\{}\overline{1^{2}}{\}}\cdot{\{}1^{2}{\}}$ & $0 \times 0$ & 1   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(3,3)$ & ${\{}\overline{3}{\}}\cdot{\{}3{\}}$ & $\frac 32 \times \frac 
+
+			32$ & 16   \\
+
+			
+
+			 & ${\{}\overline{2,1}{\}}\cdot{\{}2,1{\}}$ & $\frac 12 \times \frac 
+
+			12$ & 4   \\
+
+			\hline
+
+		\rule[-.6cm]{0cm}{1.2cm}	$(4,4)$ & ${\{}\overline{3,1}{\}}\cdot{\{}3,1{\}}$ & $1 \times 1$ & 9   \\
+
+			
+
+			 & ${\{}\overline{2,2}{\}}\cdot{\{}2,2{\}}$ & $0 \times 0$ & 1   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(5,5)$ & ${\{}\overline{3,2}{\}}\cdot{\{}3,2{\}}$ & $\frac 12 \times \frac 
+
+			12$ & 4   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(6,6)$ & ${\{}\overline{3,3}{\}}\cdot{\{}3,3{\}}$ & $0 \times 0$ & 1   \\
+
+			\hline \hline
+
+			
+
+		\end{tabular}
+
+\hspace{1cm}
+
+		\begin{tabular}{|c||c|c|c|}
+
+			\hline
+
+			$(K,L)$ & ${\{}\overline{\rho}{\}}\cdot{\{}\sigma{\}}$ & $j\times k$ & 
+
+			$N$   \\
+
+			\hline \hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(0,3)$ & ${\{}\overline{0}{\}}\cdot{\{}3{\}}$ & $0 \times \frac 32$ & 4   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(3,0)$ & ${\{}\overline{3}{\}}\cdot{\{}0{\}}$ & $\frac 32 \times 0$ & 4   \\
+
+			\hline \hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(1,4)$ & ${\{}\overline{1}{\}}\cdot{\{}3,1{\}}$ & $\frac 12 \times 1$ & 6   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(2,5)$ & ${\{}\overline{2}{\}}\cdot{\{}3,2{\}}$ & $1 \times \frac 12$ & 6   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(3,6)$ & ${\{}\overline{3}{\}}\cdot{\{}3^{2}{\}}$ & $\frac 32 \times 0$ & 4   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(4,1)$ & ${\{}\overline{3,1}{\}}\cdot{\{}1{\}}$ & $1 \times \frac 12$ & 6   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(5,2)$ & ${\{}\overline{3,2}{\}}\cdot{\{}2{\}}$ & $\frac 12 \times 1$ & 6   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(6,3)$ & ${\{}\overline{3^{2}}{\}}\cdot{\{}3{\}}$ & $0 \times \frac 32$ & 4   \\
+
+			\hline \hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(0,6)$ & ${\{}\overline{0}{\}}\cdot{\{}3^{2}{\}}$ & $0 \times 0$ & 1   \\
+
+			\hline
+
+			\rule[-.6cm]{0cm}{1.2cm}$(6,0)$ & ${\{}\overline{3^{2}}{\}}\cdot{\{}0{\}}$ & $0 \times  0$ & 1   \\
+
+			\hline \hline
+
+			
+
+		\end{tabular}
+
+	}	\label{tbl:OperatorsGl2}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 347
+```
+{% raw %}
+\begin{table}[htbp]
+\begin{tabular}{|l|c|c|}
+\hline
+   method             & $\nu$  & $\eta$    \\
+\hline
+LPA$^{(a)}$           & 0.6506   &  0       \\
+\hline
+$\partial^{2 \;(a)}$  & 0.6281  &  0.0443  \\
+\hline
+$\partial^{4 \;(b)}$  & 0.632   &  0.033  \\
+\hline
+7-loop$^{(c)}$        & 0.6304(13)& 0.0335(25)\\
+\hline
+MC$^{(d)}$            & 0.6297(5) & 0.0362(8)\\
+\hline
+\end{tabular}
+\caption{Critical exponents of the three-dimensional Ising model:
+$a$) effective average action method (field expansion)
+\cite{canet03a}; $b$) present work;
+$c$) 7-loop calculations \cite{guida98}; $d$) Monte-Carlo simulations
+\cite{hasenbusch01}. }
+\label{tab}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 348
+```
+{% raw %}
+\begin{table}[htbp]
+
+\begin{tabular}{|l|c|c|}
+
+\hline
+
+   method             & $\nu$  & $\eta$    \\
+
+\hline
+
+LPA$^{(a)}$           & 0.6506   &  0       \\
+
+\hline
+
+$\partial^{2 \;(a)}$  & 0.6281  &  0.0443  \\
+
+\hline
+
+$\partial^{4 \;(b)}$  & 0.632   &  0.033  \\
+
+\hline
+
+7-loop$^{(c)}$        & 0.6304(13)& 0.0335(25)\\
+
+\hline
+
+MC$^{(d)}$            & 0.6297(5) & 0.0362(8)\\
+
+\hline
+
+\end{tabular}
+
+\caption{Critical exponents of the three-dimensional Ising model:
+
+$a$) effective average action method (field expansion)
+
+\cite{canet03a}; $b$) present work;
+
+$c$) 7-loop calculations \cite{guida98}; $d$) Monte-Carlo simulations
+
+\cite{hasenbusch01}. }
+
+\label{tab}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 349
+```
+{% raw %}
+\begin{table}[hbt]
+	\begin{tabular}{|c|l|} \hline
+	\, $E_{\rm cl}$ \, & \, Classical Higgs and gauge energy, eq.~(\ref{Eclassical}) \\ \hline
+	\, $E_{\rm vac}$ \, & \, Fermion vacuum polarization energy, including counterterms, eqs.~(\ref{Evac1}, \ref{Evac2}) \\ \hline
+	\, $E_{\rm eff}$ \, & \, One--fermion--loop effective energy, $E_{\rm cl} + E_{\rm vac}$ \\ \hline
+	\, $E_{\rm occ}^{(m)}$ \, & \, Smallest occupation energy required to obtain fermion number $m$, eq.~(\ref{allTheEs}) \\ \hline  
+	\, $E_{\rm eff}^{(m)}$ \, & \, Smallest effective energy in the fermion number $m$ sector, $E_{\rm eff} + E_{\rm occ}^{(m)}$ \\ \hline
+	\end{tabular}
+\caption{\label{EnergiesTable} Definitions of some of the energies which appear in our analysis.}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 350
+```
+{% raw %}
+\begin{table}[hbt]
+
+	\begin{tabular}{|c|l|} \hline
+
+	\, $E_{\rm cl}$ \, & \, Classical Higgs and gauge energy, eq.~(\ref{Eclassical}) \\ \hline
+
+	\, $E_{\rm vac}$ \, & \, Fermion vacuum polarization energy, including counterterms, eqs.~(\ref{Evac1}, \ref{Evac2}) \\ \hline
+
+	\, $E_{\rm eff}$ \, & \, One--fermion--loop effective energy, $E_{\rm cl} + E_{\rm vac}$ \\ \hline
+
+	\, $E_{\rm occ}^{(m)}$ \, & \, Smallest occupation energy required to obtain fermion number $m$, eq.~(\ref{allTheEs}) \\ \hline  
+
+	\, $E_{\rm eff}^{(m)}$ \, & \, Smallest effective energy in the fermion number $m$ sector, $E_{\rm eff} + E_{\rm occ}^{(m)}$ \\ \hline
+
+	\end{tabular}
+
+\caption{\label{EnergiesTable} Definitions of some of the energies which appear in our analysis.}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 351
+```
+{% raw %}
+\begin{table}[htp]
+\begin{center}
+\begin{tabular}{|| c  || c |  c ||}
+\hline
+\hline
+level & $ g \bar{\kappa}\langle \phi \rangle$ & $V/T_{25}$\\
+\hline
+\hline
+(0, 0) & 0.3333 & -0.68462\\
+\hline
+(2, 4) & 0.3957 &  -0.94855\\
+(2, 6) & 0.3977 &  -0.95938\\
+\hline
+(4, 8) & 0.4005 &  -0.98640\\
+(4, 12) & 0.4007 & -0.98782\\
+\hline
+(6, 12) & 0.4004 & -0.99514\\
+(6, 18) & 0.4004 & -0.99518\\
+\hline
+(8, 16) & 0.3999 & -0.99777\\
+(8, 20) & 0.3997 & -0.99793\\
+\hline
+(10, 20) & 0.3992 & -0.99912\\
+\hline
+\hline
+\end{tabular}
+\caption[x]{\footnotesize Tachyon VEV and vacuum energy in stable
+vacua of level-truncated theory}
+\label{t:vacuum}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 352
+```
+{% raw %}
+\begin{table}[htp]
+
+\begin{center}
+
+\begin{tabular}{|| c  || c |  c ||}
+
+\hline
+
+\hline
+
+level & $ g \bar{\kappa}\langle \phi \rangle$ & $V/T_{25}$\\
+
+\hline
+
+\hline
+
+(0, 0) & 0.3333 & -0.68462\\
+
+\hline
+
+(2, 4) & 0.3957 &  -0.94855\\
+
+(2, 6) & 0.3977 &  -0.95938\\
+
+\hline
+
+(4, 8) & 0.4005 &  -0.98640\\
+
+(4, 12) & 0.4007 & -0.98782\\
+
+\hline
+
+(6, 12) & 0.4004 & -0.99514\\
+
+(6, 18) & 0.4004 & -0.99518\\
+
+\hline
+
+(8, 16) & 0.3999 & -0.99777\\
+
+(8, 20) & 0.3997 & -0.99793\\
+
+\hline
+
+(10, 20) & 0.3992 & -0.99912\\
+
+\hline
+
+\hline
+
+\end{tabular}
+
+\caption[x]{\footnotesize Tachyon VEV and vacuum energy in stable
+
+vacua of level-truncated theory}
+
+\label{t:vacuum}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 353
+```
+{% raw %}
+\begin{table}%[htb]
+\caption{Orientifolds of Quintic and their Mirrors}
+\label{oqtable}
+\begin{center}
+\begin{tabular}{|l||l|}
+\hline
+quintic $M$&mirror quintic $\widetilde{M}$
+\\
+~~$(1_{\C},101_{\C})$&
+~~$(101_{\C},1_{\C})$
+\\
+\noalign{\hrule height 0.8pt}
+$\tau_A:z_i\to \overline{z_i}$
+&
+$\wttau_B:\wtz_i\to\wtz_i$
+\\
+$~~(1_{\C},101_{\R})$&$~~(101_{\R},1_{\C})$
+\\
+~~O6 at the real quintic ($\RP^3$)
+&
+~~O9 at $\widetilde{M}$
+\\
+\hline
+$\tau_A^{{}^{12}}\!:(z_1,z_2,z_3,z_4,z_5)\to
+(\overline{z_2},\overline{z_1},\overline{z_3},\overline{z_4},\overline{z_5})$
+&
+$\wttau_B^{{}^{12}}\!:(\wtz_1,\wtz_2,\wtz_3,\wtz_4,\wtz_5)\to
+(\wtz_2,\wtz_1,\wtz_3,\wtz_4,\wtz_5)$
+\\
+$~~(1_{\C},101_{\R})$&$~~(101_{\R},1_{\C})$
+\\
+~~O6 at $\RP^3=\{(z,\bz,x_3,x_4,x_5)|x_i\in \R\}$
+&
+~~O3 at $\{(1,-1,0,0,0)\}$
+\\
+&
+~~O7 at $\{(\wtz,\wtz,\wtz_3,\wtz_4,\wtz_5)\}$
+\\
+\hline
+$\tau_A^{{}^{12,34}}\!:(z_1,z_2,z_3,z_4,z_5)\to
+(\overline{z_2},\overline{z_1},\overline{z_4},\overline{z_3},\overline{z_5})$
+&
+$\wttau_B^{{}^{12,34}}\!:(\wtz_1,\wtz_2,\wtz_3,\wtz_4,\wtz_5)\to
+(\wtz_2,\wtz_1,\wtz_4,\wtz_3,\wtz_5)$
+\\
+$~~(1_{\C},101_{\R})$&$~~(101_{\R},1_{\C})$
+\\
+~~O6 at $\RP^3=\{(z,\bz,w,\bw,x)|x\in \R\}$
+&
+~~O5 at $\{(\wtz,-\wtz,\wtw,-\wtw,0)\}$
+\\
+&
+~~O5 at $\{(\wtz,\wtz,\wtw,\wtw,\wtu)\}$
+\\
+\noalign{\hrule height 0.8pt}
+$\tau_B: z_i\to z_i$
+&
+$\wttau_A:\wtz_i\to\overline{\wtz_i}$
+\\
+$~~(1_{\R},101_{\C})$&$~~(101_{\C},1_{\R})$
+\\
+~~O9 at $M$
+&
+~~O6 at real quintic
+\\
+\hline
+$\tau_B^{{}^{12}}\!:(z_1,z_2,z_3,z_4,z_5)\to
+(z_2,z_1,z_3,z_4,z_5)$
+&
+$\wttau_A^{{}^{12}}\!:(\wtz_1,\wtz_2,\wtz_3,\wtz_4,\wtz_5)\to
+(\overline{\wtz_2},\overline{\wtz_1},\overline{\wtz_3},\overline{\wtz_4},
+\overline{\wtz_5})$
+\\
+$~~(1_{\R},63_{\C})$&$~~(63_{\C},1_{\R})$
+\\
+~~O3 at $\{(1,-1,0,0,0)\}$
+&
+~~O6 at $\{(\wtz,\overline{\wtz},\wtx_3,\wtx_4,\wtx_5)|\wtx_i\in\R\}$
+\\
+~~O7 at $\{(z,z,z_3,z_4,z_5)\}$
+&
+\\
+\hline
+$\tau_B^{{}^{12,34}}\!:(z_1,z_2,z_3,z_4,z_5)\to
+(z_2,z_1,z_3,z_4,z_5)$
+&
+$\wttau_A^{{}^{12,34}}\!:(\wtz_1,\wtz_2,\wtz_3,\wtz_4,\wtz_5)\to
+(\overline{\wtz_2},\overline{\wtz_1},\overline{\wtz_3},\overline{\wtz_4},
+\overline{\wtz_5})$
+\\
+$~~(1_{\R},53_{\C})$&$~~(53_{\C},1_{\R})$
+\\
+~~O5 at $\{(z,-z,w,-w,0)\}$ (line)
+&
+~~O6 at $\{(\wtz,\overline{\wtz},
+\wtw,\overline{\wtw},\wtx)|\wtx\in\R\}$
+\\
+~~O5 at $\{(z,z,w,w,z_5)\}$ (genus 6)
+&
+\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 354
+```
+{% raw %}
+\begin{table}%[htb]
+
+\caption{Orientifolds of Quintic and their Mirrors}
+
+\label{oqtable}
+
+\begin{center}
+
+\begin{tabular}{|l||l|}
+
+\hline
+
+quintic $M$&mirror quintic $\widetilde{M}$
+
+\\
+
+~~$(1_{\C},101_{\C})$&
+
+~~$(101_{\C},1_{\C})$
+
+\\
+
+\noalign{\hrule height 0.8pt}
+
+$\tau_A:z_i\to \overline{z_i}$
+
+&
+
+$\wttau_B:\wtz_i\to\wtz_i$
+
+\\
+
+$~~(1_{\C},101_{\R})$&$~~(101_{\R},1_{\C})$
+
+\\
+
+~~O6 at the real quintic ($\RP^3$)
+
+&
+
+~~O9 at $\widetilde{M}$
+
+\\
+
+\hline
+
+$\tau_A^{{}^{12}}\!:(z_1,z_2,z_3,z_4,z_5)\to
+
+(\overline{z_2},\overline{z_1},\overline{z_3},\overline{z_4},\overline{z_5})$
+
+&
+
+$\wttau_B^{{}^{12}}\!:(\wtz_1,\wtz_2,\wtz_3,\wtz_4,\wtz_5)\to
+
+(\wtz_2,\wtz_1,\wtz_3,\wtz_4,\wtz_5)$
+
+\\
+
+$~~(1_{\C},101_{\R})$&$~~(101_{\R},1_{\C})$
+
+\\
+
+~~O6 at $\RP^3=\{(z,\bz,x_3,x_4,x_5)|x_i\in \R\}$
+
+&
+
+~~O3 at $\{(1,-1,0,0,0)\}$
+
+\\
+
+&
+
+~~O7 at $\{(\wtz,\wtz,\wtz_3,\wtz_4,\wtz_5)\}$
+
+\\
+
+\hline
+
+$\tau_A^{{}^{12,34}}\!:(z_1,z_2,z_3,z_4,z_5)\to
+
+(\overline{z_2},\overline{z_1},\overline{z_4},\overline{z_3},\overline{z_5})$
+
+&
+
+$\wttau_B^{{}^{12,34}}\!:(\wtz_1,\wtz_2,\wtz_3,\wtz_4,\wtz_5)\to
+
+(\wtz_2,\wtz_1,\wtz_4,\wtz_3,\wtz_5)$
+
+\\
+
+$~~(1_{\C},101_{\R})$&$~~(101_{\R},1_{\C})$
+
+\\
+
+~~O6 at $\RP^3=\{(z,\bz,w,\bw,x)|x\in \R\}$
+
+&
+
+~~O5 at $\{(\wtz,-\wtz,\wtw,-\wtw,0)\}$
+
+\\
+
+&
+
+~~O5 at $\{(\wtz,\wtz,\wtw,\wtw,\wtu)\}$
+
+\\
+
+\noalign{\hrule height 0.8pt}
+
+$\tau_B: z_i\to z_i$
+
+&
+
+$\wttau_A:\wtz_i\to\overline{\wtz_i}$
+
+\\
+
+$~~(1_{\R},101_{\C})$&$~~(101_{\C},1_{\R})$
+
+\\
+
+~~O9 at $M$
+
+&
+
+~~O6 at real quintic
+
+\\
+
+\hline
+
+$\tau_B^{{}^{12}}\!:(z_1,z_2,z_3,z_4,z_5)\to
+
+(z_2,z_1,z_3,z_4,z_5)$
+
+&
+
+$\wttau_A^{{}^{12}}\!:(\wtz_1,\wtz_2,\wtz_3,\wtz_4,\wtz_5)\to
+
+(\overline{\wtz_2},\overline{\wtz_1},\overline{\wtz_3},\overline{\wtz_4},
+
+\overline{\wtz_5})$
+
+\\
+
+$~~(1_{\R},63_{\C})$&$~~(63_{\C},1_{\R})$
+
+\\
+
+~~O3 at $\{(1,-1,0,0,0)\}$
+
+&
+
+~~O6 at $\{(\wtz,\overline{\wtz},\wtx_3,\wtx_4,\wtx_5)|\wtx_i\in\R\}$
+
+\\
+
+~~O7 at $\{(z,z,z_3,z_4,z_5)\}$
+
+&
+
+\\
+
+\hline
+
+$\tau_B^{{}^{12,34}}\!:(z_1,z_2,z_3,z_4,z_5)\to
+
+(z_2,z_1,z_3,z_4,z_5)$
+
+&
+
+$\wttau_A^{{}^{12,34}}\!:(\wtz_1,\wtz_2,\wtz_3,\wtz_4,\wtz_5)\to
+
+(\overline{\wtz_2},\overline{\wtz_1},\overline{\wtz_3},\overline{\wtz_4},
+
+\overline{\wtz_5})$
+
+\\
+
+$~~(1_{\R},53_{\C})$&$~~(53_{\C},1_{\R})$
+
+\\
+
+~~O5 at $\{(z,-z,w,-w,0)\}$ (line)
+
+&
+
+~~O6 at $\{(\wtz,\overline{\wtz},
+
+\wtw,\overline{\wtw},\wtx)|\wtx\in\R\}$
+
+\\
+
+~~O5 at $\{(z,z,w,w,z_5)\}$ (genus 6)
+
+&
+
+\\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 355
+```
+{% raw %}
+\begin{table}[htb]
+\caption{Massless Fields in ${\mathcal N}=2$ Compactifications}
+\label{msslss2}
+\begin{center}
+\begin{tabular}{|l@{\quad\vrule width0.8pt\quad}c|c|}
+\hline
+&hypermultiplets&vector multiplets
+\\
+\noalign{\hrule height 0.8pt}
+~~IIA
+&$h^{2,1}+1$&$h^{1,1}$
+\\
+\hline
+~~IIB&$h^{1,1}+1$&$h^{2,1}$
+\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 356
+```
+{% raw %}
+\begin{table}[htb]
+
+\caption{Massless Fields in ${\mathcal N}=2$ Compactifications}
+
+\label{msslss2}
+
+\begin{center}
+
+\begin{tabular}{|l@{\quad\vrule width0.8pt\quad}c|c|}
+
+\hline
+
+&hypermultiplets&vector multiplets
+
+\\
+
+\noalign{\hrule height 0.8pt}
+
+~~IIA
+
+&$h^{2,1}+1$&$h^{1,1}$
+
+\\
+
+\hline
+
+~~IIB&$h^{1,1}+1$&$h^{2,1}$
+
+\\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 357
+```
+{% raw %}
+\begin{table}
+\caption{Light Fields from Closed Strings}
+\label{lf}
+\begin{center}
+\begin{tabular}{|ll@{\quad\vrule width0.8pt\quad}c|c|}
+\hline
+&$\begin{array}{l}
+\\
+\\
+\end{array}$
+&chiral multiplets&vector multiplets
+\\
+\noalign{\hrule height 0.8pt}
+$\begin{array}{l}
+\\
+\\
+\end{array}$
+&IIAO(6)
+&$h^{1,1}_-+h^{2,1}+1$&$h^{1,1}_+$
+\\
+\hline
+$\begin{array}{l}
+\\
+\\
+\end{array}$
+&IIBO(9,5)~~&$h^{2,1}_++h^{1,1}+1$&$h^{2,1}_-$
+\\
+\hline
+$\begin{array}{l}
+\\
+\\
+\end{array}$
+&IIBO(7,3)&$h^{2,1}_-+h^{1,1}+1$&$h^{2,1}_+$
+\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 358
+```
+{% raw %}
+\begin{table}
+
+\caption{Light Fields from Closed Strings}
+
+\label{lf}
+
+\begin{center}
+
+\begin{tabular}{|ll@{\quad\vrule width0.8pt\quad}c|c|}
+
+\hline
+
+&$\begin{array}{l}
+
+\\
+
+\\
+
+\end{array}$
+
+&chiral multiplets&vector multiplets
+
+\\
+
+\noalign{\hrule height 0.8pt}
+
+$\begin{array}{l}
+
+\\
+
+\\
+
+\end{array}$
+
+&IIAO(6)
+
+&$h^{1,1}_-+h^{2,1}+1$&$h^{1,1}_+$
+
+\\
+
+\hline
+
+$\begin{array}{l}
+
+\\
+
+\\
+
+\end{array}$
+
+&IIBO(9,5)~~&$h^{2,1}_++h^{1,1}+1$&$h^{2,1}_-$
+
+\\
+
+\hline
+
+$\begin{array}{l}
+
+\\
+
+\\
+
+\end{array}$
+
+&IIBO(7,3)&$h^{2,1}_-+h^{1,1}+1$&$h^{2,1}_+$
+
+\\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 359
+```
+{% raw %}
+\begin{table}[htb]
+
+\caption{The number for the six orientifolds of the quintic}
+
+\label{lfq}
+
+\begin{center}
+
+\begin{tabular}{|l@{\quad\vrule width0.8pt\quad}c|c|}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[htb]
+\caption{The number for the six orientifolds of the quintic}
+\label{lfq}
+\begin{center}
+\begin{tabular}{|l@{\quad\vrule width0.8pt\quad}c|c|}
+\hline
+&chiral multiplets&vector multiplets
+\\
+\noalign{\hrule height 0.8pt}
+IIAO by $\tau_A, \tau_A^{{}^{12}},
+\tau_A^{{}^{12,34}}$
+&$103$&$0$
+\\
+\hline
+IIBO by $\tau_B$
+&$103$&$0$
+\\
+\hline
+IIBO by $\tau_B^{{}^{12}}$
+&$65$&$38$
+\\
+\hline
+IIBO by $\tau_B^{{}^{12,34}}$
+&$55$&$48$
+\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 360
+```
+{% raw %}
+\begin{table}[htb]
+
+\caption{The number for the six orientifolds of the quintic}
+
+\label{lfq}
+
+\begin{center}
+
+\begin{tabular}{|l@{\quad\vrule width0.8pt\quad}c|c|}
+
+\hline
+
+&chiral multiplets&vector multiplets
+
+\\
+
+\noalign{\hrule height 0.8pt}
+
+IIAO by $\tau_A, \tau_A^{{}^{12}},
+
+\tau_A^{{}^{12,34}}$
+
+&$103$&$0$
+
+\\
+
+\hline
+
+IIBO by $\tau_B$
+
+&$103$&$0$
+
+\\
+
+\hline
+
+IIBO by $\tau_B^{{}^{12}}$
+
+&$65$&$38$
+
+\\
+
+\hline
+
+IIBO by $\tau_B^{{}^{12,34}}$
+
+&$55$&$48$
+
+\\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 361
+```
+{% raw %}
+\begin{table}[htbp]
+  \caption{\it Irreducible spinors, number of components and symmetry
+  properties.}\label{tbl:spinors}
+\begin{center}
+  \begin{tabular}{|c|c|c|c|}
+\hline
+ Dim & Spinor & min \# components & antisymmetric \\
+\hline
+ 2 & MW & 1 & 1 \\
+ 3 & M & 2 & 1,2 \\
+ 4 & M & 4 & 1,2 \\
+ 5 & S & 8 & 2,3 \\
+ 6 & SW & 8 & 3 \\
+ 7 & S & 16 & 0,3 \\
+ 8 & M & 16 & 0,1 \\
+ 9 & M & 16 & 0,1 \\
+ 10 & MW & 16 & 1 \\
+ 11 & M & 32 & 1,2 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 362
+```
+{% raw %}
+\begin{table}[htbp]
+
+  \caption{\it Irreducible spinors, number of components and symmetry
+
+  properties.}\label{tbl:spinors}
+
+\begin{center}
+
+  \begin{tabular}{|c|c|c|c|}
+
+\hline
+
+ Dim & Spinor & min \# components & antisymmetric \\
+
+\hline
+
+ 2 & MW & 1 & 1 \\
+
+ 3 & M & 2 & 1,2 \\
+
+ 4 & M & 4 & 1,2 \\
+
+ 5 & S & 8 & 2,3 \\
+
+ 6 & SW & 8 & 3 \\
+
+ 7 & S & 16 & 0,3 \\
+
+ 8 & M & 16 & 0,1 \\
+
+ 9 & M & 16 & 0,1 \\
+
+ 10 & MW & 16 & 1 \\
+
+ 11 & M & 32 & 1,2 \\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 363
+```
+{% raw %}
+\begin{table}[htbp]
+  \caption{{\it Supersymmetry and supergravity theories in dimensions 4 to
+  11.}  An entry represents the possibility to have supergravity
+theories in a specific dimension $D$ with the number of supersymmetries
+indicated in the top row. We first repeat for every dimension the type of
+spinors that can be used. Every entry allows different possibilities.
+Theories with more than 16 supersymmetries can have different gaugings.
+Theories with up to 16 (real) supersymmetry generators allow `matter'
+multiplets. The possibility of vector multiplets is indicated with
+$\heartsuit$. Tensor multiplets in  $D=6$ are indicated by
+$\diamondsuit$. Multiplets with only scalars and spin-$\ft12$ fields are
+indicated with $\clubsuit$. At the bottom is indicated whether these
+theories exist only in supergravity, or also with just rigid
+supersymmetry.}
+  \label{tbl:mapsusy}
+\begin{center}\tabcolsep 5pt
+  \begin{tabular}{| *{14}{c|} }
+\hline
+ $D$ & susy & \multicolumn{4}{c|}{32} & \multicolumn{2}{c|}{24}  & 20 & \multicolumn{2}{c|}{16}  & 12 & 8 & 4  \\
+\hline
+11  & M & M & \multicolumn{3}{c|}{ } &\multicolumn{2}{c|}{ } &  & \multicolumn{2}{c|}{ }  &  &  &  \\
+10  & MW & IIA & IIB & \multicolumn{2}{c|}{ }&\multicolumn{2}{c|}{ } &  &
+\begin{tabular}{c}
+  I \\
+\phantom{$N$}$\heartsuit$ \\
+\end{tabular} &  &  &  &  \\
+9  & M &  \multicolumn{2}{c|}{$N=2$ } &\multicolumn{2}{c|}{ }&
+\multicolumn{2}{c|}{ }  &  &
+\begin{tabular}{c}
+  $N=1$ \\
+\phantom{$N$}$\heartsuit$ \\
+\end{tabular} &  &  &  &  \\
+8  & M &  \multicolumn{2}{c|}{$N=2$ }&\multicolumn{2}{c|}{ }&
+\multicolumn{2}{c|}{ }  &  &
+\begin{tabular}{c}
+  $N=1$ \\
+\phantom{$N$}$\heartsuit$ \\
+\end{tabular}&  &  &  &  \\
+7  & S &  \multicolumn{2}{c|}{$N=4$ } &\multicolumn{2}{c|}{
+}&\multicolumn{2}{c|}{ }  &  &
+\begin{tabular}{c}
+  $N=2$ \\
+\phantom{$N$}$\heartsuit$ \\
+\end{tabular}& &  &  &  \\
+6  & SW & \multicolumn{2}{c|}{$(2,2)$}&$(3,1)$&$ (4,0)$  &$(2,1)$ &
+$(3,0)$& &  \begin{tabular}{c}
+  $(1,1)$ \\
+\phantom{$N$}$\heartsuit$ \\
+\end{tabular} &\begin{tabular}{c} $(2,0)$\\
+\phantom{$N$}$\diamondsuit$ \\
+\end{tabular}  &  &\begin{tabular}{c} $(1,0)$ \\
+$\heartsuit,\diamondsuit,\clubsuit$ \\
+\end{tabular}   &  \\
+5  & S &  \multicolumn{4}{c|}{$N=8$ }  &\multicolumn{2}{c|}{$N=6$ }  & &
+\multicolumn{2}{c|}{
+\begin{tabular}{c}
+  $N=4$ \\
+\phantom{$N$}$\heartsuit$ \\
+\end{tabular}}&  &\begin{tabular}{c}  $N=2$ \\
+\phantom{$N$}$\heartsuit,\clubsuit$ \\
+\end{tabular}  &  \\
+4  & M &  \multicolumn{4}{c|}{$N=8$ }  & \multicolumn{2}{c|}{$N=6$ }&
+$N=5$ & \multicolumn{2}{c|}{ \begin{tabular}{c}
+  $N=4$ \\
+\phantom{$N$}$\heartsuit$ \\
+\end{tabular} }  &\begin{tabular}{c}$N=3$ \\
+\phantom{$N$}$\heartsuit$ \\
+\end{tabular}  &\begin{tabular}{c}  $N=2$ \\
+$\heartsuit,\clubsuit$ \\
+\end{tabular}  & \begin{tabular}{c}  $N=1$ \\
+$\heartsuit,\clubsuit$ \\
+\end{tabular} \\
+\hline \multicolumn{2}{|c|}{ }   & \multicolumn{7}{c|}{SUGRA}  &
+ \multicolumn{2}{c|}{SUGRA/SUSY} & SUGRA & \multicolumn{2}{c|}{SUGRA/SUSY}  \\
+\hline
+\end{tabular}
+
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 364
+```
+{% raw %}
+\begin{table}[htbp]
+
+  \caption{{\it Supersymmetry and supergravity theories in dimensions 4 to
+
+  11.}  An entry represents the possibility to have supergravity
+
+theories in a specific dimension $D$ with the number of supersymmetries
+
+indicated in the top row. We first repeat for every dimension the type of
+
+spinors that can be used. Every entry allows different possibilities.
+
+Theories with more than 16 supersymmetries can have different gaugings.
+
+Theories with up to 16 (real) supersymmetry generators allow `matter'
+
+multiplets. The possibility of vector multiplets is indicated with
+
+$\heartsuit$. Tensor multiplets in  $D=6$ are indicated by
+
+$\diamondsuit$. Multiplets with only scalars and spin-$\ft12$ fields are
+
+indicated with $\clubsuit$. At the bottom is indicated whether these
+
+theories exist only in supergravity, or also with just rigid
+
+supersymmetry.}
+
+  \label{tbl:mapsusy}
+
+\begin{center}\tabcolsep 5pt
+
+  \begin{tabular}{| *{14}{c|} }
+
+\hline
+
+ $D$ & susy & \multicolumn{4}{c|}{32} & \multicolumn{2}{c|}{24}  & 20 & \multicolumn{2}{c|}{16}  & 12 & 8 & 4  \\
+
+\hline
+
+11  & M & M & \multicolumn{3}{c|}{ } &\multicolumn{2}{c|}{ } &  & \multicolumn{2}{c|}{ }  &  &  &  \\
+
+10  & MW & IIA & IIB & \multicolumn{2}{c|}{ }&\multicolumn{2}{c|}{ } &  &
+
+\begin{tabular}{c}
+
+  I \\
+
+\phantom{$N$}$\heartsuit$ \\
+
+\end{tabular} &  &  &  &  \\
+
+9  & M &  \multicolumn{2}{c|}{$N=2$ } &\multicolumn{2}{c|}{ }&
+
+\multicolumn{2}{c|}{ }  &  &
+
+\begin{tabular}{c}
+
+  $N=1$ \\
+
+\phantom{$N$}$\heartsuit$ \\
+
+\end{tabular} &  &  &  &  \\
+
+8  & M &  \multicolumn{2}{c|}{$N=2$ }&\multicolumn{2}{c|}{ }&
+
+\multicolumn{2}{c|}{ }  &  &
+
+\begin{tabular}{c}
+
+  $N=1$ \\
+
+\phantom{$N$}$\heartsuit$ \\
+
+\end{tabular}&  &  &  &  \\
+
+7  & S &  \multicolumn{2}{c|}{$N=4$ } &\multicolumn{2}{c|}{
+
+}&\multicolumn{2}{c|}{ }  &  &
+
+\begin{tabular}{c}
+
+  $N=2$ \\
+
+\phantom{$N$}$\heartsuit$ \\
+
+\end{tabular}& &  &  &  \\
+
+6  & SW & \multicolumn{2}{c|}{$(2,2)$}&$(3,1)$&$ (4,0)$  &$(2,1)$ &
+
+$(3,0)$& &  \begin{tabular}{c}
+
+  $(1,1)$ \\
+
+\phantom{$N$}$\heartsuit$ \\
+
+\end{tabular} &\begin{tabular}{c} $(2,0)$\\
+
+\phantom{$N$}$\diamondsuit$ \\
+
+\end{tabular}  &  &\begin{tabular}{c} $(1,0)$ \\
+
+$\heartsuit,\diamondsuit,\clubsuit$ \\
+
+\end{tabular}   &  \\
+
+5  & S &  \multicolumn{4}{c|}{$N=8$ }  &\multicolumn{2}{c|}{$N=6$ }  & &
+
+\multicolumn{2}{c|}{
+
+\begin{tabular}{c}
+
+  $N=4$ \\
+
+\phantom{$N$}$\heartsuit$ \\
+
+\end{tabular}}&  &\begin{tabular}{c}  $N=2$ \\
+
+\phantom{$N$}$\heartsuit,\clubsuit$ \\
+
+\end{tabular}  &  \\
+
+4  & M &  \multicolumn{4}{c|}{$N=8$ }  & \multicolumn{2}{c|}{$N=6$ }&
+
+$N=5$ & \multicolumn{2}{c|}{ \begin{tabular}{c}
+
+  $N=4$ \\
+
+\phantom{$N$}$\heartsuit$ \\
+
+\end{tabular} }  &\begin{tabular}{c}$N=3$ \\
+
+\phantom{$N$}$\heartsuit$ \\
+
+\end{tabular}  &\begin{tabular}{c}  $N=2$ \\
+
+$\heartsuit,\clubsuit$ \\
+
+\end{tabular}  & \begin{tabular}{c}  $N=1$ \\
+
+$\heartsuit,\clubsuit$ \\
+
+\end{tabular} \\
+
+\hline \multicolumn{2}{|c|}{ }   & \multicolumn{7}{c|}{SUGRA}  &
+
+ \multicolumn{2}{c|}{SUGRA/SUSY} & SUGRA & \multicolumn{2}{c|}{SUGRA/SUSY}  \\
+
+\hline
+
+\end{tabular}
+
+
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 365
+```
+{% raw %}
+\begin{table}[htbp]
+  \caption{\it Pure supergravity multiplets in 4 dimensions according to spin $s$}
+  \label{tbl:pureSGD4}
+\begin{center}
+  $\begin{array}{|c|ccccccc|}\hline
+    s & N=1 & N=2 & N=3 & N=4 & N=5 & N=6 & N=8 \\ \hline
+    2 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+    \ft32 & 1 & 2 & 3 & 4 & 5 & 6 & 8 \\
+    1 &   & 1 & 3 & 6 & 10 & 16 & 28 \\
+    \ft12 &   &   & 1 & 4 & 11 & 26 & 56 \\
+    0 &   &   &   & 2 & 10 & 30 & 70 \\ \hline
+  \end{array}$
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 366
+```
+{% raw %}
+\begin{table}[htbp]
+
+  \caption{\it Pure supergravity multiplets in 4 dimensions according to spin $s$}
+
+  \label{tbl:pureSGD4}
+
+\begin{center}
+
+  $\begin{array}{|c|ccccccc|}\hline
+
+    s & N=1 & N=2 & N=3 & N=4 & N=5 & N=6 & N=8 \\ \hline
+
+    2 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+
+    \ft32 & 1 & 2 & 3 & 4 & 5 & 6 & 8 \\
+
+    1 &   & 1 & 3 & 6 & 10 & 16 & 28 \\
+
+    \ft12 &   &   & 1 & 4 & 11 & 26 & 56 \\
+
+    0 &   &   &   & 2 & 10 & 30 & 70 \\ \hline
+
+  \end{array}$
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 367
+```
+{% raw %}
+\begin{table}[htbp]
+  \caption{\it Matter multiplets in 4 dimensions}\label{tbl:mattermD4}
+\begin{center}
+  $\begin{array}{|c|ccc|}\hline
+    s & N=1 & N=2 & N=3,4 \\ \hline
+    1  & 1 & 1 & 1 \\
+    \ft12 & 1 & 2 & 4 \\
+    0 &   & 2 & 6 \\ \hline
+  \end{array}     \qquad\qquad
+\begin{array}{|c|cc|}\hline
+    s & N=1 & N=2 \\ \hline
+    \ft12 & 1 & 2 \\
+    0 & 2 & 4 \\ \hline
+  \end{array}$
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 368
+```
+{% raw %}
+\begin{table}[htbp]
+
+  \caption{\it Matter multiplets in 4 dimensions}\label{tbl:mattermD4}
+
+\begin{center}
+
+  $\begin{array}{|c|ccc|}\hline
+
+    s & N=1 & N=2 & N=3,4 \\ \hline
+
+    1  & 1 & 1 & 1 \\
+
+    \ft12 & 1 & 2 & 4 \\
+
+    0 &   & 2 & 6 \\ \hline
+
+  \end{array}     \qquad\qquad
+
+\begin{array}{|c|cc|}\hline
+
+    s & N=1 & N=2 \\ \hline
+
+    \ft12 & 1 & 2 \\
+
+    0 & 2 & 4 \\ \hline
+
+  \end{array}$
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 369
+```
+{% raw %}
+\begin{table}[htbp]
+  \caption{{\it Scalar geometries in theories with more than 8
+  supersymmetries (and dimension $\geq 4$).} The theories are ordered as
+  in table~\ref{tbl:mapsusy}. Note that the R-symmetry
+  group, mentioned in~(\ref{Rsymmetry}), is always a factor in the
+  isotropy group. For more than 16 supersymmetries, there is only a
+  unique supergravity (up to gaugings irrelevant to the geometry),
+  while for 16 and 12 supersymmetries there is a number $n$ indicating
+  the number of vector multiplets that are included.}\label{tbl:geometriesPlus8}
+\begin{center}
+  $\begin{array}{|@{\hspace{2pt}}c| % dimensie
+  *{3}{c|} @{\hspace{2pt}}c| %einde 32
+c|@{\hspace{2pt}}c| c| *{2}{@{\hspace{2pt}}c|} *{1}{c|}
+   }
+\hline
+ D & \multicolumn{4}{c|}{32} & \multicolumn{2}{c|}{24} &20  & \multicolumn{2}{c|}{16} & 12      \\
+\hline
+ 10 & {\mathrm O}(1,1)&\frac{\SU(1,1)}{\OliveGreen{\U(1)}}& \multicolumn{2}{c|}{ }&\multicolumn{2}{c|}{ }&&&&\\
+ 9  & \multicolumn{2}{c|}{\frac{\Sl(2)}{\OliveGreen{\SO(2)}} \otimes
+  {\mathrm O}(1,1)}&\multicolumn{2}{c|}{ }&\multicolumn{2}{c|}{ }
+&& \frac{\mathrm{O}(1,n)}{\mathrm{O}(n)} \otimes  {\mathrm O}(1,1)& &    \\[5mm]
+8  & \multicolumn{2}{c|}{\frac{\Sl(3)}{\OliveGreen{\SU(2)}}\otimes
+\frac{\Sl(2)}{\OliveGreen{\U(1)}} }&\multicolumn{2}{c|}{
+}&\multicolumn{2}{c|}{ }  &  & \frac{{\mathrm
+O}(2,n)}{\OliveGreen{\U(1)}\times
+  {\mathrm O}(n)}\otimes  {\mathrm O}(1,1)&  &      \\[5mm]
+7  & \multicolumn{2}{c|}{\frac{\Sl(5)}{\OliveGreen{\USp(4)}} }&
+\multicolumn{2}{c|}{ }&\multicolumn{2}{c|}{ } & & \frac{{\mathrm
+O}(3,n)}{\OliveGreen{\USp(2)}\times
+  {\mathrm O}(n)}\otimes  {\mathrm O}(1,1)& &      \\[5mm]
+6  & \multicolumn{2}{c|}{\frac{\mathrm{O}(5,5)}{\OliveGreen{\USp(4)\times
+\USp(4)}}}&\frac{\textrm{F}_4}{\OliveGreen{\USp(6)\times
+\USp(2)}}&\frac{\textrm{E}_6}{\OliveGreen{\USp(8)}}
+&\frac{\SU^*(4)}{\OliveGreen{\USp(4)}}&\frac{\SU^*(6)}{\OliveGreen{\USp(6)}}
+& & \frac{\mathrm{O}(4,n)}{\mathrm{O}(n)\times \OliveGreen{SO(4)}}\otimes
+{\mathrm O}(1,1)
+ & \frac{\mathrm{O}(5,n)}{\mathrm{O}(n)\times \OliveGreen{\USp(4)}} &     \\[5mm]
+5  & \multicolumn{4}{c|}{\frac{\mathrm{E}_6}{\OliveGreen{\USp(8)}}} &
+\multicolumn{2}{c|}{\frac{\SU^*(6)}{\OliveGreen{\USp(6)}}} &  &
+\multicolumn{2}{c|}{\frac{{\mathrm O}(5,n)}{\OliveGreen{\USp(4)}\times
+  {\mathrm O}(n)}\otimes  {\mathrm O}(1,1)}   &      \\[4mm]
+4  & \multicolumn{4}{c|}{\frac{\mathrm{E}_7}{\OliveGreen{\SU(8)}}} &
+\multicolumn{2}{c|}{\frac{SO^*(12)}{\OliveGreen{\U(6)}}} &
+\frac{\SU(1,5)}{\OliveGreen{\U(5)}} &
+\multicolumn{2}{c|}{\frac{\SU(1,1)}{\OliveGreen{\U(1)}}\times
+\frac{\SO(6,n)}
+{\OliveGreen{\SU(4)}\times \SO(n)}}  & \frac{\SU(3,n)}{\OliveGreen{\U(3)}\times \SU(n)}    \\
+\hline
+\end{array}$
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 370
+```
+{% raw %}
+\begin{table}[htbp]
+
+  \caption{{\it Scalar geometries in theories with more than 8
+
+  supersymmetries (and dimension $\geq 4$).} The theories are ordered as
+
+  in table~\ref{tbl:mapsusy}. Note that the R-symmetry
+
+  group, mentioned in~(\ref{Rsymmetry}), is always a factor in the
+
+  isotropy group. For more than 16 supersymmetries, there is only a
+
+  unique supergravity (up to gaugings irrelevant to the geometry),
+
+  while for 16 and 12 supersymmetries there is a number $n$ indicating
+
+  the number of vector multiplets that are included.}\label{tbl:geometriesPlus8}
+
+\begin{center}
+
+  $\begin{array}{|@{\hspace{2pt}}c| % dimensie
+
+  *{3}{c|} @{\hspace{2pt}}c| %einde 32
+
+c|@{\hspace{2pt}}c| c| *{2}{@{\hspace{2pt}}c|} *{1}{c|}
+
+   }
+
+\hline
+
+ D & \multicolumn{4}{c|}{32} & \multicolumn{2}{c|}{24} &20  & \multicolumn{2}{c|}{16} & 12      \\
+
+\hline
+
+ 10 & {\mathrm O}(1,1)&\frac{\SU(1,1)}{\OliveGreen{\U(1)}}& \multicolumn{2}{c|}{ }&\multicolumn{2}{c|}{ }&&&&\\
+
+ 9  & \multicolumn{2}{c|}{\frac{\Sl(2)}{\OliveGreen{\SO(2)}} \otimes
+
+  {\mathrm O}(1,1)}&\multicolumn{2}{c|}{ }&\multicolumn{2}{c|}{ }
+
+&& \frac{\mathrm{O}(1,n)}{\mathrm{O}(n)} \otimes  {\mathrm O}(1,1)& &    \\[5mm]
+
+8  & \multicolumn{2}{c|}{\frac{\Sl(3)}{\OliveGreen{\SU(2)}}\otimes
+
+\frac{\Sl(2)}{\OliveGreen{\U(1)}} }&\multicolumn{2}{c|}{
+
+}&\multicolumn{2}{c|}{ }  &  & \frac{{\mathrm
+
+O}(2,n)}{\OliveGreen{\U(1)}\times
+
+  {\mathrm O}(n)}\otimes  {\mathrm O}(1,1)&  &      \\[5mm]
+
+7  & \multicolumn{2}{c|}{\frac{\Sl(5)}{\OliveGreen{\USp(4)}} }&
+
+\multicolumn{2}{c|}{ }&\multicolumn{2}{c|}{ } & & \frac{{\mathrm
+
+O}(3,n)}{\OliveGreen{\USp(2)}\times
+
+  {\mathrm O}(n)}\otimes  {\mathrm O}(1,1)& &      \\[5mm]
+
+6  & \multicolumn{2}{c|}{\frac{\mathrm{O}(5,5)}{\OliveGreen{\USp(4)\times
+
+\USp(4)}}}&\frac{\textrm{F}_4}{\OliveGreen{\USp(6)\times
+
+\USp(2)}}&\frac{\textrm{E}_6}{\OliveGreen{\USp(8)}}
+
+&\frac{\SU^*(4)}{\OliveGreen{\USp(4)}}&\frac{\SU^*(6)}{\OliveGreen{\USp(6)}}
+
+& & \frac{\mathrm{O}(4,n)}{\mathrm{O}(n)\times \OliveGreen{SO(4)}}\otimes
+
+{\mathrm O}(1,1)
+
+ & \frac{\mathrm{O}(5,n)}{\mathrm{O}(n)\times \OliveGreen{\USp(4)}} &     \\[5mm]
+
+5  & \multicolumn{4}{c|}{\frac{\mathrm{E}_6}{\OliveGreen{\USp(8)}}} &
+
+\multicolumn{2}{c|}{\frac{\SU^*(6)}{\OliveGreen{\USp(6)}}} &  &
+
+\multicolumn{2}{c|}{\frac{{\mathrm O}(5,n)}{\OliveGreen{\USp(4)}\times
+
+  {\mathrm O}(n)}\otimes  {\mathrm O}(1,1)}   &      \\[4mm]
+
+4  & \multicolumn{4}{c|}{\frac{\mathrm{E}_7}{\OliveGreen{\SU(8)}}} &
+
+\multicolumn{2}{c|}{\frac{SO^*(12)}{\OliveGreen{\U(6)}}} &
+
+\frac{\SU(1,5)}{\OliveGreen{\U(5)}} &
+
+\multicolumn{2}{c|}{\frac{\SU(1,1)}{\OliveGreen{\U(1)}}\times
+
+\frac{\SO(6,n)}
+
+{\OliveGreen{\SU(4)}\times \SO(n)}}  & \frac{\SU(3,n)}{\OliveGreen{\U(3)}\times \SU(n)}    \\
+
+\hline
+
+\end{array}$
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 371
+```
+{% raw %}
+\begin{table}
+\caption{\label{table:notation}Summary of notation}
+\begin{ruledtabular}
+\begin{tabular}{l|l|r}
+Symbol & Meaning & Equation \\
+\hline
+$\beta$ and $\alpha$& Bogolubov coefficients & (\ref{eq:transformation})\\
+$\zeta$ & Bardeen variable& (\ref{eq:Bardeen})\\
+$\eta$ & Conformal time &  (\ref{eq:metric}) \\
+$\theta$ & Mode length over Hubble radius& (\ref{eq:theta})\\
+$\Lambda$ & High energy cutoff & \\
+$\lambda$ & Physical size of a mode& (\ref{eq:length})\\
+$\nu$ & Index of Hankel function & (\ref{eq:nu}) \\
+$a$ & Scale factor & (\ref{eq:metric}) \\
+$k$ & Labels a perturbation mode & \\
+$\mathcal{P}$ & Power spectrum & (\ref{eq:power-def}) \\
+$p$ & Power-law expansion exponent & (\ref{eq:scale-factor}) \\ 
+$v$ & The quantization variable & (\ref{eq:action}) \\ 
+$v_k$ & Mode function & (\ref{eq:mode-expansion}) \\
+$X$ and $Y$  & Vacuum parameters & (\ref{eq:prescription}) \\
+Subscript 0 & Initial time & \\
+$'$ & $d/d\eta$ & \\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 372
+```
+{% raw %}
+\begin{table}
+
+\caption{\label{table:notation}Summary of notation}
+
+\begin{ruledtabular}
+
+\begin{tabular}{l|l|r}
+
+Symbol & Meaning & Equation \\
+
+\hline
+
+$\beta$ and $\alpha$& Bogolubov coefficients & (\ref{eq:transformation})\\
+
+$\zeta$ & Bardeen variable& (\ref{eq:Bardeen})\\
+
+$\eta$ & Conformal time &  (\ref{eq:metric}) \\
+
+$\theta$ & Mode length over Hubble radius& (\ref{eq:theta})\\
+
+$\Lambda$ & High energy cutoff & \\
+
+$\lambda$ & Physical size of a mode& (\ref{eq:length})\\
+
+$\nu$ & Index of Hankel function & (\ref{eq:nu}) \\
+
+$a$ & Scale factor & (\ref{eq:metric}) \\
+
+$k$ & Labels a perturbation mode & \\
+
+$\mathcal{P}$ & Power spectrum & (\ref{eq:power-def}) \\
+
+$p$ & Power-law expansion exponent & (\ref{eq:scale-factor}) \\ 
+
+$v$ & The quantization variable & (\ref{eq:action}) \\ 
+
+$v_k$ & Mode function & (\ref{eq:mode-expansion}) \\
+
+$X$ and $Y$  & Vacuum parameters & (\ref{eq:prescription}) \\
+
+Subscript 0 & Initial time & \\
+
+$'$ & $d/d\eta$ & \\
+
+\end{tabular}
+
+\end{ruledtabular}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 373
+```
+{% raw %}
+\begin{table}
+\caption{\label{table:vacua}Properties of different vacuum prescriptions}
+\begin{ruledtabular}
+\begin{tabular}{l|c|c}
+Vacuum prescription & $X$ & $Y$ \\
+\hline
+Conventional & $0$  &$i (1-2p)/(1-p)$ \\ 
+Adiabatic $\geq$ 1st order & 0 & 0 \\
+Hamiltonian diagonalization & 0 & 0  \\
+Danielsson & $-i$ & $i$ \\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 374
+```
+{% raw %}
+\begin{table}
+
+\caption{\label{table:vacua}Properties of different vacuum prescriptions}
+
+\begin{ruledtabular}
+
+\begin{tabular}{l|c|c}
+
+Vacuum prescription & $X$ & $Y$ \\
+
+\hline
+
+Conventional & $0$  &$i (1-2p)/(1-p)$ \\ 
+
+Adiabatic $\geq$ 1st order & 0 & 0 \\
+
+Hamiltonian diagonalization & 0 & 0  \\
+
+Danielsson & $-i$ & $i$ \\
+
+\end{tabular}
+
+\end{ruledtabular}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 375
+```
+{% raw %}
+ \begin{table}[ht]
+
+
+\begin{center}
+\begin{displaymath}
+\begin{array}{|c|c|c|c|c|}
+\hline
+~&~&~&~&~\\
+J & D&  \textrm{Aut}(J)
+& \textrm{No. of vector fields} & \textrm{No.  of scalars}  \\
+\hline
+~&~&~&~&~\\
+J_{(1,N)}^{\mathbb R}& \frac{1}{2} (N+1)(N+2) & SO(N,1) &
+\frac{1}{2}N(N+3) &\frac{1}{2}N(N+3)-1 \\
+~&~&~&~&~\\
+J_{(1,N)}^{\mathbb C} & (N+1)^2 & SU(N,1) & N(N+2) & N(N+2)-1 \\
+~&~&~&~&~\\
+J_{(1,N)}^{\mathbb H} &(N+1)(2N+1) & USp(2N,2) & N(2N+3) & N(2N+3)-1 \\
+~&~&~&~&~\\
+J_{(1,2)}^{\mathbb O} & 27& F_{4(-20)} & 26 & 25 \\
+~&~&~&~&~ \\
+\hline
+\end{array}
+\end{displaymath}
+\end{center}
+
+\caption{List of the simple Minkowskian Jordan algebras
+of type $J_{(1,N)}^{\mathbb{A}}$.
+ The columns show, respectively, their  dimensions $D$,
+their automorphism groups $\textrm{Aut}
+(J_{(1,N)}^{\mathbb{A}})$,
+the number of vector fields $(\tn+1)=(D-1)$
+and the number of scalars $\tn=(D-2)$ in the corresponding MESGTs}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 376
+```
+{% raw %}
+ \begin{table}[ht]
+
+
+
+
+
+\begin{center}
+
+\begin{displaymath}
+
+\begin{array}{|c|c|c|c|c|}
+
+\hline
+
+~&~&~&~&~\\
+
+J & D&  \textrm{Aut}(J)
+
+& \textrm{No. of vector fields} & \textrm{No.  of scalars}  \\
+
+\hline
+
+~&~&~&~&~\\
+
+J_{(1,N)}^{\mathbb R}& \frac{1}{2} (N+1)(N+2) & SO(N,1) &
+
+\frac{1}{2}N(N+3) &\frac{1}{2}N(N+3)-1 \\
+
+~&~&~&~&~\\
+
+J_{(1,N)}^{\mathbb C} & (N+1)^2 & SU(N,1) & N(N+2) & N(N+2)-1 \\
+
+~&~&~&~&~\\
+
+J_{(1,N)}^{\mathbb H} &(N+1)(2N+1) & USp(2N,2) & N(2N+3) & N(2N+3)-1 \\
+
+~&~&~&~&~\\
+
+J_{(1,2)}^{\mathbb O} & 27& F_{4(-20)} & 26 & 25 \\
+
+~&~&~&~&~ \\
+
+\hline
+
+\end{array}
+
+\end{displaymath}
+
+\end{center}
+
+
+
+\caption{List of the simple Minkowskian Jordan algebras
+
+of type $J_{(1,N)}^{\mathbb{A}}$.
+
+ The columns show, respectively, their  dimensions $D$,
+
+their automorphism groups $\textrm{Aut}
+
+(J_{(1,N)}^{\mathbb{A}})$,
+
+the number of vector fields $(\tn+1)=(D-1)$
+
+and the number of scalars $\tn=(D-2)$ in the corresponding MESGTs}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 377
+```
+{% raw %}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+${\cal G}$& $\Gamma_{\cal G}$ & $|\Gamma_{\cal G}|$ \\
+\hline
+$A_{N-1}$ & ${\bf Z}_N$ &N \\
+\hline
+$D_{2N}$ &  ${\bf Z}_2\times{\bf Z}_2$ &4 \\
+\hline
+$D_{2N+1}$ &  ${\bf Z}_4$ &4 \\
+\hline
+$E_r, r=6,7,8$ &  ${\bf Z}_{9-r}$ &$9-r$ \\
+%\hline
+%$E_7$ &  ${\bf Z}_2$\\
+%\hline 
+%$E_8$ &  trivial\\
+\hline
+\end{tabular}
+\end{center}
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 378
+```
+{% raw %}
+\begin{table}[h]
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|c|}
+
+\hline
+
+${\cal G}$& $\Gamma_{\cal G}$ & $|\Gamma_{\cal G}|$ \\
+
+\hline
+
+$A_{N-1}$ & ${\bf Z}_N$ &N \\
+
+\hline
+
+$D_{2N}$ &  ${\bf Z}_2\times{\bf Z}_2$ &4 \\
+
+\hline
+
+$D_{2N+1}$ &  ${\bf Z}_4$ &4 \\
+
+\hline
+
+$E_r, r=6,7,8$ &  ${\bf Z}_{9-r}$ &$9-r$ \\
+
+%\hline
+
+%$E_7$ &  ${\bf Z}_2$\\
+
+%\hline 
+
+%$E_8$ &  trivial\\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 379
+```
+{% raw %}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+${\cal G}$& $\theta^2_{\cal G}(\tau)/\eta(\tau)^{r+1}$\\
+\hline
+$A_{r}$ & {\Large$\frac{1}{\eta(\frac{\tau}{r+1})}$} \\
+\hline
+$D_{r}$ &  {\Large$\frac{\eta(\frac{\tau}{r-1})}{\eta(\frac{\tau}{2})\eta(\frac{\tau}{2r-2})}$}\\
+\hline
+$E_6$ &  {\Large$\frac{\eta(\frac{\tau}{4})\eta(\frac{\tau}{6})}{\eta(\frac{\tau}{2})\eta(\frac{\tau}{3})\eta(\frac{\tau}{12})}$}\\
+\hline
+$E_7$ &  {\Large$\frac{\eta(\frac{\tau}{6})\eta(\frac{\tau}{9})}{\eta(\frac{\tau}{2})\eta(\frac{\tau}{3})\eta(\frac{\tau}{18})}$}\\
+\hline
+$E_8$ &  {\Large$\frac{\eta(\frac{\tau}{6})\eta(\frac{\tau}{10})\eta(\frac{\tau}{15})}{\eta(\frac{\tau}{2})\eta(\frac{\tau}{3})\eta(\frac{\tau}{5})\eta(\frac{\tau}{30})}$}\\
+\hline
+\end{tabular}
+\end{center}
+\end{table} \\
+
+{% endraw %}
+```
+## Example Number: 380
+```
+{% raw %}
+\begin{table}[h]
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|}
+
+\hline
+
+${\cal G}$& $\theta^2_{\cal G}(\tau)/\eta(\tau)^{r+1}$\\
+
+\hline
+
+$A_{r}$ & {\Large$\frac{1}{\eta(\frac{\tau}{r+1})}$} \\
+
+\hline
+
+$D_{r}$ &  {\Large$\frac{\eta(\frac{\tau}{r-1})}{\eta(\frac{\tau}{2})\eta(\frac{\tau}{2r-2})}$}\\
+
+\hline
+
+$E_6$ &  {\Large$\frac{\eta(\frac{\tau}{4})\eta(\frac{\tau}{6})}{\eta(\frac{\tau}{2})\eta(\frac{\tau}{3})\eta(\frac{\tau}{12})}$}\\
+
+\hline
+
+$E_7$ &  {\Large$\frac{\eta(\frac{\tau}{6})\eta(\frac{\tau}{9})}{\eta(\frac{\tau}{2})\eta(\frac{\tau}{3})\eta(\frac{\tau}{18})}$}\\
+
+\hline
+
+$E_8$ &  {\Large$\frac{\eta(\frac{\tau}{6})\eta(\frac{\tau}{10})\eta(\frac{\tau}{15})}{\eta(\frac{\tau}{2})\eta(\frac{\tau}{3})\eta(\frac{\tau}{5})\eta(\frac{\tau}{30})}$}\\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table} \\
+
+{% endraw %}
+```
+## Example Number: 381
+```
+{% raw %}
+\begin{table}[hbt]
+\centering
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|c|c|}
+\hline
+&$A_\mu$&$\f$&$\ft$&$\la^i$&$\labar_i$&$\vD$&$\,\,c\,\,$&$\x^i$&$\xbar_i$&$\eta_{\mu}$\\
+\hline
+$Dim$&1&1&1&3/2&3/2&2&0&-1/2&-1/2&-1 \\
+\hline
+$Gh$&0&0&0&0&0&0&1&1&1&1 \\
+\hline
+$R$&0&-2&2&-1&1&0&0&-1&1&0\\
+\hline
+$GP$&0&0&0&1&1&0&1&0&0&1 \\
+\hline
+\end{tabular}
+\caption[t1]{Dimensions   $d$, Grassmann parity $GP$, ghost number $Gh$
+  and R-weights.}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 382
+```
+{% raw %}
+\begin{table}[hbt]
+
+\centering
+
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+
+&$A_\mu$&$\f$&$\ft$&$\la^i$&$\labar_i$&$\vD$&$\,\,c\,\,$&$\x^i$&$\xbar_i$&$\eta_{\mu}$\\
+
+\hline
+
+$Dim$&1&1&1&3/2&3/2&2&0&-1/2&-1/2&-1 \\
+
+\hline
+
+$Gh$&0&0&0&0&0&0&1&1&1&1 \\
+
+\hline
+
+$R$&0&-2&2&-1&1&0&0&-1&1&0\\
+
+\hline
+
+$GP$&0&0&0&1&1&0&1&0&0&1 \\
+
+\hline
+
+\end{tabular}
+
+\caption[t1]{Dimensions   $d$, Grassmann parity $GP$, ghost number $Gh$
+
+  and R-weights.}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 383
+```
+{% raw %}
+\begin{table}[hbt]
+\centering
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}
+\hline
+&$A_\mu$&$\Phi$&$\bar{\Phi}$&$\psi_{\mu}$&$\eta$&$\X_{\mu\nu}$&$B_{\mu\nu}$&$\,\,c\,\,$\\
+\hline
+$Dim$&1&0&2&1&2&2&2&0 \\
+\hline
+$Gh$&0&2&-2&1&-1&-1&0&1 \\
+\hline
+$GP$&0&0&0&1&1&1&0&1 \\
+\hline
+\end{tabular}
+\caption[t1]{Dimensions   $d$, Grassmann parity $GP$, ghost number $Gh$}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 384
+```
+{% raw %}
+\begin{table}[hbt]
+
+\centering
+
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}
+
+\hline
+
+&$A_\mu$&$\Phi$&$\bar{\Phi}$&$\psi_{\mu}$&$\eta$&$\X_{\mu\nu}$&$B_{\mu\nu}$&$\,\,c\,\,$\\
+
+\hline
+
+$Dim$&1&0&2&1&2&2&2&0 \\
+
+\hline
+
+$Gh$&0&2&-2&1&-1&-1&0&1 \\
+
+\hline
+
+$GP$&0&0&0&1&1&1&0&1 \\
+
+\hline
+
+\end{tabular}
+
+\caption[t1]{Dimensions   $d$, Grassmann parity $GP$, ghost number $Gh$}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 385
+```
+{% raw %}
+\begin{table}
+\begin{center}
+\setlength{\extrarowheight}{4pt}
+\begin{tabular}{|m{5cm}|m{5cm}|}
+\hline $\mathbf{m^2}$ & \textbf{Fields}\\ \hline $0$ & $\zeta^0$\\
+\hline $\mu^2/3^2$ & $\zeta^i\quad;i=1,2,3$\\ \hline $\mu^2/6^2$ &
+$\zeta^a\quad;a=4,...,9$\\ \hline $0$ & $\widetilde{\zeta}^0$\\ \hline
+$\mu^2/3^2$ & $\widetilde{\zeta}^i\quad;i=1,2,3$\\ \hline $\mu^2/6^2$
+& $\widetilde{\zeta}^a\quad;a=4,...,9$\\ \hline $r^2+\mu^2/3^2$ &
+$\overline{z}^i, z^i\quad;i=1,2,3$\\ \hline $r^2+\mu^2/6^2$ &
+$\overline{z}^a, z^a\quad;a=4,...,8$\\ \hline $r^2+\eta_+$ &
+$\overline{z}^0+\overline{z}^9, z^0+z^9$\\ \hline $r^2+\eta_-$ &
+$\overline{z}^0-\overline{z}^9, z^0-z^9$\\ \hline $\mu^2/4^2$ & $\eta
+\quad (8)$\\ \hline $\mu^2/4^2$ & $\widetilde{\eta} \quad (8)$\\
+\hline $r^2+\mu^2/4^2+v$ & $\theta \quad (8)$\\ \hline
+$r^2+\mu^2/4^2-v$ & $\overline{\theta} \quad (8)$\\ \hline $0$ &
+$\overline{\epsilon}, \epsilon $\\ \hline $0$ &
+$\overline{\widetilde{\epsilon}}, \widetilde{\epsilon} $\\ \hline
+$r^2$ & $\overline{c}_I, c_I\quad ;I=1,2$\\ \hline
+\end{tabular}
+\caption{The Mass Spectrum for a Simple Case. The numbers inside the
+round brackets indicate the number of physical  degrees of freedom of
+the fermions with the given mass. 
+$\eta_\pm$ is given by $\frac{1}{2}[\frac{\mu^2}{6^2}\pm\sqrt{(\frac{\mu^2}{6^2})^2+16v^2}]$
+.}
+\label{table}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 386
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\setlength{\extrarowheight}{4pt}
+
+\begin{tabular}{|m{5cm}|m{5cm}|}
+
+\hline $\mathbf{m^2}$ & \textbf{Fields}\\ \hline $0$ & $\zeta^0$\\
+
+\hline $\mu^2/3^2$ & $\zeta^i\quad;i=1,2,3$\\ \hline $\mu^2/6^2$ &
+
+$\zeta^a\quad;a=4,...,9$\\ \hline $0$ & $\widetilde{\zeta}^0$\\ \hline
+
+$\mu^2/3^2$ & $\widetilde{\zeta}^i\quad;i=1,2,3$\\ \hline $\mu^2/6^2$
+
+& $\widetilde{\zeta}^a\quad;a=4,...,9$\\ \hline $r^2+\mu^2/3^2$ &
+
+$\overline{z}^i, z^i\quad;i=1,2,3$\\ \hline $r^2+\mu^2/6^2$ &
+
+$\overline{z}^a, z^a\quad;a=4,...,8$\\ \hline $r^2+\eta_+$ &
+
+$\overline{z}^0+\overline{z}^9, z^0+z^9$\\ \hline $r^2+\eta_-$ &
+
+$\overline{z}^0-\overline{z}^9, z^0-z^9$\\ \hline $\mu^2/4^2$ & $\eta
+
+\quad (8)$\\ \hline $\mu^2/4^2$ & $\widetilde{\eta} \quad (8)$\\
+
+\hline $r^2+\mu^2/4^2+v$ & $\theta \quad (8)$\\ \hline
+
+$r^2+\mu^2/4^2-v$ & $\overline{\theta} \quad (8)$\\ \hline $0$ &
+
+$\overline{\epsilon}, \epsilon $\\ \hline $0$ &
+
+$\overline{\widetilde{\epsilon}}, \widetilde{\epsilon} $\\ \hline
+
+$r^2$ & $\overline{c}_I, c_I\quad ;I=1,2$\\ \hline
+
+\end{tabular}
+
+\caption{The Mass Spectrum for a Simple Case. The numbers inside the
+
+round brackets indicate the number of physical  degrees of freedom of
+
+the fermions with the given mass. 
+
+$\eta_\pm$ is given by $\frac{1}{2}[\frac{\mu^2}{6^2}\pm\sqrt{(\frac{\mu^2}{6^2})^2+16v^2}]$
+
+.}
+
+\label{table}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 387
+```
+{% raw %}
+\begin{table}[tbp]
+\caption{The lowest solutions of Eq. (22) for $\nu >-1$ (plus sign inside
+the radical).}
+\label{t1}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline\hline
+$\nu$ \rm{for negative square root} & $\nu$ \rm {for positive square
+root} \\ \hline
+-0.654531 & 0.548571 \\ 
+1.468582 & 2.522304 \\ 
+3.482395 & 4.514353 \\ 
+5.487785 & 6.510727 \\ 
+7.490650 & 8.508354 \\ 
+9.492433 & 10.506935 \\ 
+11.493638 & 12.505887 \\ 
+13.494521 & 14.505158 \\ 
+15.495179 & 16.504544 \\ 
+17.495703 & 18.504078 \\ \hline\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 388
+```
+{% raw %}
+\begin{table}[tbp]
+
+\caption{The lowest solutions of Eq. (22) for $\nu >-1$ (plus sign inside
+
+the radical).}
+
+\label{t1}
+
+\begin{center}
+
+\begin{tabular}{|c|c|}
+
+\hline\hline
+
+$\nu$ \rm{for negative square root} & $\nu$ \rm {for positive square
+
+root} \\ \hline
+
+-0.654531 & 0.548571 \\ 
+
+1.468582 & 2.522304 \\ 
+
+3.482395 & 4.514353 \\ 
+
+5.487785 & 6.510727 \\ 
+
+7.490650 & 8.508354 \\ 
+
+9.492433 & 10.506935 \\ 
+
+11.493638 & 12.505887 \\ 
+
+13.494521 & 14.505158 \\ 
+
+15.495179 & 16.504544 \\ 
+
+17.495703 & 18.504078 \\ \hline\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 389
+```
+{% raw %}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+${\cal G}$& $\Gamma_{\cal G}$\\
+\hline
+$A_{N-1}$ & ${\bf Z}_N$ \\
+\hline
+$D_{2N}$ &  ${\bf Z}_2\times{\bf Z}_2$\\
+\hline
+$D_{2N+1}$ &  ${\bf Z}_4$\\
+\hline
+$E_r, r=6,7,8$ &  ${\bf Z}_{9-r}$\\
+%\hline
+%$E_7$ &  ${\bf Z}_2$\\
+%\hline
+%$E_8$ &  trivial\\
+\hline
+\end{tabular}
+\end{center}
+\end{table} \\
+
+{% endraw %}
+```
+## Example Number: 390
+```
+{% raw %}
+\begin{table}[h]
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|}
+
+\hline
+
+${\cal G}$& $\Gamma_{\cal G}$\\
+
+\hline
+
+$A_{N-1}$ & ${\bf Z}_N$ \\
+
+\hline
+
+$D_{2N}$ &  ${\bf Z}_2\times{\bf Z}_2$\\
+
+\hline
+
+$D_{2N+1}$ &  ${\bf Z}_4$\\
+
+\hline
+
+$E_r, r=6,7,8$ &  ${\bf Z}_{9-r}$\\
+
+%\hline
+
+%$E_7$ &  ${\bf Z}_2$\\
+
+%\hline
+
+%$E_8$ &  trivial\\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\end{table} \\
+
+{% endraw %}
+```
+## Example Number: 391
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+
+\begin{tabular}{| c | c | c | c | c | c | }  \hline 
+$\displaystyle{ \lambda }$  &  exact  & 
+$\begin{array}{c}
+\mbox{tree} \\
+   \mbox{tree/ ex.}  
+\end{array}$ & $\begin{array}{c}
+\mbox{1-loop} \\
+  \mbox{1-loop/ ex.}  
+\end{array}$  & 
+$\begin{array}{c}
+\mbox{2-loop} \\
+  \mbox{2-loop / ex.}  
+\end{array}$  &   
+$\begin{array}{c}
+\mbox{3-loop} \\
+  \mbox{3-loop / ex.}  
+\end{array}$  \\   \hline 
+$10^{-3}$ & 1.0000 & $\begin{array}{c}
+  1.0000 \\   1.00  
+\end{array}$ & $\begin{array}{c}
+  1.0000 \\   1.00 
+\end{array}$  & $\begin{array}{c}
+  1.0000 \\   1.00                      
+\end{array}$  &  $\begin{array}{c}
+  1.0000 \\   1.00                      
+\end{array}$   \\  \hline 
+$10^{-2}$  & 1.0001 & $\begin{array}{c}
+  1.0001  \\   1.00  
+\end{array}$  & $\begin{array}{c}
+  1.0001  \\   1.00 
+\end{array}$  &  $\begin{array}{c}
+  1.0001  \\   1.00  
+\end{array}$   &  $\begin{array}{c}
+ 1.0001  \\   1.00  
+\end{array}$  \\   \hline 
+$10^{-1}$  & 1.0050 & $\begin{array}{c}
+  1.0100  \\   1.00  
+\end{array}$   &  $\begin{array}{c}
+  1.0050  \\   1.00  
+\end{array}$ & $\begin{array}{c}
+  1.0050  \\   1.00  
+\end{array}$ & $\begin{array}{c}
+  1.0050  \\   1.00  
+\end{array}$   \\  \hline  
+$1 $  & 1.5000 & $\begin{array}{c}
+  1.8147  \\   1.21  
+\end{array}$ &  $\begin{array}{c}
+  1.5346 \\   1.02  
+\end{array}$  &  $\begin{array}{c}
+  1.5039 \\   1.00  
+\end{array}$  &   $\begin{array}{c}
+  1.4996  \\   1.00  
+\end{array}$ \\  \hline
+$10 $  & 51.000  & $\begin{array}{c}
+  74.679    \\   1.46  
+\end{array}$ &  $\begin{array}{c}
+  53.050  \\   1.04  
+\end{array}$  &  $\begin{array}{c}
+  50.866 \\  0.997  
+\end{array}$   &  $\begin{array}{c}
+  50.902 \\  0.998
+\end{array}$   \\
+\hline
+ \end{tabular}
+
+\end{center}
+\caption{\small The exact value as well as that of $Z_{\rm L-loop}$  and the ratio, $Z_{\rm L-loop}/ Z_{\rm exact}$, are listed in $N=2$ case for $10^{-3} \leq \lambda \leq 10$. The 2-loop results almost reproduce the exact value.} 
+\label{tab:1}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 392
+```
+{% raw %}
+\begin{table}
+
+
+
+\begin{center}
+
+
+
+
+
+\begin{tabular}{| c | c | c | c | c | c | }  \hline 
+
+$\displaystyle{ \lambda }$  &  exact  & 
+
+$\begin{array}{c}
+
+\mbox{tree} \\
+
+   \mbox{tree/ ex.}  
+
+\end{array}$ & $\begin{array}{c}
+
+\mbox{1-loop} \\
+
+  \mbox{1-loop/ ex.}  
+
+\end{array}$  & 
+
+$\begin{array}{c}
+
+\mbox{2-loop} \\
+
+  \mbox{2-loop / ex.}  
+
+\end{array}$  &   
+
+$\begin{array}{c}
+
+\mbox{3-loop} \\
+
+  \mbox{3-loop / ex.}  
+
+\end{array}$  \\   \hline 
+
+$10^{-3}$ & 1.0000 & $\begin{array}{c}
+
+  1.0000 \\   1.00  
+
+\end{array}$ & $\begin{array}{c}
+
+  1.0000 \\   1.00 
+
+\end{array}$  & $\begin{array}{c}
+
+  1.0000 \\   1.00                      
+
+\end{array}$  &  $\begin{array}{c}
+
+  1.0000 \\   1.00                      
+
+\end{array}$   \\  \hline 
+
+$10^{-2}$  & 1.0001 & $\begin{array}{c}
+
+  1.0001  \\   1.00  
+
+\end{array}$  & $\begin{array}{c}
+
+  1.0001  \\   1.00 
+
+\end{array}$  &  $\begin{array}{c}
+
+  1.0001  \\   1.00  
+
+\end{array}$   &  $\begin{array}{c}
+
+ 1.0001  \\   1.00  
+
+\end{array}$  \\   \hline 
+
+$10^{-1}$  & 1.0050 & $\begin{array}{c}
+
+  1.0100  \\   1.00  
+
+\end{array}$   &  $\begin{array}{c}
+
+  1.0050  \\   1.00  
+
+\end{array}$ & $\begin{array}{c}
+
+  1.0050  \\   1.00  
+
+\end{array}$ & $\begin{array}{c}
+
+  1.0050  \\   1.00  
+
+\end{array}$   \\  \hline  
+
+$1 $  & 1.5000 & $\begin{array}{c}
+
+  1.8147  \\   1.21  
+
+\end{array}$ &  $\begin{array}{c}
+
+  1.5346 \\   1.02  
+
+\end{array}$  &  $\begin{array}{c}
+
+  1.5039 \\   1.00  
+
+\end{array}$  &   $\begin{array}{c}
+
+  1.4996  \\   1.00  
+
+\end{array}$ \\  \hline
+
+$10 $  & 51.000  & $\begin{array}{c}
+
+  74.679    \\   1.46  
+
+\end{array}$ &  $\begin{array}{c}
+
+  53.050  \\   1.04  
+
+\end{array}$  &  $\begin{array}{c}
+
+  50.866 \\  0.997  
+
+\end{array}$   &  $\begin{array}{c}
+
+  50.902 \\  0.998
+
+\end{array}$   \\
+
+\hline
+
+ \end{tabular}
+
+
+
+\end{center}
+
+\caption{\small The exact value as well as that of $Z_{\rm L-loop}$  and the ratio, $Z_{\rm L-loop}/ Z_{\rm exact}$, are listed in $N=2$ case for $10^{-3} \leq \lambda \leq 10$. The 2-loop results almost reproduce the exact value.} 
+
+\label{tab:1}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 393
+```
+{% raw %}
+\begin{table}
+\begin{center}
+\begin{tabular}{| c | c | c | c | c | c | }  \hline 
+$\displaystyle{ |\lambda| }$  &  exact  & 
+$\begin{array}{c}
+\mbox{tree} \\
+   \mbox{tree/ ex.}  
+\end{array}$ & $\begin{array}{c}
+\mbox{1-loop} \\
+  \mbox{1-loop/ ex.}  
+\end{array}$  & 
+$\begin{array}{c}
+\mbox{2-loop} \\
+  \mbox{2-loop / ex.}  
+\end{array}$  &   
+$\begin{array}{c}
+\mbox{3-loop} \\
+  \mbox{3-loop / ex.}  
+\end{array}$  \\   \hline 
+0.3 & 0.955 & $\begin{array}{c}
+  20.832 \\   21.8  
+\end{array}$ & $\begin{array}{c}
+  1.7111 \\   1.79 
+\end{array}$  & $\begin{array}{c}
+  1.2467 \\   1.31                      
+\end{array}$  &  $\begin{array}{c}
+  0.7789 \\   0.816                      
+\end{array}$   \\  \hline 
+0.4  & 0.92 & $\begin{array}{c}
+  1.5180  \\   1.65  
+\end{array}$  & $\begin{array}{c}
+  0.7305  \\   0.794 
+\end{array}$  &  $\begin{array}{c}
+  0.9566  \\   1.04  
+\end{array}$   &  $\begin{array}{c}
+ 0.9341  \\   1.02  
+\end{array}$  \\   \hline 
+0.5  & 0.875 & $\begin{array}{c}
+  0.6796  \\   0.777  
+\end{array}$   &  $\begin{array}{c}
+  0.6788  \\   0.776 
+\end{array}$ & $\begin{array}{c}
+  0.8752  \\   1.00  
+\end{array}$ & $\begin{array}{c}
+  0.8752  \\   1.00  
+\end{array}$   \\  \hline  
+0.6  & 0.82 & $\begin{array}{c}
+  0.5615  \\   0.684  
+\end{array}$ &  $\begin{array}{c}
+  0.7608 \\   0.928  
+\end{array}$  &  $\begin{array}{c}
+  0.8419 \\   1.03  
+\end{array}$  &   $\begin{array}{c}
+  0.8145  \\   0.993  
+\end{array}$ \\  \hline
+0.7  & 0.755  & $\begin{array}{c}
+  0.5888    \\   0.780  
+\end{array}$ &  $\begin{array}{c}
+  0.8820  \\   1.17  
+\end{array}$  &  $\begin{array}{c}
+  0.7758 \\  1.03  
+\end{array}$   &  $\begin{array}{c}
+  0.7411 \\  0.982
+\end{array}$   \\ \hline
+0.8  & 0.68  & $\begin{array}{c}
+  0.6813    \\   1.00  
+\end{array}$ &  $\begin{array}{c}
+  1.0105  \\   1.49  
+\end{array}$  &  $\begin{array}{c}
+  0.6494 \\  0.955  
+\end{array}$   &  $\begin{array}{c}
+  0.6628 \\  0.975
+\end{array}$   \\
+\hline
+ \end{tabular}
+\end{center}
+
+\caption{\small The Airy loop expansion in $N=2$ case 
+for $0.3 \leq |\lambda| \leq 0.8$. As is the case of the Gaussian, 
+the 3-loop correction improves the results but in $0.4 \leq |\lambda| \leq 0.7$ the 2-loop correction is sufficient.} 
+\label{tab:3}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 394
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{tabular}{| c | c | c | c | c | c | }  \hline 
+
+$\displaystyle{ |\lambda| }$  &  exact  & 
+
+$\begin{array}{c}
+
+\mbox{tree} \\
+
+   \mbox{tree/ ex.}  
+
+\end{array}$ & $\begin{array}{c}
+
+\mbox{1-loop} \\
+
+  \mbox{1-loop/ ex.}  
+
+\end{array}$  & 
+
+$\begin{array}{c}
+
+\mbox{2-loop} \\
+
+  \mbox{2-loop / ex.}  
+
+\end{array}$  &   
+
+$\begin{array}{c}
+
+\mbox{3-loop} \\
+
+  \mbox{3-loop / ex.}  
+
+\end{array}$  \\   \hline 
+
+0.3 & 0.955 & $\begin{array}{c}
+
+  20.832 \\   21.8  
+
+\end{array}$ & $\begin{array}{c}
+
+  1.7111 \\   1.79 
+
+\end{array}$  & $\begin{array}{c}
+
+  1.2467 \\   1.31                      
+
+\end{array}$  &  $\begin{array}{c}
+
+  0.7789 \\   0.816                      
+
+\end{array}$   \\  \hline 
+
+0.4  & 0.92 & $\begin{array}{c}
+
+  1.5180  \\   1.65  
+
+\end{array}$  & $\begin{array}{c}
+
+  0.7305  \\   0.794 
+
+\end{array}$  &  $\begin{array}{c}
+
+  0.9566  \\   1.04  
+
+\end{array}$   &  $\begin{array}{c}
+
+ 0.9341  \\   1.02  
+
+\end{array}$  \\   \hline 
+
+0.5  & 0.875 & $\begin{array}{c}
+
+  0.6796  \\   0.777  
+
+\end{array}$   &  $\begin{array}{c}
+
+  0.6788  \\   0.776 
+
+\end{array}$ & $\begin{array}{c}
+
+  0.8752  \\   1.00  
+
+\end{array}$ & $\begin{array}{c}
+
+  0.8752  \\   1.00  
+
+\end{array}$   \\  \hline  
+
+0.6  & 0.82 & $\begin{array}{c}
+
+  0.5615  \\   0.684  
+
+\end{array}$ &  $\begin{array}{c}
+
+  0.7608 \\   0.928  
+
+\end{array}$  &  $\begin{array}{c}
+
+  0.8419 \\   1.03  
+
+\end{array}$  &   $\begin{array}{c}
+
+  0.8145  \\   0.993  
+
+\end{array}$ \\  \hline
+
+0.7  & 0.755  & $\begin{array}{c}
+
+  0.5888    \\   0.780  
+
+\end{array}$ &  $\begin{array}{c}
+
+  0.8820  \\   1.17  
+
+\end{array}$  &  $\begin{array}{c}
+
+  0.7758 \\  1.03  
+
+\end{array}$   &  $\begin{array}{c}
+
+  0.7411 \\  0.982
+
+\end{array}$   \\ \hline
+
+0.8  & 0.68  & $\begin{array}{c}
+
+  0.6813    \\   1.00  
+
+\end{array}$ &  $\begin{array}{c}
+
+  1.0105  \\   1.49  
+
+\end{array}$  &  $\begin{array}{c}
+
+  0.6494 \\  0.955  
+
+\end{array}$   &  $\begin{array}{c}
+
+  0.6628 \\  0.975
+
+\end{array}$   \\
+
+\hline
+
+ \end{tabular}
+
+\end{center}
+
+
+
+\caption{\small The Airy loop expansion in $N=2$ case 
+
+for $0.3 \leq |\lambda| \leq 0.8$. As is the case of the Gaussian, 
+
+the 3-loop correction improves the results but in $0.4 \leq |\lambda| \leq 0.7$ the 2-loop correction is sufficient.} 
+
+\label{tab:3}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 395
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{tabular}{| c | c | c | c || c | c | c | c | }  \hline 
+    $\displaystyle{ |\lambda| }$  &  exact  & 
+    $\begin{array}{c}
+      \mbox{Gauss} \\
+    \!  \!  \!  \! \mbox{Gauss/ ex.}  \!  \!  \!  \! 
+    \end{array}$ & $\begin{array}{c}
+      \mbox{Airy} \\
+     \!  \!  \!  \!   \mbox{Airy/ ex.}   \!  \!  \!  \!
+    \end{array}$  & 
+    $\displaystyle{ |\lambda| }$  &  exact  & 
+    $\begin{array}{c}
+      \mbox{Gauss} \\
+    \!  \!  \!  \! \mbox{Gauss/ ex.}  \!  \!   \!   \! 
+ \end{array}$ & $\begin{array}{c}
+   \mbox{Airy} \\
+   \!  \!  \!  \!  \mbox{Airy/ ex.}   \!  \!  \!  \! 
+ \end{array}$ \\   \hline 
+ $10^{-3}$ & 1.0000 & $\begin{array}{c}
+   1.0000 \\   1.00  
+ \end{array}$ & $\begin{array}{c}
+  \mbox{---} \\ \mbox{---}
+ \end{array}$ & 
+ 0.5 & 0.8750 & $\begin{array}{c}
+   \infty \\ \mbox{---}                        
+\end{array}$  &  $\begin{array}{c}
+  0.8752 \\   1.00                      
+\end{array}$   \\  \hline 
+ $10^{-2}$ & 1.0000 & $\begin{array}{c}
+   1.0000 \\   1.00  
+ \end{array}$ & $\begin{array}{c}
+   \mbox{---} \\   \mbox{---} 
+ \end{array}$ & 
+ 0.6 & 0.8200 & $\begin{array}{c}
+   0.3577 \\   0.436                      
+\end{array}$  &  $\begin{array}{c}
+  0.8145 \\   0.993                      
+\end{array}$   \\  \hline 
+ $10^{-1}$  & 0.9950 & $\begin{array}{c}
+  0.9950  \\   1.00  
+\end{array}$  & $\begin{array}{c}
+  \mbox{---}  \\   \mbox{---} 
+\end{array}$  &
+0.7 & 0.7550 & $\begin{array}{c}
+  0.6764  \\   0.896  
+\end{array}$   &  $\begin{array}{c}
+ 0.7411  \\   0.982  
+\end{array}$  \\   \hline 
+0.2 & 0.9800 & $\begin{array}{c}
+  0.9800  \\   1.00  
+\end{array}$   &  $\begin{array}{c}
+  \mbox{---}  \\   \mbox{---}  
+\end{array}$ & 
+0.8 & 0.6800 & $\begin{array}{c}
+  0.6500  \\   0.956  
+\end{array}$ & $\begin{array}{c}
+  0.6628  \\   0.975  
+\end{array}$   \\  \hline  
+0.3  & 0.9550 & $\begin{array}{c}
+  0.9556  \\   1.00  
+\end{array}$ &  $\begin{array}{c}
+  0.7789 \\  0.816   
+\end{array}$  &
+0.9 & 0.5950 &   $\begin{array}{c}
+  0.5793 \\   0.974  
+\end{array}$  &   $\begin{array}{c}
+   0.5941   \\  0.999    
+\end{array}$ \\  \hline
+0.4 & 0.9200  & $\begin{array}{c}
+  0.9614    \\   1.04  
+\end{array}$ &  $\begin{array}{c}
+  0.9341  \\   1.02  
+\end{array}$  & 
+1.0 & 0.5000 &  $\begin{array}{c}
+  0.4904 \\  0.981  
+\end{array}$   &  $\begin{array}{c}
+  0.5486 \\  1.10
+\end{array}$   \\
+\hline
+\end{tabular}
+ 
+\end{center}
+\caption{\small Results in $N=2$: those obtained by the Gaussian 3-loop expansion are listed in $10^{-3} \leq |\lambda| \leq 1$ except $|\lambda| \neq 1/2$. Also those by the Airy 3-loop in $0.3 \leq |\lambda| \leq 1$. The lower quantities correspond to the ratio of Gaussian and Airy results to the exact value.}  
+\label{tab:2}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 396
+```
+{% raw %}
+\begin{table}
+
+
+
+\begin{center}
+
+
+
+\begin{tabular}{| c | c | c | c || c | c | c | c | }  \hline 
+
+    $\displaystyle{ |\lambda| }$  &  exact  & 
+
+    $\begin{array}{c}
+
+      \mbox{Gauss} \\
+
+    \!  \!  \!  \! \mbox{Gauss/ ex.}  \!  \!  \!  \! 
+
+    \end{array}$ & $\begin{array}{c}
+
+      \mbox{Airy} \\
+
+     \!  \!  \!  \!   \mbox{Airy/ ex.}   \!  \!  \!  \!
+
+    \end{array}$  & 
+
+    $\displaystyle{ |\lambda| }$  &  exact  & 
+
+    $\begin{array}{c}
+
+      \mbox{Gauss} \\
+
+    \!  \!  \!  \! \mbox{Gauss/ ex.}  \!  \!   \!   \! 
+
+ \end{array}$ & $\begin{array}{c}
+
+   \mbox{Airy} \\
+
+   \!  \!  \!  \!  \mbox{Airy/ ex.}   \!  \!  \!  \! 
+
+ \end{array}$ \\   \hline 
+
+ $10^{-3}$ & 1.0000 & $\begin{array}{c}
+
+   1.0000 \\   1.00  
+
+ \end{array}$ & $\begin{array}{c}
+
+  \mbox{---} \\ \mbox{---}
+
+ \end{array}$ & 
+
+ 0.5 & 0.8750 & $\begin{array}{c}
+
+   \infty \\ \mbox{---}                        
+
+\end{array}$  &  $\begin{array}{c}
+
+  0.8752 \\   1.00                      
+
+\end{array}$   \\  \hline 
+
+ $10^{-2}$ & 1.0000 & $\begin{array}{c}
+
+   1.0000 \\   1.00  
+
+ \end{array}$ & $\begin{array}{c}
+
+   \mbox{---} \\   \mbox{---} 
+
+ \end{array}$ & 
+
+ 0.6 & 0.8200 & $\begin{array}{c}
+
+   0.3577 \\   0.436                      
+
+\end{array}$  &  $\begin{array}{c}
+
+  0.8145 \\   0.993                      
+
+\end{array}$   \\  \hline 
+
+ $10^{-1}$  & 0.9950 & $\begin{array}{c}
+
+  0.9950  \\   1.00  
+
+\end{array}$  & $\begin{array}{c}
+
+  \mbox{---}  \\   \mbox{---} 
+
+\end{array}$  &
+
+0.7 & 0.7550 & $\begin{array}{c}
+
+  0.6764  \\   0.896  
+
+\end{array}$   &  $\begin{array}{c}
+
+ 0.7411  \\   0.982  
+
+\end{array}$  \\   \hline 
+
+0.2 & 0.9800 & $\begin{array}{c}
+
+  0.9800  \\   1.00  
+
+\end{array}$   &  $\begin{array}{c}
+
+  \mbox{---}  \\   \mbox{---}  
+
+\end{array}$ & 
+
+0.8 & 0.6800 & $\begin{array}{c}
+
+  0.6500  \\   0.956  
+
+\end{array}$ & $\begin{array}{c}
+
+  0.6628  \\   0.975  
+
+\end{array}$   \\  \hline  
+
+0.3  & 0.9550 & $\begin{array}{c}
+
+  0.9556  \\   1.00  
+
+\end{array}$ &  $\begin{array}{c}
+
+  0.7789 \\  0.816   
+
+\end{array}$  &
+
+0.9 & 0.5950 &   $\begin{array}{c}
+
+  0.5793 \\   0.974  
+
+\end{array}$  &   $\begin{array}{c}
+
+   0.5941   \\  0.999    
+
+\end{array}$ \\  \hline
+
+0.4 & 0.9200  & $\begin{array}{c}
+
+  0.9614    \\   1.04  
+
+\end{array}$ &  $\begin{array}{c}
+
+  0.9341  \\   1.02  
+
+\end{array}$  & 
+
+1.0 & 0.5000 &  $\begin{array}{c}
+
+  0.4904 \\  0.981  
+
+\end{array}$   &  $\begin{array}{c}
+
+  0.5486 \\  1.10
+
+\end{array}$   \\
+
+\hline
+
+\end{tabular}
+
+ 
+
+\end{center}
+
+\caption{\small Results in $N=2$: those obtained by the Gaussian 3-loop expansion are listed in $10^{-3} \leq |\lambda| \leq 1$ except $|\lambda| \neq 1/2$. Also those by the Airy 3-loop in $0.3 \leq |\lambda| \leq 1$. The lower quantities correspond to the ratio of Gaussian and Airy results to the exact value.}  
+
+\label{tab:2}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 397
+```
+{% raw %}
+\begin{table}[!h]
+\begin{center}
+\begin{tabular}{ll}
+$Q_o=V_4O_4-C_4C_4$, & $Q_v=O_4V_4-S_4S_4$ \\
+$Q_s=O_4C_4-S_4O_4$, & $Q_c=V_4S_4-C_4V_4$.
+\end{tabular}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 398
+```
+{% raw %}
+\begin{table}[!h]
+
+\begin{center}
+
+\begin{tabular}{ll}
+
+$Q_o=V_4O_4-C_4C_4$, & $Q_v=O_4V_4-S_4S_4$ \\
+
+$Q_s=O_4C_4-S_4O_4$, & $Q_c=V_4S_4-C_4V_4$.
+
+\end{tabular}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 399
+```
+{% raw %}
+\begin{table}[!h]
+
+\begin{center}
+
+\begin{tabular}{ll}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[!h]
+\begin{center}
+\begin{tabular}{ll}
+$O_{2n}=\frac{1}{2\eta^n}\big( \theta^n_3+\theta^n_4
+\big)$, &
+$V_{2n}=\frac{1}{2\eta^n}\big( \theta^n_3-\theta^n_4 \big)$, \\
+$S_{2n}=\frac{1}{2\eta^n}\big( \theta^n_2+i^{-n}\theta^n_1 \big)$
+& $C_{2n}=\frac{1}{2\eta^n}\big( \theta^n_2-i^{-n}\theta^n_1
+\big)$.
+\end{tabular}
+\end{center}
+\end{table}\label{eqn:exp}\\
+
+{% endraw %}
+```
+## Example Number: 400
+```
+{% raw %}
+\begin{table}[!h]
+
+\begin{center}
+
+\begin{tabular}{ll}
+
+$O_{2n}=\frac{1}{2\eta^n}\big( \theta^n_3+\theta^n_4
+
+\big)$, &
+
+$V_{2n}=\frac{1}{2\eta^n}\big( \theta^n_3-\theta^n_4 \big)$, \\
+
+$S_{2n}=\frac{1}{2\eta^n}\big( \theta^n_2+i^{-n}\theta^n_1 \big)$
+
+& $C_{2n}=\frac{1}{2\eta^n}\big( \theta^n_2-i^{-n}\theta^n_1
+
+\big)$.
+
+\end{tabular}
+
+\end{center}
+
+\end{table}\label{eqn:exp}\\
+
+{% endraw %}
+```
+## Example Number: 401
+```
+{% raw %}
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|c|c|c|}\hline
+Lattice & ${\cal A}$ & ${\cal K}~$and$~{\cal M}$ \\\hline $P_m$ &
+$W_n$ &
+$W_{2n}$\\
+$(-1)^mP_{m+\frac{1}{2}}$ & $(-1)^nW_{n+\frac{1}{2}}$ &
+$(-1)^nW_{2n+1}$\\
+$P_{m+\frac{1}{2}}$ & $(-1)^nW_n$ & $(-1)^nW_{2n}$\\
+$(-1)^mP_m$ & $W_{n+\frac{1}{2}}$ & $W_{2n+1}$ \\\hline
+\end{tabular}
+\caption{Lattice $S$ transforms}\label{tab:Stransforms}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 402
+```
+{% raw %}
+\begin{table}[!ht]
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|}\hline
+
+Lattice & ${\cal A}$ & ${\cal K}~$and$~{\cal M}$ \\\hline $P_m$ &
+
+$W_n$ &
+
+$W_{2n}$\\
+
+$(-1)^mP_{m+\frac{1}{2}}$ & $(-1)^nW_{n+\frac{1}{2}}$ &
+
+$(-1)^nW_{2n+1}$\\
+
+$P_{m+\frac{1}{2}}$ & $(-1)^nW_n$ & $(-1)^nW_{2n}$\\
+
+$(-1)^mP_m$ & $W_{n+\frac{1}{2}}$ & $W_{2n+1}$ \\\hline
+
+\end{tabular}
+
+\caption{Lattice $S$ transforms}\label{tab:Stransforms}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 403
+```
+{% raw %}
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|llll|}\hline
+${(0,0;0,0)}_1$ & ${(0,\frac{1}{2};0,0)}_2$ &
+${(\frac{1}{2},0;0,0)}_3$ & ${(\frac{1}{2},\frac{1}{2};0,0)}_4$
+\\ ${(0,0;0,\frac{1}{2})}_5$ & ${(0,0;\frac{1}{2},0)}_6$ &
+${(0,0;\frac{1}{2},\frac{1}{2})}_7$ & ${(0,\frac{1}{2};0,\frac{1}{2})}_8$\\
+${(0,\frac{1}{2};\frac{1}{2},0)}_9$ &
+${(0,\frac{1}{2};\frac{1}{2},\frac{1}{2})}_{10}$ &
+${(\frac{1}{2},0;0,\frac{1}{2})}_{11}$ &
+${(\frac{1}{2},0;\frac{1}{2},0)}_{12}$\\
+${(\frac{1}{2},0;\frac{1}{2},\frac{1}{2})}_{13}$ &
+${(\frac{1}{2},\frac{1}{2};0,\frac{1}{2})}_{14}$ &
+${(\frac{1}{2},\frac{1}{2};\frac{1}{2},0)}_{15}$ &
+${(\frac{1}{2},\frac{1}{2};\frac{1}{2},\frac{1}{2})}_{16}$ \\ \hline
+\end{tabular}
+\caption{Unshifted fixed points}\label{tab:fixedpoints}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 404
+```
+{% raw %}
+\begin{table}[!ht]
+
+\begin{center}
+
+\begin{tabular}{|llll|}\hline
+
+${(0,0;0,0)}_1$ & ${(0,\frac{1}{2};0,0)}_2$ &
+
+${(\frac{1}{2},0;0,0)}_3$ & ${(\frac{1}{2},\frac{1}{2};0,0)}_4$
+
+\\ ${(0,0;0,\frac{1}{2})}_5$ & ${(0,0;\frac{1}{2},0)}_6$ &
+
+${(0,0;\frac{1}{2},\frac{1}{2})}_7$ & ${(0,\frac{1}{2};0,\frac{1}{2})}_8$\\
+
+${(0,\frac{1}{2};\frac{1}{2},0)}_9$ &
+
+${(0,\frac{1}{2};\frac{1}{2},\frac{1}{2})}_{10}$ &
+
+${(\frac{1}{2},0;0,\frac{1}{2})}_{11}$ &
+
+${(\frac{1}{2},0;\frac{1}{2},0)}_{12}$\\
+
+${(\frac{1}{2},0;\frac{1}{2},\frac{1}{2})}_{13}$ &
+
+${(\frac{1}{2},\frac{1}{2};0,\frac{1}{2})}_{14}$ &
+
+${(\frac{1}{2},\frac{1}{2};\frac{1}{2},0)}_{15}$ &
+
+${(\frac{1}{2},\frac{1}{2};\frac{1}{2},\frac{1}{2})}_{16}$ \\ \hline
+
+\end{tabular}
+
+\caption{Unshifted fixed points}\label{tab:fixedpoints}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 405
+```
+{% raw %}
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|llll|}\hline
+${(0,0;0,0)}_1$ & ${(0,\frac{1}{2};0,0)}_2$ &
+${(\frac{1}{2},0;0,0)}_3$ &
+${(\frac{1}{2},\frac{1}{2};0,0)}_4$\\
+${(0,\frac{1}{2};\frac{1}{2},0)}_9$ &
+${(0,\frac{1}{2};\frac{1}{2},\frac{1}{2})}_{10}$ &
+${(\frac{1}{2},0;0,\frac{1}{2})}_{11}$ &
+${(\frac{1}{2},0;\frac{1}{2},0)}_{12}$ \\ \hline
+\end{tabular}
+\caption{Identified fixed points}\label{tab:shiftedFixedPoints}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 406
+```
+{% raw %}
+\begin{table}[!ht]
+
+\begin{center}
+
+\begin{tabular}{|llll|}\hline
+
+${(0,0;0,0)}_1$ & ${(0,\frac{1}{2};0,0)}_2$ &
+
+${(\frac{1}{2},0;0,0)}_3$ &
+
+${(\frac{1}{2},\frac{1}{2};0,0)}_4$\\
+
+${(0,\frac{1}{2};\frac{1}{2},0)}_9$ &
+
+${(0,\frac{1}{2};\frac{1}{2},\frac{1}{2})}_{10}$ &
+
+${(\frac{1}{2},0;0,\frac{1}{2})}_{11}$ &
+
+${(\frac{1}{2},0;\frac{1}{2},0)}_{12}$ \\ \hline
+
+\end{tabular}
+
+\caption{Identified fixed points}\label{tab:shiftedFixedPoints}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 407
+```
+{% raw %}
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|ll|} \hline
+$|T_{oo}|^2\quad\rightarrow\quad T_{oo}$ &
+$|T_{om}|^2\quad\rightarrow\quad T_{oo}$ \\
+$|T_{ko}|^2\quad\rightarrow\quad T_{ko}$ &
+$|T_{km}|^2\quad\rightarrow\quad T_{ko}$\\ \hline
+\end{tabular}
+\end{center}
+\caption{$\Omega$ Reduction of Torus States}\label{tab:OmegaReduction}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 408
+```
+{% raw %}
+\begin{table}[!ht]
+
+\begin{center}
+
+\begin{tabular}{|ll|} \hline
+
+$|T_{oo}|^2\quad\rightarrow\quad T_{oo}$ &
+
+$|T_{om}|^2\quad\rightarrow\quad T_{oo}$ \\
+
+$|T_{ko}|^2\quad\rightarrow\quad T_{ko}$ &
+
+$|T_{km}|^2\quad\rightarrow\quad T_{ko}$\\ \hline
+
+\end{tabular}
+
+\end{center}
+
+\caption{$\Omega$ Reduction of Torus States}\label{tab:OmegaReduction}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 409
+```
+{% raw %}
+\begin{table}
+\begin{center}
+\begin{tabular}{|c|c|}\hline
+Plane diagrams & Volumes \\ \hline $D9-D9$, $D9-O9$,
+$O9-O9$ & $v_1v_2v_3$ \\
+$D5_k-D5_k$, $D5_k-O5_k$, $O5_k-O5_k$ & $\frac{v_k}{v_lv_m}$ \\
+$D5_k-D5_l$, $D5_k-O5_l$, $O5_k-O5_l$ & $\frac{1}{v_m}$ \\
+$D9-D5_k$, $D9-O5_k$, $D5_k-O9$ & $v_k$ \\ \hline \hline
+$\tilde{\cal A}$ and $\tilde{\cal K}$ Plane Diagrams & Lattice
+Couplings
+\\\hline
+$D9-D9$ & $W^1W^2W^3+W^1_{n+\frac{1}{2}}W^2_{n+\frac{1}{2}}
+W^3_{n+\frac{1}{2}}$
+\\
+$D5_k-D5_k$ & $W^kP^lP^m\big(1+(-1)^{m_l+m_m}\big)$ \\
+$O9-O9$ & $W^1_eW^2_eW^3_e+W^1_oW^2_oW^3_o$ \\
+$O5_k-O5_k$ & $W^kP^l_eP^m_e$ \\ \hline \hline $\tilde{\cal M}$
+plane diagrams & Lattice Couplings
+\\\hline
+$D9-O9$ & $W^1_eW^2_eW^3_e+W^1_oW^2_oW^3_o$ \\
+$D9-O5_k$ & $W^k$ \\
+$D5_k-O9$ & $W^k_e$ \\
+$D5_k-O5_k$ & $W^k_eP^l_eP^m_e+(-1)^{m_l+m_m}W^k_oP^l_eP^m_e$ \\
+$D5_k-O5_l$ & $P^m_e$ \\\hline
+\end{tabular}
+\end{center}
+\caption{Lattice restrictions}\label{tab:cc}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 410
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{tabular}{|c|c|}\hline
+
+Plane diagrams & Volumes \\ \hline $D9-D9$, $D9-O9$,
+
+$O9-O9$ & $v_1v_2v_3$ \\
+
+$D5_k-D5_k$, $D5_k-O5_k$, $O5_k-O5_k$ & $\frac{v_k}{v_lv_m}$ \\
+
+$D5_k-D5_l$, $D5_k-O5_l$, $O5_k-O5_l$ & $\frac{1}{v_m}$ \\
+
+$D9-D5_k$, $D9-O5_k$, $D5_k-O9$ & $v_k$ \\ \hline \hline
+
+$\tilde{\cal A}$ and $\tilde{\cal K}$ Plane Diagrams & Lattice
+
+Couplings
+
+\\\hline
+
+$D9-D9$ & $W^1W^2W^3+W^1_{n+\frac{1}{2}}W^2_{n+\frac{1}{2}}
+
+W^3_{n+\frac{1}{2}}$
+
+\\
+
+$D5_k-D5_k$ & $W^kP^lP^m\big(1+(-1)^{m_l+m_m}\big)$ \\
+
+$O9-O9$ & $W^1_eW^2_eW^3_e+W^1_oW^2_oW^3_o$ \\
+
+$O5_k-O5_k$ & $W^kP^l_eP^m_e$ \\ \hline \hline $\tilde{\cal M}$
+
+plane diagrams & Lattice Couplings
+
+\\\hline
+
+$D9-O9$ & $W^1_eW^2_eW^3_e+W^1_oW^2_oW^3_o$ \\
+
+$D9-O5_k$ & $W^k$ \\
+
+$D5_k-O9$ & $W^k_e$ \\
+
+$D5_k-O5_k$ & $W^k_eP^l_eP^m_e+(-1)^{m_l+m_m}W^k_oP^l_eP^m_e$ \\
+
+$D5_k-O5_l$ & $P^m_e$ \\\hline
+
+\end{tabular}
+
+\end{center}
+
+\caption{Lattice restrictions}\label{tab:cc}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 411
+```
+{% raw %}
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|rllrll|}\hline
+$P_m$ & $\rightarrow$ & $W_{2n}$ & $P_{2m}$ & $\rightarrow$ & $W_{n}$ \\
+$(-1)^mP_m$ & $\rightarrow$ & $W_{2n+1}$ &
+$(-1)^mP_{2m}$ & $\rightarrow$ & $W_{n+\frac{1}{2}}$\\ \hline
+\end{tabular}
+\end{center}
+\caption{Mobius lattice transforms}\label{tab:MobLatTrans}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 412
+```
+{% raw %}
+\begin{table}[!ht]
+
+\begin{center}
+
+\begin{tabular}{|rllrll|}\hline
+
+$P_m$ & $\rightarrow$ & $W_{2n}$ & $P_{2m}$ & $\rightarrow$ & $W_{n}$ \\
+
+$(-1)^mP_m$ & $\rightarrow$ & $W_{2n+1}$ &
+
+$(-1)^mP_{2m}$ & $\rightarrow$ & $W_{n+\frac{1}{2}}$\\ \hline
+
+\end{tabular}
+
+\end{center}
+
+\caption{Mobius lattice transforms}\label{tab:MobLatTrans}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 413
+```
+{% raw %}
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{llllll}
+$N_o$ & $=$ & $(n+m+\bar{n}+\bar{m})$, & $N_g$ & $=$ & $i(n+m-\bar{n}-\bar{m})$
+\\
+$N_f$ & $=$ & $i(n-m-\bar{n}+\bar{m})$, & $N_h$ & $=$ &
+$(n-m+\bar{n}-\bar{m})$\\
+$D_{g;o}$ & $=$ & $2(o_1+g_1+\bar{o}_1+\bar{g}_1)$, & $D_{f;o}$ & $=$ &
+$2(o_2+g_2+\bar{o}_2+\bar{g}_2)$\\
+$D_{h;o}$ & $=$ & $2(a+b+c+d)$, & $D_{g;g}$ & $=$ &
+$i(o_1+g_1-\bar{o}_1-\bar{g}_1)$\\
+$D_{f;f}$ & $=$ & $i(o_2+g_2-\bar{o}_2-\bar{g}_2)$, & $D_{h;h}$ & $=$ &
+$a-b-c+d$\\
+$D_{g;f}$ & $=$ & $o_1-g_1+\bar{o}_1-\bar{g}_1$, & $D_{g;h}$ & $=$ &
+$-i(o_1-g_1-\bar{o}_1+\bar{g}_1)$\\
+$D_{f;g}$ & $=$ & $o_2-g_2+\bar{o}_2-\bar{g}_2$, & $D_{f;h}$ & $=$ &
+$i(o_2-g_2-\bar{o}_2+\bar{g}_2)$\\
+$D_{h;g}$ & $=$ & $a+b-c-d$, & $D_{h;f}$ & $=$ & $a-b+c-d$\\
+\end{tabular}
+\end{center}
+\caption{$\epsilon=(1,1,-1)$ Model
+Charges}\label{tab:ModelCharges}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 414
+```
+{% raw %}
+\begin{table}[!ht]
+
+\begin{center}
+
+\begin{tabular}{llllll}
+
+$N_o$ & $=$ & $(n+m+\bar{n}+\bar{m})$, & $N_g$ & $=$ & $i(n+m-\bar{n}-\bar{m})$
+
+\\
+
+$N_f$ & $=$ & $i(n-m-\bar{n}+\bar{m})$, & $N_h$ & $=$ &
+
+$(n-m+\bar{n}-\bar{m})$\\
+
+$D_{g;o}$ & $=$ & $2(o_1+g_1+\bar{o}_1+\bar{g}_1)$, & $D_{f;o}$ & $=$ &
+
+$2(o_2+g_2+\bar{o}_2+\bar{g}_2)$\\
+
+$D_{h;o}$ & $=$ & $2(a+b+c+d)$, & $D_{g;g}$ & $=$ &
+
+$i(o_1+g_1-\bar{o}_1-\bar{g}_1)$\\
+
+$D_{f;f}$ & $=$ & $i(o_2+g_2-\bar{o}_2-\bar{g}_2)$, & $D_{h;h}$ & $=$ &
+
+$a-b-c+d$\\
+
+$D_{g;f}$ & $=$ & $o_1-g_1+\bar{o}_1-\bar{g}_1$, & $D_{g;h}$ & $=$ &
+
+$-i(o_1-g_1-\bar{o}_1+\bar{g}_1)$\\
+
+$D_{f;g}$ & $=$ & $o_2-g_2+\bar{o}_2-\bar{g}_2$, & $D_{f;h}$ & $=$ &
+
+$i(o_2-g_2-\bar{o}_2+\bar{g}_2)$\\
+
+$D_{h;g}$ & $=$ & $a+b-c-d$, & $D_{h;f}$ & $=$ & $a-b+c-d$\\
+
+\end{tabular}
+
+\end{center}
+
+\caption{$\epsilon=(1,1,-1)$ Model
+
+Charges}\label{tab:ModelCharges}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 415
+```
+{% raw %}
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|l|llll|}\hline
+$5_15_2$ & $(4,1;\bar{4},1)$ & $(1,4;\bar{4},1)$ &
+$(\bar{4},1;4,1)$ &
+$(1,\bar{4};1,4)$ \\
+$95_1$ & $(8,1;1,\bar{4})$ & $(1,8;\bar{4},1)$ &
+$(\bar{8},1;4,1)$ & $(1,\bar{8};1,4)$ \\
+$95_2$ & $(8,1;1,\bar{4})$ & $(1,\bar{8};\bar{4},1)$ &
+$(\bar{8},1;4,1)$ & $(1,8;1,4)$ \\ \hline
+\end{tabular}
+\caption{$95_{1,2}$ and $5_15_2$ Sectors}\label{fig:95sectors}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 416
+```
+{% raw %}
+\begin{table}[!ht]
+
+\begin{center}
+
+\begin{tabular}{|l|llll|}\hline
+
+$5_15_2$ & $(4,1;\bar{4},1)$ & $(1,4;\bar{4},1)$ &
+
+$(\bar{4},1;4,1)$ &
+
+$(1,\bar{4};1,4)$ \\
+
+$95_1$ & $(8,1;1,\bar{4})$ & $(1,8;\bar{4},1)$ &
+
+$(\bar{8},1;4,1)$ & $(1,\bar{8};1,4)$ \\
+
+$95_2$ & $(8,1;1,\bar{4})$ & $(1,\bar{8};\bar{4},1)$ &
+
+$(\bar{8},1;4,1)$ & $(1,8;1,4)$ \\ \hline
+
+\end{tabular}
+
+\caption{$95_{1,2}$ and $5_15_2$ Sectors}\label{fig:95sectors}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 417
+```
+{% raw %}
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|l|ll|}\hline
+$5_1\bar{5}_3$ & $(\bar{4},1;1,1,4,1)$ & $(1,\bar{4};1,1,1,4)$ \\
+& $(1,4;1,4,1,1)$ & $(4,1;4,1,1,1)$ \\
+$5_2\bar{5}_3$ & $(4,1;4,1,1,1)$ & $(1,\bar{4};1,1,1,4)$ \\
+& $(1,4;1,1,4,1)$ & $(\bar{4},1;1,4,1,1)$ \\
+$9\bar{5}_3$ & $(\bar{8},1;4,1,1,1)$ & $(1,\bar{8};1,4,1,1)$ \\
+& $(1,8;1,1,4,1)$ & $(8,1;1,1,1,4)$ \\ \hline
+\end{tabular}
+\caption{Spinors Coupling to $D\bar{5}$}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 418
+```
+{% raw %}
+\begin{table}[!ht]
+
+\begin{center}
+
+\begin{tabular}{|l|ll|}\hline
+
+$5_1\bar{5}_3$ & $(\bar{4},1;1,1,4,1)$ & $(1,\bar{4};1,1,1,4)$ \\
+
+& $(1,4;1,4,1,1)$ & $(4,1;4,1,1,1)$ \\
+
+$5_2\bar{5}_3$ & $(4,1;4,1,1,1)$ & $(1,\bar{4};1,1,1,4)$ \\
+
+& $(1,4;1,1,4,1)$ & $(\bar{4},1;1,4,1,1)$ \\
+
+$9\bar{5}_3$ & $(\bar{8},1;4,1,1,1)$ & $(1,\bar{8};1,4,1,1)$ \\
+
+& $(1,8;1,1,4,1)$ & $(8,1;1,1,1,4)$ \\ \hline
+
+\end{tabular}
+
+\caption{Spinors Coupling to $D\bar{5}$}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 419
+```
+{% raw %}
+\begin{table}[!ht]
+
+\begin{center}
+
+\begin{tabular}{|l|ll|}\hline
+
+$5_1\bar{5}_3$ & $(\bar{4},1;1,1,1,4)$ & $(1,\bar{4};1,1,4,1)$ \\
+
+& $(1,4;4,1,1,1)$ & $(4,1;1,4,1,1)$ \\
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|l|ll|}\hline
+$5_1\bar{5}_3$ & $(\bar{4},1;1,1,1,4)$ & $(1,\bar{4};1,1,4,1)$ \\
+& $(1,4;4,1,1,1)$ & $(4,1;1,4,1,1)$ \\
+$5_2\bar{5}_3$ & $(4,1;1,1,1,4)$ & $(1,\bar{4};1,4,1,1)$ \\
+& $(1,4;4,1,1,1)$ & $(\bar{4},1;1,1,4,1)$ \\
+$9\bar{5}_3$ & $(\bar{8},1;1,4,1,1)$ & $(1,\bar{8};4,1,1,1)$ \\
+& $(1,8;1,1,1,4)$ & $(8,1;1,1,4,1)$ \\ \hline
+\end{tabular}
+\caption{Complex Scalars Coupling to $D\bar{5}$}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 420
+```
+{% raw %}
+\begin{table}[!ht]
+
+\begin{center}
+
+\begin{tabular}{|l|ll|}\hline
+
+$5_1\bar{5}_3$ & $(\bar{4},1;1,1,1,4)$ & $(1,\bar{4};1,1,4,1)$ \\
+
+& $(1,4;4,1,1,1)$ & $(4,1;1,4,1,1)$ \\
+
+$5_2\bar{5}_3$ & $(4,1;1,1,1,4)$ & $(1,\bar{4};1,4,1,1)$ \\
+
+& $(1,4;4,1,1,1)$ & $(\bar{4},1;1,1,4,1)$ \\
+
+$9\bar{5}_3$ & $(\bar{8},1;1,4,1,1)$ & $(1,\bar{8};4,1,1,1)$ \\
+
+& $(1,8;1,1,1,4)$ & $(8,1;1,1,4,1)$ \\ \hline
+
+\end{tabular}
+
+\caption{Complex Scalars Coupling to $D\bar{5}$}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 421
+```
+{% raw %}
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|c|c|}\hline
+$\tilde{\cal A}$ and $\tilde{\cal K}$ Plane Diagrams & Lattice Couplings
+\\\hline
+$D9-D9$ & $W^1W^2W^3\big(1+(-1)^{n_1+n_2+n_3}\big)$ \\
+$D5_k-D5_k$ & $W^kP^lP^m\big(1+(-1)^{n_k+m_l+m_m}\big)$ \\
+$O9-O9$ & $W^1_eW^2_eW^3_e+W^1_oW^2_oW^3_o$ \\
+$O5_k-O5_k$ & $W^k_eP^l_eP^m_e+W^k_oP^l_oP^m_o$ \\ \hline \hline $\tilde{\cal
+M}$ plane
+diagrams & Lattice Couplings
+\\\hline
+$D9-O9$ & $W^1_eW^2_eW^3_e+(-1)^{n_1+n_2+n_3}W^1_eW^2_eW^3_e$ \\
+$D9-O5_k$ & $W^k_e+(-1)^{n_k}W^k_e$ \\
+$D5_k-O9$ & $W^k_e$ \\
+$D5_k-O5_k$ & $W^k_eP^l_eP^m_e+(-1)^{n_k+m_l+m_m}W^k_eP^l_eP^m_e$ \\
+$D5_k-O5_l$ & $P^m_e$ \\\hline
+\end{tabular}
+\caption{Modified Lattice Terms}\label{fig:ModifiedLattices}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 422
+```
+{% raw %}
+\begin{table}[!ht]
+
+\begin{center}
+
+\begin{tabular}{|c|c|}\hline
+
+$\tilde{\cal A}$ and $\tilde{\cal K}$ Plane Diagrams & Lattice Couplings
+
+\\\hline
+
+$D9-D9$ & $W^1W^2W^3\big(1+(-1)^{n_1+n_2+n_3}\big)$ \\
+
+$D5_k-D5_k$ & $W^kP^lP^m\big(1+(-1)^{n_k+m_l+m_m}\big)$ \\
+
+$O9-O9$ & $W^1_eW^2_eW^3_e+W^1_oW^2_oW^3_o$ \\
+
+$O5_k-O5_k$ & $W^k_eP^l_eP^m_e+W^k_oP^l_oP^m_o$ \\ \hline \hline $\tilde{\cal
+
+M}$ plane
+
+diagrams & Lattice Couplings
+
+\\\hline
+
+$D9-O9$ & $W^1_eW^2_eW^3_e+(-1)^{n_1+n_2+n_3}W^1_eW^2_eW^3_e$ \\
+
+$D9-O5_k$ & $W^k_e+(-1)^{n_k}W^k_e$ \\
+
+$D5_k-O9$ & $W^k_e$ \\
+
+$D5_k-O5_k$ & $W^k_eP^l_eP^m_e+(-1)^{n_k+m_l+m_m}W^k_eP^l_eP^m_e$ \\
+
+$D5_k-O5_l$ & $P^m_e$ \\\hline
+
+\end{tabular}
+
+\caption{Modified Lattice Terms}\label{fig:ModifiedLattices}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 423
+```
+{% raw %}
+\begin{table}
+\begin{center}
+\begin{tabular}{ll}
+$N_o=2(n+m+\bar{n}+\bar{m})$, & $N_g=2i(n+m-\bar{n}-\bar{m})$ \\
+$N_f=2i(n-m-\bar{n}+\bar{m})$, & $N_h=2(n-m+\bar{n}-\bar{m})$\\
+$D_{g;o}=2(o_1+g_1+\bar{o}_1+\bar{g}_1)$, &
+$D_{f;o}=2(o_2+g_2+\bar{o}_2+\bar{g}_2)$\\
+$D_{h;o}=2(a+b+c+d)$, & $D_{g;g}=i(o_1+g_1-\bar{o}_1-\bar{g}_1)$\\
+$D_{f;f}=i(o_2+g_2-\bar{o}_2-\bar{g}_2)$, & $D_{h;h}=a-b-c+d$\\
+$D_{g;f}=o_1-g_1+\bar{o}_1-\bar{g}_1$, &
+$D_{g;h}=-i(o_1-g_1-\bar{o}_1+\bar{g}_1)$\\
+$D_{f;g}=o_2-g_2+\bar{o}_2-\bar{g}_2$, &
+$D_{f;h}=i(o_2-g_2-\bar{o}_2+\bar{g}_2)$\\
+$D_{h;g}=a+b-c-d$, & $D_{h;f}=a-b+c-d$\\
+\end{tabular}
+\caption{$A_2$ Charge Structure}\label{tab:ChargesA2}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 424
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{tabular}{ll}
+
+$N_o=2(n+m+\bar{n}+\bar{m})$, & $N_g=2i(n+m-\bar{n}-\bar{m})$ \\
+
+$N_f=2i(n-m-\bar{n}+\bar{m})$, & $N_h=2(n-m+\bar{n}-\bar{m})$\\
+
+$D_{g;o}=2(o_1+g_1+\bar{o}_1+\bar{g}_1)$, &
+
+$D_{f;o}=2(o_2+g_2+\bar{o}_2+\bar{g}_2)$\\
+
+$D_{h;o}=2(a+b+c+d)$, & $D_{g;g}=i(o_1+g_1-\bar{o}_1-\bar{g}_1)$\\
+
+$D_{f;f}=i(o_2+g_2-\bar{o}_2-\bar{g}_2)$, & $D_{h;h}=a-b-c+d$\\
+
+$D_{g;f}=o_1-g_1+\bar{o}_1-\bar{g}_1$, &
+
+$D_{g;h}=-i(o_1-g_1-\bar{o}_1+\bar{g}_1)$\\
+
+$D_{f;g}=o_2-g_2+\bar{o}_2-\bar{g}_2$, &
+
+$D_{f;h}=i(o_2-g_2-\bar{o}_2+\bar{g}_2)$\\
+
+$D_{h;g}=a+b-c-d$, & $D_{h;f}=a-b+c-d$\\
+
+\end{tabular}
+
+\caption{$A_2$ Charge Structure}\label{tab:ChargesA2}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 425
+```
+{% raw %}
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|l|llll|}\hline
+$5_15_2$ & $(4,1;\bar{4},1)$ & $(1,4;\bar{4},1)$ &
+$(\bar{4},1;4,1)$ &
+$(1,\bar{4};1,4)$ \\
+$95_1$ & $(4,1;1\bar{4})$ & $(1,4;\bar{4},1)$ &
+$(\bar{4},1;4,1)$ & $(1,\bar{4};1,4)$ \\
+$95_2$ & $(4,1;1\bar{4})$ & $(1,\bar{4};\bar{4},1)$ &
+$(\bar{4},1;4,1)$ & $(1,4;1,4)$ \\ \hline
+\end{tabular}
+\caption{$95_{1,2}$ and $5_15_2$ Sectors}\label{tab:A2Sector1}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 426
+```
+{% raw %}
+\begin{table}[!ht]
+
+\begin{center}
+
+\begin{tabular}{|l|llll|}\hline
+
+$5_15_2$ & $(4,1;\bar{4},1)$ & $(1,4;\bar{4},1)$ &
+
+$(\bar{4},1;4,1)$ &
+
+$(1,\bar{4};1,4)$ \\
+
+$95_1$ & $(4,1;1\bar{4})$ & $(1,4;\bar{4},1)$ &
+
+$(\bar{4},1;4,1)$ & $(1,\bar{4};1,4)$ \\
+
+$95_2$ & $(4,1;1\bar{4})$ & $(1,\bar{4};\bar{4},1)$ &
+
+$(\bar{4},1;4,1)$ & $(1,4;1,4)$ \\ \hline
+
+\end{tabular}
+
+\caption{$95_{1,2}$ and $5_15_2$ Sectors}\label{tab:A2Sector1}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 427
+```
+{% raw %}
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|l|ll|}\hline
+$5_1\bar{5}_3$ & $(\bar{4},1;1,1,4,1)$ & $(1,\bar{4};1,1,1,4)$ \\
+& $(1,4;1,4,1,1)$ & $(4,1;4,1,1,1)$ \\
+$5_2\bar{5}_3$ & $(4,1;4,1,1,1)$ & $(1,\bar{4};1,1,1,4)$ \\
+& $(1,4;1,1,4,1)$ & $(\bar{4},1;1,4,1,1)$ \\
+$9\bar{5}_3$ & $(\bar{4},1;4,1,1,1)$ & $(1,\bar{4};1,4,1,1)$ \\
+& $(1,4;1,1,4,1)$ & $(4,1;1,1,1,4)$ \\ \hline
+\end{tabular}
+\caption{Spinors Coupling to $D\bar{5}$}\label{tab:A2Sector2}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 428
+```
+{% raw %}
+\begin{table}[!ht]
+
+\begin{center}
+
+\begin{tabular}{|l|ll|}\hline
+
+$5_1\bar{5}_3$ & $(\bar{4},1;1,1,4,1)$ & $(1,\bar{4};1,1,1,4)$ \\
+
+& $(1,4;1,4,1,1)$ & $(4,1;4,1,1,1)$ \\
+
+$5_2\bar{5}_3$ & $(4,1;4,1,1,1)$ & $(1,\bar{4};1,1,1,4)$ \\
+
+& $(1,4;1,1,4,1)$ & $(\bar{4},1;1,4,1,1)$ \\
+
+$9\bar{5}_3$ & $(\bar{4},1;4,1,1,1)$ & $(1,\bar{4};1,4,1,1)$ \\
+
+& $(1,4;1,1,4,1)$ & $(4,1;1,1,1,4)$ \\ \hline
+
+\end{tabular}
+
+\caption{Spinors Coupling to $D\bar{5}$}\label{tab:A2Sector2}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 429
+```
+{% raw %}
+\begin{table}[!hb]
+
+\begin{center}
+
+\begin{tabular}{|l|ll|}\hline
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[!hb]
+\begin{center}
+\begin{tabular}{|l|ll|}\hline
+$5_1\bar{5}_3$ & $(\bar{4},1;1,1,1,4)$ & $(1,\bar{4};1,1,4,1)$ \\
+& $(1,4;4,1,1,1)$, & $(4,1;1,4,1,1)$, \\
+$5_2\bar{5}_3$ & $(4,1;1,1,1,4)$ & $(1,\bar{4};1,4,1,1)$ \\
+& $(1,4;4,1,1,1)$ & $(\bar{4},1;1,1,4,1)$ \\
+$9\bar{5}_3$ & $(\bar{4},1;1,4,1,1)$ & $(1,\bar{4};4,1,1,1)$ \\
+& $(1,4;1,1,1,4)$ & $(4,1;1,1,4,1)$ \\ \hline
+\end{tabular}
+\caption{Complex Scalars Coupling to
+$D\bar{5}$}\label{tab:A2Sector3}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 430
+```
+{% raw %}
+\begin{table}[!hb]
+
+\begin{center}
+
+\begin{tabular}{|l|ll|}\hline
+
+$5_1\bar{5}_3$ & $(\bar{4},1;1,1,1,4)$ & $(1,\bar{4};1,1,4,1)$ \\
+
+& $(1,4;4,1,1,1)$, & $(4,1;1,4,1,1)$, \\
+
+$5_2\bar{5}_3$ & $(4,1;1,1,1,4)$ & $(1,\bar{4};1,4,1,1)$ \\
+
+& $(1,4;4,1,1,1)$ & $(\bar{4},1;1,1,4,1)$ \\
+
+$9\bar{5}_3$ & $(\bar{4},1;1,4,1,1)$ & $(1,\bar{4};4,1,1,1)$ \\
+
+& $(1,4;1,1,1,4)$ & $(4,1;1,1,4,1)$ \\ \hline
+
+\end{tabular}
+
+\caption{Complex Scalars Coupling to
+
+$D\bar{5}$}\label{tab:A2Sector3}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 431
+```
+{% raw %}
+\begin{table}
+\begin{center}
+\begin{tabular}{cccc}
+\hline
+$n$ & {\em (a)} & {\em (b)} & {\em (c)} \\ \hline
+1 & $\pm 1.19-3.03i$ & $\pm 2.89-2.89i$ & $\pm 3.12-2.75i$ \\
+2 & $\pm 5.01-7.65i$  & & $\pm 5.17-4.76i$  \\
+3 & $\pm 9.01-11.78i$ & & $\pm 7.19-6.77i$  \\
+4 & $\pm 13.01-15.84i$ & & $\pm 9.20-8.77i$  \\
+5 & $\pm 17.00-19.87i$ & & $\pm 11.20-10.77i$  \\
+6 & $\pm 21.00-23.90i$ & & $\pm 13.21-12.78i$  \\
+7 & $\pm 25.00-27.92i$ & & $\pm 15.21-14.78i$  \\
+8 & $\pm 29.00-31.93i$ & & $\pm 17.21-16.78i$  \\
+9 & $\pm 33.00-35.93i$ & & $\pm 19.21-18.78i$  \\
+10 & $\pm 37.00-39.94i$ & & $\pm 21.21-20.78i$ \\ \hline
+\end{tabular}
+\end{center}
+\caption{Quasi-normal frequencies in $d=5$: {\em (a)}~zeroth-order untruncated approximation
+(eq.~(\ref{eq1})), {\em (b)}~first-order approximation (eq.~(\ref{eq2})),
+{\em (c)} numerical results~\cite{bibq14}.}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 432
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{tabular}{cccc}
+
+\hline
+
+$n$ & {\em (a)} & {\em (b)} & {\em (c)} \\ \hline
+
+1 & $\pm 1.19-3.03i$ & $\pm 2.89-2.89i$ & $\pm 3.12-2.75i$ \\
+
+2 & $\pm 5.01-7.65i$  & & $\pm 5.17-4.76i$  \\
+
+3 & $\pm 9.01-11.78i$ & & $\pm 7.19-6.77i$  \\
+
+4 & $\pm 13.01-15.84i$ & & $\pm 9.20-8.77i$  \\
+
+5 & $\pm 17.00-19.87i$ & & $\pm 11.20-10.77i$  \\
+
+6 & $\pm 21.00-23.90i$ & & $\pm 13.21-12.78i$  \\
+
+7 & $\pm 25.00-27.92i$ & & $\pm 15.21-14.78i$  \\
+
+8 & $\pm 29.00-31.93i$ & & $\pm 17.21-16.78i$  \\
+
+9 & $\pm 33.00-35.93i$ & & $\pm 19.21-18.78i$  \\
+
+10 & $\pm 37.00-39.94i$ & & $\pm 21.21-20.78i$ \\ \hline
+
+\end{tabular}
+
+\end{center}
+
+\caption{Quasi-normal frequencies in $d=5$: {\em (a)}~zeroth-order untruncated approximation
+
+(eq.~(\ref{eq1})), {\em (b)}~first-order approximation (eq.~(\ref{eq2})),
+
+{\em (c)} numerical results~\cite{bibq14}.}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 433
+```
+{% raw %}
+\begin{table}[h]
+\center{ \begin{tabular}{||c|c||} \hline
+\rule[-.4cm]{0cm}{1.cm}
+species  &  density \\ \hline \hline
+soliton or/and antisoliton   & $\rho_0\,, \rho_d\,, \rho_{h 0}$ \\ \hline
+breather & $\rho_a\,, \rho_{h a}\,, \quad  a=1, \cdots, n_b$\\ 
+\hline
+\end{tabular}}
+\caption{ particle species and the corresponding densities.} 
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 434
+```
+{% raw %}
+\begin{table}[h]
+
+\center{ \begin{tabular}{||c|c||} \hline
+
+\rule[-.4cm]{0cm}{1.cm}
+
+species  &  density \\ \hline \hline
+
+soliton or/and antisoliton   & $\rho_0\,, \rho_d\,, \rho_{h 0}$ \\ \hline
+
+breather & $\rho_a\,, \rho_{h a}\,, \quad  a=1, \cdots, n_b$\\ 
+
+\hline
+
+\end{tabular}}
+
+\caption{ particle species and the corresponding densities.} 
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 435
+```
+{% raw %}
+\begin{table}[htbp]
+\vspace{0.6cm}
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+p & 1 &2 &3 &4 &5 &6 &7 &8 &9 &10 &11 &12 &13 & 14 & $\ldots$ \\
+\hline
+$n_p$ &1 &1 &2 &2 &3 &2 &5 &4 &5 &5 &9 &4 &11 &6 & $\ldots$ \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{-0.5cm}
+\caption{Values of first several $n_p$}
+\label{tab:frstSvrl_N_p}
+\vspace{0.3cm}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 436
+```
+{% raw %}
+\begin{table}[htbp]
+
+\vspace{0.6cm}
+
+\begin{center}
+
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+
+\hline
+
+p & 1 &2 &3 &4 &5 &6 &7 &8 &9 &10 &11 &12 &13 & 14 & $\ldots$ \\
+
+\hline
+
+$n_p$ &1 &1 &2 &2 &3 &2 &5 &4 &5 &5 &9 &4 &11 &6 & $\ldots$ \\
+
+\hline
+
+\end{tabular}
+
+\end{center}
+
+\vspace{-0.5cm}
+
+\caption{Values of first several $n_p$}
+
+\label{tab:frstSvrl_N_p}
+
+\vspace{0.3cm}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 437
+```
+{% raw %}
+ \begin{table}
+ \caption{\Large Chiral Transformations}
+\la{Purechiral1}
+\vspace{.1in} \framebox{
+{\Large $\begin{array}{lll}  
+\d A^i&= & 
+  \y^{i}_{  \b} {C}^{  \b} 
++ \x^{\g \dot \d} \partial_{\g \dot \d} A^i
+\\
+\d {\ov A}_i&= & 
+ {\ov \y}_{i  \dot \b} {\ov C}^{ \dot  \b} 
++ \x^{\g \dot \d} \partial_{\g \dot \d} {\ov A}_i
+\\
+ \d \y_{\a}^i &  =& 
+\pa_{ \a \dot \b }  A^{i} {\ov C}^{\dot \b}  
++ 
+C_{\a}   
+F^i
++ \x^{\g \dot \d} \partial_{\g \dot \d}  \y^{i}_{\a  }
+\\
+\d
+ {\ov \y}_{i \dot \a} &  =& 
+\pa_{ \a \dot \a }  {\ov A}_{i} {C}^{\a}  
++ 
+{\ov C}_{\dot \a}   
+{\ov F}_{i}
++ \x^{\g \dot \d} \partial_{\g \dot \d} 
+ {\ov \y}_{i \dot \a} 
+\\ 
+\d F^i &  =&  \pa_{ \a \dot \b }  \y^{i \a}  {\ov C}^{\dot \b}  
+ + \x^{\g \dot \d} \partial_{\g \dot \d}  F^i
+\\ 
+\d \oF_i &  =&  \pa_{ \a \dot \b }  \oy^{\dot \b}_i  C^{\a}
+ + \x^{\g \dot \d} \partial_{\g \dot \d}  \oF_i
+\\
+\d \x_{\a \dot \b} &  =& - C_{\a} \oC_{\dot \b}
+\\
+\end{array}$} }
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 438
+```
+{% raw %}
+ \begin{table}
+
+ \caption{\Large Chiral Transformations}
+
+\la{Purechiral1}
+
+\vspace{.1in} \framebox{
+
+{\Large $\begin{array}{lll}  
+
+\d A^i&= & 
+
+  \y^{i}_{  \b} {C}^{  \b} 
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} A^i
+
+\\
+
+\d {\ov A}_i&= & 
+
+ {\ov \y}_{i  \dot \b} {\ov C}^{ \dot  \b} 
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} {\ov A}_i
+
+\\
+
+ \d \y_{\a}^i &  =& 
+
+\pa_{ \a \dot \b }  A^{i} {\ov C}^{\dot \b}  
+
++ 
+
+C_{\a}   
+
+F^i
+
++ \x^{\g \dot \d} \partial_{\g \dot \d}  \y^{i}_{\a  }
+
+\\
+
+\d
+
+ {\ov \y}_{i \dot \a} &  =& 
+
+\pa_{ \a \dot \a }  {\ov A}_{i} {C}^{\a}  
+
++ 
+
+{\ov C}_{\dot \a}   
+
+{\ov F}_{i}
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} 
+
+ {\ov \y}_{i \dot \a} 
+
+\\ 
+
+\d F^i &  =&  \pa_{ \a \dot \b }  \y^{i \a}  {\ov C}^{\dot \b}  
+
+ + \x^{\g \dot \d} \partial_{\g \dot \d}  F^i
+
+\\ 
+
+\d \oF_i &  =&  \pa_{ \a \dot \b }  \oy^{\dot \b}_i  C^{\a}
+
+ + \x^{\g \dot \d} \partial_{\g \dot \d}  \oF_i
+
+\\
+
+\d \x_{\a \dot \b} &  =& - C_{\a} \oC_{\dot \b}
+
+\\
+
+\end{array}$} }
+
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 439
+```
+{% raw %}
+\begin{table}
+\caption{\Large   Transformations  for the Physical Formulation of the BRS-ZJ Identity}
+\la{physicaltable}
+\vspace{.1in}
+\framebox{{\Large $\begin{array}{lll}  
+\\
+\d A^i&= & 
+\fr{\d {\cal A}}{\d \G_i} 
+=  \y^{i}_{  \b} {}^{  \b} 
++ \x^{\g \dot \d} \partial_{\g \dot \d} A^i
+\\
+\d {\ov A}_i&= & 
+\fr{\d {\cal A}}{\d {\ov \G}^i} 
+=  {\ov \y}_{i  \dot \b} {\ov C}^{ \dot  \b} 
++ \x^{\g \dot \d} \partial_{\g \dot \d} {\ov A}_i
+\\
+
+\d \y_{\a}^i &  =& 
+\fr{\d {\cal A}}{\d {  Y}_i^{   \a} } = 
+\pa_{ \a \dot \b }  A^{i} {\ov C}^{\dot \b}  
++ 
+C_{\a}   
+F_1^i
++ \x^{\g \dot \d} \partial_{\g \dot \d}  \y^{i}_{\a  }
+\\
+
+\d
+ {\ov \y}_{i \dot \a} &  =& 
+\fr{\d {\cal A}}{\d { {\ov Y}}^{i \dot   \a} } = 
+\pa_{ \a \dot \a }  {\ov A}_{i} {C}^{\a}  
++ 
+{\ov C}_{\dot \a}   
+{\ov F}_{1,i}
++ \x^{\g \dot \d} \partial_{\g \dot \d} 
+ {\ov \y}_{i \dot \a} 
+\\
+\d \G_i 
+&= &
+ \fr{\d {\cal A}}{\d A^i} 
+=
+ - \fr{1}{2} \pa_{ \a \dot \b  }       \pa^{ \a \dot \b  }        {\ov  A}_{i} 
+  +   m {g}_{iq} F_1^q  + g_{ijk} { F}_2^{jk}
+\\
+&&
+\pa_{ \a \dot \b } Y_{i}^{ \a}    {\ov C}^{\dot \b}   
++ \x^{\g \dot \d} \partial_{\g \dot \d} \G_i
+\\
+
+
+
+
+\d {\ov \G}^i 
+&= & \fr{\d {\cal A}}{\d {\ov A}_i} 
+=
+- \fr{1}{2} \pa_{ \a \dot \b  }       \pa^{ \a \dot \b  }        { A}^{i} 
++  m {\ov g}^{ij} {\ov  F}_{1, k}  
++  {\ov g}^{ijk}     {\ov  F}_{2,j k} 
+\\
+&&
+- \pa_{ \a \dot \b } {\ov Y}^{ i \dot \b}    {C}^{\a}   
++ \x^{\g \dot \d} \partial_{\g \dot \d} 
+ {\ov \G}^i
+\\
+\d Y_{i}^{ \a} 
+&=&\fr{\d {\cal A}}{\d {  \y}^i_{   \a}} 
+= 
+-
+  \pa^{\a \dot \b  }   
+{\ov \y}_{i   \dot \b}
++  m {g}_{iq}   
+\y^{q \a} 
+\\
+&&
+ +
+2 g_{ijk}  \y^{j \a} A^k    
+-
+\G_i  
+ {C}^{  \a}
++ \x^{\g \dot \d} \partial_{\g \dot \d}  Y_{i}^{ \a}
+\\
+\d 
+{\ov Y}^{i \dot \a} 
+&=&\fr{\d {\cal A}}{\d {\ov \y}_i^{ \dot \a} 
+} 
+= 
+-
+  \pa^{\b \dot \a  }   
+{ \y}^i_{ \b}
++  m {\ov g}^{ik}   
+{\ov \y}_{k}^{\dot  \a} 
+\\
+&&
++
+2 {\ov g}^{ijk} {\ov \y}_{j}^{\dot  \a} 
+{\ov A}_k  
+-
+{\ov \G}^i  
+ {\ov C}^{\dot  \a}
++ \x^{\g \dot \d} \partial_{\g \dot \d}  
+{\ov Y}^{i \dot \a} 
+\\
+ \d F_1^i 
+&=&
+  \pa_{\a \dot \b}   \y^{i \a} {\ov C}^{\dot \b} 
++ \x^{\g \dot \d} \partial_{\g \dot \d}  F_1^i 
+\\
+ \d F_2^{ij} &=& \pa_{\a \dot \b} \lt ( A^i  \y^{j \a} + A^j  \y^{i \a} \rt )  {\ov C}^{\dot \b} 
++ \x^{\g \dot \d} \partial_{\g \dot \d}  F_1^{ij} 
+\\
+ \d F_3^{ijk} &=& 2 \pa^{\a \dot \b} \lt ( A^{i}   A^{j} \y^{k}_{\a}  + A^{j}   A^{k} \y^{i }_{\a}  + A^{k}   A^{i} \y^{j}_{\a} \rt )  {\ov C}_{\dot \b} 
++ \x^{\g \dot \d} \partial_{\g \dot \d}  F_1^{ijk} 
+\\
+\d \x_{\a \dot \b} 
+&=& \fr{\pa {\cal A}}{\pa { X}^{\a \dot    \b}} 
+=
+ -   C_{\a} {\ov C}_{\dot \b}
+\\
+\d X_{\a \dot \b} 
+&=& \fr{\pa {\cal A}}{\pa { \x}^{\a \dot    \b}} 
+= 
+\int d^4 x \; \X_{\a \dot \b} 
+\\
+\d C_{\a}
+&=&
+0
+\\
+\d  {\ov C}_{\dot \b}
+&=&
+0
+
+\end{array}$}} 
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 440
+```
+{% raw %}
+\begin{table}
+
+\caption{\Large   Transformations  for the Physical Formulation of the BRS-ZJ Identity}
+
+\la{physicaltable}
+
+\vspace{.1in}
+
+\framebox{{\Large $\begin{array}{lll}  
+
+\\
+
+\d A^i&= & 
+
+\fr{\d {\cal A}}{\d \G_i} 
+
+=  \y^{i}_{  \b} {}^{  \b} 
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} A^i
+
+\\
+
+\d {\ov A}_i&= & 
+
+\fr{\d {\cal A}}{\d {\ov \G}^i} 
+
+=  {\ov \y}_{i  \dot \b} {\ov C}^{ \dot  \b} 
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} {\ov A}_i
+
+\\
+
+
+
+\d \y_{\a}^i &  =& 
+
+\fr{\d {\cal A}}{\d {  Y}_i^{   \a} } = 
+
+\pa_{ \a \dot \b }  A^{i} {\ov C}^{\dot \b}  
+
++ 
+
+C_{\a}   
+
+F_1^i
+
++ \x^{\g \dot \d} \partial_{\g \dot \d}  \y^{i}_{\a  }
+
+\\
+
+
+
+\d
+
+ {\ov \y}_{i \dot \a} &  =& 
+
+\fr{\d {\cal A}}{\d { {\ov Y}}^{i \dot   \a} } = 
+
+\pa_{ \a \dot \a }  {\ov A}_{i} {C}^{\a}  
+
++ 
+
+{\ov C}_{\dot \a}   
+
+{\ov F}_{1,i}
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} 
+
+ {\ov \y}_{i \dot \a} 
+
+\\
+
+\d \G_i 
+
+&= &
+
+ \fr{\d {\cal A}}{\d A^i} 
+
+=
+
+ - \fr{1}{2} \pa_{ \a \dot \b  }       \pa^{ \a \dot \b  }        {\ov  A}_{i} 
+
+  +   m {g}_{iq} F_1^q  + g_{ijk} { F}_2^{jk}
+
+\\
+
+&&
+
+\pa_{ \a \dot \b } Y_{i}^{ \a}    {\ov C}^{\dot \b}   
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} \G_i
+
+\\
+
+
+
+
+
+
+
+
+
+\d {\ov \G}^i 
+
+&= & \fr{\d {\cal A}}{\d {\ov A}_i} 
+
+=
+
+- \fr{1}{2} \pa_{ \a \dot \b  }       \pa^{ \a \dot \b  }        { A}^{i} 
+
++  m {\ov g}^{ij} {\ov  F}_{1, k}  
+
++  {\ov g}^{ijk}     {\ov  F}_{2,j k} 
+
+\\
+
+&&
+
+- \pa_{ \a \dot \b } {\ov Y}^{ i \dot \b}    {C}^{\a}   
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} 
+
+ {\ov \G}^i
+
+\\
+
+\d Y_{i}^{ \a} 
+
+&=&\fr{\d {\cal A}}{\d {  \y}^i_{   \a}} 
+
+= 
+
+-
+
+  \pa^{\a \dot \b  }   
+
+{\ov \y}_{i   \dot \b}
+
++  m {g}_{iq}   
+
+\y^{q \a} 
+
+\\
+
+&&
+
+ +
+
+2 g_{ijk}  \y^{j \a} A^k    
+
+-
+
+\G_i  
+
+ {C}^{  \a}
+
++ \x^{\g \dot \d} \partial_{\g \dot \d}  Y_{i}^{ \a}
+
+\\
+
+\d 
+
+{\ov Y}^{i \dot \a} 
+
+&=&\fr{\d {\cal A}}{\d {\ov \y}_i^{ \dot \a} 
+
+} 
+
+= 
+
+-
+
+  \pa^{\b \dot \a  }   
+
+{ \y}^i_{ \b}
+
++  m {\ov g}^{ik}   
+
+{\ov \y}_{k}^{\dot  \a} 
+
+\\
+
+&&
+
++
+
+2 {\ov g}^{ijk} {\ov \y}_{j}^{\dot  \a} 
+
+{\ov A}_k  
+
+-
+
+{\ov \G}^i  
+
+ {\ov C}^{\dot  \a}
+
++ \x^{\g \dot \d} \partial_{\g \dot \d}  
+
+{\ov Y}^{i \dot \a} 
+
+\\
+
+ \d F_1^i 
+
+&=&
+
+  \pa_{\a \dot \b}   \y^{i \a} {\ov C}^{\dot \b} 
+
++ \x^{\g \dot \d} \partial_{\g \dot \d}  F_1^i 
+
+\\
+
+ \d F_2^{ij} &=& \pa_{\a \dot \b} \lt ( A^i  \y^{j \a} + A^j  \y^{i \a} \rt )  {\ov C}^{\dot \b} 
+
++ \x^{\g \dot \d} \partial_{\g \dot \d}  F_1^{ij} 
+
+\\
+
+ \d F_3^{ijk} &=& 2 \pa^{\a \dot \b} \lt ( A^{i}   A^{j} \y^{k}_{\a}  + A^{j}   A^{k} \y^{i }_{\a}  + A^{k}   A^{i} \y^{j}_{\a} \rt )  {\ov C}_{\dot \b} 
+
++ \x^{\g \dot \d} \partial_{\g \dot \d}  F_1^{ijk} 
+
+\\
+
+\d \x_{\a \dot \b} 
+
+&=& \fr{\pa {\cal A}}{\pa { X}^{\a \dot    \b}} 
+
+=
+
+ -   C_{\a} {\ov C}_{\dot \b}
+
+\\
+
+\d X_{\a \dot \b} 
+
+&=& \fr{\pa {\cal A}}{\pa { \x}^{\a \dot    \b}} 
+
+= 
+
+\int d^4 x \; \X_{\a \dot \b} 
+
+\\
+
+\d C_{\a}
+
+&=&
+
+0
+
+\\
+
+\d  {\ov C}_{\dot \b}
+
+&=&
+
+0
+
+
+
+\end{array}$}} 
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 441
+```
+{% raw %}
+\begin{table}
+
+\caption{\Large  Composite Terms $F$  for   Chiral Supersymmetry}
+
+\la{compterms}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}
+\caption{\Large  Composite Terms $F$  for   Chiral Supersymmetry}
+\la{compterms}
+\vspace{.1in}
+\framebox{{\Large $\begin{array}{lll}  
+\\
+ F_1^i 
+&=&
+- \lt ( 
+m {\ov g}^{ij} {\ov A}_j  +
+ {\ov g}^{ijk} {\ov A}_j  {\ov A}_k +
+{\ov Y}^{i \dot \b} {\ov C}_{\dot \b } 
+\rt )
+\\
+F_2^{ij}&= & 
+     A^{i}   
+F_1^j
+ +     A^{j}   
+F_1^i
+- \y^{i \a} 
+\y^{j}_{ \a}  
+ \\
+F_3^{(ijk)}
+&= & 
+ A^{i}  A^{j}  F_1^k
++ A^{j}  A^{k}  F_1^i
++ A^{k}  A^{i}  F_1^j
+\\&&
+ - 
+ \y^{i \a} \y^{j}_{ \a}  A^k
+ - 
+ \y^{j \a} \y^{k}_{ \a}  A^i
+ - 
+ \y^{k \a} \y^{i}_{ \a}  A^j
+\\
+\\
+{\ov F}_{1,i} 
+&=&
+-\lt ( 
+m {g}_{il} {A}^l  +
+{g}_{ilq} A^l A^q
++
+{Y}_i^{  \b} {C}_{\b } 
+\rt )
+\\
+{\ov F}_{2,ij} 
+&=&
+\A_i \oF_{1,j} 
++\A_j \oF_{1,i} 
+-
+\oy_i^{\dot \b}  
+\oy_{j,\dot \b}  
+\\
+&=&
+-\A_j \lt (  
+ m {g}_{il} {A}^l  +
+{g}_{ilq} A^l A^q 
++
+{Y}_i^{  \b} {C}_{\b } 
+\rt )
+\\
+&&
+-
+\A_i \lt ( 
+m {g}_{jl} {A}^l  +
+{g}_{jlq} A^l A^q
++
+{Y}_j^{  \b} {C}_{\b } 
+\rt )
+-
+\oy_i^{\dot \b}  
+\oy_{j,\dot \b}  
+\\
+\\
+\X_{\g \dot \d}
+&=&
+ Y_{i}^{ \a}  \pa_{\g \dot \d}  \y^{i}_{ \a}
++
+ {\ov Y}^{i \dot \b}  \pa_{\g \dot \d}{\ov \y}_{i \dot \b}  
+-
+ \G_{i}   \pa_{\g \dot \d}  A^{i} 
+-
+ {\ov \G}^{i  }  \pa_{\g \dot \d}{\ov A}_{i }  
+\\
+
+\end{array}$}} 
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 442
+```
+{% raw %}
+\begin{table}
+
+\caption{\Large  Composite Terms $F$  for   Chiral Supersymmetry}
+
+\la{compterms}
+
+\vspace{.1in}
+
+\framebox{{\Large $\begin{array}{lll}  
+
+\\
+
+ F_1^i 
+
+&=&
+
+- \lt ( 
+
+m {\ov g}^{ij} {\ov A}_j  +
+
+ {\ov g}^{ijk} {\ov A}_j  {\ov A}_k +
+
+{\ov Y}^{i \dot \b} {\ov C}_{\dot \b } 
+
+\rt )
+
+\\
+
+F_2^{ij}&= & 
+
+     A^{i}   
+
+F_1^j
+
+ +     A^{j}   
+
+F_1^i
+
+- \y^{i \a} 
+
+\y^{j}_{ \a}  
+
+ \\
+
+F_3^{(ijk)}
+
+&= & 
+
+ A^{i}  A^{j}  F_1^k
+
++ A^{j}  A^{k}  F_1^i
+
++ A^{k}  A^{i}  F_1^j
+
+\\&&
+
+ - 
+
+ \y^{i \a} \y^{j}_{ \a}  A^k
+
+ - 
+
+ \y^{j \a} \y^{k}_{ \a}  A^i
+
+ - 
+
+ \y^{k \a} \y^{i}_{ \a}  A^j
+
+\\
+
+\\
+
+{\ov F}_{1,i} 
+
+&=&
+
+-\lt ( 
+
+m {g}_{il} {A}^l  +
+
+{g}_{ilq} A^l A^q
+
++
+
+{Y}_i^{  \b} {C}_{\b } 
+
+\rt )
+
+\\
+
+{\ov F}_{2,ij} 
+
+&=&
+
+\A_i \oF_{1,j} 
+
++\A_j \oF_{1,i} 
+
+-
+
+\oy_i^{\dot \b}  
+
+\oy_{j,\dot \b}  
+
+\\
+
+&=&
+
+-\A_j \lt (  
+
+ m {g}_{il} {A}^l  +
+
+{g}_{ilq} A^l A^q 
+
++
+
+{Y}_i^{  \b} {C}_{\b } 
+
+\rt )
+
+\\
+
+&&
+
+-
+
+\A_i \lt ( 
+
+m {g}_{jl} {A}^l  +
+
+{g}_{jlq} A^l A^q
+
++
+
+{Y}_j^{  \b} {C}_{\b } 
+
+\rt )
+
+-
+
+\oy_i^{\dot \b}  
+
+\oy_{j,\dot \b}  
+
+\\
+
+\\
+
+\X_{\g \dot \d}
+
+&=&
+
+ Y_{i}^{ \a}  \pa_{\g \dot \d}  \y^{i}_{ \a}
+
++
+
+ {\ov Y}^{i \dot \b}  \pa_{\g \dot \d}{\ov \y}_{i \dot \b}  
+
+-
+
+ \G_{i}   \pa_{\g \dot \d}  A^{i} 
+
+-
+
+ {\ov \G}^{i  }  \pa_{\g \dot \d}{\ov A}_{i }  
+
+\\
+
+
+
+\end{array}$}} 
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 443
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{ Table of Parameters with some Properties}
+\la{parametertable}
+
+\vspace{.1in}
+\framebox{ 
+{\large $\begin{array}{lrrlll} 
+ 
+{\rm Parameter} & {\rm Dim.} & N_{\rm Form} & \mbox{Conjugate} &\mbox{S-partner}&\mbox{Comment }\\
+
+
+C_{\a} & - \fr{1}{2}  & 1 & {\ov C}_{\dot \b} & \x_{\a \dot \b} &  \mbox{Super Ghost} \\
+
+\x_{\a \dot \b} & - 1  & 1 & \x_{\b \dot \a} & c_{\a} ,{\ov c}_{\dot \b}  &  \mbox{Translation Ghost} \\
+
+
+m  &  1  & 0 & m &  &  \mbox{Mass Parameter} \\
+
+\pa_{\a \dot \b}   &  1  & 0 & \pa_{\b \dot \a}  &  &  \mbox{Derivative} \\
+
+x_{\a \dot \b}   & - 1  & 0 & x_{\b \dot \a}  &  &  \mbox{Spacetime} \\
+
+k_{\a \dot \b}   &  1  & 0 & k_{\b \dot \a}  &  &  \mbox{Momentum} \\
+
+\int d^4 x   &  -4   & 4 &  \int d^4 x     &  &  \mbox{Space Integral} \\
+
+\int d^4 k   &  4   & -4 &  \int d^4 k     &  &  \mbox{Momentum Integral} \\
+
+\d   &  0   & 1 &  \d      &  &  \mbox{BRS Operator} \\
+
+\d^{\dag}   & 0 & -1 &  \d^{\dag}&  &  \mbox{Adjoint BRS Operator} \\
+
+
+
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 444
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{ Table of Parameters with some Properties}
+
+\la{parametertable}
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\large $\begin{array}{lrrlll} 
+
+ 
+
+{\rm Parameter} & {\rm Dim.} & N_{\rm Form} & \mbox{Conjugate} &\mbox{S-partner}&\mbox{Comment }\\
+
+
+
+
+
+C_{\a} & - \fr{1}{2}  & 1 & {\ov C}_{\dot \b} & \x_{\a \dot \b} &  \mbox{Super Ghost} \\
+
+
+
+\x_{\a \dot \b} & - 1  & 1 & \x_{\b \dot \a} & c_{\a} ,{\ov c}_{\dot \b}  &  \mbox{Translation Ghost} \\
+
+
+
+
+
+m  &  1  & 0 & m &  &  \mbox{Mass Parameter} \\
+
+
+
+\pa_{\a \dot \b}   &  1  & 0 & \pa_{\b \dot \a}  &  &  \mbox{Derivative} \\
+
+
+
+x_{\a \dot \b}   & - 1  & 0 & x_{\b \dot \a}  &  &  \mbox{Spacetime} \\
+
+
+
+k_{\a \dot \b}   &  1  & 0 & k_{\b \dot \a}  &  &  \mbox{Momentum} \\
+
+
+
+\int d^4 x   &  -4   & 4 &  \int d^4 x     &  &  \mbox{Space Integral} \\
+
+
+
+\int d^4 k   &  4   & -4 &  \int d^4 k     &  &  \mbox{Momentum Integral} \\
+
+
+
+\d   &  0   & 1 &  \d      &  &  \mbox{BRS Operator} \\
+
+
+
+\d^{\dag}   & 0 & -1 &  \d^{\dag}&  &  \mbox{Adjoint BRS Operator} \\
+
+
+
+
+
+
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 445
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{ Table of  Fields in the General Model   with some Properties}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{ Table of  Fields in the General Model   with some Properties}
+\la{fieldparametertable}
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{lrrlll} 
+ 
+{\rm Field} & {\rm Dim.} & N_{\rm Form} & 
+\mbox{Conjugate} &\mbox{S-partner}&\mbox{Comment and Mass}\\
+A^i & 1 & 0 & {\ov A}_i&\y^i_{\a}&\mbox{Scalar} \\
+{\y }^i_{\a} & \fr{3}{2} & 0 & {\ov {  \y}}_{i \dot \a}& A^i & \mbox{Spinor} \\
+
+V^a_{\a \dot \b}  & 1 & 0 &V^a_{\b \dot \a}   &\l^a_{\a},{\ov {  \l}}^a_{\dot \b}&  \mbox{Gauge Vector} \\
+{\l }^a_{\a} & \fr{3}{2} & 0 & {\ov {  \l}}^a_{\dot \a}& V^a_{\a \dot \b}  &\mbox{Gaugino} \\
+
+\w^a & 0 & 1 & \w^a &  &  \mbox{Gauge Ghost}  \\
+
+
+\h^a & 2 & -1 & \h^a &  &  \mbox{Gauge AntiGhost} \\
+ 
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 446
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{ Table of  Fields in the General Model   with some Properties}
+
+\la{fieldparametertable}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{lrrlll} 
+
+ 
+
+{\rm Field} & {\rm Dim.} & N_{\rm Form} & 
+
+\mbox{Conjugate} &\mbox{S-partner}&\mbox{Comment and Mass}\\
+
+A^i & 1 & 0 & {\ov A}_i&\y^i_{\a}&\mbox{Scalar} \\
+
+{\y }^i_{\a} & \fr{3}{2} & 0 & {\ov {  \y}}_{i \dot \a}& A^i & \mbox{Spinor} \\
+
+
+
+V^a_{\a \dot \b}  & 1 & 0 &V^a_{\b \dot \a}   &\l^a_{\a},{\ov {  \l}}^a_{\dot \b}&  \mbox{Gauge Vector} \\
+
+{\l }^a_{\a} & \fr{3}{2} & 0 & {\ov {  \l}}^a_{\dot \a}& V^a_{\a \dot \b}  &\mbox{Gaugino} \\
+
+
+
+\w^a & 0 & 1 & \w^a &  &  \mbox{Gauge Ghost}  \\
+
+
+
+
+
+\h^a & 2 & -1 & \h^a &  &  \mbox{Gauge AntiGhost} \\
+
+ 
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 447
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{ Table of  Zinn Sources in the General Model with some Properties}
+
+\la{Zinnparametertable}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{ Table of  Zinn Sources in the General Model with some Properties}
+\la{Zinnparametertable}
+
+\vspace{.1in}
+\framebox{ 
+{\large $\begin{array}{lllllll}  
+{\rm Field} & {\rm Dim.} & N_{\rm Form} & \mbox{Conjugate} &\mbox{Superpartner} & \mbox{Source for}\\
+\G_i & 3 & -1 & {\ov \G}^i&Y_{i \a }& \d A^i \\
+Y_i^{\a} & \fr{5}{2} & -1 & {\ov Y}^{i \dot \a} &\G_i & \d \y^i_{\a} \\
+
+\S^a_{\a \dot \b}  & 3 & -1 & \S^a_{\b \dot \a}   &L^a_{\a},{\ov L}^a_{\dot \b} & \d V^{a \a \dot \b}\\
+
+L^{a \a} & \fr{5}{2} & -1 & {\ov L}^{a \dot \a} &\S^a_{\a \dot \b}& \d \l^a_{\a} \\
+
+W^a & 4 & -2  & W^a &  &  \d \w^a \\
+
+H^a & 2 & 0 & H^a &  & \d \h^a \\
+ 
+X_{\a \dot \b} &   1  & -2 & X_{\b \dot \a} & &  c_{\a} {\ov c}_{\dot \b} = \d \x^{\a \dot \b} 
+ \\
+\x_{\a \dot \b} &   -1  & 1 & \x_{\b \dot \a} & C_{\a} {\ov C}_{\dot \b}   &  \X^{\a \dot \b} = \d X^{\a \dot \b}  
+ \\
+
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 448
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{ Table of  Zinn Sources in the General Model with some Properties}
+
+\la{Zinnparametertable}
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\large $\begin{array}{lllllll}  
+
+{\rm Field} & {\rm Dim.} & N_{\rm Form} & \mbox{Conjugate} &\mbox{Superpartner} & \mbox{Source for}\\
+
+\G_i & 3 & -1 & {\ov \G}^i&Y_{i \a }& \d A^i \\
+
+Y_i^{\a} & \fr{5}{2} & -1 & {\ov Y}^{i \dot \a} &\G_i & \d \y^i_{\a} \\
+
+
+
+\S^a_{\a \dot \b}  & 3 & -1 & \S^a_{\b \dot \a}   &L^a_{\a},{\ov L}^a_{\dot \b} & \d V^{a \a \dot \b}\\
+
+
+
+L^{a \a} & \fr{5}{2} & -1 & {\ov L}^{a \dot \a} &\S^a_{\a \dot \b}& \d \l^a_{\a} \\
+
+
+
+W^a & 4 & -2  & W^a &  &  \d \w^a \\
+
+
+
+H^a & 2 & 0 & H^a &  & \d \h^a \\
+
+ 
+
+X_{\a \dot \b} &   1  & -2 & X_{\b \dot \a} & &  c_{\a} {\ov c}_{\dot \b} = \d \x^{\a \dot \b} 
+
+ \\
+
+\x_{\a \dot \b} &   -1  & 1 & \x_{\b \dot \a} & C_{\a} {\ov C}_{\dot \b}   &  \X^{\a \dot \b} = \d X^{\a \dot \b}  
+
+ \\
+
+
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 449
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{ Table of Abbreviations}
+\vspace{.1in}
+\framebox{ 
+{\large $\begin{array}{llrllll}  
+\la{Abbreviations}
+
+{\rm Abbreviation} & {\rm Meaning} & {\rm Dim.} & N_{\rm Form} & \mbox{Conjugate} \\
+
+( \x^2 )_{\a \b}
+  &  \x_{\b }^{\;\; \dot \b} \x_{\a \dot \b} 
+& -2 & 2 & ( \x^2 )_{\dot \a \dot \b}\\  
+
+(\x^4)   &  ( \x^2 )_{\a \b}
+( \x^2 )^{\a \b}
+& -4 & 4 & 
+(\x^4) 
+\\  
+
+
+(C \x^2 C) & C^{\a} ( \x^2 )_{\a \b} C^{\b} & -3 & 4 &  
+({\ov C} \x^2 {\ov C})& \\
+
+(\f C) & \f^{\a} C_{\a }   & 0 & 1&  
+({\ov \f}   {\ov C}) & \\
+
+(C \x {\ov C}) & C^{\a}  \x_{\a \dot \b} {\ov C}^{\dot \b} & -2 & 3 &  (C \x {\ov C}) \\
+
+(C \x {\ov \y}_i) & C^{\a}  \x_{\a \dot \b} {\ov \y}_i^{\dot \b} & 0 & 2 & - (\y^i \x {\ov C}) \\
+
+
+
+( C \pa A^i \oC )& C^{\a}  \pa_{\a \dot \b} A^i
+\oC_{\dot \b}  & 1 & 2 &  ({\ov C} \pa \A_i C)  
+   \\
+(\x \pa ) &
+\e^{\dot \g \dot \d} 
+ \partial_{\g \dot \d}
+ & 0 & 1 &  (\x \pa ) \\
+F_{\a \b} &
+\e^{\dot \g \dot \d} 
+\lt ( \partial_{\a \dot \g} V_{\b \dot \d}
++
+ \partial_{\b \dot \g} V_{\a \dot \d}
+\rt )
+ & 2 & 0 &  \oF_{\dot \a \dot \b} \\
+\\
+
+
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 450
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{ Table of Abbreviations}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\large $\begin{array}{llrllll}  
+
+\la{Abbreviations}
+
+
+
+{\rm Abbreviation} & {\rm Meaning} & {\rm Dim.} & N_{\rm Form} & \mbox{Conjugate} \\
+
+
+
+( \x^2 )_{\a \b}
+
+  &  \x_{\b }^{\;\; \dot \b} \x_{\a \dot \b} 
+
+& -2 & 2 & ( \x^2 )_{\dot \a \dot \b}\\  
+
+
+
+(\x^4)   &  ( \x^2 )_{\a \b}
+
+( \x^2 )^{\a \b}
+
+& -4 & 4 & 
+
+(\x^4) 
+
+\\  
+
+
+
+
+
+(C \x^2 C) & C^{\a} ( \x^2 )_{\a \b} C^{\b} & -3 & 4 &  
+
+({\ov C} \x^2 {\ov C})& \\
+
+
+
+(\f C) & \f^{\a} C_{\a }   & 0 & 1&  
+
+({\ov \f}   {\ov C}) & \\
+
+
+
+(C \x {\ov C}) & C^{\a}  \x_{\a \dot \b} {\ov C}^{\dot \b} & -2 & 3 &  (C \x {\ov C}) \\
+
+
+
+(C \x {\ov \y}_i) & C^{\a}  \x_{\a \dot \b} {\ov \y}_i^{\dot \b} & 0 & 2 & - (\y^i \x {\ov C}) \\
+
+
+
+
+
+
+
+( C \pa A^i \oC )& C^{\a}  \pa_{\a \dot \b} A^i
+
+\oC_{\dot \b}  & 1 & 2 &  ({\ov C} \pa \A_i C)  
+
+   \\
+
+(\x \pa ) &
+
+\e^{\dot \g \dot \d} 
+
+ \partial_{\g \dot \d}
+
+ & 0 & 1 &  (\x \pa ) \\
+
+F_{\a \b} &
+
+\e^{\dot \g \dot \d} 
+
+\lt ( \partial_{\a \dot \g} V_{\b \dot \d}
+
++
+
+ \partial_{\b \dot \g} V_{\a \dot \d}
+
+\rt )
+
+ & 2 & 0 &  \oF_{\dot \a \dot \b} \\
+
+\\
+
+
+
+
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 451
+```
+{% raw %}
+\begin{table}[hptb]
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\large Some Concepts}
+
+\la{acronymstable}
+\framebox{
+{\large $\begin{array}{llll}  
+
+ \mbox{Acronym}  & \mbox{Meaning}  & \mbox{Discussion}  
+  \\   
+\\
+
+ \mbox{LIP} & \mbox{Local Integrated Polynomial}  & \mbox{Sections \ref{isolampsection}, \ref{brsidesection}
+ }  
+  \\   
+ \mbox{SS} & \mbox{Supersymmetry}  & 
+   \\   
+\mbox{SSBL} & \mbox{Spontaneous SS Breaking of Local SS}  & \mbox{Section \ref{isolampsection}  }  
+  \\   
+
+ \mbox{SSBG} & \mbox{Spontaneous Gauge Breaking of Gauge SS}  & \mbox{Section \ref{isolampsection}  }  
+  \\   
+ \mbox{SSBR} & \mbox{Spontaneous SS Breaking of Rigid SS}  & \mbox{Section \ref{vevsection}  }  
+  \\   
+ \mbox{SSSM} & \mbox{SS  Standard Model }  & \mbox{Section \ref{SSSMsection} }  
+  \\   
+
+ \mbox{ZMOF} & \mbox{Zero Momentum One Field}  & \mbox{Section \ref{isolampsection} }  
+\\
+
+ \mbox{ZMOZ} & \mbox{Zero Momentum One Zinn}  & \mbox{Section \ref{isolampsection} }  
+  \\   
+
+ \mbox{ZMT} & \mbox{ ZMOF  or ZMOZ}  & \mbox{Section \ref{isolampsection} }  
+  \\   
+
+\end{array}$ }}
+\la{acroTable}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 452
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\large Some Concepts}
+
+
+
+\la{acronymstable}
+
+\framebox{
+
+{\large $\begin{array}{llll}  
+
+
+
+ \mbox{Acronym}  & \mbox{Meaning}  & \mbox{Discussion}  
+
+  \\   
+
+\\
+
+
+
+ \mbox{LIP} & \mbox{Local Integrated Polynomial}  & \mbox{Sections \ref{isolampsection}, \ref{brsidesection}
+
+ }  
+
+  \\   
+
+ \mbox{SS} & \mbox{Supersymmetry}  & 
+
+   \\   
+
+\mbox{SSBL} & \mbox{Spontaneous SS Breaking of Local SS}  & \mbox{Section \ref{isolampsection}  }  
+
+  \\   
+
+
+
+ \mbox{SSBG} & \mbox{Spontaneous Gauge Breaking of Gauge SS}  & \mbox{Section \ref{isolampsection}  }  
+
+  \\   
+
+ \mbox{SSBR} & \mbox{Spontaneous SS Breaking of Rigid SS}  & \mbox{Section \ref{vevsection}  }  
+
+  \\   
+
+ \mbox{SSSM} & \mbox{SS  Standard Model }  & \mbox{Section \ref{SSSMsection} }  
+
+  \\   
+
+
+
+ \mbox{ZMOF} & \mbox{Zero Momentum One Field}  & \mbox{Section \ref{isolampsection} }  
+
+\\
+
+
+
+ \mbox{ZMOZ} & \mbox{Zero Momentum One Zinn}  & \mbox{Section \ref{isolampsection} }  
+
+  \\   
+
+
+
+ \mbox{ZMT} & \mbox{ ZMOF  or ZMOZ}  & \mbox{Section \ref{isolampsection} }  
+
+  \\   
+
+
+
+\end{array}$ }}
+
+\la{acroTable}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 453
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{ Operators  for the Spectral Sequence for Rigid Supersymmetry  }
+\la{specseqsum}
+\vspace{.1in}
+\framebox{ 
+{\large $\begin{array}{lll }  
+
+{\rm Operator} & {\rm Form} 
+\\
+d_0 \equiv \d_0 & d_{\rm Kinetic} +d_{\rm Structure}
+\\
+d_1 & \P_1 \lt \{
+C^{\a} \na_{\a} + {\ov C}^{\dot \b}  {\ov \na}_{\dot \b} 
+\rt \}
+\P_1
+\\
+d_2  & \P_2 \lt \{ \x \pa -
+\lt (C \na + {\ov C} {\ov \na} \rt )
+\fr{\d_{\rm Str}^{\dag}}{\D_{\rm Str}} 
+\lt (C \na + {\ov C} {\ov \na} \rt )
+ \rt \} \P_2
+\\
+d_3 & d_{\rm Gaugino} + d_{\X}
+\\
+d_4 = d_{\rm Gauge} & \P_4 \lt \{    \w^a \lt (
+m G^{a i}+ T^{a i}_j A^j \rt )   A^{i \dag} + *
+- \fr{1}{2} f^{abc} \w^a   \w^b   \w^{c \dag}
+\rt \} \P_4
+\\
+d_5 = d_{5,\rm MY} & \P_5 \lt \{
+ C_{\a}
+\lt ( m {\ov g}^{ij} {\ov A}_j 
++ {\ov g}^{ijk} \A_j \A_k 
+\rt )
+\y_{\a}^{i \dag}   + * \rt \} \P_5
+\\
+d_6 = d_{6,\rm MY} & \P_6 
+\lt \{
+( C \x \oC^{\dag} )
+\lt ( m {\ov g}^{ij} {\ov A}_j 
++ {\ov g}^{ijk} \A_j \A_k 
+\rt )
+A^{i \dag}   + * \rt \} \P_6
+\\
+ d_{7,\fr{1}{2}} & \P_7 
+\lt \{
+( \f C) 
+f^j_i \lt (  \A_j 
+ \A_{i}^{ \dag} + \y^i_{\b} 
+ \y_{j \b}^{ \dag}  \rt ) + * \rt \} 
+\P_7 \mbox{ for Dim $\f_{\a} = \fr{1}{2}$ Case}
+\\
+
+
+\\
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 454
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{ Operators  for the Spectral Sequence for Rigid Supersymmetry  }
+
+\la{specseqsum}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\large $\begin{array}{lll }  
+
+
+
+{\rm Operator} & {\rm Form} 
+
+\\
+
+d_0 \equiv \d_0 & d_{\rm Kinetic} +d_{\rm Structure}
+
+\\
+
+d_1 & \P_1 \lt \{
+
+C^{\a} \na_{\a} + {\ov C}^{\dot \b}  {\ov \na}_{\dot \b} 
+
+\rt \}
+
+\P_1
+
+\\
+
+d_2  & \P_2 \lt \{ \x \pa -
+
+\lt (C \na + {\ov C} {\ov \na} \rt )
+
+\fr{\d_{\rm Str}^{\dag}}{\D_{\rm Str}} 
+
+\lt (C \na + {\ov C} {\ov \na} \rt )
+
+ \rt \} \P_2
+
+\\
+
+d_3 & d_{\rm Gaugino} + d_{\X}
+
+\\
+
+d_4 = d_{\rm Gauge} & \P_4 \lt \{    \w^a \lt (
+
+m G^{a i}+ T^{a i}_j A^j \rt )   A^{i \dag} + *
+
+- \fr{1}{2} f^{abc} \w^a   \w^b   \w^{c \dag}
+
+\rt \} \P_4
+
+\\
+
+d_5 = d_{5,\rm MY} & \P_5 \lt \{
+
+ C_{\a}
+
+\lt ( m {\ov g}^{ij} {\ov A}_j 
+
++ {\ov g}^{ijk} \A_j \A_k 
+
+\rt )
+
+\y_{\a}^{i \dag}   + * \rt \} \P_5
+
+\\
+
+d_6 = d_{6,\rm MY} & \P_6 
+
+\lt \{
+
+( C \x \oC^{\dag} )
+
+\lt ( m {\ov g}^{ij} {\ov A}_j 
+
++ {\ov g}^{ijk} \A_j \A_k 
+
+\rt )
+
+A^{i \dag}   + * \rt \} \P_6
+
+\\
+
+ d_{7,\fr{1}{2}} & \P_7 
+
+\lt \{
+
+( \f C) 
+
+f^j_i \lt (  \A_j 
+
+ \A_{i}^{ \dag} + \y^i_{\b} 
+
+ \y_{j \b}^{ \dag}  \rt ) + * \rt \} 
+
+\P_7 \mbox{ for Dim $\f_{\a} = \fr{1}{2}$ Case}
+
+\\
+
+
+
+
+
+\\
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 455
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{ Supplemental Information for
+
+Operators  for the Spectral Sequence for Rigid Supersymmetry  }
+
+\la{specseqsum2}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{ Supplemental Information for
+Operators  for the Spectral Sequence for Rigid Supersymmetry  }
+\la{specseqsum2}
+\vspace{.1in}
+\framebox{ 
+{\large $\begin{array}{lll }  
+
+{\rm Operator} & {\rm Form} 
+\\
+ \d_{\rm Kinetic} 
+& \int d^4 x \; \lt \{
+\pa_{\a \dot \b} {\ov \y}_i^{\dot \b} \fr{\d}{\d Y_{i \a} } + (\pa \pa) {\ov A}_i^{\dot \b} \fr{\d}{\d \G_{i} } + *
+\rt \}
+\\
+\d_{\rm Structure}\equiv \d_{\rm Str}& C_{\a} {\ov C}_{\dot \b} \x_{\a \dot \b}^{\dag}
+\\
+\na_{\a} & \y^i_{\a} A^{i \dag} + {\ov A}_{i \dot \b \a} \oy_{i \dot \b}^{\dag} + \cdots
+\\
+{\ov \na}_{\dot \a} & {\ov \y}_{i \dot \a} \A_{i}^{ \dag} + {A}^i_{\b   \dot \a} \y_{\b}^{i \dag} + \cdots
+\\
+d_{\rm Gaugino} & \P_3 
+\lt \{ 
+(  C  \x  {\ov \l}^a )\w^{a \dag}
++
+(  \l^a \x  {\ov C} )\w^{a \dag}
+ \rt \}  \P_3
+\\
+d_{\X} & \P_3 \P_{ C \x {\ov C} }( C^{\a}  \x_{\a \dot \b}
+ {\ov C}^{\dot \b} )
+ \lt \{ {\ov A}_i    \pa_{\g \dot \d} A^i  -  \pa_{\g \dot \d} {\ov A}_i    A^i - \y^i_{\g  } {\ov \y}_{i  \dot \d}  
+\rt \}   X_{\g \dot \d}^{\dag}\P_3
+
+\\
+d_5^{\dag} = d_{\rm MY} & \P_5 \lt \{
+\y_{\a}^{i}  
+\lt ( g_{ij} {\ov A}_j^{\dag} m^{\dag}
++ g_{ijk} \A_j^{\dag} \A_k^{\dag}  
+\rt )
+ C_{\a}^{\dag}
+ + * \rt \} \P_5
+\\
+d_6^{\dag} = d_{6,\rm MY}^{\dag} & \P_6 
+\lt \{
+A^{i }  
+\lt ( g_{ij} {\ov A}_j^{\dag} m^{\dag}
++ g_{ijk} \A_j^{\dag} \A_k^{\dag}  
+\rt )
+( C^{\dag} \x^{\dag} \oC )
+ + * \rt \} \P_6
+\\
+ 
+ d_{7,\fr{1}{2}}^{\dag} & \P_7 
+\lt \{ \of^j_i \lt (  \A_j 
+ \A_{i}^{ \dag} + \y^i_{\b} 
+ \y_{j \b}^{ \dag}  \rt )  
+  ( \f C)^{\dag}    + * \rt \} 
+\P_7 \mbox{ for Dim $\f_{\a} = \fr{1}{2}$ Case}
+\\
+
+
+\\
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 456
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{ Supplemental Information for
+
+Operators  for the Spectral Sequence for Rigid Supersymmetry  }
+
+\la{specseqsum2}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\large $\begin{array}{lll }  
+
+
+
+{\rm Operator} & {\rm Form} 
+
+\\
+
+ \d_{\rm Kinetic} 
+
+& \int d^4 x \; \lt \{
+
+\pa_{\a \dot \b} {\ov \y}_i^{\dot \b} \fr{\d}{\d Y_{i \a} } + (\pa \pa) {\ov A}_i^{\dot \b} \fr{\d}{\d \G_{i} } + *
+
+\rt \}
+
+\\
+
+\d_{\rm Structure}\equiv \d_{\rm Str}& C_{\a} {\ov C}_{\dot \b} \x_{\a \dot \b}^{\dag}
+
+\\
+
+\na_{\a} & \y^i_{\a} A^{i \dag} + {\ov A}_{i \dot \b \a} \oy_{i \dot \b}^{\dag} + \cdots
+
+\\
+
+{\ov \na}_{\dot \a} & {\ov \y}_{i \dot \a} \A_{i}^{ \dag} + {A}^i_{\b   \dot \a} \y_{\b}^{i \dag} + \cdots
+
+\\
+
+d_{\rm Gaugino} & \P_3 
+
+\lt \{ 
+
+(  C  \x  {\ov \l}^a )\w^{a \dag}
+
++
+
+(  \l^a \x  {\ov C} )\w^{a \dag}
+
+ \rt \}  \P_3
+
+\\
+
+d_{\X} & \P_3 \P_{ C \x {\ov C} }( C^{\a}  \x_{\a \dot \b}
+
+ {\ov C}^{\dot \b} )
+
+ \lt \{ {\ov A}_i    \pa_{\g \dot \d} A^i  -  \pa_{\g \dot \d} {\ov A}_i    A^i - \y^i_{\g  } {\ov \y}_{i  \dot \d}  
+
+\rt \}   X_{\g \dot \d}^{\dag}\P_3
+
+
+
+\\
+
+d_5^{\dag} = d_{\rm MY} & \P_5 \lt \{
+
+\y_{\a}^{i}  
+
+\lt ( g_{ij} {\ov A}_j^{\dag} m^{\dag}
+
++ g_{ijk} \A_j^{\dag} \A_k^{\dag}  
+
+\rt )
+
+ C_{\a}^{\dag}
+
+ + * \rt \} \P_5
+
+\\
+
+d_6^{\dag} = d_{6,\rm MY}^{\dag} & \P_6 
+
+\lt \{
+
+A^{i }  
+
+\lt ( g_{ij} {\ov A}_j^{\dag} m^{\dag}
+
++ g_{ijk} \A_j^{\dag} \A_k^{\dag}  
+
+\rt )
+
+( C^{\dag} \x^{\dag} \oC )
+
+ + * \rt \} \P_6
+
+\\
+
+ 
+
+ d_{7,\fr{1}{2}}^{\dag} & \P_7 
+
+\lt \{ \of^j_i \lt (  \A_j 
+
+ \A_{i}^{ \dag} + \y^i_{\b} 
+
+ \y_{j \b}^{ \dag}  \rt )  
+
+  ( \f C)^{\dag}    + * \rt \} 
+
+\P_7 \mbox{ for Dim $\f_{\a} = \fr{1}{2}$ Case}
+
+\\
+
+
+
+
+
+\\
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 457
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{  `Physical' Fields and Parameters in $E_1$. Some gauge theory is included here for future reference.  
+The gauge results are not discussed in the text and will be presented in a future paper. }
+
+\vspace{.1in}
+\framebox{ 
+{\large $\begin{array}{lllllll}  
+\la{PhysFieldsTable}
+\\
+\mbox{`Physical' }  {\ov {\cal F}} \mbox { Fields   }  & \mbox{Dim} &  \mbox{Grass}& \mbox{Comments}  \\   
+\\
+
+  
+
+ {\ov A}_{i  \dot \b_1 \cdots \b_q ,\a_1 \cdots \a_q}; q=0,1\ldots
+& q+1& \mbox{Even}&\mbox{Scalar} \\
+
+  \y^i_{\a \a_1 \cdots \a_q ,\dot \b_1 \cdots \b_q}; q=0,1 \ldots
+& q+\fr{3}{2} & \mbox{Odd}& \mbox{Spinor}\\
+
+
+ F^a_{\a \b \a_1 \cdots \a_q \dot \b_1 \cdots \b_q}; q=0,1\ldots
+&q+2 & \mbox{Even}& \mbox{Gauge Field Strength}\\
+
+  {\ov \l}^a_{\dot \b \dot \b_1 \cdots \b_q,   \a_1 \cdots \a_q }; q=0,1\ldots
+&q+\fr{3}{2} & \mbox{Odd}& \mbox{Gaugino}\\
+\\
+
+\mbox{`Physical' } { {\cal F}} \mbox { Fields   }  & \mbox{Dim}& \mbox{Grass}& \mbox{Comments}  \\   
+\\
+
+ A^i_{\a_1 \cdots \a_q, \dot \b_1 \cdots \b_q}; q=0,1\ldots
+&q+1 & \mbox{Even} & \mbox{Scalar}\\
+
+  {\ov \y}_{i \dot \b \dot \b_1 \cdots \b_q , \a_1 \cdots \a_q }; q=0,1 \ldots
+&q+\fr{3}{2} & \mbox{Odd}& \mbox{Spinor}
+\\
+  {\ov F}^a_{\dot \a \dot \b \dot \b_1 \cdots \b_q,  \a_1 \cdots \a_q}; q=0,1\ldots
+&q+2 & \mbox{Even}& \mbox{Field Strength}
+\\
+  \l^a_{\a \a_1 \cdots \a_q \dot \b_1 \cdots \b_q}; q=0,1\ldots
+&q+\fr{3}{2} & \mbox{Odd}& \mbox{Gaugino}
+\\
+\\
+
+\mbox{`Physical'   Parameters   }  & \mbox{Dim} & \mbox{Grass}& \mbox{Comments}  \\ \\  
+\w^a = {\ov \w}^a
+& 0 & \mbox{Odd}&\mbox{Gauge Ghost}\\
+  \f_{\a}  &  \fr{3}{2}, \fr{1}{2} & \mbox{Even}&\mbox{Source } 
+\\
+  {\ov \f}_{\dot \a}
+& \fr{3}{2}, \fr{1}{2}\cdots & \mbox{Even}&\mbox{Source } 
+\\
+  C_{\a} 
+& - \fr{1}{2} & \mbox{Even}&\mbox{Super Ghost}
+\\
+  \x_{\a \dot \b}& -1  & \mbox{Even}&\mbox{Translation Ghost}
+\\
+  {\ov C}_{\dot \a}
+& -\fr{1}{2}& \mbox{Even}&\mbox{Super Ghost}
+\\
+  m = {\ov m}
+& 1  & \mbox{Even}& \mbox{Mass Parameter}\\
+
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 458
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{  `Physical' Fields and Parameters in $E_1$. Some gauge theory is included here for future reference.  
+
+The gauge results are not discussed in the text and will be presented in a future paper. }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\large $\begin{array}{lllllll}  
+
+\la{PhysFieldsTable}
+
+\\
+
+\mbox{`Physical' }  {\ov {\cal F}} \mbox { Fields   }  & \mbox{Dim} &  \mbox{Grass}& \mbox{Comments}  \\   
+
+\\
+
+
+
+  
+
+
+
+ {\ov A}_{i  \dot \b_1 \cdots \b_q ,\a_1 \cdots \a_q}; q=0,1\ldots
+
+& q+1& \mbox{Even}&\mbox{Scalar} \\
+
+
+
+  \y^i_{\a \a_1 \cdots \a_q ,\dot \b_1 \cdots \b_q}; q=0,1 \ldots
+
+& q+\fr{3}{2} & \mbox{Odd}& \mbox{Spinor}\\
+
+
+
+
+
+ F^a_{\a \b \a_1 \cdots \a_q \dot \b_1 \cdots \b_q}; q=0,1\ldots
+
+&q+2 & \mbox{Even}& \mbox{Gauge Field Strength}\\
+
+
+
+  {\ov \l}^a_{\dot \b \dot \b_1 \cdots \b_q,   \a_1 \cdots \a_q }; q=0,1\ldots
+
+&q+\fr{3}{2} & \mbox{Odd}& \mbox{Gaugino}\\
+
+\\
+
+
+
+\mbox{`Physical' } { {\cal F}} \mbox { Fields   }  & \mbox{Dim}& \mbox{Grass}& \mbox{Comments}  \\   
+
+\\
+
+
+
+ A^i_{\a_1 \cdots \a_q, \dot \b_1 \cdots \b_q}; q=0,1\ldots
+
+&q+1 & \mbox{Even} & \mbox{Scalar}\\
+
+
+
+  {\ov \y}_{i \dot \b \dot \b_1 \cdots \b_q , \a_1 \cdots \a_q }; q=0,1 \ldots
+
+&q+\fr{3}{2} & \mbox{Odd}& \mbox{Spinor}
+
+\\
+
+  {\ov F}^a_{\dot \a \dot \b \dot \b_1 \cdots \b_q,  \a_1 \cdots \a_q}; q=0,1\ldots
+
+&q+2 & \mbox{Even}& \mbox{Field Strength}
+
+\\
+
+  \l^a_{\a \a_1 \cdots \a_q \dot \b_1 \cdots \b_q}; q=0,1\ldots
+
+&q+\fr{3}{2} & \mbox{Odd}& \mbox{Gaugino}
+
+\\
+
+\\
+
+
+
+\mbox{`Physical'   Parameters   }  & \mbox{Dim} & \mbox{Grass}& \mbox{Comments}  \\ \\  
+
+\w^a = {\ov \w}^a
+
+& 0 & \mbox{Odd}&\mbox{Gauge Ghost}\\
+
+  \f_{\a}  &  \fr{3}{2}, \fr{1}{2} & \mbox{Even}&\mbox{Source } 
+
+\\
+
+  {\ov \f}_{\dot \a}
+
+& \fr{3}{2}, \fr{1}{2}\cdots & \mbox{Even}&\mbox{Source } 
+
+\\
+
+  C_{\a} 
+
+& - \fr{1}{2} & \mbox{Even}&\mbox{Super Ghost}
+
+\\
+
+  \x_{\a \dot \b}& -1  & \mbox{Even}&\mbox{Translation Ghost}
+
+\\
+
+  {\ov C}_{\dot \a}
+
+& -\fr{1}{2}& \mbox{Even}&\mbox{Super Ghost}
+
+\\
+
+  m = {\ov m}
+
+& 1  & \mbox{Even}& \mbox{Mass Parameter}\\
+
+
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 459
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\large Terms   in $E_1$.   $E_1$ is the sum of all the Terms shown as in Equation \ref{E1eq} . The Terms are arbitrary \underline{Lorentz scalar} functions of all the `Physical' Fields and the $\f$ Sources  except that the $C$, $\x_{\a \dot \b} $ and ${\ov C}$  dependence is restricted as shown in Equation \ref{E1eq}.    The $\f$ sources are included to absorb and symmetrize uncontracted spinor indices. }
+
+\vspace{.1in}
+\framebox{ 
+{\large $\begin{array}{llll}  
+
+ \mbox{Terms in } E_1 & \mbox{ Properties of Terms}    \\   
+
+{\cal P}_{n }, n \geq 0  & N_c {\cal P}_{n } =n {\cal P}_{n }
+   \\
+
+{\ov {\cal P}}_{n }& N_c {\ov {\cal P}}_{n } =0
+   \\
+
+{\cal Q}_n = ( \x C)_{\dot \b} {\cal Q}^{\dot \b}_{n }, n \geq 0& N_c {\cal Q}^{\dot \b}_{n } =n {\cal Q}^{\dot \b}_{n }  \\
+
+{\ov {\cal Q}}
+
+
+_n = ( \x {\ov C})_{  \b} {\ov {\cal Q}}^{ \b}_{n }& N_c {\ov {\cal Q}}^{ \b}_{n } =0 
+\\
+
+( C \x {\ov C}){\cal S}_{0 }& N_c {\cal S}_{0 } =0  \\
+
+& {\cal S}_{0 }= {\ov {\cal S}}_{0 }  &  \\
+
+( C \x^2 C) {\cal R}_{n }, n \geq 0& N_c {\cal R}_{n } =n {\cal R}_{n } \\
+
+( {\ov C} \x^2 {\ov C}) {\ov {\cal R}}_{n }& N_c {\ov {\cal R}}_{n } = 0  \\
+
+ 
+\end{array}$ }}
+\la{E1Table}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 460
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\large Terms   in $E_1$.   $E_1$ is the sum of all the Terms shown as in Equation \ref{E1eq} . The Terms are arbitrary \underline{Lorentz scalar} functions of all the `Physical' Fields and the $\f$ Sources  except that the $C$, $\x_{\a \dot \b} $ and ${\ov C}$  dependence is restricted as shown in Equation \ref{E1eq}.    The $\f$ sources are included to absorb and symmetrize uncontracted spinor indices. }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\large $\begin{array}{llll}  
+
+
+
+ \mbox{Terms in } E_1 & \mbox{ Properties of Terms}    \\   
+
+
+
+{\cal P}_{n }, n \geq 0  & N_c {\cal P}_{n } =n {\cal P}_{n }
+
+   \\
+
+
+
+{\ov {\cal P}}_{n }& N_c {\ov {\cal P}}_{n } =0
+
+   \\
+
+
+
+{\cal Q}_n = ( \x C)_{\dot \b} {\cal Q}^{\dot \b}_{n }, n \geq 0& N_c {\cal Q}^{\dot \b}_{n } =n {\cal Q}^{\dot \b}_{n }  \\
+
+
+
+{\ov {\cal Q}}
+
+
+
+
+
+_n = ( \x {\ov C})_{  \b} {\ov {\cal Q}}^{ \b}_{n }& N_c {\ov {\cal Q}}^{ \b}_{n } =0 
+
+\\
+
+
+
+( C \x {\ov C}){\cal S}_{0 }& N_c {\cal S}_{0 } =0  \\
+
+
+
+& {\cal S}_{0 }= {\ov {\cal S}}_{0 }  &  \\
+
+
+
+( C \x^2 C) {\cal R}_{n }, n \geq 0& N_c {\cal R}_{n } =n {\cal R}_{n } \\
+
+
+
+( {\ov C} \x^2 {\ov C}) {\ov {\cal R}}_{n }& N_c {\ov {\cal R}}_{n } = 0  \\
+
+
+
+ 
+
+\end{array}$ }}
+
+\la{E1Table}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 461
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{  Equations from $d_1$ and $d_1^{\dag}$ }
+
+\vspace{.1in}
+\framebox{ 
+{\large $\begin{array}{llllll}  
+
+\la{d1d1dagtable}
+  {\rm Term} &   \mbox{First Equation}&  \mbox{Second Equation}&  \mbox{\rm Reg or Irreg?}     \\
+ {\cal P}_0 & \na_{\a} {\cal P}_0 
+& {\ov \na}_{\dot \a} {\cal P}_0 = 0
+& \mbox{\rm Irregular}   \\
+ {\cal P}_1  \equiv {\cal P}_{\a} C^{\a} &  \na_{ ( \a} {\cal P}_{\b )} =0 & \na_{\a}^{\dag} {\cal P}_{\a} + 
+ {\ov \na}_{\dot \a}^{\dag} {\ov {\cal P}}_{\dot \a} = 0 
+& \mbox{\rm Irregular}   \\
+{\cal P}_{n \geq 2}  & ( C \na ) {\cal P}_{n} =0 & ( C \na)^{\dag} {\cal P}_{n} = 0  
+& \mbox{\rm Regular}   \\
+{\cal Q}_{0}^{\dot \b}  &    \na_{\a} {\ov {\cal Q}}^{\a} 
++
+  {\ov \na}_{\dot \b} Q^{\dot \b} =0
+&    \na_{\a} {  {\cal Q}}_{\dot \b} = 0
+& \mbox{\rm Irregular} \\
+{\cal Q}_{1}^{\dot \b}, {\cal S}_0  &    \na_{(\a} { {\cal Q}}_{\b)}^{\dot \g} =0
+&    \na_{\a}^{\dag} {\cal S}_0 +  {\ov \na}_{\dot \b}^{\dag} {\ov {\cal Q}}^{\a }_{\dot \b} = 0 
+& \mbox{\rm Irregular}    \\
+{\cal Q}_{n \geq 2}^{\dot \b}  & ( C \na ) {\cal Q}_{n}^{\dot \b} =0 & ( C \na)^{\dag} {\cal Q}_{n}^{\dot \b} = 0 
+& \mbox{\rm Regular}    \\
+
+{\cal R}_{0}  &   \na_{\a} {\cal R}_{0} =0 &    
+& \mbox{\rm Irregular}   \\
+
+{\cal R}_{n \geq 1}  & ( C \na ) {\cal R}_{n} =0 & ( C \na)^{\dag} {\cal R}_{n} = 0   
+& \mbox{\rm Regular} \\
+
+
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 462
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{  Equations from $d_1$ and $d_1^{\dag}$ }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\large $\begin{array}{llllll}  
+
+
+
+\la{d1d1dagtable}
+
+  {\rm Term} &   \mbox{First Equation}&  \mbox{Second Equation}&  \mbox{\rm Reg or Irreg?}     \\
+
+ {\cal P}_0 & \na_{\a} {\cal P}_0 
+
+& {\ov \na}_{\dot \a} {\cal P}_0 = 0
+
+& \mbox{\rm Irregular}   \\
+
+ {\cal P}_1  \equiv {\cal P}_{\a} C^{\a} &  \na_{ ( \a} {\cal P}_{\b )} =0 & \na_{\a}^{\dag} {\cal P}_{\a} + 
+
+ {\ov \na}_{\dot \a}^{\dag} {\ov {\cal P}}_{\dot \a} = 0 
+
+& \mbox{\rm Irregular}   \\
+
+{\cal P}_{n \geq 2}  & ( C \na ) {\cal P}_{n} =0 & ( C \na)^{\dag} {\cal P}_{n} = 0  
+
+& \mbox{\rm Regular}   \\
+
+{\cal Q}_{0}^{\dot \b}  &    \na_{\a} {\ov {\cal Q}}^{\a} 
+
++
+
+  {\ov \na}_{\dot \b} Q^{\dot \b} =0
+
+&    \na_{\a} {  {\cal Q}}_{\dot \b} = 0
+
+& \mbox{\rm Irregular} \\
+
+{\cal Q}_{1}^{\dot \b}, {\cal S}_0  &    \na_{(\a} { {\cal Q}}_{\b)}^{\dot \g} =0
+
+&    \na_{\a}^{\dag} {\cal S}_0 +  {\ov \na}_{\dot \b}^{\dag} {\ov {\cal Q}}^{\a }_{\dot \b} = 0 
+
+& \mbox{\rm Irregular}    \\
+
+{\cal Q}_{n \geq 2}^{\dot \b}  & ( C \na ) {\cal Q}_{n}^{\dot \b} =0 & ( C \na)^{\dag} {\cal Q}_{n}^{\dot \b} = 0 
+
+& \mbox{\rm Regular}    \\
+
+
+
+{\cal R}_{0}  &   \na_{\a} {\cal R}_{0} =0 &    
+
+& \mbox{\rm Irregular}   \\
+
+
+
+{\cal R}_{n \geq 1}  & ( C \na ) {\cal R}_{n} =0 & ( C \na)^{\dag} {\cal R}_{n} = 0   
+
+& \mbox{\rm Regular} \\
+
+
+
+
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 463
+```
+{% raw %}
+\begin{table}[hptb]
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{ Equations from $d_2$   }
+\vspace{.1in}
+\framebox{ 
+{\large $\begin{array}{llllll}  
+
+\la{d2table}
+ {\rm Term} &  d_2  \mbox{ Equation}&  \mbox{ Maps To }
+&\mbox{\rm Reg or Irreg?}    \\   
+{\cal P}_1 & \lt ( \pa_{  \a \dot \b } + {  \na}_{  \a} {\ov \na}_{\dot \b}\rt )
+{\cal P}^{\a }  + (\na)^2 {\ov {\cal P}}_{\dot \b} =0  & {\cal Q}_{0,\dot \b}   
+& \mbox{\rm Irregular}    \\
+
+{\cal P}_{n \geq 2}  &  C_{\a}^{\dag} \pa_{  \a \dot \b }  {\cal P}_{n } =0  & {\cal Q}_{n-1,\dot \b}    
+& \mbox{\rm Regular}     \\
+
+{\cal S}_0, {\cal Q}_1 &             (\na)^2 {\cal S}_0 + \lt ( \pa + \na {\ov \na} \rt )_{\a \dot \b}  {\cal Q}_1^{\a \dot \b}   =0
+  &  {\cal R}_{0}  
+& \mbox{\rm Irregular}    \\
+
+{\cal Q}_{n \geq 2}  &  C_{\a}^{\dag} \pa_{  \a \dot \b }  {\cal Q}^{\dot \b}_{n} =0  &  {\cal R}_{n-1}   
+& \mbox{\rm Regular}    \\
+
+
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 464
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{ Equations from $d_2$   }
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\large $\begin{array}{llllll}  
+
+
+
+\la{d2table}
+
+ {\rm Term} &  d_2  \mbox{ Equation}&  \mbox{ Maps To }
+
+&\mbox{\rm Reg or Irreg?}    \\   
+
+{\cal P}_1 & \lt ( \pa_{  \a \dot \b } + {  \na}_{  \a} {\ov \na}_{\dot \b}\rt )
+
+{\cal P}^{\a }  + (\na)^2 {\ov {\cal P}}_{\dot \b} =0  & {\cal Q}_{0,\dot \b}   
+
+& \mbox{\rm Irregular}    \\
+
+
+
+{\cal P}_{n \geq 2}  &  C_{\a}^{\dag} \pa_{  \a \dot \b }  {\cal P}_{n } =0  & {\cal Q}_{n-1,\dot \b}    
+
+& \mbox{\rm Regular}     \\
+
+
+
+{\cal S}_0, {\cal Q}_1 &             (\na)^2 {\cal S}_0 + \lt ( \pa + \na {\ov \na} \rt )_{\a \dot \b}  {\cal Q}_1^{\a \dot \b}   =0
+
+  &  {\cal R}_{0}  
+
+& \mbox{\rm Irregular}    \\
+
+
+
+{\cal Q}_{n \geq 2}  &  C_{\a}^{\dag} \pa_{  \a \dot \b }  {\cal Q}^{\dot \b}_{n} =0  &  {\cal R}_{n-1}   
+
+& \mbox{\rm Regular}    \\
+
+
+
+
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 465
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{ Equations from  $d_2^{\dag}$  }
+
+\vspace{.1in}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{ Equations from  $d_2^{\dag}$  }
+\vspace{.1in}
+\framebox{ 
+{\large $\begin{array}{llllll}  
+\la{d2dagtable}
+ {\rm Term} &    \mbox{First Equation} &  \mbox{ Maps To } 
+& \mbox{\rm Reg or Irreg?}       \\   
+
+{\cal Q}_{0,\dot \b}  &     C_{\a} \pa_{  \a \dot \b }^{\dag}   {\cal Q}_{0,\dot \b} =0         
+  & {\cal P}_1   & \mbox{\rm Irregular}      \\
+
+{\cal Q}_{1,\dot \b}  &     C_{\a} \pa_{  \a \dot \b }^{\dag}   {\cal Q}_{1,\dot \b} =0         
+  & {\cal P}_2    & \mbox{\rm Irregular}     \\
+
+{\cal Q}_{n \geq 2,\dot \b}  &     C_{\a} \pa_{  \a \dot \b }^{\dag}   {\cal Q}_{n,\dot \b} =0         
+  & {\cal P}_{n+1}  & \mbox{\rm Regular}     \\
+
+
+{\cal R}_0 &      \pa_{  \a \dot \b }^{\dag}   {\cal R}_{0 } =0  &  
+{\cal Q}_1 & \mbox{\rm Irregular}    \\
+
+{\cal R}_0 &      (\na)^{2 \dag} {\cal R}_0 + {\ov \na}^{2 \dag} {\ov {\cal R}}_0= 0         &  {\cal S}_0 & \mbox{\rm Irregular}    \\
+
+{\cal R}_{n \geq 1}  &   C_{\a}^{\dag} \pa_{  \a \dot \b }^{\dag}  {\cal R}_{n } =0  & {\cal Q}_{n+1 }  & \mbox{\rm Regular}    \\
+
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 466
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{ Equations from  $d_2^{\dag}$  }
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\large $\begin{array}{llllll}  
+
+\la{d2dagtable}
+
+ {\rm Term} &    \mbox{First Equation} &  \mbox{ Maps To } 
+
+& \mbox{\rm Reg or Irreg?}       \\   
+
+
+
+{\cal Q}_{0,\dot \b}  &     C_{\a} \pa_{  \a \dot \b }^{\dag}   {\cal Q}_{0,\dot \b} =0         
+
+  & {\cal P}_1   & \mbox{\rm Irregular}      \\
+
+
+
+{\cal Q}_{1,\dot \b}  &     C_{\a} \pa_{  \a \dot \b }^{\dag}   {\cal Q}_{1,\dot \b} =0         
+
+  & {\cal P}_2    & \mbox{\rm Irregular}     \\
+
+
+
+{\cal Q}_{n \geq 2,\dot \b}  &     C_{\a} \pa_{  \a \dot \b }^{\dag}   {\cal Q}_{n,\dot \b} =0         
+
+  & {\cal P}_{n+1}  & \mbox{\rm Regular}     \\
+
+
+
+
+
+{\cal R}_0 &      \pa_{  \a \dot \b }^{\dag}   {\cal R}_{0 } =0  &  
+
+{\cal Q}_1 & \mbox{\rm Irregular}    \\
+
+
+
+{\cal R}_0 &      (\na)^{2 \dag} {\cal R}_0 + {\ov \na}^{2 \dag} {\ov {\cal R}}_0= 0         &  {\cal S}_0 & \mbox{\rm Irregular}    \\
+
+
+
+{\cal R}_{n \geq 1}  &   C_{\a}^{\dag} \pa_{  \a \dot \b }^{\dag}  {\cal R}_{n } =0  & {\cal Q}_{n+1 }  & \mbox{\rm Regular}    \\
+
+
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 467
+```
+{% raw %}
+\begin{table}[hpbt]
+\caption{\Large First Table for Scalars with ${\rm Dimension}  = -2$:   
+  $N_{\rm Form}=3,4, 5$.  }
+\la{minustwoscalars}
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\\N_{\rm Form} = 4 &&
+N_{\rm Form} =  5 
+\\
+(C \x^2 C)   k_i  A^i
+  & \stackrel{d_1}{\lra} &  
+(C \x^2 C)   k_i  (C \y^i)
+\\ 
+(C \x^2 C)    {\ov k}^i
+ \A_i
+   \in 
+E_{\infty} 
+\\ 
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 468
+```
+{% raw %}
+\begin{table}[hpbt]
+
+\caption{\Large First Table for Scalars with ${\rm Dimension}  = -2$:   
+
+  $N_{\rm Form}=3,4, 5$.  }
+
+\la{minustwoscalars}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\\N_{\rm Form} = 4 &&
+
+N_{\rm Form} =  5 
+
+\\
+
+(C \x^2 C)   k_i  A^i
+
+  & \stackrel{d_1}{\lra} &  
+
+(C \x^2 C)   k_i  (C \y^i)
+
+\\ 
+
+(C \x^2 C)    {\ov k}^i
+
+ \A_i
+
+   \in 
+
+E_{\infty} 
+
+\\ 
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 469
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for Scalars with ${\rm Dimension}  = -2$:   The Mapping   $E_{\infty} \leftrightarrow {\cal H}$.}
+
+\vspace{.1in}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Second Table for Scalars with ${\rm Dimension}  = -2$:   The Mapping   $E_{\infty} \leftrightarrow {\cal H}$.}
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{minustwoscalars2}
+\\
+E_{\infty} 
+&&  {\cal H}_{\rm Fock} 
+&&  {\cal H}_{\rm LIP} 
+\\
+\\
+ (C \x^2 C)    {\ov k}^i
+ \A_i 
+& \Lra 
+&
+(\x^4) {\ov k}^i
+ \oF_{1,i} + \cdots
+& \Lra 
+&
+
+\int d^4 x \; {\ov k}^i
+ \oF_{1,i} 
+\\ 
+
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 470
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for Scalars with ${\rm Dimension}  = -2$:   The Mapping   $E_{\infty} \leftrightarrow {\cal H}$.}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{minustwoscalars2}
+
+\\
+
+E_{\infty} 
+
+&&  {\cal H}_{\rm Fock} 
+
+&&  {\cal H}_{\rm LIP} 
+
+\\
+
+\\
+
+ (C \x^2 C)    {\ov k}^i
+
+ \A_i 
+
+& \Lra 
+
+&
+
+(\x^4) {\ov k}^i
+
+ \oF_{1,i} + \cdots
+
+& \Lra 
+
+&
+
+
+
+\int d^4 x \; {\ov k}^i
+
+ \oF_{1,i} 
+
+\\ 
+
+
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 471
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large First Table for Scalars with ${\rm Dimension}  = -1$:   
+Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
+\la{minusonescalars3}
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccccccc}  
+\\
+N_{\rm Form} = 3 &&
+N_{\rm Form} = 4  \\
+
+
+\\
+
+(C \x \oC)  e_i   A^i  
+&   \stackrel{d_6}{\lra} &
+(C \x^2 C)e_i   \lt \{
+  m  \og^{ij} \A_j
++
+\og^{ijk}   \A_j  \A_k
+\rt \}
+\\
+
+
+\begin{array}{c} (C \x \oC)     A^k 
+\\
+\lt \{
+ g_{ik} {\ov k}^{i}
++
+2 g_{ijk} {\ov k}^{ij}
+\rt \}
+\\
+\end{array}  
+& \stackrel{d_6^{\dag}}{\longleftarrow} & 
+\begin{array}{c}  
+(C \x^2 C)  \\
+\lt \{
+m {\ov k}^i
+ \A_i +
+ {\ov k}^{ij}\A_j  \A_i
+\rt \}
+\\
+\end{array}  
+\\ 
+\\ 
+
+
+(C \x \oC)   \ove^j  \A_i  
+&  \stackrel{d_6}{\lra} &
+(\oC \x^2 \oC) 
+\ove^j \lt \{
+m g_{ij} A^j + 
+ g_{ijk} A^j A^k 
+\rt \}
+\\
+
+
+
+\\
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 472
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large First Table for Scalars with ${\rm Dimension}  = -1$:   
+
+Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
+
+\la{minusonescalars3}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccccccc}  
+
+\\
+
+N_{\rm Form} = 3 &&
+
+N_{\rm Form} = 4  \\
+
+
+
+
+
+\\
+
+
+
+(C \x \oC)  e_i   A^i  
+
+&   \stackrel{d_6}{\lra} &
+
+(C \x^2 C)e_i   \lt \{
+
+  m  \og^{ij} \A_j
+
++
+
+\og^{ijk}   \A_j  \A_k
+
+\rt \}
+
+\\
+
+
+
+
+
+\begin{array}{c} (C \x \oC)     A^k 
+
+\\
+
+\lt \{
+
+ g_{ik} {\ov k}^{i}
+
++
+
+2 g_{ijk} {\ov k}^{ij}
+
+\rt \}
+
+\\
+
+\end{array}  
+
+& \stackrel{d_6^{\dag}}{\longleftarrow} & 
+
+\begin{array}{c}  
+
+(C \x^2 C)  \\
+
+\lt \{
+
+m {\ov k}^i
+
+ \A_i +
+
+ {\ov k}^{ij}\A_j  \A_i
+
+\rt \}
+
+\\
+
+\end{array}  
+
+\\ 
+
+\\ 
+
+
+
+
+
+(C \x \oC)   \ove^j  \A_i  
+
+&  \stackrel{d_6}{\lra} &
+
+(\oC \x^2 \oC) 
+
+\ove^j \lt \{
+
+m g_{ij} A^j + 
+
+ g_{ijk} A^j A^k 
+
+\rt \}
+
+\\
+
+
+
+
+
+
+
+\\
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 473
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for Scalars with ${\rm Dimension}  = -1$:   
+
+Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Second Table for Scalars with ${\rm Dimension}  = -1$:   
+Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+\la{minusonescalars1}
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccccccc}  
+\\
+N_{\rm Form} = 4 &&
+N_{\rm Form} =  5 
+\\
+
+
+(C \x^2 C)   m  A^i
+  & \stackrel{d_1}{\lra} &  
+(C \x^2 C)   m  (C \y^i)
+\\ 
+(C \x^2 C) f_{(ik)}  A^k  A^i
+  & \stackrel{d_1}{\lra} &  
+(C \x^2 C) f_{(ik)} A^k  (C \y^i)
+\\
+
+
+(C \x^2 C)   \A_j  A^i
+ & \stackrel{d_1}{\lra} &  
+(C \x^2 C)  \A_j  (C \y^i)
+\\ \\
+
+
+\\
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 474
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for Scalars with ${\rm Dimension}  = -1$:   
+
+Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+\la{minusonescalars1}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccccccc}  
+
+\\
+
+N_{\rm Form} = 4 &&
+
+N_{\rm Form} =  5 
+
+\\
+
+
+
+
+
+(C \x^2 C)   m  A^i
+
+  & \stackrel{d_1}{\lra} &  
+
+(C \x^2 C)   m  (C \y^i)
+
+\\ 
+
+(C \x^2 C) f_{(ik)}  A^k  A^i
+
+  & \stackrel{d_1}{\lra} &  
+
+(C \x^2 C) f_{(ik)} A^k  (C \y^i)
+
+\\
+
+
+
+
+
+(C \x^2 C)   \A_j  A^i
+
+ & \stackrel{d_1}{\lra} &  
+
+(C \x^2 C)  \A_j  (C \y^i)
+
+\\ \\
+
+
+
+
+
+\\
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 475
+```
+{% raw %}
+\begin{table}[hptb]
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Third Table for Scalars with ${\rm Dimension}  = -1$:   
+Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
+
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccccc}  
+\la{minusonescalars2}
+\\
+N_{\rm Form} = 5 &&
+N_{\rm Form} = 6 
+\\
+(C \x^2 C) f_{[ik]} ( C \y^i) A^k
+ & \stackrel{d_1}{\lra}  &
+(C \x^2 C) f_{[ik]} 
+\lt \{
+( C \y^i)  ( C \y^k)
+\rt \}
+\\
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 476
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Third Table for Scalars with ${\rm Dimension}  = -1$:   
+
+Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccccc}  
+
+\la{minusonescalars2}
+
+\\
+
+N_{\rm Form} = 5 &&
+
+N_{\rm Form} = 6 
+
+\\
+
+(C \x^2 C) f_{[ik]} ( C \y^i) A^k
+
+ & \stackrel{d_1}{\lra}  &
+
+(C \x^2 C) f_{[ik]} 
+
+\lt \{
+
+( C \y^i)  ( C \y^k)
+
+\rt \}
+
+\\
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 477
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large Fourth Table for Scalars with ${\rm Dimension}  = -1$:   
+Equations arising from Table \ref{minusonescalars3} }
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{minusonescalars4}
+\\
+e_i        \og^{ij} 
+&=& 0
+\\
+e_i \og^{ijk} 
+&=& 0
+\\
+ k_i \og^{ik}  + 2
+k_{ij} \og^{ijk} 
+&=& 0
+\\
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 478
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Fourth Table for Scalars with ${\rm Dimension}  = -1$:   
+
+Equations arising from Table \ref{minusonescalars3} }
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{minusonescalars4}
+
+\\
+
+e_i        \og^{ij} 
+
+&=& 0
+
+\\
+
+e_i \og^{ijk} 
+
+&=& 0
+
+\\
+
+ k_i \og^{ik}  + 2
+
+k_{ij} \og^{ijk} 
+
+&=& 0
+
+\\
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 479
+```
+{% raw %}
+\begin{table}[phtb]
+
+\caption{\Large Fifth Table for Scalars with ${\rm Dimension}  = -1$:   
+
+Mappings of $E_{\infty} \ra {\cal H}$. These are subject to the constraints in Table \ref{minusonescalars4} }
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[phtb]
+\caption{\Large Fifth Table for Scalars with ${\rm Dimension}  = -1$:   
+Mappings of $E_{\infty} \ra {\cal H}$. These are subject to the constraints in Table \ref{minusonescalars4} }
+
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{minusonescalars5}
+\\
+E_{\infty} &&  {\cal H}_{\rm Fock} \\
+\\
+ (C \x^2 C) \lt \{
+  {\ov k}^i
+m \A_i + {\ov k}^{ij}
+\A_i \A_j \rt \} & \Lra &
+(\x^4)
+\;  \lt \{
+ m {\ov k}^i \oF_{1,i}  +
+{\ov k}^{ij}
+\oF_{2,ij}  \rt \} 
++ \cdots
+\\ 
+(C \x \oC)  e_i   A^i  
+& \Lra &
+(\x^4)
+e_i  \oG^i 
++\cdots
+\\
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 480
+```
+{% raw %}
+\begin{table}[phtb]
+
+\caption{\Large Fifth Table for Scalars with ${\rm Dimension}  = -1$:   
+
+Mappings of $E_{\infty} \ra {\cal H}$. These are subject to the constraints in Table \ref{minusonescalars4} }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{minusonescalars5}
+
+\\
+
+E_{\infty} &&  {\cal H}_{\rm Fock} \\
+
+\\
+
+ (C \x^2 C) \lt \{
+
+  {\ov k}^i
+
+m \A_i + {\ov k}^{ij}
+
+\A_i \A_j \rt \} & \Lra &
+
+(\x^4)
+
+\;  \lt \{
+
+ m {\ov k}^i \oF_{1,i}  +
+
+{\ov k}^{ij}
+
+\oF_{2,ij}  \rt \} 
+
++ \cdots
+
+\\ 
+
+(C \x \oC)  e_i   A^i  
+
+& \Lra &
+
+(\x^4)
+
+e_i  \oG^i 
+
++\cdots
+
+\\
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 481
+```
+{% raw %}
+\begin{table}[phtb]
+
+\caption{\Large Sixth Table for Scalars with ${\rm Dimension}  = -1$:   Mappings of ${\cal H}_{\rm Fock} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table \ref{minusonescalars4} }
+
+
+
+\vspace{.1in}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[phtb]
+\caption{\Large Sixth Table for Scalars with ${\rm Dimension}  = -1$:   Mappings of ${\cal H}_{\rm Fock} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table \ref{minusonescalars4} }
+
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{minusonescalars6}
+\\
+ {\cal H}_{\rm Fock} 
+&&
+  {\cal H}_{\rm LIP} \\
+\\
+(\x^4)
+\;  \lt \{
+ m {\ov k}^i \oF_{1,i}  +
+{\ov k}^{ij}
+\oF_{2,ij}  \rt \} 
++ \cdots
+& \Lra &
+\int d^4 x \;
+\;  \lt \{
+ m {\ov k}^i \oF_{1,i}  +
+{\ov k}^{ij}
+\oF_{2,ij}  \rt \} 
+\\ 
+(\x^4)
+e_i  \oG^i 
++\cdots
+& \Lra &
+\int d^4 x \;
+e_i  \oG^i 
+\\
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 482
+```
+{% raw %}
+\begin{table}[phtb]
+
+\caption{\Large Sixth Table for Scalars with ${\rm Dimension}  = -1$:   Mappings of ${\cal H}_{\rm Fock} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table \ref{minusonescalars4} }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{minusonescalars6}
+
+\\
+
+ {\cal H}_{\rm Fock} 
+
+&&
+
+  {\cal H}_{\rm LIP} \\
+
+\\
+
+(\x^4)
+
+\;  \lt \{
+
+ m {\ov k}^i \oF_{1,i}  +
+
+{\ov k}^{ij}
+
+\oF_{2,ij}  \rt \} 
+
++ \cdots
+
+& \Lra &
+
+\int d^4 x \;
+
+\;  \lt \{
+
+ m {\ov k}^i \oF_{1,i}  +
+
+{\ov k}^{ij}
+
+\oF_{2,ij}  \rt \} 
+
+\\ 
+
+(\x^4)
+
+e_i  \oG^i 
+
++\cdots
+
+& \Lra &
+
+\int d^4 x \;
+
+e_i  \oG^i 
+
+\\
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 483
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large First Table for Scalars with ${\rm Dimension}  = 0$:   
+Mappings of $N_{\rm Form}=2 \leftrightarrow N_{\rm Form} =  3$.  }
+
+
+\vspace{.1in}
+\framebox{ 
+{\Large  $\begin{array}{ccccccc}  
+\la{zeroscalars1}
+\\
+N_{\rm Form} = 2 &&
+N_{\rm Form} = 3 
+\\
+(\y^i \x \oC)      &\stackrel{d_1}{\lra} &  
+(\x \oC)^{\a} \oC^{\dot \b} A^i_{\a \dot \b}   
+\\
+(C \x \oy_i)       &\stackrel{d_1}{\lra} &  
+(\x C)^{\dot \b} C^{\a} \A_{i \dot \b \a}   
+\\
+  
+
+
+\\
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 484
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large First Table for Scalars with ${\rm Dimension}  = 0$:   
+
+Mappings of $N_{\rm Form}=2 \leftrightarrow N_{\rm Form} =  3$.  }
+
+
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large  $\begin{array}{ccccccc}  
+
+\la{zeroscalars1}
+
+\\
+
+N_{\rm Form} = 2 &&
+
+N_{\rm Form} = 3 
+
+\\
+
+(\y^i \x \oC)      &\stackrel{d_1}{\lra} &  
+
+(\x \oC)^{\a} \oC^{\dot \b} A^i_{\a \dot \b}   
+
+\\
+
+(C \x \oy_i)       &\stackrel{d_1}{\lra} &  
+
+(\x C)^{\dot \b} C^{\a} \A_{i \dot \b \a}   
+
+\\
+
+  
+
+
+
+
+
+\\
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 485
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for Scalars with ${\rm Dimension}  = 0$:   
+
+Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
+
+\Large
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Second Table for Scalars with ${\rm Dimension}  = 0$:   
+Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
+\Large
+
+\vspace{.1in}
+\framebox{ 
+{   $\begin{array}{ccccccc}  
+\la{zeroscalars4}
+\\
+ N_{\rm Form} = 3 
+&&
+N_{\rm Form} =   4
+\\
+
+
+
+(C \x \oC)  f_{ij} A^j A^i  
+&   \stackrel{d_2}{\lra} &
+(C \x^2 C)  f_{ij} (\y^i \y^j)
+\\
+
+
+(C \x \oC)   \of^{ij}   \A_i \A_j  
+&  \stackrel{d_2}{\lra} &
+(\oC \x^2 \oC) 
+ \of^{ij} (\oy_i \oy_j)
+\\
+\\
+\begin{array}{c}
+(C \x \oC)
+\\
+\lt \{
+  e_i  m A^i 
++ \ove^j  m \A_i   
++  e_i^j  A^i   \A_j  
+\rt \}
+\end{array}
+&   \stackrel{d_6}{\lra} &
+\lt \{
+\begin{array}{c}
+(C \x^2 C)e_i   m
+\\
+\lt \{
+  m  \og^{ij} \A_j
++
+\og^{ijk}   \A_j  \A_k
+\rt \}
+\\+
+(\oC \x^2 \oC) 
+\ove^i m 
+\\
+\lt \{
+m g_{ij} A^j + 
+ g_{ijk} A^j A^k 
+\rt \}
+\\
++(\oC \x^2 \oC) 
+e_i^j  A^i   
+\\
+\lt \{
+m g_{jk} A^k + 
+ g_{jkl} A^k A^l 
+\rt \}
+\\
++
+(C \x^2 C)  
+ e_i^j   \A_j 
+\\
+\lt \{
+  m  \og^{ik} \A_k
++
+\og^{ikl}   \A_k  \A_l
+\rt \}
+\end{array}
+\rt.
+\\
+\\
+\lt.
+\begin{array}{c}
+(C \x \oC) A^i
+\\
+\lt \{
+m \lt (
+ 2 \ok^j g_{ij} 
++
+ 2 \ok^{jk} g_{ijk} 
+\rt )  
+\rt.
+\\
++
+\lt.
+ \lt (
+  2  \ok^{jq} g_{ij} 
++
+6   \ok^{jkq} g_{ijk} 
+\rt )  \A_q \rt \}
+\\
++*
+\\
+\end{array}
+\rt \}
+&   \stackrel{d_6^{\dag}}{\lla} &
+
+\begin{array}{c}
+(C \x^2 C) 
+\lt \{
+ m^2 \ok^i \A_i
+\rt.
+\\
+\lt.
+ + m \ok^{ij}\A_i \A_j
+ +  \ok^{ijk}\A_i \A_j
+\A_k
+\rt \}
+\\
++
+(\oC \x^2 \oC)
+\lt \{
+  m^2 k_i A^i
+\rt.
+\\
+\lt.
+ + m k_{ij} A^i A^j 
+ + m k_{ijk} A^i A^j A^k
+\rt \}
+\end{array}
+\\
+\\
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 486
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for Scalars with ${\rm Dimension}  = 0$:   
+
+Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
+
+\Large
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{   $\begin{array}{ccccccc}  
+
+\la{zeroscalars4}
+
+\\
+
+ N_{\rm Form} = 3 
+
+&&
+
+N_{\rm Form} =   4
+
+\\
+
+
+
+
+
+
+
+(C \x \oC)  f_{ij} A^j A^i  
+
+&   \stackrel{d_2}{\lra} &
+
+(C \x^2 C)  f_{ij} (\y^i \y^j)
+
+\\
+
+
+
+
+
+(C \x \oC)   \of^{ij}   \A_i \A_j  
+
+&  \stackrel{d_2}{\lra} &
+
+(\oC \x^2 \oC) 
+
+ \of^{ij} (\oy_i \oy_j)
+
+\\
+
+\\
+
+\begin{array}{c}
+
+(C \x \oC)
+
+\\
+
+\lt \{
+
+  e_i  m A^i 
+
++ \ove^j  m \A_i   
+
++  e_i^j  A^i   \A_j  
+
+\rt \}
+
+\end{array}
+
+&   \stackrel{d_6}{\lra} &
+
+\lt \{
+
+\begin{array}{c}
+
+(C \x^2 C)e_i   m
+
+\\
+
+\lt \{
+
+  m  \og^{ij} \A_j
+
++
+
+\og^{ijk}   \A_j  \A_k
+
+\rt \}
+
+\\+
+
+(\oC \x^2 \oC) 
+
+\ove^i m 
+
+\\
+
+\lt \{
+
+m g_{ij} A^j + 
+
+ g_{ijk} A^j A^k 
+
+\rt \}
+
+\\
+
++(\oC \x^2 \oC) 
+
+e_i^j  A^i   
+
+\\
+
+\lt \{
+
+m g_{jk} A^k + 
+
+ g_{jkl} A^k A^l 
+
+\rt \}
+
+\\
+
++
+
+(C \x^2 C)  
+
+ e_i^j   \A_j 
+
+\\
+
+\lt \{
+
+  m  \og^{ik} \A_k
+
++
+
+\og^{ikl}   \A_k  \A_l
+
+\rt \}
+
+\end{array}
+
+\rt.
+
+\\
+
+\\
+
+\lt.
+
+\begin{array}{c}
+
+(C \x \oC) A^i
+
+\\
+
+\lt \{
+
+m \lt (
+
+ 2 \ok^j g_{ij} 
+
++
+
+ 2 \ok^{jk} g_{ijk} 
+
+\rt )  
+
+\rt.
+
+\\
+
++
+
+\lt.
+
+ \lt (
+
+  2  \ok^{jq} g_{ij} 
+
++
+
+6   \ok^{jkq} g_{ijk} 
+
+\rt )  \A_q \rt \}
+
+\\
+
++*
+
+\\
+
+\end{array}
+
+\rt \}
+
+&   \stackrel{d_6^{\dag}}{\lla} &
+
+
+
+\begin{array}{c}
+
+(C \x^2 C) 
+
+\lt \{
+
+ m^2 \ok^i \A_i
+
+\rt.
+
+\\
+
+\lt.
+
+ + m \ok^{ij}\A_i \A_j
+
+ +  \ok^{ijk}\A_i \A_j
+
+\A_k
+
+\rt \}
+
+\\
+
++
+
+(\oC \x^2 \oC)
+
+\lt \{
+
+  m^2 k_i A^i
+
+\rt.
+
+\\
+
+\lt.
+
+ + m k_{ij} A^i A^j 
+
+ + m k_{ijk} A^i A^j A^k
+
+\rt \}
+
+\end{array}
+
+\\
+
+\\
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 487
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Third Table for Scalars with ${\rm Dimension}  = 0$:   
+
+Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Third Table for Scalars with ${\rm Dimension}  = 0$:   
+Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+\vspace{.1in}
+\framebox{ 
+{\Large   $\begin{array}{ccccccc}  
+\la{zeroscalars2}
+\\
+N_{\rm Form} = 4 &&
+N_{\rm Form} =  5 
+\\
+
+(C \x^2 C)   m^2  A^i 
+&\stackrel{d_1}{\lra}   
+&(C \x^2 C)   m^2  (C \y^i) 
+
+\\ 
+(C \x^2 C)  m A^k  A^i
+&\stackrel{d_1}{\lra}   
+&(C \x^2 C)    m A^k   (C \y^i) 
+
+\\ 
+(C \x^2 C)  A^l A^k  A^i
+&\stackrel{d_1}{\lra}   
+&(C \x^2 C)    A^l A^k   (C \y^i) 
+
+\\
+(C \x^2 C)  m \A_j  A^i
+&\stackrel{d_1}{\lra}   
+&(C \x^2 C)    m \A_j (C \y^i) 
+
+\\
+(C \x^2 C)  A^l \A_j  A^i
+&\stackrel{d_1}{\lra}   
+&(C \x^2 C)    A^l \A_j (C \y^i) 
+
+\\
+(C \x^2 C)  \A_l \A_j  A^i
+&\stackrel{d_1}{\lra}   
+&(C \x^2 C)    \A_l \A_j (C \y^i) 
+\\
+
+(C \x^2 C)  (\oy_i \oy_j )
+&\stackrel{d_1}{\lra}   
+&(C \x^2 C)    \oy_i^{\dot \b} \A_{j \dot \b \g} C^{\g}
+ \\
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 488
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Third Table for Scalars with ${\rm Dimension}  = 0$:   
+
+Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large   $\begin{array}{ccccccc}  
+
+\la{zeroscalars2}
+
+\\
+
+N_{\rm Form} = 4 &&
+
+N_{\rm Form} =  5 
+
+\\
+
+
+
+(C \x^2 C)   m^2  A^i 
+
+&\stackrel{d_1}{\lra}   
+
+&(C \x^2 C)   m^2  (C \y^i) 
+
+
+
+\\ 
+
+(C \x^2 C)  m A^k  A^i
+
+&\stackrel{d_1}{\lra}   
+
+&(C \x^2 C)    m A^k   (C \y^i) 
+
+
+
+\\ 
+
+(C \x^2 C)  A^l A^k  A^i
+
+&\stackrel{d_1}{\lra}   
+
+&(C \x^2 C)    A^l A^k   (C \y^i) 
+
+
+
+\\
+
+(C \x^2 C)  m \A_j  A^i
+
+&\stackrel{d_1}{\lra}   
+
+&(C \x^2 C)    m \A_j (C \y^i) 
+
+
+
+\\
+
+(C \x^2 C)  A^l \A_j  A^i
+
+&\stackrel{d_1}{\lra}   
+
+&(C \x^2 C)    A^l \A_j (C \y^i) 
+
+
+
+\\
+
+(C \x^2 C)  \A_l \A_j  A^i
+
+&\stackrel{d_1}{\lra}   
+
+&(C \x^2 C)    \A_l \A_j (C \y^i) 
+
+\\
+
+
+
+(C \x^2 C)  (\oy_i \oy_j )
+
+&\stackrel{d_1}{\lra}   
+
+&(C \x^2 C)    \oy_i^{\dot \b} \A_{j \dot \b \g} C^{\g}
+
+ \\
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 489
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Fourth Table for Scalars with ${\rm Dimension}  = 0$:   
+
+Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Fourth Table for Scalars with ${\rm Dimension}  = 0$:   
+Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
+
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccccc}  
+\la{zeroscalars3}
+\\
+N_{\rm Form} = 5 &&
+N_{\rm Form} = 6 
+\\
+(C \x^2 C) f_{[ijk]} ( C \y^i)( C \y^j) A^k
+ & \stackrel{d_1}{\lra}  &
+(C \x^2 C) f_{[ijk]} 
+\lt \{
+( C \y^i)( C \y^j) ( C \y^k)
+\rt \}
+\\
+
+(C \x^2 C) \of^{[ij]} ( C \pa \A_i \oy_j) 
+ & \stackrel{d_1}{\lra}  &
+(C \x^2 C) \of^{[ij]} ( C \pa \A_i \pa \A_j C) 
+\\
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 490
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Fourth Table for Scalars with ${\rm Dimension}  = 0$:   
+
+Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccccc}  
+
+\la{zeroscalars3}
+
+\\
+
+N_{\rm Form} = 5 &&
+
+N_{\rm Form} = 6 
+
+\\
+
+(C \x^2 C) f_{[ijk]} ( C \y^i)( C \y^j) A^k
+
+ & \stackrel{d_1}{\lra}  &
+
+(C \x^2 C) f_{[ijk]} 
+
+\lt \{
+
+( C \y^i)( C \y^j) ( C \y^k)
+
+\rt \}
+
+\\
+
+
+
+(C \x^2 C) \of^{[ij]} ( C \pa \A_i \oy_j) 
+
+ & \stackrel{d_1}{\lra}  &
+
+(C \x^2 C) \of^{[ij]} ( C \pa \A_i \pa \A_j C) 
+
+\\
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 491
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large Fifth Table for Scalars with ${\rm Dimension}  = 0$:   
+Equations arising from Table \ref{zeroscalars4} }
+
+
+
+\vspace{.1in}
+\framebox{ 
+{\Large  $\begin{array}{ccc}  
+\la{zeroscalars5}
+\\
+
+
+\\
+e_i  \og^{ij} 
+&=&0
+\\
+e_i  \og^{ijk}  
++
+ e_i^{(j} 
+ \og^{k)i} 
+&=&0
+\\
+e_{(i}^q  
+ g_{kl)q}
+&=&0
+\\
+\\
+ \lt (
+ \ok^j g_{ij} 
++
+  \ok^{jk} g_{ijk} 
+\rt )  
+&=&0
+
+\\
+ \lt (
+2  \ok^{jq} g_{ij} 
++
+6   \ok^{jkq} g_{ijk} 
++*
+\rt ) 
+&=&0
+\\
+
+
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 492
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Fifth Table for Scalars with ${\rm Dimension}  = 0$:   
+
+Equations arising from Table \ref{zeroscalars4} }
+
+
+
+
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large  $\begin{array}{ccc}  
+
+\la{zeroscalars5}
+
+\\
+
+
+
+
+
+\\
+
+e_i  \og^{ij} 
+
+&=&0
+
+\\
+
+e_i  \og^{ijk}  
+
++
+
+ e_i^{(j} 
+
+ \og^{k)i} 
+
+&=&0
+
+\\
+
+e_{(i}^q  
+
+ g_{kl)q}
+
+&=&0
+
+\\
+
+\\
+
+ \lt (
+
+ \ok^j g_{ij} 
+
++
+
+  \ok^{jk} g_{ijk} 
+
+\rt )  
+
+&=&0
+
+
+
+\\
+
+ \lt (
+
+2  \ok^{jq} g_{ij} 
+
++
+
+6   \ok^{jkq} g_{ijk} 
+
++*
+
+\rt ) 
+
+&=&0
+
+\\
+
+
+
+
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 493
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large Sixth Table for Scalars with ${\rm Dimension}  = 0$:  
+Mapping $E_{\infty} \ra {\cal H}_{\rm Fock}$. These are subject to the constraints in Table  \ref{zeroscalars5} }
+
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{zeroscalars6}
+\\
+E_{\infty} &&  {\cal H}_{\rm Fock}\\
+\\
+\begin{array}{c}
+ (C \x^2 C) \lt \{
+ {\ov k}^i
+m^2 \A_i 
+\rt.
+\\
+\lt.
++ m{\ov k}^{ij}
+\A_i \A_j 
++ {\ov k}^{ijk}
+\A_i \A_j \A_k
+\rt \} 
+\end{array}
+& \Lra &
+\begin{array}{c}
+(\x^4)
+ \;  \lt \{
+m^2 {\ov k}^i \oF_{1,i}  
+\rt.
+\\
+\lt.
++
+m {\ov k}^{ij}
+\oF_{2,ij} 
+  +
+{\ov k}^{ijk}
+\oF_{3,ijk}  \rt \} 
+\\
++
+\cdots
+\end{array}
+\\ 
+\\
+\begin{array}{c}
+(C \x \oC) \lt \{
+ e_i  m A^i  
++ \ove^i  m \A_i  
+\rt.
+\\
+\lt.
++ e_i^j   A^i \A_j  
+\rt \}
+\end{array}
+& \Lra &
+\begin{array}{c}
+(\x^4)
+\lt \{
+ e_i m \oG^i -  m
+\ove^i \G_i 
+\rt.
+\\
++  e_i^j \lt (
+\oG^i \A_j 
+-
+\G_j A^i 
+\rt.
+\\
+\lt.
+\lt.
+-
+Y^{\a}_j \y^{i \a} 
++
+\oY^{i \dot \a} \oy_{j}^{\dot \a} 
+ \rt )
+\rt \}
+\\
++\cdots
+\end{array}
+
+\\
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 494
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Sixth Table for Scalars with ${\rm Dimension}  = 0$:  
+
+Mapping $E_{\infty} \ra {\cal H}_{\rm Fock}$. These are subject to the constraints in Table  \ref{zeroscalars5} }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{zeroscalars6}
+
+\\
+
+E_{\infty} &&  {\cal H}_{\rm Fock}\\
+
+\\
+
+\begin{array}{c}
+
+ (C \x^2 C) \lt \{
+
+ {\ov k}^i
+
+m^2 \A_i 
+
+\rt.
+
+\\
+
+\lt.
+
++ m{\ov k}^{ij}
+
+\A_i \A_j 
+
++ {\ov k}^{ijk}
+
+\A_i \A_j \A_k
+
+\rt \} 
+
+\end{array}
+
+& \Lra &
+
+\begin{array}{c}
+
+(\x^4)
+
+ \;  \lt \{
+
+m^2 {\ov k}^i \oF_{1,i}  
+
+\rt.
+
+\\
+
+\lt.
+
++
+
+m {\ov k}^{ij}
+
+\oF_{2,ij} 
+
+  +
+
+{\ov k}^{ijk}
+
+\oF_{3,ijk}  \rt \} 
+
+\\
+
++
+
+\cdots
+
+\end{array}
+
+\\ 
+
+\\
+
+\begin{array}{c}
+
+(C \x \oC) \lt \{
+
+ e_i  m A^i  
+
++ \ove^i  m \A_i  
+
+\rt.
+
+\\
+
+\lt.
+
++ e_i^j   A^i \A_j  
+
+\rt \}
+
+\end{array}
+
+& \Lra &
+
+\begin{array}{c}
+
+(\x^4)
+
+\lt \{
+
+ e_i m \oG^i -  m
+
+\ove^i \G_i 
+
+\rt.
+
+\\
+
++  e_i^j \lt (
+
+\oG^i \A_j 
+
+-
+
+\G_j A^i 
+
+\rt.
+
+\\
+
+\lt.
+
+\lt.
+
+-
+
+Y^{\a}_j \y^{i \a} 
+
++
+
+\oY^{i \dot \a} \oy_{j}^{\dot \a} 
+
+ \rt )
+
+\rt \}
+
+\\
+
++\cdots
+
+\end{array}
+
+
+
+\\
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 495
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large Seventh Table for Scalars with ${\rm Dimension}  = 0$:  
+Mapping ${\cal H}_{\rm Fock} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table  \ref{zeroscalars5} }
+
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{zeroscalars7}
+\\
+ {\cal H}_{\rm Fock}
+&& 
+ {\cal H}_{\rm LIP}\\
+\\
+\begin{array}{c}
+(\x^4) \;  \lt \{
+m^2 {\ov k}^i \oF_{1,i}  
+\rt.
+\\
+\lt.
++
+m {\ov k}^{ij}
+\oF_{2,ij} 
+  +
+{\ov k}^{ijk}
+\oF_{3,ijk}  \rt \}
+\\
++ \cdots 
+\end{array} 
+& \Lra &
+\begin{array}{c}
+\int d^4 x \;  \lt \{
+m^2 {\ov k}^i \oF_{1,i}  
+\rt.
+\\
+\lt.
++
+m {\ov k}^{ij}
+\oF_{2,ij} 
+  +
+{\ov k}^{ijk}
+\oF_{3,ijk}  \rt \} 
+\end{array}
+\\ 
+\\
+\begin{array}{c}
+(\x^4)
+\lt \{
+ e_i m \oG^i -  m
+\ove^i \G_i 
+\rt.
+\\
+\lt.
++  e_i^j \lt (
+\oG^i \A_j 
+-
+\G_j A^i 
+\rt.
+\rt.
+\\
+\lt.
+\lt.
+-
+Y^{\a}_j \y^{i \a} 
++
+\oY^{i \dot \a} \oy_{j}^{\dot \a} 
+ \rt )
+\rt \}
+\\
++ \cdots
+\end{array}
+& \Lra &
+\begin{array}{c}
+\int d^4 x \;  
+\lt \{
+ e_i m \oG^i -  m
+\ove^i \G_i 
+\rt.
+\\
+\lt.
++  e_i^j \lt (
+\oG^i \A_j 
+-
+\G_j A^i 
+\rt.
+\rt.
+\\
+\lt.
+\lt.
+-
+Y^{\a}_j \y^{i \a} 
++
+\oY^{i \dot \a} \oy_{j}^{\dot \a} 
+ \rt )
+\rt \}
+\end{array}
+\\
+
+\\
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 496
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Seventh Table for Scalars with ${\rm Dimension}  = 0$:  
+
+Mapping ${\cal H}_{\rm Fock} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table  \ref{zeroscalars5} }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{zeroscalars7}
+
+\\
+
+ {\cal H}_{\rm Fock}
+
+&& 
+
+ {\cal H}_{\rm LIP}\\
+
+\\
+
+\begin{array}{c}
+
+(\x^4) \;  \lt \{
+
+m^2 {\ov k}^i \oF_{1,i}  
+
+\rt.
+
+\\
+
+\lt.
+
++
+
+m {\ov k}^{ij}
+
+\oF_{2,ij} 
+
+  +
+
+{\ov k}^{ijk}
+
+\oF_{3,ijk}  \rt \}
+
+\\
+
++ \cdots 
+
+\end{array} 
+
+& \Lra &
+
+\begin{array}{c}
+
+\int d^4 x \;  \lt \{
+
+m^2 {\ov k}^i \oF_{1,i}  
+
+\rt.
+
+\\
+
+\lt.
+
++
+
+m {\ov k}^{ij}
+
+\oF_{2,ij} 
+
+  +
+
+{\ov k}^{ijk}
+
+\oF_{3,ijk}  \rt \} 
+
+\end{array}
+
+\\ 
+
+\\
+
+\begin{array}{c}
+
+(\x^4)
+
+\lt \{
+
+ e_i m \oG^i -  m
+
+\ove^i \G_i 
+
+\rt.
+
+\\
+
+\lt.
+
++  e_i^j \lt (
+
+\oG^i \A_j 
+
+-
+
+\G_j A^i 
+
+\rt.
+
+\rt.
+
+\\
+
+\lt.
+
+\lt.
+
+-
+
+Y^{\a}_j \y^{i \a} 
+
++
+
+\oY^{i \dot \a} \oy_{j}^{\dot \a} 
+
+ \rt )
+
+\rt \}
+
+\\
+
++ \cdots
+
+\end{array}
+
+& \Lra &
+
+\begin{array}{c}
+
+\int d^4 x \;  
+
+\lt \{
+
+ e_i m \oG^i -  m
+
+\ove^i \G_i 
+
+\rt.
+
+\\
+
+\lt.
+
++  e_i^j \lt (
+
+\oG^i \A_j 
+
+-
+
+\G_j A^i 
+
+\rt.
+
+\rt.
+
+\\
+
+\lt.
+
+\lt.
+
+-
+
+Y^{\a}_j \y^{i \a} 
+
++
+
+\oY^{i \dot \a} \oy_{j}^{\dot \a} 
+
+ \rt )
+
+\rt \}
+
+\end{array}
+
+\\
+
+
+
+\\
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 497
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large First Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{5}{2}$:   
+Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
+
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccccc}  
+\la{fivehalfscalars1}\\
+N_{\rm Form} = 5 &&
+N_{\rm Form} =  6 
+\\
+
+ (C \x^2 C) (\f C)
+f_{j}  A^j 
+ & \stackrel{d_1}{\lra} 
+&
+  (C \x^2 C)  (\f C)
+f_{j} (C \y^j) 
+\\
+
+ (C \x^2 C) (\f C)
+\oh^{j}  \A_j 
+ & \in &
+E_{\infty}  \\
+
+
+
+\\
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 498
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large First Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{5}{2}$:   
+
+Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccccc}  
+
+\la{fivehalfscalars1}\\
+
+N_{\rm Form} = 5 &&
+
+N_{\rm Form} =  6 
+
+\\
+
+
+
+ (C \x^2 C) (\f C)
+
+f_{j}  A^j 
+
+ & \stackrel{d_1}{\lra} 
+
+&
+
+  (C \x^2 C)  (\f C)
+
+f_{j} (C \y^j) 
+
+\\
+
+
+
+ (C \x^2 C) (\f C)
+
+\oh^{j}  \A_j 
+
+ & \in &
+
+E_{\infty}  \\
+
+
+
+
+
+
+
+\\
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 499
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{5}{2}$:   
+
+Mapping of   $E_{\infty} \ra {\cal H}_{\rm LIP}$.  There are no constraints. }
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{5}{2}$:   
+Mapping of   $E_{\infty} \ra {\cal H}_{\rm LIP}$.  There are no constraints. }
+
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{fivehalfscalars2}.
+\\
+E_{\infty} &&  {\cal H}_{\rm LIP}\\
+\\
+(C \x \oC) \f^{\a} C_{\a} \lt \{
+  \oh^i   \A_i   
+\rt \}
+& \lra &
+\int d^4 x \;  
+\f^{\a} C_{\a}  \lt \{
+ \oh^i   \oF_{1,i}  
+\rt \}
+\\
+
+ 
+  \\
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 500
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{5}{2}$:   
+
+Mapping of   $E_{\infty} \ra {\cal H}_{\rm LIP}$.  There are no constraints. }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{fivehalfscalars2}.
+
+\\
+
+E_{\infty} &&  {\cal H}_{\rm LIP}\\
+
+\\
+
+(C \x \oC) \f^{\a} C_{\a} \lt \{
+
+  \oh^i   \A_i   
+
+\rt \}
+
+& \lra &
+
+\int d^4 x \;  
+
+\f^{\a} C_{\a}  \lt \{
+
+ \oh^i   \oF_{1,i}  
+
+\rt \}
+
+\\
+
+
+
+ 
+
+  \\
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 501
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large First Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
+Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{threehalfscalars2}\\
+N_{\rm Form} = 4 &&
+N_{\rm Form} =  5 
+\\
+
+ (\oC \x^2 \oC)  (\f \y^i)
+ & \stackrel{d_1}{\lra} 
+&
+ (\oC \x^2 \oC)  (\f \pa A^i \oC)
+\\
+ (C \x^2 C)  f_i (\f \y^i)
+ & \stackrel{d_5}{\lra} 
+&
+\begin{array}{c} 
+ (C \x^2 C)  (\f C) f_i
+\;
+\\
+\lt \{ m {\og}^{ij} \A_j + {\og}^{ijk} \A_j \A_k \rt \}
+\end{array}
+\\
+
+ (C \x^2 C) \lt (
+  {\oh}^{j} g_{ij} + 2 {\oh}^{jk} g_{ijk}
+\rt )
+ (\f \y^i) & \stackrel{d_5^{\dag}}{\longleftarrow} 
+&
+\begin{array}{c} 
+ (C \x^2 C)  (\f C)  
+\;
+\\
+\lt \{ m {\oh}^{j} \A_j + {\oh}^{jk} \A_j \A_k \rt \}
+\end{array}
+\\
+
+\\
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 502
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large First Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
+
+Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{threehalfscalars2}\\
+
+N_{\rm Form} = 4 &&
+
+N_{\rm Form} =  5 
+
+\\
+
+
+
+ (\oC \x^2 \oC)  (\f \y^i)
+
+ & \stackrel{d_1}{\lra} 
+
+&
+
+ (\oC \x^2 \oC)  (\f \pa A^i \oC)
+
+\\
+
+ (C \x^2 C)  f_i (\f \y^i)
+
+ & \stackrel{d_5}{\lra} 
+
+&
+
+\begin{array}{c} 
+
+ (C \x^2 C)  (\f C) f_i
+
+\;
+
+\\
+
+\lt \{ m {\og}^{ij} \A_j + {\og}^{ijk} \A_j \A_k \rt \}
+
+\end{array}
+
+\\
+
+
+
+ (C \x^2 C) \lt (
+
+  {\oh}^{j} g_{ij} + 2 {\oh}^{jk} g_{ijk}
+
+\rt )
+
+ (\f \y^i) & \stackrel{d_5^{\dag}}{\longleftarrow} 
+
+&
+
+\begin{array}{c} 
+
+ (C \x^2 C)  (\f C)  
+
+\;
+
+\\
+
+\lt \{ m {\oh}^{j} \A_j + {\oh}^{jk} \A_j \A_k \rt \}
+
+\end{array}
+
+\\
+
+
+
+\\
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 503
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
+
+Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
+
+
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
+Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
+
+
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccccc}  
+\la{threehalfscalars1}\\
+N_{\rm Form} = 5 &&
+N_{\rm Form} =  6 
+\\
+
+ (C \x^2 C) (\f C)
+f_{j} m A^j 
+ & \stackrel{d_1}{\lra} 
+&
+  (C \x^2 C)  (\f C)
+f_{j}m (C \y^j) 
+\\
+
+ (C \x^2 C) (\f C)
+f_{ij} A^i A^j 
+ & \stackrel{d_1}{\lra} 
+&
+  (C \x^2 C)  (\f C)
+f_{ij} A^i (C \y^j) 
+\\
+
+ (C \x^2 C) (\f C)
+f_{j}^i \A_i A^j 
+ & \stackrel{d_1}{\lra} 
+&
+  (C \x^2 C)  (\f C)
+f_{j}^i \A_i 
+ (C \y^j) 
+\\
+
+
+
+\\
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 504
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
+
+Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
+
+
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccccc}  
+
+\la{threehalfscalars1}\\
+
+N_{\rm Form} = 5 &&
+
+N_{\rm Form} =  6 
+
+\\
+
+
+
+ (C \x^2 C) (\f C)
+
+f_{j} m A^j 
+
+ & \stackrel{d_1}{\lra} 
+
+&
+
+  (C \x^2 C)  (\f C)
+
+f_{j}m (C \y^j) 
+
+\\
+
+
+
+ (C \x^2 C) (\f C)
+
+f_{ij} A^i A^j 
+
+ & \stackrel{d_1}{\lra} 
+
+&
+
+  (C \x^2 C)  (\f C)
+
+f_{ij} A^i (C \y^j) 
+
+\\
+
+
+
+ (C \x^2 C) (\f C)
+
+f_{j}^i \A_i A^j 
+
+ & \stackrel{d_1}{\lra} 
+
+&
+
+  (C \x^2 C)  (\f C)
+
+f_{j}^i \A_i 
+
+ (C \y^j) 
+
+\\
+
+
+
+
+
+
+
+\\
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 505
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Third Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
+
+Equations arising from Table \ref{threehalfscalars2}. } 
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Third Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
+Equations arising from Table \ref{threehalfscalars2}. } 
+
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{threehalfscalars3}
+\\
+f_i  \og^{ij} 
+&=&0
+\\
+f_i  \og^{ijk}  
+&=&0
+\\
+\lt (
+ \oh^j g_{ij} 
++
+2 \oh^{jk} g_{ijk} 
+\rt )  
+&=&0
+\\
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 506
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Third Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
+
+Equations arising from Table \ref{threehalfscalars2}. } 
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{threehalfscalars3}
+
+\\
+
+f_i  \og^{ij} 
+
+&=&0
+
+\\
+
+f_i  \og^{ijk}  
+
+&=&0
+
+\\
+
+\lt (
+
+ \oh^j g_{ij} 
+
++
+
+2 \oh^{jk} g_{ijk} 
+
+\rt )  
+
+&=&0
+
+\\
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 507
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large Fourth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
+Mapping $E_{\infty} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table  \ref{threehalfscalars3}. } 
+
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{threehalfscalars4}.
+\\
+E_{\infty} &&  {\cal H}_{\rm LIP}\\
+\\
+ (C \x^2 C) 
+   f_i
+ \f^{\a} \y^i_{\a}  & \lra &
+\int d^4 x \;  \lt \{ f_i
+ \f^{\a} C_{\a} \oG^i   \rt \} 
+\\ 
+\begin{array}{c}
+(C \x^2 C) \f^{\a} C_{\a} 
+\\
+\lt \{
+   \oh^i  m \A_i  
++ \oh^{ij}  \A_i \A_j  
+\rt \}
+\end{array}
+& \lra &
+\begin{array}{c}
+\int d^4 x \;  
+\f^{\a} C_{\a} 
+\\
+ \lt \{
+ \oh^i  m \oF_{1,i}  
++ \oh^{ij}  \oF_{2,ij} \rt \}
+\end{array}
+\\
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 508
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Fourth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
+
+Mapping $E_{\infty} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table  \ref{threehalfscalars3}. } 
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{threehalfscalars4}.
+
+\\
+
+E_{\infty} &&  {\cal H}_{\rm LIP}\\
+
+\\
+
+ (C \x^2 C) 
+
+   f_i
+
+ \f^{\a} \y^i_{\a}  & \lra &
+
+\int d^4 x \;  \lt \{ f_i
+
+ \f^{\a} C_{\a} \oG^i   \rt \} 
+
+\\ 
+
+\begin{array}{c}
+
+(C \x^2 C) \f^{\a} C_{\a} 
+
+\\
+
+\lt \{
+
+   \oh^i  m \A_i  
+
++ \oh^{ij}  \A_i \A_j  
+
+\rt \}
+
+\end{array}
+
+& \lra &
+
+\begin{array}{c}
+
+\int d^4 x \;  
+
+\f^{\a} C_{\a} 
+
+\\
+
+ \lt \{
+
+ \oh^i  m \oF_{1,i}  
+
++ \oh^{ij}  \oF_{2,ij} \rt \}
+
+\end{array}
+
+\\
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 509
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large First Table for spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+Mappings of $N_{\rm Form}=2 \leftrightarrow N_{\rm Form} =  3$. }
+
+
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{onehalfscalars1}
+\\
+N_{\rm Form} = 2 &&
+N_{\rm Form} = 3 
+\\
+(\f \x \oC)     A^i  
+& \stackrel{d_1}{\lra} & (C \x \oC)  
+ (\f \y^i) 
+  \\
+(\f \x \oC)  \A_i   &\stackrel{d_1}{\lra} &   
+ (\f \x \oC) (\oC  \oy_{j})
+\\
+
+\\
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 510
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large First Table for spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Mappings of $N_{\rm Form}=2 \leftrightarrow N_{\rm Form} =  3$. }
+
+
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{onehalfscalars1}
+
+\\
+
+N_{\rm Form} = 2 &&
+
+N_{\rm Form} = 3 
+
+\\
+
+(\f \x \oC)     A^i  
+
+& \stackrel{d_1}{\lra} & (C \x \oC)  
+
+ (\f \y^i) 
+
+  \\
+
+(\f \x \oC)  \A_i   &\stackrel{d_1}{\lra} &   
+
+ (\f \x \oC) (\oC  \oy_{j})
+
+\\
+
+
+
+\\
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 511
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
+
+
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
+
+
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{onehalfscalars2}
+\\
+N_{\rm Form} = 3 &&
+N_{\rm Form} = 4 
+\\
+ (C \x \oy_i)  (\f C) & \stackrel{d_1}{\lra} & (C \x )^{\dot \b} \A_{i,\dot \b \a}  C^{\a}(\f C)
+\\
+
+ 
+
+
+\\
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 512
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
+
+
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{onehalfscalars2}
+
+\\
+
+N_{\rm Form} = 3 &&
+
+N_{\rm Form} = 4 
+
+\\
+
+ (C \x \oy_i)  (\f C) & \stackrel{d_1}{\lra} & (C \x )^{\dot \b} \A_{i,\dot \b \a}  C^{\a}(\f C)
+
+\\
+
+
+
+ 
+
+
+
+
+
+\\
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 513
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Third Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Third Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{onehalfscalars3}\\
+N_{\rm Form} = 4 &&
+N_{\rm Form} = 5 
+\\
+ f_{ik} (C \x^2 C) A^k (\f \y^i) & \stackrel{d_1}{\lra} 
+&
+\begin{array}{c} 
+ (C \x^2 C) f_{ik}(\f \y^i) \;
+( C \y^k) 
+\end{array}
+\\
+\\
+
+ (\oC \x^2 \oC) f_{ik} A^k (\f \y^i) 
+& \stackrel{d_1}{\lra} 
+&
+\begin{array}{c} 
+ (\oC \x^2 \oC) f_{ik} A^k (\f \pa A^i \oC) 
+
+ 
+\end{array}
+\\
+\\
+
+ (\oC \x^2 \oC) f_{i}^k \A_k (\f \y^i) & \stackrel{d_1}{\lra} 
+&
+\begin{array}{c} 
+
+ (\oC \x^2 \oC)
+f_{i}^k\lt \{
+ \A_k (\f \pa A^i \oC) 
++ 
+ (\oC \oy_k) (\f \y^i)
+\rt \}
+
+
+\end{array}
+\\
+\\
+
+ (\oC \x^2 \oC) m (\f \y^i) & \stackrel{d_1}{\lra} 
+&
+\begin{array}{c} 
+ (\oC \x^2 \oC)
+ m (\f \pa A^i \oC) 
+\end{array}
+\\
+\\
+
+ (C \x)^{\dot \b} A^i_{\a \dot \b} C^{\a}
+ (\f C) & \stackrel{d_1}{\lra} 
+&
+\begin{array}{c} 
+(C \x)^{\dot \b} \y^i_{\g , \a \dot \b} C^{\a}
+ C^{\g}
+ (\f C) \end{array}
+\\
+\\
+
+
+
+
+
+\\
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 514
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Third Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{onehalfscalars3}\\
+
+N_{\rm Form} = 4 &&
+
+N_{\rm Form} = 5 
+
+\\
+
+ f_{ik} (C \x^2 C) A^k (\f \y^i) & \stackrel{d_1}{\lra} 
+
+&
+
+\begin{array}{c} 
+
+ (C \x^2 C) f_{ik}(\f \y^i) \;
+
+( C \y^k) 
+
+\end{array}
+
+\\
+
+\\
+
+
+
+ (\oC \x^2 \oC) f_{ik} A^k (\f \y^i) 
+
+& \stackrel{d_1}{\lra} 
+
+&
+
+\begin{array}{c} 
+
+ (\oC \x^2 \oC) f_{ik} A^k (\f \pa A^i \oC) 
+
+
+
+ 
+
+\end{array}
+
+\\
+
+\\
+
+
+
+ (\oC \x^2 \oC) f_{i}^k \A_k (\f \y^i) & \stackrel{d_1}{\lra} 
+
+&
+
+\begin{array}{c} 
+
+
+
+ (\oC \x^2 \oC)
+
+f_{i}^k\lt \{
+
+ \A_k (\f \pa A^i \oC) 
+
++ 
+
+ (\oC \oy_k) (\f \y^i)
+
+\rt \}
+
+
+
+
+
+\end{array}
+
+\\
+
+\\
+
+
+
+ (\oC \x^2 \oC) m (\f \y^i) & \stackrel{d_1}{\lra} 
+
+&
+
+\begin{array}{c} 
+
+ (\oC \x^2 \oC)
+
+ m (\f \pa A^i \oC) 
+
+\end{array}
+
+\\
+
+\\
+
+
+
+ (C \x)^{\dot \b} A^i_{\a \dot \b} C^{\a}
+
+ (\f C) & \stackrel{d_1}{\lra} 
+
+&
+
+\begin{array}{c} 
+
+(C \x)^{\dot \b} \y^i_{\g , \a \dot \b} C^{\a}
+
+ C^{\g}
+
+ (\f C) \end{array}
+
+\\
+
+\\
+
+
+
+
+
+
+
+
+
+
+
+\\
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 515
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large Fourth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   More  Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{onehalfscalars4}\\
+N_{\rm Form} = 4 &&
+N_{\rm Form} = 5 
+\\
+
+
+ (C \x^2 C) (\f \y^i)
+\lt \{
+m  f_i 
++ f_i^j  \A_j   \rt \}
+& \stackrel{d_5}{\lra} 
+&
+\begin{array}{c} 
+ (C \x^2 C)  (\f C) \;
+\\
+\lt \{
+m  f_i 
++ f_i^j  \A_j   \rt \} 
+\\
+ \lt \{
+m {\og}^{ik} \A_k + {\og}^{ikq} \A_k \A_q
+\rt \}
+\end{array}
+\\
+\\
+
+
+\begin{array}{c} 
+ (C \x^2 C)
+\\
+ \lt \{
+m (\f \y^i)
+\rt.
+\\
+\lt (2 g_{ij} \oh^j +2 g_{ijk} \oh^{jk} \rt )
+\\
+\lt.
++ 
+ (\f \A_q \y^i)
+\rt.
+\\
+\lt.
+\lt (
+2 g_{ij} \oh^{jq} +
+ 6 g_{ijk} \oh^{jkq} \rt )
+\rt \}
+\end{array} 
+& \stackrel{d_5^{\dag}}{\lla} 
+&
+\begin{array}{c} 
+ (C \x^2 C)  (\f C) \;
+\\
+ \lt \{
+m^2 {\oh}^{i} \A_i 
++
+m {\oh}^{ij} \A_i 
+\A_j 
+\rt.
+\\
+\lt.
++
+ {\oh}^{ijk} \A_i 
+\A_j \A_k 
+\rt \}
+\end{array}
+\\
+
+
+
+\\
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 516
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Fourth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   More  Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{onehalfscalars4}\\
+
+N_{\rm Form} = 4 &&
+
+N_{\rm Form} = 5 
+
+\\
+
+
+
+
+
+ (C \x^2 C) (\f \y^i)
+
+\lt \{
+
+m  f_i 
+
++ f_i^j  \A_j   \rt \}
+
+& \stackrel{d_5}{\lra} 
+
+&
+
+\begin{array}{c} 
+
+ (C \x^2 C)  (\f C) \;
+
+\\
+
+\lt \{
+
+m  f_i 
+
++ f_i^j  \A_j   \rt \} 
+
+\\
+
+ \lt \{
+
+m {\og}^{ik} \A_k + {\og}^{ikq} \A_k \A_q
+
+\rt \}
+
+\end{array}
+
+\\
+
+\\
+
+
+
+
+
+\begin{array}{c} 
+
+ (C \x^2 C)
+
+\\
+
+ \lt \{
+
+m (\f \y^i)
+
+\rt.
+
+\\
+
+\lt (2 g_{ij} \oh^j +2 g_{ijk} \oh^{jk} \rt )
+
+\\
+
+\lt.
+
++ 
+
+ (\f \A_q \y^i)
+
+\rt.
+
+\\
+
+\lt.
+
+\lt (
+
+2 g_{ij} \oh^{jq} +
+
+ 6 g_{ijk} \oh^{jkq} \rt )
+
+\rt \}
+
+\end{array} 
+
+& \stackrel{d_5^{\dag}}{\lla} 
+
+&
+
+\begin{array}{c} 
+
+ (C \x^2 C)  (\f C) \;
+
+\\
+
+ \lt \{
+
+m^2 {\oh}^{i} \A_i 
+
++
+
+m {\oh}^{ij} \A_i 
+
+\A_j 
+
+\rt.
+
+\\
+
+\lt.
+
++
+
+ {\oh}^{ijk} \A_i 
+
+\A_j \A_k 
+
+\rt \}
+
+\end{array}
+
+\\
+
+
+
+
+
+
+
+\\
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 517
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Fifth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
+
+
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Fifth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
+
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccccc}  
+\la{onehalfscalars5}
+\\
+N_{\rm Form} = 5 &&
+N_{\rm Form} = 6 
+\\
+(C \x^2 C) (\f C)  f_{ijk} A^i A^j A^k  
+ & \stackrel{d_1}{\lra}  &
+\begin{array}{c}
+(C \x^2 C)(\f C)  f_{ijk} 
+\\
+ A^i A^j   ( C \y^k)
+\\
+\end{array}
+\\
+
+
+\begin{array}{c} 
+
+ (\oC \x^2 \oC)
+f_{i}^k
+\\
+\lt \{
+ \A_k (\f \pa A^i \oC) 
+- 
+ (\oC \oy_k) (\f \y^i)
+\rt \}
+\end{array}
+ & \stackrel{d_1}{\lra}  &
+\begin{array}{c}
+(\oC \x^2 \oC) f_{j}^{i}  (\oy_i \oC)  (\f \pa A^j \oC) 
+\\
+\end{array}
+\\
+
+(C \x^2 C) (\f C) (\oy_i \oy_j)
+ & \stackrel{d_1}{\lra}  &
+\begin{array}{c}
+(C \x^2 C) (\f C) (\oy_i \pa \A_j C)
+\\
+\end{array}
+\\
+
+\oC \x^2 \oC) A^i ( \f  \pa   \A_j \oC) 
+ & \stackrel{d_1}{\lra}  &
+\begin{array}{c}
+\oC \x^2 \oC) A^i ( \f  \pa \oC) (\oy_j \oC)
+\\
+\end{array}
+\\
+
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 518
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Fifth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccccc}  
+
+\la{onehalfscalars5}
+
+\\
+
+N_{\rm Form} = 5 &&
+
+N_{\rm Form} = 6 
+
+\\
+
+(C \x^2 C) (\f C)  f_{ijk} A^i A^j A^k  
+
+ & \stackrel{d_1}{\lra}  &
+
+\begin{array}{c}
+
+(C \x^2 C)(\f C)  f_{ijk} 
+
+\\
+
+ A^i A^j   ( C \y^k)
+
+\\
+
+\end{array}
+
+\\
+
+
+
+
+
+\begin{array}{c} 
+
+
+
+ (\oC \x^2 \oC)
+
+f_{i}^k
+
+\\
+
+\lt \{
+
+ \A_k (\f \pa A^i \oC) 
+
+- 
+
+ (\oC \oy_k) (\f \y^i)
+
+\rt \}
+
+\end{array}
+
+ & \stackrel{d_1}{\lra}  &
+
+\begin{array}{c}
+
+(\oC \x^2 \oC) f_{j}^{i}  (\oy_i \oC)  (\f \pa A^j \oC) 
+
+\\
+
+\end{array}
+
+\\
+
+
+
+(C \x^2 C) (\f C) (\oy_i \oy_j)
+
+ & \stackrel{d_1}{\lra}  &
+
+\begin{array}{c}
+
+(C \x^2 C) (\f C) (\oy_i \pa \A_j C)
+
+\\
+
+\end{array}
+
+\\
+
+
+
+\oC \x^2 \oC) A^i ( \f  \pa   \A_j \oC) 
+
+ & \stackrel{d_1}{\lra}  &
+
+\begin{array}{c}
+
+\oC \x^2 \oC) A^i ( \f  \pa \oC) (\oy_j \oC)
+
+\\
+
+\end{array}
+
+\\
+
+
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 519
+```
+{% raw %}
+\begin{table}[hptb]
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Sixth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+Mappings of $N_{\rm Form}=6 \leftrightarrow N_{\rm Form} =  7$.  }
+
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccccc}  
+\la{onehalfscalars6}
+\\
+N_{\rm Form} = 6 &&
+N_{\rm Form} = 7 
+\\
+
+
+(C \x^2 C) (\f C) f_{ijk} A^i A^j ( C \y^k) 
+ & \stackrel{d_1}{\lra}  &
+\begin{array}{c}
+(C \x^2 C)(\f C)  f_{ijk} 
+\\
+\lt \{ A^i  ( C \y^j) ( C \y^k)
+\rt \}
+\\
+\end{array}
+\\
+
+(\oC \x^2 \oC) (\oy_j \oC)  (\f \pa \A_i \oC)  
+ & \stackrel{d_1}{\lra}  &
+\begin{array}{c}
+(\oC \x^2 \oC) (\oy_j \oC)  (\f \pa \oC) (\oC \oy_i )
+\\
+\end{array}
+\\
+
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 520
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Sixth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Mappings of $N_{\rm Form}=6 \leftrightarrow N_{\rm Form} =  7$.  }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccccc}  
+
+\la{onehalfscalars6}
+
+\\
+
+N_{\rm Form} = 6 &&
+
+N_{\rm Form} = 7 
+
+\\
+
+
+
+
+
+(C \x^2 C) (\f C) f_{ijk} A^i A^j ( C \y^k) 
+
+ & \stackrel{d_1}{\lra}  &
+
+\begin{array}{c}
+
+(C \x^2 C)(\f C)  f_{ijk} 
+
+\\
+
+\lt \{ A^i  ( C \y^j) ( C \y^k)
+
+\rt \}
+
+\\
+
+\end{array}
+
+\\
+
+
+
+(\oC \x^2 \oC) (\oy_j \oC)  (\f \pa \A_i \oC)  
+
+ & \stackrel{d_1}{\lra}  &
+
+\begin{array}{c}
+
+(\oC \x^2 \oC) (\oy_j \oC)  (\f \pa \oC) (\oC \oy_i )
+
+\\
+
+\end{array}
+
+\\
+
+
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 521
+```
+{% raw %}
+\begin{table}[hptb]
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Seventh Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+Mappings of $N_{\rm Form}=7 \leftrightarrow N_{\rm Form} =  8$.  }
+
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccccc}  
+\la{onehalfscalars7}
+\\
+N_{\rm Form} = 7 &&
+N_{\rm Form} = 8 
+\\
+(C \x^2 C) (\f C) f_{[ijk]} ( C \y^i)( C \y^j) A^k
+ & \stackrel{d_1}{\lra}  &
+\begin{array}{c}
+(C \x^2 C)(\f C)  f_{[ijk]} 
+\\
+\lt \{
+( C \y^i)( C \y^j) ( C \y^k)
+\rt \}
+\\
+\end{array}
+\\
+
+
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 522
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Seventh Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Mappings of $N_{\rm Form}=7 \leftrightarrow N_{\rm Form} =  8$.  }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccccc}  
+
+\la{onehalfscalars7}
+
+\\
+
+N_{\rm Form} = 7 &&
+
+N_{\rm Form} = 8 
+
+\\
+
+(C \x^2 C) (\f C) f_{[ijk]} ( C \y^i)( C \y^j) A^k
+
+ & \stackrel{d_1}{\lra}  &
+
+\begin{array}{c}
+
+(C \x^2 C)(\f C)  f_{[ijk]} 
+
+\\
+
+\lt \{
+
+( C \y^i)( C \y^j) ( C \y^k)
+
+\rt \}
+
+\\
+
+\end{array}
+
+\\
+
+
+
+
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 523
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large Eighth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:  Equations arising from Table \ref{onehalfscalars4}. }
+\vspace{.1in}
+\framebox{ 
+ { \Large
+ $\begin{array}{ccc}  
+\la{onehalfscalars8}
+\\
+   f_{i}^{j} {\og}^{ki}
++   f_{i}^{k} {\og}^{ji}
+&=&0
+\\
+   f_{q}^{(i} {\og}^{jk)q}
+&=&0
+\\
+\lt (
+2 g_{ij} \oh^{jq} +
+6 g_{ijk} \oh^{jkq} \rt ) 
+&=&0
+\\
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 524
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Eighth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:  Equations arising from Table \ref{onehalfscalars4}. }
+
+\vspace{.1in}
+
+\framebox{ 
+
+ { \Large
+
+ $\begin{array}{ccc}  
+
+\la{onehalfscalars8}
+
+\\
+
+   f_{i}^{j} {\og}^{ki}
+
++   f_{i}^{k} {\og}^{ji}
+
+&=&0
+
+\\
+
+   f_{q}^{(i} {\og}^{jk)q}
+
+&=&0
+
+\\
+
+\lt (
+
+2 g_{ij} \oh^{jq} +
+
+6 g_{ijk} \oh^{jkq} \rt ) 
+
+&=&0
+
+\\
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 525
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large Ninth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+Mappings  of $E_{\infty} \ra {\cal H}_{\rm LIP}$.  These are subject to the constraints in Table \ref{onehalfscalars8}. } 
+
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccccc}  
+\la{onehalfscalars9}.
+\\
+E_{\infty} &&  {\cal H}_{\rm LIP}\\
+\\
+ 
+\begin{array}{c}  
+(C \x^2 C) \f^{\a} C_{\a} \lt \{
+  
+h^i  m^2 \A_i  
+\rt.
+\\
+\lt.
++ \oh^{ij} m \A_i \A_j  
++ \oh^{ijk}  \A_i \A_j \A_k 
+\rt \}
+\end{array}
+& \lra &
+\begin{array}{c}  
+\int d^4 x \;  
+\f^{\a} C_{\a}  \lt \{
+ \oh^i  m \oF_{1,i}  
+\rt.
+\\
+\lt.
++ \oh^{ij}  \oF_{2,ij} 
++ \oh^{ijk}  \oF_{3,ijk} \rt \}
+\end{array}
+\\
+\\
+\begin{array}{c}  
+ (C \x^2 C) 
+\\
+\f^{\a} \y^i_{\a} 
+\lt \{
+    f_i^j \A_j
+ \rt \}
+\end{array}
+ & \lra &
+\begin{array}{c}  
+\int d^4 x \;
+ \f^{\a} 
+\lt \{
+f_i^j
+\lt [
+\oG^{i} \A_j
+C_{\a} 
+\rt.
+\rt.
+\\
+\lt.
++
+\lt (
+\pa_{\a \dot \b} A^i 
++ C_{\a}\oY^{i}_{ \dot \b} \rt )
+ \oy_{j}^{\dot \b}
+\lt.
+-
+\y^i_{\a} 
+\oF_{1,i} \rt ]
+\rt \}
+\end{array}
+
+
+\end{array}$ } }
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 526
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Ninth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Mappings  of $E_{\infty} \ra {\cal H}_{\rm LIP}$.  These are subject to the constraints in Table \ref{onehalfscalars8}. } 
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccccc}  
+
+\la{onehalfscalars9}.
+
+\\
+
+E_{\infty} &&  {\cal H}_{\rm LIP}\\
+
+\\
+
+ 
+
+\begin{array}{c}  
+
+(C \x^2 C) \f^{\a} C_{\a} \lt \{
+
+  
+
+h^i  m^2 \A_i  
+
+\rt.
+
+\\
+
+\lt.
+
++ \oh^{ij} m \A_i \A_j  
+
++ \oh^{ijk}  \A_i \A_j \A_k 
+
+\rt \}
+
+\end{array}
+
+& \lra &
+
+\begin{array}{c}  
+
+\int d^4 x \;  
+
+\f^{\a} C_{\a}  \lt \{
+
+ \oh^i  m \oF_{1,i}  
+
+\rt.
+
+\\
+
+\lt.
+
++ \oh^{ij}  \oF_{2,ij} 
+
++ \oh^{ijk}  \oF_{3,ijk} \rt \}
+
+\end{array}
+
+\\
+
+\\
+
+\begin{array}{c}  
+
+ (C \x^2 C) 
+
+\\
+
+\f^{\a} \y^i_{\a} 
+
+\lt \{
+
+    f_i^j \A_j
+
+ \rt \}
+
+\end{array}
+
+ & \lra &
+
+\begin{array}{c}  
+
+\int d^4 x \;
+
+ \f^{\a} 
+
+\lt \{
+
+f_i^j
+
+\lt [
+
+\oG^{i} \A_j
+
+C_{\a} 
+
+\rt.
+
+\rt.
+
+\\
+
+\lt.
+
++
+
+\lt (
+
+\pa_{\a \dot \b} A^i 
+
++ C_{\a}\oY^{i}_{ \dot \b} \rt )
+
+ \oy_{j}^{\dot \b}
+
+\lt.
+
+-
+
+\y^i_{\a} 
+
+\oF_{1,i} \rt ]
+
+\rt \}
+
+\end{array}
+
+
+
+
+
+\end{array}$ } }
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 527
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large Some Composite and Elementary Antichiral `Superfield' Multiplets}
+\la{Lowcompsup}
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{cccc}  
+\\
+{\rm Mult} &
+\A \;{\rm Term} &
+\oy \;{\rm Term} &
+\oF \;{\rm Term} 
+\\
+{\hat \A}_i
+&
+\A_i &
+\oy_{i \dot \b}
+&
+\oF_{1,i}
+\\
+{\hat ?}^i
+&
+?^i &
+\oY^{i}_{ \dot \b}
+&
+\oG^i
+\\
+\\
+{\hat \f}_{\a}
+&
+\f_{\a} 
+&
+W_{\a \dot \b}  
+&
+\F_{\a} 
+\\
+\\
+\begin{array}{c}
+{\hat \f}'_{\a}
+\\
+= {\widehat \y}^i_{\a}
+\end{array}
+&
+\begin{array}{c}
+{  \f}'_{\a}
+\\
+= { \y}^i_{\a}
+\end{array}
+&
+\begin{array}{c}
+{W}'_{\a \dot \b} =
+\\
+\lt (
+\pa_{\a \dot \b} A^i + C_{\a} \oY^i_{\dot \b} 
+\rt )
+\end{array}
+&
+\begin{array}{c}
+\F'_{\a} 
+\\=
+\oG^i C_{\a}
+\end{array}
+\\
+\\
+
+\begin{array}{c}
+{\hat \f}''_{\a}
+\\
+= {\widehat \y}^i_{\a} {\widehat \A}_j
+\end{array}
+&
+\begin{array}{c}
+{  \f}''_{\a}
+\\
+=
+\y^i_{\a} \A_j
+
+\end{array}
+&
+\begin{array}{c}
+{W}''_{\a \dot \b}
+=
+\lt \{
+\y^i_{\a} \oy_{j \dot \b}
+\rt.
+\\
+\lt.
++
+\lt ( 
+\pa_{\a \dot \b} A^i + C_{\a} \oY^i_{\dot \b} 
+\rt ) \A_j
+\rt \}
+
+\end{array}
+&
+\begin{array}{c}
+\F''_{\a} 
+= \lt \{
+\oG^i C_{\a} \A_j 
++
+\y^i_{\a} \oF_{1,j} 
+\rt.
+\\
+\lt.
++ \lt ( 
+\pa_{\a \dot \b} A^i + C_{\a} \oY^i_{\dot \b} 
+\rt ) \oy^{\dot \b}_j
+\rt \}
+\end{array}
+\\
+\\
+
+
+
+&
+&
+{ \begin{array}{c}  
+
+\end{array}} 
+&
+
+\\
+
+\end{array}$
+}} 
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 528
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Some Composite and Elementary Antichiral `Superfield' Multiplets}
+
+\la{Lowcompsup}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{cccc}  
+
+\\
+
+{\rm Mult} &
+
+\A \;{\rm Term} &
+
+\oy \;{\rm Term} &
+
+\oF \;{\rm Term} 
+
+\\
+
+{\hat \A}_i
+
+&
+
+\A_i &
+
+\oy_{i \dot \b}
+
+&
+
+\oF_{1,i}
+
+\\
+
+{\hat ?}^i
+
+&
+
+?^i &
+
+\oY^{i}_{ \dot \b}
+
+&
+
+\oG^i
+
+\\
+
+\\
+
+{\hat \f}_{\a}
+
+&
+
+\f_{\a} 
+
+&
+
+W_{\a \dot \b}  
+
+&
+
+\F_{\a} 
+
+\\
+
+\\
+
+\begin{array}{c}
+
+{\hat \f}'_{\a}
+
+\\
+
+= {\widehat \y}^i_{\a}
+
+\end{array}
+
+&
+
+\begin{array}{c}
+
+{  \f}'_{\a}
+
+\\
+
+= { \y}^i_{\a}
+
+\end{array}
+
+&
+
+\begin{array}{c}
+
+{W}'_{\a \dot \b} =
+
+\\
+
+\lt (
+
+\pa_{\a \dot \b} A^i + C_{\a} \oY^i_{\dot \b} 
+
+\rt )
+
+\end{array}
+
+&
+
+\begin{array}{c}
+
+\F'_{\a} 
+
+\\=
+
+\oG^i C_{\a}
+
+\end{array}
+
+\\
+
+\\
+
+
+
+\begin{array}{c}
+
+{\hat \f}''_{\a}
+
+\\
+
+= {\widehat \y}^i_{\a} {\widehat \A}_j
+
+\end{array}
+
+&
+
+\begin{array}{c}
+
+{  \f}''_{\a}
+
+\\
+
+=
+
+\y^i_{\a} \A_j
+
+
+
+\end{array}
+
+&
+
+\begin{array}{c}
+
+{W}''_{\a \dot \b}
+
+=
+
+\lt \{
+
+\y^i_{\a} \oy_{j \dot \b}
+
+\rt.
+
+\\
+
+\lt.
+
++
+
+\lt ( 
+
+\pa_{\a \dot \b} A^i + C_{\a} \oY^i_{\dot \b} 
+
+\rt ) \A_j
+
+\rt \}
+
+
+
+\end{array}
+
+&
+
+\begin{array}{c}
+
+\F''_{\a} 
+
+= \lt \{
+
+\oG^i C_{\a} \A_j 
+
++
+
+\y^i_{\a} \oF_{1,j} 
+
+\rt.
+
+\\
+
+\lt.
+
++ \lt ( 
+
+\pa_{\a \dot \b} A^i + C_{\a} \oY^i_{\dot \b} 
+
+\rt ) \oy^{\dot \b}_j
+
+\rt \}
+
+\end{array}
+
+\\
+
+\\
+
+
+
+
+
+
+
+&
+
+&
+
+{ \begin{array}{c}  
+
+
+
+\end{array}} 
+
+&
+
+
+
+\\
+
+
+
+\end{array}$
+
+}} 
+
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 529
+```
+{% raw %}
+ \begin{table}[hptb]
+\caption{\Large   Antichiral Spinor Transformations}
+\la{antichiral}
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{lll}  
+\\
+\d \f_{\a}&= & 
+  W_{\a \dot   \b} {\oC}^{\dot   \b} 
++ \x^{\g \dot \d} \partial_{\g \dot \d} \f_{\a}
+\\
+ \d W_{\a \dot \b} &  =& 
+\pa_{ \g \dot \b }  \f_{\a} C^{\g} + \F_{\a} {\ov C}_{\dot \b}  
++ \x^{\g \dot \d} \partial_{\g \dot \d}   W_{\a \dot \b} 
+\\
+\d
+ \F_{\a} &  =&  \pa_{ \g \dot \b }  W_{\a}^{\;\; \dot \b}  C^{\g} 
+ + \x^{\g \dot \d} \partial_{\g \dot \d}  \F_{\a}
+\\
+\end{array}$} }
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 530
+```
+{% raw %}
+ \begin{table}[hptb]
+
+\caption{\Large   Antichiral Spinor Transformations}
+
+\la{antichiral}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{lll}  
+
+\\
+
+\d \f_{\a}&= & 
+
+  W_{\a \dot   \b} {\oC}^{\dot   \b} 
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} \f_{\a}
+
+\\
+
+ \d W_{\a \dot \b} &  =& 
+
+\pa_{ \g \dot \b }  \f_{\a} C^{\g} + \F_{\a} {\ov C}_{\dot \b}  
+
++ \x^{\g \dot \d} \partial_{\g \dot \d}   W_{\a \dot \b} 
+
+\\
+
+\d
+
+ \F_{\a} &  =&  \pa_{ \g \dot \b }  W_{\a}^{\;\; \dot \b}  C^{\g} 
+
+ + \x^{\g \dot \d} \partial_{\g \dot \d}  \F_{\a}
+
+\\
+
+\end{array}$} }
+
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 531
+```
+{% raw %}
+ \begin{table}[thbp]
+\caption{\Large   Antichiral Spinor Transformations}
+\la{primeantichiral}
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{lll}  
+\\
+\d \f'_{\a}&= & 
+  W'_{\a \dot   \b} {\oC}^{\dot   \b} 
++ \x^{\g \dot \d} \partial_{\g \dot \d} \f'_{\a}
+\\
+ \d W'_{\a \dot \b} &  =& 
+\pa_{ \g \dot \b }  \f'_{\a} C^{\g} + \F'_{\a} {\ov C}_{\dot \b}  
++ \x^{\g \dot \d} \partial_{\g \dot \d}   W'_{\a \dot \b} 
+\\
+\d
+ \F'_{\a} &  =&  \pa_{ \g \dot \b }  W_{\a}^{'\;\; \dot \b}  C^{\g} 
+ + \x^{\g \dot \d} \partial_{\g \dot \d}  \F'_{\a}
+\\
+\end{array}$}} 
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 532
+```
+{% raw %}
+ \begin{table}[thbp]
+
+\caption{\Large   Antichiral Spinor Transformations}
+
+\la{primeantichiral}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{lll}  
+
+\\
+
+\d \f'_{\a}&= & 
+
+  W'_{\a \dot   \b} {\oC}^{\dot   \b} 
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} \f'_{\a}
+
+\\
+
+ \d W'_{\a \dot \b} &  =& 
+
+\pa_{ \g \dot \b }  \f'_{\a} C^{\g} + \F'_{\a} {\ov C}_{\dot \b}  
+
++ \x^{\g \dot \d} \partial_{\g \dot \d}   W'_{\a \dot \b} 
+
+\\
+
+\d
+
+ \F'_{\a} &  =&  \pa_{ \g \dot \b }  W_{\a}^{'\;\; \dot \b}  C^{\g} 
+
+ + \x^{\g \dot \d} \partial_{\g \dot \d}  \F'_{\a}
+
+\\
+
+\end{array}$}} 
+
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 533
+```
+{% raw %}
+\begin{table}
+\caption{\Large   Field, Composite and Zinn Source Transformations  including a spinor $\f_{\a}$ with dimension  $\fr{1}{2}$: This is free from ZMOF    term. }
+\framebox{
+{\Large $\begin{array}{lll}  
+\la{deltaInsertphionehalf} 
+\\
+\d A^i&= & 
+\fr{\d {\cal A}}{\d \G_i} 
+=  \y^{i}_{  \b} {  C}^{  \b} 
++ \x^{\g \dot \d} \partial_{\g \dot \d} A^i
+\\
+\d {\ov A}_i&= & 
+\fr{\d {\cal A}}{\d {\ov \G}^i} 
+=  {\ov \y}_{i  \dot \b} {\ov  C}^{ \dot  \b} 
++ \x^{\g \dot \d} \partial_{\g \dot \d} {\ov A}_i
+\\
+&&
++ \lt (
+  f_i^j  \A_j 
+\rt )
+\f^{\a} C_{\a}  
+\\
+
+\d \y_{\a}^i &  =& 
+\fr{\d {\cal A}}{\d {  Y}_i^{   \a} } = 
+\pa_{ \a \dot \b }  A^{i} {\ov C}^{\dot \b}  
++ 
+C_{\a}   
+F_1^i
++ \x^{\g \dot \d} \partial_{\g \dot \d}  \y^{i}_{\a  }
+\\
+&& 
++  f_j^i  \f^{\b} \y^j_{\b} C_{\a}   
+\\
+&&
++  f_j^k  f_k^i  (\f)^2 A^j  C_{\a} 
+  
+\\
+
+\d
+ {\ov \y}_{i \dot \a} &  =& 
+\fr{\d {\cal A}}{\d { {\ov Y}}^{i \dot   \a} } = 
+\pa_{ \a \dot \a }  {\ov A}_{i} { c}^{\a}  
++ 
+{\ov C}_{\dot \a}   
+{\ov F}_{1,i}
++ \x^{\g \dot \d} \partial_{\g \dot \d} 
+ {\ov \y}_{i \dot \a} 
+\\
+&& 
++  f_i^j  \f^{\b} C_{\b}   \oy_{j \dot \b}  
+\\
+\d \G_i 
+&= &
+ \fr{\d {\cal A}}{\d A^i} 
+=
+ - \fr{1}{2} \pa_{ \a \dot \b  }       \pa^{ \a \dot \b  }        {\ov  A}_{i} 
+\\
+&& +   m {g}_{iq} F_1^q  + g_{ijk} { F}_2^{jk}
+ - \pa_{ \a \dot \b } Y_{i}^{ \a}    {\ov C}^{\dot \b}   
++ \x^{\g \dot \d} \partial_{\g \dot \d} \G_i
+\\
+&& 
++  f_i^j  \lt \{ 
+m g_{jk}  \f^{\b} \y^k_{\b}   
++ 2 g_{jkl}  \f^{\b} A^k \y^l_{\b}   
+\rt \}
++  f_i^j \f^{\a} \pa_{\a \dot \b  } \oy^{\dot \b}_j   
+\\
+&&
++ 
+\f^{\a}\f_{\a}
+\lt \{
+f_i^j f_j^k {\ov F}_{1,k} 
++
+f_k^j f_j^l A^k \lt ( m g_{il}  + 2 g_{ilq} A^q  
+\rt ) 
+\rt \} 
+\\
+
+
+
+
+\d {\ov \G}^i 
+&= & \fr{\d {\cal A}}{\d {\ov A}_i} 
+=
+- \fr{1}{2} \pa_{ \a \dot \b  }       \pa^{ \a \dot \b  }        { A}^{i} 
+\\
+&& 
++  m {\ov g}^{ij} {\ov  F}_{1, k}  
++  {\ov g}^{ijk}     {\ov  F}_{2,j k} 
+\\
+&& - \pa_{ \a \dot \b } {\ov Y}^{ i \dot \b}    { C}^{\a}   
++ \x^{\g \dot \d} \partial_{\g \dot \d} 
+ {\ov \G}^i
+\\
+&&
++  f_j^i \f^{\a} C_{\a} \oG^j 
+\\
+\d Y_{i}^{ \a} 
+&=&\fr{\d {\cal A}}{\d {  \y}^i_{   \a}} 
+= 
+-
+  \pa^{\a \dot \b  }   
+{\ov \y}_{i   \dot \b}
++  m {g}_{iq}   
+\y^{q \a} 
+\\
+&&
+ +
+2 g_{ijk}  \y^{j \a} A^k    
+-
+\G_i  
+ {  C}^{  \a}
++ \x^{\g \dot \d} \partial_{\g \dot \d}  Y_{i}^{ \a}
+\\
+&& 
++  f_i^j \oF_{1,j}  \f_{\a}  
+\\
+\d 
+{\ov Y}^{i \dot \a} 
+&=&\fr{\d {\cal A}}{\d {\ov \y}_i^{ \dot \a} 
+} 
+= 
+-
+  \pa^{\b \dot \a  }   
+{ \y}^i_{ \b}
++  m {\ov g}^{ik}   
+{\ov \y}_{k}^{\dot  \a} 
+\\
+&& +
+2 {\ov g}^{ijk} {\ov \y}_{j}^{\dot  \a} 
+{\ov A}_k  
+-
+{\ov \G}^i  
+ { \ov C}^{\dot  \a}
++ \x^{\g \dot \d} \partial_{\g \dot \d}  
+{\ov Y}^{i \dot \a} 
+\\
+&&
++  f_j^i \f^{\a} 
+\lt \{
+\pa_{\a \dot \a  } A^j  
++ C_{\a} {\ov Y}^j_{ \dot \a  }    
+\rt \}
+\\
+\\
+\d C_{\a}
+&=&
+0
+\\
+\d  {\ov C}_{\dot \b}
+&=&
+0
+
+\end{array}$}} 
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 534
+```
+{% raw %}
+\begin{table}
+
+\caption{\Large   Field, Composite and Zinn Source Transformations  including a spinor $\f_{\a}$ with dimension  $\fr{1}{2}$: This is free from ZMOF    term. }
+
+\framebox{
+
+{\Large $\begin{array}{lll}  
+
+\la{deltaInsertphionehalf} 
+
+\\
+
+\d A^i&= & 
+
+\fr{\d {\cal A}}{\d \G_i} 
+
+=  \y^{i}_{  \b} {  C}^{  \b} 
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} A^i
+
+\\
+
+\d {\ov A}_i&= & 
+
+\fr{\d {\cal A}}{\d {\ov \G}^i} 
+
+=  {\ov \y}_{i  \dot \b} {\ov  C}^{ \dot  \b} 
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} {\ov A}_i
+
+\\
+
+&&
+
++ \lt (
+
+  f_i^j  \A_j 
+
+\rt )
+
+\f^{\a} C_{\a}  
+
+\\
+
+
+
+\d \y_{\a}^i &  =& 
+
+\fr{\d {\cal A}}{\d {  Y}_i^{   \a} } = 
+
+\pa_{ \a \dot \b }  A^{i} {\ov C}^{\dot \b}  
+
++ 
+
+C_{\a}   
+
+F_1^i
+
++ \x^{\g \dot \d} \partial_{\g \dot \d}  \y^{i}_{\a  }
+
+\\
+
+&& 
+
++  f_j^i  \f^{\b} \y^j_{\b} C_{\a}   
+
+\\
+
+&&
+
++  f_j^k  f_k^i  (\f)^2 A^j  C_{\a} 
+
+  
+
+\\
+
+
+
+\d
+
+ {\ov \y}_{i \dot \a} &  =& 
+
+\fr{\d {\cal A}}{\d { {\ov Y}}^{i \dot   \a} } = 
+
+\pa_{ \a \dot \a }  {\ov A}_{i} { c}^{\a}  
+
++ 
+
+{\ov C}_{\dot \a}   
+
+{\ov F}_{1,i}
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} 
+
+ {\ov \y}_{i \dot \a} 
+
+\\
+
+&& 
+
++  f_i^j  \f^{\b} C_{\b}   \oy_{j \dot \b}  
+
+\\
+
+\d \G_i 
+
+&= &
+
+ \fr{\d {\cal A}}{\d A^i} 
+
+=
+
+ - \fr{1}{2} \pa_{ \a \dot \b  }       \pa^{ \a \dot \b  }        {\ov  A}_{i} 
+
+\\
+
+&& +   m {g}_{iq} F_1^q  + g_{ijk} { F}_2^{jk}
+
+ - \pa_{ \a \dot \b } Y_{i}^{ \a}    {\ov C}^{\dot \b}   
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} \G_i
+
+\\
+
+&& 
+
++  f_i^j  \lt \{ 
+
+m g_{jk}  \f^{\b} \y^k_{\b}   
+
++ 2 g_{jkl}  \f^{\b} A^k \y^l_{\b}   
+
+\rt \}
+
++  f_i^j \f^{\a} \pa_{\a \dot \b  } \oy^{\dot \b}_j   
+
+\\
+
+&&
+
++ 
+
+\f^{\a}\f_{\a}
+
+\lt \{
+
+f_i^j f_j^k {\ov F}_{1,k} 
+
++
+
+f_k^j f_j^l A^k \lt ( m g_{il}  + 2 g_{ilq} A^q  
+
+\rt ) 
+
+\rt \} 
+
+\\
+
+
+
+
+
+
+
+
+
+\d {\ov \G}^i 
+
+&= & \fr{\d {\cal A}}{\d {\ov A}_i} 
+
+=
+
+- \fr{1}{2} \pa_{ \a \dot \b  }       \pa^{ \a \dot \b  }        { A}^{i} 
+
+\\
+
+&& 
+
++  m {\ov g}^{ij} {\ov  F}_{1, k}  
+
++  {\ov g}^{ijk}     {\ov  F}_{2,j k} 
+
+\\
+
+&& - \pa_{ \a \dot \b } {\ov Y}^{ i \dot \b}    { C}^{\a}   
+
++ \x^{\g \dot \d} \partial_{\g \dot \d} 
+
+ {\ov \G}^i
+
+\\
+
+&&
+
++  f_j^i \f^{\a} C_{\a} \oG^j 
+
+\\
+
+\d Y_{i}^{ \a} 
+
+&=&\fr{\d {\cal A}}{\d {  \y}^i_{   \a}} 
+
+= 
+
+-
+
+  \pa^{\a \dot \b  }   
+
+{\ov \y}_{i   \dot \b}
+
++  m {g}_{iq}   
+
+\y^{q \a} 
+
+\\
+
+&&
+
+ +
+
+2 g_{ijk}  \y^{j \a} A^k    
+
+-
+
+\G_i  
+
+ {  C}^{  \a}
+
++ \x^{\g \dot \d} \partial_{\g \dot \d}  Y_{i}^{ \a}
+
+\\
+
+&& 
+
++  f_i^j \oF_{1,j}  \f_{\a}  
+
+\\
+
+\d 
+
+{\ov Y}^{i \dot \a} 
+
+&=&\fr{\d {\cal A}}{\d {\ov \y}_i^{ \dot \a} 
+
+} 
+
+= 
+
+-
+
+  \pa^{\b \dot \a  }   
+
+{ \y}^i_{ \b}
+
++  m {\ov g}^{ik}   
+
+{\ov \y}_{k}^{\dot  \a} 
+
+\\
+
+&& +
+
+2 {\ov g}^{ijk} {\ov \y}_{j}^{\dot  \a} 
+
+{\ov A}_k  
+
+-
+
+{\ov \G}^i  
+
+ { \ov C}^{\dot  \a}
+
++ \x^{\g \dot \d} \partial_{\g \dot \d}  
+
+{\ov Y}^{i \dot \a} 
+
+\\
+
+&&
+
++  f_j^i \f^{\a} 
+
+\lt \{
+
+\pa_{\a \dot \a  } A^j  
+
++ C_{\a} {\ov Y}^j_{ \dot \a  }    
+
+\rt \}
+
+\\
+
+\\
+
+\d C_{\a}
+
+&=&
+
+0
+
+\\
+
+\d  {\ov C}_{\dot \b}
+
+&=&
+
+0
+
+
+
+\end{array}$}} 
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 535
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large First Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+\vspace{.1in}
+\framebox{ 
+{ \Large $\begin{array}{ccccccc}  
+\la{insertonehalfscalars1}\\
+N_{\rm Form} = 4 &&
+N_{\rm Form} =  5 
+
+\\
+
+\begin{array}{c} 
+ (C \x^2 C) 
+\\
+\lt \{
+m \ok^{ij} \A_i
+\A_j
++ {\ok}^{ijk} \A_i \A_j
+\A_k
+\rt \}
+\end{array}
+ & \stackrel{d_7}{\lra} 
+&
+\begin{array}{c} 
+ (C \x^2 C)  (\f C)  
+\\
+  \lt (  f_i^q \A_q
+\rt ) 
+\\
+\lt \{
+ 2m \ok^{ij}  \A_j
++ 3{\ok}^{ijk}   \A_j
+\A_k
+\rt \}
+\end{array}
+
+\\
+\\
+\begin{array}{c} 
+ (C \x^2 C)
+\\
+\lt \{ 
+m \A_i \A_j \lt (
+ 2  \oh^{ik} \of^{j}_k  
+\rt )
+\rt.
+\\
+\lt.
++\A_i \A_j \A_k
+\lt (
+ 3  \oh^{ijq} \of^{k}_q  
+\rt )
+\rt \}
+\end{array}
+ & \stackrel{d_7^{\dag}}{\longleftarrow} 
+&
+\begin{array}{c} 
+ (C \x^2 C)  (\f C)  
+\;
+\\
+  \lt \{ 
+ m {\oh}^{ij}   \A_i
+ \A_j+  {\oh}^{ijk}   \A_i
+ \A_j \A_k \rt \}
+\end{array}
+\\
+
+\\
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 536
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large First Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{ \Large $\begin{array}{ccccccc}  
+
+\la{insertonehalfscalars1}\\
+
+N_{\rm Form} = 4 &&
+
+N_{\rm Form} =  5 
+
+
+
+\\
+
+
+
+\begin{array}{c} 
+
+ (C \x^2 C) 
+
+\\
+
+\lt \{
+
+m \ok^{ij} \A_i
+
+\A_j
+
++ {\ok}^{ijk} \A_i \A_j
+
+\A_k
+
+\rt \}
+
+\end{array}
+
+ & \stackrel{d_7}{\lra} 
+
+&
+
+\begin{array}{c} 
+
+ (C \x^2 C)  (\f C)  
+
+\\
+
+  \lt (  f_i^q \A_q
+
+\rt ) 
+
+\\
+
+\lt \{
+
+ 2m \ok^{ij}  \A_j
+
++ 3{\ok}^{ijk}   \A_j
+
+\A_k
+
+\rt \}
+
+\end{array}
+
+
+
+\\
+
+\\
+
+\begin{array}{c} 
+
+ (C \x^2 C)
+
+\\
+
+\lt \{ 
+
+m \A_i \A_j \lt (
+
+ 2  \oh^{ik} \of^{j}_k  
+
+\rt )
+
+\rt.
+
+\\
+
+\lt.
+
++\A_i \A_j \A_k
+
+\lt (
+
+ 3  \oh^{ijq} \of^{k}_q  
+
+\rt )
+
+\rt \}
+
+\end{array}
+
+ & \stackrel{d_7^{\dag}}{\longleftarrow} 
+
+&
+
+\begin{array}{c} 
+
+ (C \x^2 C)  (\f C)  
+
+\;
+
+\\
+
+  \lt \{ 
+
+ m {\oh}^{ij}   \A_i
+
+ \A_j+  {\oh}^{ijk}   \A_i
+
+ \A_j \A_k \rt \}
+
+\end{array}
+
+\\
+
+
+
+\\
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 537
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:  Equations arising from Table \ref{insertonehalfscalars1}. }
+
+\vspace{.1in}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:  Equations arising from Table \ref{insertonehalfscalars1}. }
+\vspace{.1in}
+\framebox{ 
+ { \Large
+ $\begin{array}{ccccc}  
+\la{insertonehalfscalars2}
+ \\
+ f_i^{(j} \ok^{k)i}
+&=&
+0
+& {\rm Ignore?}
+\\
+\\
+ f_i^{(j} \ok^{kl)i}
+&=&
+0
+& {\rm Ignore?}
+\\
+\\
+ 2  \oh^{ik} \of^{j}_k  
+&=&
+0
+& {\rm Keep}
+\\
+ 3  \oh^{ijq} \of^{k}_q  
+&=&
+0
+& {\rm Keep}
+
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 538
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:  Equations arising from Table \ref{insertonehalfscalars1}. }
+
+\vspace{.1in}
+
+\framebox{ 
+
+ { \Large
+
+ $\begin{array}{ccccc}  
+
+\la{insertonehalfscalars2}
+
+ \\
+
+ f_i^{(j} \ok^{k)i}
+
+&=&
+
+0
+
+& {\rm Ignore?}
+
+\\
+
+\\
+
+ f_i^{(j} \ok^{kl)i}
+
+&=&
+
+0
+
+& {\rm Ignore?}
+
+\\
+
+\\
+
+ 2  \oh^{ik} \of^{j}_k  
+
+&=&
+
+0
+
+& {\rm Keep}
+
+\\
+
+ 3  \oh^{ijq} \of^{k}_q  
+
+&=&
+
+0
+
+& {\rm Keep}
+
+
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 539
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Third Table for  action from inserted spinor coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Equations arising from 
+
+Table \ref{insertonehalfscalars2} and  Table \ref{onehalfscalars5} assuming non-renormalization. All the equations can be derived from the Generating Function ${\cal T}$ of Equation (\ref{onegenfunc}).} 
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[hptb]
+\caption{\Large Third Table for  action from inserted spinor coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+Equations arising from 
+Table \ref{insertonehalfscalars2} and  Table \ref{onehalfscalars5} assuming non-renormalization. All the equations can be derived from the Generating Function ${\cal T}$ of Equation (\ref{onegenfunc}).} 
+
+\vspace{.1in}
+\framebox{ 
+ { \Large
+ $\begin{array}{ccccc}  
+\la{insertonehalfscalars3}
+
+\\
+ 
+   f_{i}^{j} {\og}^{ki}
++   f_{i}^{k} {\og}^{ji}
+& =& \fr{\pa {{\cal T}} }{\pa h_{jk} } 
+=0
+\\
+   f_{q}^{(i} {\og}^{jk)q}
+& =& \fr{\pa {{\cal T}} }{\pa h_{ijk} } 
+=0
+\\
+\lt (
+2 g_{ij} \oh^{jq} +
+6 g_{ijk} \oh^{jkq} \rt ) 
+& =& \fr{\pa {\ov{\cal T}} }{\pa \of^i_j } 
+=0
+\\
+ 2  \oh^{k(i} \of^{j)}_k  
+& =& \fr{1}{2} \fr{\pa {\ov{\cal T}} }{\pa g_{ij} } 
+=0
+\\
+ 3  \oh^{q(ij} \of^{k)}_q  
+& =&  \fr{1}{2} \fr{\pa {\ov{\cal T}} }{\pa g_{ijk} } 
+=0
+\\
+
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 540
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Third Table for  action from inserted spinor coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Equations arising from 
+
+Table \ref{insertonehalfscalars2} and  Table \ref{onehalfscalars5} assuming non-renormalization. All the equations can be derived from the Generating Function ${\cal T}$ of Equation (\ref{onegenfunc}).} 
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+ { \Large
+
+ $\begin{array}{ccccc}  
+
+\la{insertonehalfscalars3}
+
+
+
+\\
+
+ 
+
+   f_{i}^{j} {\og}^{ki}
+
++   f_{i}^{k} {\og}^{ji}
+
+& =& \fr{\pa {{\cal T}} }{\pa h_{jk} } 
+
+=0
+
+\\
+
+   f_{q}^{(i} {\og}^{jk)q}
+
+& =& \fr{\pa {{\cal T}} }{\pa h_{ijk} } 
+
+=0
+
+\\
+
+\lt (
+
+2 g_{ij} \oh^{jq} +
+
+6 g_{ijk} \oh^{jkq} \rt ) 
+
+& =& \fr{\pa {\ov{\cal T}} }{\pa \of^i_j } 
+
+=0
+
+\\
+
+ 2  \oh^{k(i} \of^{j)}_k  
+
+& =& \fr{1}{2} \fr{\pa {\ov{\cal T}} }{\pa g_{ij} } 
+
+=0
+
+\\
+
+ 3  \oh^{q(ij} \of^{k)}_q  
+
+& =&  \fr{1}{2} \fr{\pa {\ov{\cal T}} }{\pa g_{ijk} } 
+
+=0
+
+\\
+
+
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 541
+```
+{% raw %}
+\begin{table}[hptb]
+\caption{\Large Fourth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+Mappings  of $E_{\infty} \ra {\cal H}$.  These are subject to the constraints in Table \ref{insertonehalfscalars3}, if we assume non-renormalization of the chiral action terms.
+ } 
+
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccccc}  
+\la{insertonehalfscalars4}.
+\\
+E_{\infty} &&  {\cal H}\\
+\\
+ 
+\begin{array}{c}  
+(C \x^2 C) \f^{\a} C_{\a} 
+\\
+\lt \{
+ \oh^{ij} m \A_i \A_j  
++ \oh^{ijk}  \A_i \A_j \A_k 
+\rt \}
+\end{array}
+& \lra &
+\begin{array}{c}  
+\int d^4 x \;  
+\f^{\a} C_{\a}  
+\\
+\lt \{
+ m \oh^{ij}  \oF_{2,ij} 
++ \oh^{ijk}  \oF_{3,ijk} \rt \}
+\end{array}
+\\
+\\
+\begin{array}{c}  
+ (C \x^2 C) 
+\\
+\f^{\a} \y^i_{\a} 
+\lt \{
+ f_i^j \A_j
+ \rt \}
+\end{array}
+ & \lra &
+\begin{array}{c}  
+\int d^4 x \;
+ \f^{\a} 
+\lt \{
+f_i^j
+\lt [
+\oG^{i} \A_j
+C_{\a} 
+\rt.
+\rt.
+\\
+\lt.
++
+\lt (
+\pa_{\a \dot \b} A^i 
++ C_{\a}\oY^{i}_{ \dot \b} \rt )
+ \oy_{j}^{\dot \b}
+\lt.
+-
+\y^i_{\a} 
+\oF_{1,i} \rt ]
+\rt \}
+\end{array}
+
+
+\end{array}$ }}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 542
+```
+{% raw %}
+\begin{table}[hptb]
+
+\caption{\Large Fourth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
+
+Mappings  of $E_{\infty} \ra {\cal H}$.  These are subject to the constraints in Table \ref{insertonehalfscalars3}, if we assume non-renormalization of the chiral action terms.
+
+ } 
+
+
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccccc}  
+
+\la{insertonehalfscalars4}.
+
+\\
+
+E_{\infty} &&  {\cal H}\\
+
+\\
+
+ 
+
+\begin{array}{c}  
+
+(C \x^2 C) \f^{\a} C_{\a} 
+
+\\
+
+\lt \{
+
+ \oh^{ij} m \A_i \A_j  
+
++ \oh^{ijk}  \A_i \A_j \A_k 
+
+\rt \}
+
+\end{array}
+
+& \lra &
+
+\begin{array}{c}  
+
+\int d^4 x \;  
+
+\f^{\a} C_{\a}  
+
+\\
+
+\lt \{
+
+ m \oh^{ij}  \oF_{2,ij} 
+
++ \oh^{ijk}  \oF_{3,ijk} \rt \}
+
+\end{array}
+
+\\
+
+\\
+
+\begin{array}{c}  
+
+ (C \x^2 C) 
+
+\\
+
+\f^{\a} \y^i_{\a} 
+
+\lt \{
+
+ f_i^j \A_j
+
+ \rt \}
+
+\end{array}
+
+ & \lra &
+
+\begin{array}{c}  
+
+\int d^4 x \;
+
+ \f^{\a} 
+
+\lt \{
+
+f_i^j
+
+\lt [
+
+\oG^{i} \A_j
+
+C_{\a} 
+
+\rt.
+
+\rt.
+
+\\
+
+\lt.
+
++
+
+\lt (
+
+\pa_{\a \dot \b} A^i 
+
++ C_{\a}\oY^{i}_{ \dot \b} \rt )
+
+ \oy_{j}^{\dot \b}
+
+\lt.
+
+-
+
+\y^i_{\a} 
+
+\oF_{1,i} \rt ]
+
+\rt \}
+
+\end{array}
+
+
+
+
+
+\end{array}$ }}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 543
+```
+{% raw %}
+ \begin{table}[thbp]
+\caption{\Large   First Two Spinor Invariants}
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccc}  
+ \la{threespininv}
+{\rm Dim} \;\f = &\F_{\a}=\int d^2 \oq  & \oH C_{\a}  = \int d^2 \oq 
+\\
+\fr{1}{2} 
+&  \lt \{
+f_i^j {\widehat \y}^i_{\a} {\widehat \A}_j 
+\rt \}
+& 
+  \lt \{
+  
+\oh^{ij} m {\widehat \A}_i {\widehat \A}_j
+\rt.
+\\
+&&
+\lt.
++
+\oh^{ijk} m {\widehat \A}_i {\widehat \A}_j
+{\widehat \A}_k
+\rt \} C_{\a} 
+\\
+
+
+- \fr{1}{2} 
+&  \lt \{
+f_i^j m {\widehat \y}^i_{\a} {\widehat \A}_j 
+\rt.
+& 
+  \lt \{
+\oh^{ij}  m^2 {\widehat \A}_i {\widehat \A}_j
+\rt.
+\\
+&
+\lt.
++
+f_i^{jk}  {\widehat \y}^i_{\a} {\widehat \A}_j{\widehat \A}_k
+\rt \}
+&
+\lt.
++
+\oh^{ijk} m {\widehat \A}_i {\widehat \A}_j
+{\widehat \A}_k
+\rt.
+\\
+&&
+\lt.
++
+\oh^{ijkl}  {\widehat \A}_i {\widehat \A}_j
+{\widehat \A}_k
+{\widehat \A}_l
+\rt \} C_{\a} 
+\\
+\end{array}$
+}} \end{table} 
+
+{% endraw %}
+```
+## Example Number: 544
+```
+{% raw %}
+ \begin{table}[thbp]
+
+\caption{\Large   First Two Spinor Invariants}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccc}  
+
+ \la{threespininv}
+
+{\rm Dim} \;\f = &\F_{\a}=\int d^2 \oq  & \oH C_{\a}  = \int d^2 \oq 
+
+\\
+
+\fr{1}{2} 
+
+&  \lt \{
+
+f_i^j {\widehat \y}^i_{\a} {\widehat \A}_j 
+
+\rt \}
+
+& 
+
+  \lt \{
+
+  
+
+\oh^{ij} m {\widehat \A}_i {\widehat \A}_j
+
+\rt.
+
+\\
+
+&&
+
+\lt.
+
++
+
+\oh^{ijk} m {\widehat \A}_i {\widehat \A}_j
+
+{\widehat \A}_k
+
+\rt \} C_{\a} 
+
+\\
+
+
+
+
+
+- \fr{1}{2} 
+
+&  \lt \{
+
+f_i^j m {\widehat \y}^i_{\a} {\widehat \A}_j 
+
+\rt.
+
+& 
+
+  \lt \{
+
+\oh^{ij}  m^2 {\widehat \A}_i {\widehat \A}_j
+
+\rt.
+
+\\
+
+&
+
+\lt.
+
++
+
+f_i^{jk}  {\widehat \y}^i_{\a} {\widehat \A}_j{\widehat \A}_k
+
+\rt \}
+
+&
+
+\lt.
+
++
+
+\oh^{ijk} m {\widehat \A}_i {\widehat \A}_j
+
+{\widehat \A}_k
+
+\rt.
+
+\\
+
+&&
+
+\lt.
+
++
+
+\oh^{ijkl}  {\widehat \A}_i {\widehat \A}_j
+
+{\widehat \A}_k
+
+{\widehat \A}_l
+
+\rt \} C_{\a} 
+
+\\
+
+\end{array}$
+
+}} \end{table} 
+
+{% endraw %}
+```
+## Example Number: 545
+```
+{% raw %}
+ \begin{table}[thbp]
+
+\caption{\Large   ${\cal T}_{\rm Dim}$ for First Three  Spinor Invariants }
+
+[end-of-con]
+
+
+[start-of-table]
+
+ \begin{table}[thbp]
+\caption{\Large   ${\cal T}_{\rm Dim}$ for First Three  Spinor Invariants }
+ \la{threespininvT}
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccc}  
+ {\rm Dim}\;\f =  & {\cal T}
+\\
+\fr{1}{2} 
+  &
+
+f_j^i 
+\lt ( 2 h_{ik} \og^{jk}  + 6 h_{ikl} \og^{jkl} \rt )
+
+\\
+\\
+\fr{-1}{2} 
+  &
+f_j^i 
+\lt ( 2 h_{ik} \og^{jk}  + 6 h_{ikl} \og^{jkl} \rt )
+
++ f_j^{il} 
+\lt ( 2 h_{ikl} \og^{jk}  + 6 h_{iklq} \og^{jkq} \rt )
+
+\\
+
+
+
+\end{array}$
+} }
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 546
+```
+{% raw %}
+ \begin{table}[thbp]
+
+\caption{\Large   ${\cal T}_{\rm Dim}$ for First Three  Spinor Invariants }
+
+ \la{threespininvT}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccc}  
+
+ {\rm Dim}\;\f =  & {\cal T}
+
+\\
+
+\fr{1}{2} 
+
+  &
+
+
+
+f_j^i 
+
+\lt ( 2 h_{ik} \og^{jk}  + 6 h_{ikl} \og^{jkl} \rt )
+
+
+
+\\
+
+\\
+
+\fr{-1}{2} 
+
+  &
+
+f_j^i 
+
+\lt ( 2 h_{ik} \og^{jk}  + 6 h_{ikl} \og^{jkl} \rt )
+
+
+
++ f_j^{il} 
+
+\lt ( 2 h_{ikl} \og^{jk}  + 6 h_{iklq} \og^{jkq} \rt )
+
+
+
+\\
+
+
+
+
+
+
+
+\end{array}$
+
+} }
+
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 547
+```
+{% raw %}
+ \begin{table}[thbp]
+
+\caption{\Large   First Bispinor}
+
+\vspace{.1in}
+
+[end-of-con]
+
+
+[start-of-table]
+
+ \begin{table}[thbp]
+\caption{\Large   First Bispinor}
+\vspace{.1in}
+\framebox{ 
+{\Large $\begin{array}{ccccc}  
+ \la{bispininv}
+ {\rm Dim} \; K_{\a \b} &Q_{(\a \b)}=\int d^2 \oq  & \F_{(\a} C_{\b)}  = \int d^2 \oq 
+& {\ov H} C_{\a}C_{\b}  = \int d^2 \oq 
+\\
+4
+&  k_{[ij]} {\widehat \y}^i_{(\a} {\widehat \y}^j_{\b)} & 
+ \lt \{
+  f^{i}_j m {\widehat \y}^j_{(\a} 
+{\widehat \A}_i
+\rt.
+& 
+ \lt \{
+ {\ov h}^{ij} m^2  
+{\widehat \A}_i
+{\widehat \A}_j
+\rt.
+\\
+&&
++
+\lt.  f^{ik}_j  {\widehat \y}^j_{(\a} 
+{\widehat \A}_i
+{\widehat \A}_k
+\rt \} C_{\b)} 
+&
+\lt.
+  {\ov h}^{ijk} m  
+{\widehat \A}_i
+{\widehat \A}_j
+{\widehat \A}_k
+\rt.
+\\
+&&&
+\lt.
+  {\ov h}^{ijkl}   
+{\widehat \A}_i
+{\widehat \A}_j
+{\widehat \A}_k
+{\widehat \A}_l
+\rt \}  C_{\a} C_{\b} 
+\\
+
+
+\end{array}$
+}} 
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 548
+```
+{% raw %}
+ \begin{table}[thbp]
+
+\caption{\Large   First Bispinor}
+
+\vspace{.1in}
+
+\framebox{ 
+
+{\Large $\begin{array}{ccccc}  
+
+ \la{bispininv}
+
+ {\rm Dim} \; K_{\a \b} &Q_{(\a \b)}=\int d^2 \oq  & \F_{(\a} C_{\b)}  = \int d^2 \oq 
+
+& {\ov H} C_{\a}C_{\b}  = \int d^2 \oq 
+
+\\
+
+4
+
+&  k_{[ij]} {\widehat \y}^i_{(\a} {\widehat \y}^j_{\b)} & 
+
+ \lt \{
+
+  f^{i}_j m {\widehat \y}^j_{(\a} 
+
+{\widehat \A}_i
+
+\rt.
+
+& 
+
+ \lt \{
+
+ {\ov h}^{ij} m^2  
+
+{\widehat \A}_i
+
+{\widehat \A}_j
+
+\rt.
+
+\\
+
+&&
+
++
+
+\lt.  f^{ik}_j  {\widehat \y}^j_{(\a} 
+
+{\widehat \A}_i
+
+{\widehat \A}_k
+
+\rt \} C_{\b)} 
+
+&
+
+\lt.
+
+  {\ov h}^{ijk} m  
+
+{\widehat \A}_i
+
+{\widehat \A}_j
+
+{\widehat \A}_k
+
+\rt.
+
+\\
+
+&&&
+
+\lt.
+
+  {\ov h}^{ijkl}   
+
+{\widehat \A}_i
+
+{\widehat \A}_j
+
+{\widehat \A}_k
+
+{\widehat \A}_l
+
+\rt \}  C_{\a} C_{\b} 
+
+\\
+
+
+
+
+
+\end{array}$
+
+}} 
+
+\end{table} 
+
+{% endraw %}
+```
+## Example Number: 549
+```
+{% raw %}
+\begin{table}
+\begin{tabular}{|c|c|c|c|c|} \hline
+Orbifold & twist & 6D Lie lattice & Wilson line & further constraints 
+\\ \hline
+$Z_3$    & $(1,1,-2)/3$ & $SU(3)^3$ & $3a_{1,3,5}
+ = 0$ & $a_{i+1} = a_i$, $(i=1,3,5)$ 
+\\ \hline
+$Z_4$ & $(1,1,-2)/4$ & $SO(5)^2\times SU(2)^2$ & 
+$2a_{2,4,5,6} = 0$ & 
+$a_1 = a_3=0$ \\ \hline
+$Z_6$-I & $(1,1,-2)/6$ & $SU(3)\times G_2^2$ & 
+$3a_1 = 0$ & $a_1 = a_2$, $a_{3-6} = 0$ \\ \hline
+$Z_6$-II & $(1,2,-3)/6$ & $SU(3)\times SU(2)^2 \times G_2$ & 
+$3a_1 = 2a_{3,4}= 0$ & $a_1 = a_2$, $a_{5,6}=0$ \\ \hline 
+$Z_7$ & $(1,2,-3)/7$ & $SU(7)$ & 
+$7a_1 =0$ & $a_1 =a_{2-6}$  \\ \hline
+$Z_8$-I & $(1,2,-3)/8$ & $SO(9) \times SO(5)$ & 
+$2a_{4,6} =0$ & $a_{1,2,3,5}=0$  \\ \hline
+$Z_8$-II & $(1,3,-4)/8$ & $SO(9)\times SU(2)^2$ & 
+$2a_{4-6}=0$ & $a_{1-3}=0$   \\ \hline
+$Z_{12}$-I & $(1,4,-5)/12$ & $SU(3) \times F_4$ & 
+$3a_1 =0$ & $a_1 = a_2$, $a_{3-6}=0$  \\ \hline
+$Z_{12}$-II & $(1,5,-6)/12$ & $SU(2)^2 \times F_4$ & 
+$2a_{1,2}=0$ & $a_{3-6}=0$  \\ \hline
+\end{tabular}
+\caption{Allowed discrete Wilson lines.}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 550
+```
+{% raw %}
+\begin{table}
+
+\begin{tabular}{|c|c|c|c|c|} \hline
+
+Orbifold & twist & 6D Lie lattice & Wilson line & further constraints 
+
+\\ \hline
+
+$Z_3$    & $(1,1,-2)/3$ & $SU(3)^3$ & $3a_{1,3,5}
+
+ = 0$ & $a_{i+1} = a_i$, $(i=1,3,5)$ 
+
+\\ \hline
+
+$Z_4$ & $(1,1,-2)/4$ & $SO(5)^2\times SU(2)^2$ & 
+
+$2a_{2,4,5,6} = 0$ & 
+
+$a_1 = a_3=0$ \\ \hline
+
+$Z_6$-I & $(1,1,-2)/6$ & $SU(3)\times G_2^2$ & 
+
+$3a_1 = 0$ & $a_1 = a_2$, $a_{3-6} = 0$ \\ \hline
+
+$Z_6$-II & $(1,2,-3)/6$ & $SU(3)\times SU(2)^2 \times G_2$ & 
+
+$3a_1 = 2a_{3,4}= 0$ & $a_1 = a_2$, $a_{5,6}=0$ \\ \hline 
+
+$Z_7$ & $(1,2,-3)/7$ & $SU(7)$ & 
+
+$7a_1 =0$ & $a_1 =a_{2-6}$  \\ \hline
+
+$Z_8$-I & $(1,2,-3)/8$ & $SO(9) \times SO(5)$ & 
+
+$2a_{4,6} =0$ & $a_{1,2,3,5}=0$  \\ \hline
+
+$Z_8$-II & $(1,3,-4)/8$ & $SO(9)\times SU(2)^2$ & 
+
+$2a_{4-6}=0$ & $a_{1-3}=0$   \\ \hline
+
+$Z_{12}$-I & $(1,4,-5)/12$ & $SU(3) \times F_4$ & 
+
+$3a_1 =0$ & $a_1 = a_2$, $a_{3-6}=0$  \\ \hline
+
+$Z_{12}$-II & $(1,5,-6)/12$ & $SU(2)^2 \times F_4$ & 
+
+$2a_{1,2}=0$ & $a_{3-6}=0$  \\ \hline
+
+\end{tabular}
+
+\caption{Allowed discrete Wilson lines.}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 551
+```
+{% raw %}
+\begin{table}[ht]
+ \begin{center} {\bf The spectral index for a transition
+     with regular $u$ and  $q>-1/2$}  \vspace{1mm}\\
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+    case & $\gamma_{-}$ & $\gamma_{+}$ & kink? &
+    stable? & ampl. depends & $n$\\
+    &&&&& on transition? & \\
+    \hline\hline
+    1 & $-q$  & $ -1 $ & yes & no  & no & $3+2q$ \\
+    2 & $-q$  & $ 2  $ &  no & yes & no & $1-2q$\\
+    3 & $1+q$ & $ -1 $ &  no & yes & no & $1-2q$\\
+    4 & $1+q$ & $ 2 $ &  no & yes & yes& $1-2q$\\
+    \hline
+  \end{tabular}
+ \end{center}
+\caption[Post-big bang spectral indices] {\label{t:n-u}Here we
+summarize the post-big bang spectral indices as a function of the
+pre- and post-big bang exponent of the pump field, if $u$ is
+regular through the transition.  The mild requirement on the
+transition ($\Delta_T$) for this to hold is mentioned in the
+text.}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 552
+```
+{% raw %}
+\begin{table}[ht]
+
+ \begin{center} {\bf The spectral index for a transition
+
+     with regular $u$ and  $q>-1/2$}  \vspace{1mm}\\
+
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+
+    \hline
+
+    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+
+    case & $\gamma_{-}$ & $\gamma_{+}$ & kink? &
+
+    stable? & ampl. depends & $n$\\
+
+    &&&&& on transition? & \\
+
+    \hline\hline
+
+    1 & $-q$  & $ -1 $ & yes & no  & no & $3+2q$ \\
+
+    2 & $-q$  & $ 2  $ &  no & yes & no & $1-2q$\\
+
+    3 & $1+q$ & $ -1 $ &  no & yes & no & $1-2q$\\
+
+    4 & $1+q$ & $ 2 $ &  no & yes & yes& $1-2q$\\
+
+    \hline
+
+  \end{tabular}
+
+ \end{center}
+
+\caption[Post-big bang spectral indices] {\label{t:n-u}Here we
+
+summarize the post-big bang spectral indices as a function of the
+
+pre- and post-big bang exponent of the pump field, if $u$ is
+
+regular through the transition.  The mild requirement on the
+
+transition ($\Delta_T$) for this to hold is mentioned in the
+
+text.}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 553
+```
+{% raw %}
+\begin{table}[ht]
+
+ \begin{center} {\bf The spectral index for a transition
+
+     with regular $v$ and  $q\leqslant 1/2$} \vspace{1mm}\\
+
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[ht]
+ \begin{center} {\bf The spectral index for a transition
+     with regular $v$ and  $q\leqslant 1/2$} \vspace{1mm}\\
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+    case & $\gamma_{-}$ & $\gamma_{+}$ & kink? &
+    stable? & ampl. depends & $n$\\
+    &&&&& on transition? & \\
+    \hline\hline
+    1 & $ q$ & $ 1 $  &  no & yes & no & $3+2q$\\
+    2 & $ q$ & $ 0  $ & yes & no & no & $5-2q$ \\
+    3 & $1-q$ & $ 1  $ &  no & yes & yes & $3+2q$\\
+    4 & $1-q$ & $ 0  $ &  no & yes & no & $3+2q$\\
+    \hline
+  \end{tabular}
+ \end{center}
+\caption[Post-big bang spectral indices] {\label{t:n-v<1/2}Here we
+summaries the post-big bang spectral indices as a function of the
+pre- and post-big bang exponent of the pump field, if $v$ is
+regular through the big bang and $q\leqslant 1/2$. The logarithmic
+corrections at $q=1/2$ are neglected. The mild requirement on the
+transition ($\Delta_T$) for this to hold is mentioned in the
+text.}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 554
+```
+{% raw %}
+\begin{table}[ht]
+
+ \begin{center} {\bf The spectral index for a transition
+
+     with regular $v$ and  $q\leqslant 1/2$} \vspace{1mm}\\
+
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+
+    \hline
+
+    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+
+    case & $\gamma_{-}$ & $\gamma_{+}$ & kink? &
+
+    stable? & ampl. depends & $n$\\
+
+    &&&&& on transition? & \\
+
+    \hline\hline
+
+    1 & $ q$ & $ 1 $  &  no & yes & no & $3+2q$\\
+
+    2 & $ q$ & $ 0  $ & yes & no & no & $5-2q$ \\
+
+    3 & $1-q$ & $ 1  $ &  no & yes & yes & $3+2q$\\
+
+    4 & $1-q$ & $ 0  $ &  no & yes & no & $3+2q$\\
+
+    \hline
+
+  \end{tabular}
+
+ \end{center}
+
+\caption[Post-big bang spectral indices] {\label{t:n-v<1/2}Here we
+
+summaries the post-big bang spectral indices as a function of the
+
+pre- and post-big bang exponent of the pump field, if $v$ is
+
+regular through the big bang and $q\leqslant 1/2$. The logarithmic
+
+corrections at $q=1/2$ are neglected. The mild requirement on the
+
+transition ($\Delta_T$) for this to hold is mentioned in the
+
+text.}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 555
+```
+{% raw %}
+\begin{table}[ht]
+
+ \begin{center} {\bf The spectral index for a transition
+
+     with regular $v$ and  $q> 1/2$}  \vspace{1mm} \\
+
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}[ht]
+ \begin{center} {\bf The spectral index for a transition
+     with regular $v$ and  $q> 1/2$}  \vspace{1mm} \\
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+    case & $\gamma_{-}$ & $\gamma_{+}$ & kink? &
+    stable? & ampl. depends & $n$\\
+    &&&&& on transition? & \\
+    \hline\hline
+    1 & $ q$  & $ 1 $ &  no & yes & yes & $5-2q$\\
+    2 & $ q$  & $ 0 $ & no  & yes & no  & $5-2q$ \\
+    3 & $1-q$ & $ 1 $ &  no & yes & no  & $5-2q$\\
+    4 & $1-q$ & $ 0 $ & yes & no  & no  & $3+2q$\\
+    \hline
+  \end{tabular}
+ \end{center}
+\caption[Post-big bang spectral indices] {\label{t:n-v>1/2}Here we
+summaries the post-big bang spectral indices as a function of the
+pre- and post-big bang exponent of the pump field, if $v$ is
+regular through the big bang and $q>1/2$. The mild requirement on
+the transition ($\Delta_T$) for this to hold is mentioned in the
+text.}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 556
+```
+{% raw %}
+\begin{table}[ht]
+
+ \begin{center} {\bf The spectral index for a transition
+
+     with regular $v$ and  $q> 1/2$}  \vspace{1mm} \\
+
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+
+    \hline
+
+    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+
+    case & $\gamma_{-}$ & $\gamma_{+}$ & kink? &
+
+    stable? & ampl. depends & $n$\\
+
+    &&&&& on transition? & \\
+
+    \hline\hline
+
+    1 & $ q$  & $ 1 $ &  no & yes & yes & $5-2q$\\
+
+    2 & $ q$  & $ 0 $ & no  & yes & no  & $5-2q$ \\
+
+    3 & $1-q$ & $ 1 $ &  no & yes & no  & $5-2q$\\
+
+    4 & $1-q$ & $ 0 $ & yes & no  & no  & $3+2q$\\
+
+    \hline
+
+  \end{tabular}
+
+ \end{center}
+
+\caption[Post-big bang spectral indices] {\label{t:n-v>1/2}Here we
+
+summaries the post-big bang spectral indices as a function of the
+
+pre- and post-big bang exponent of the pump field, if $v$ is
+
+regular through the big bang and $q>1/2$. The mild requirement on
+
+the transition ($\Delta_T$) for this to hold is mentioned in the
+
+text.}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 557
+```
+{% raw %}
+\begin{table}
+\begin{tabular}{c|rrrrrrrrrrrrrrrrrrr}
+$m/n$&0&1&2&3&4&5&6&7&8&9&10&11&12\\
+\hline
+0&&1&&&&&&&&&&&\\
+1&1&1&1&1&&&&&&&&&\\
+2&&1&1&2&1&1&&&&&&&\\
+3&&1&2&3&4&4&3&2&1&&&&\\
+4&&&1&4&6&9&9&9&6&4&1&&\\
+5&&&1&4&9&16&23&27&27&23&16&9&4\\
+6&&&&3&9&23&39&60&73&80&73&60&39\\
+7&&&&2&9&27&60&107&162&211&240&240&211\\
+8&&&&1&6&27&73&162&288&449&600&720&758\\
+9&&&&&4&23&80&211&449&808&1267&1754&2167\\
+10&&&&&1&16&73&240&600&1267&2278&3630&5130\\
+11&&&&&&9&60&240&720&1754&3630&6559&10531\\
+12&&&&&&4&39&211&758&2167&5130&10531&19022\\
+\end{tabular}
+\caption{\label{trk2mul} Multiplicities for the rank 2 hyperbolic
+KM algebra determined by (\ref{rk2km}).}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 558
+```
+{% raw %}
+\begin{table}
+
+\begin{tabular}{c|rrrrrrrrrrrrrrrrrrr}
+
+$m/n$&0&1&2&3&4&5&6&7&8&9&10&11&12\\
+
+\hline
+
+0&&1&&&&&&&&&&&\\
+
+1&1&1&1&1&&&&&&&&&\\
+
+2&&1&1&2&1&1&&&&&&&\\
+
+3&&1&2&3&4&4&3&2&1&&&&\\
+
+4&&&1&4&6&9&9&9&6&4&1&&\\
+
+5&&&1&4&9&16&23&27&27&23&16&9&4\\
+
+6&&&&3&9&23&39&60&73&80&73&60&39\\
+
+7&&&&2&9&27&60&107&162&211&240&240&211\\
+
+8&&&&1&6&27&73&162&288&449&600&720&758\\
+
+9&&&&&4&23&80&211&449&808&1267&1754&2167\\
+
+10&&&&&1&16&73&240&600&1267&2278&3630&5130\\
+
+11&&&&&&9&60&240&720&1754&3630&6559&10531\\
+
+12&&&&&&4&39&211&758&2167&5130&10531&19022\\
+
+\end{tabular}
+
+\caption{\label{trk2mul} Multiplicities for the rank 2 hyperbolic
+
+KM algebra determined by (\ref{rk2km}).}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 559
+```
+{% raw %}
+\begin{table}
+\begin{center}
+\begin{tabular}{ccccccccccccccccccc|c|c}
+18&17&16&15&14&13&12&11&10&9&8&7&6&5&4&3&2&1&0&$P_n$/$l$&dim\\
+\hline
+&&&&&&&&&&&&&&&1&&&&1&4\\
+&&&&&&&&&&&&&&1&&&&1&2&6\\
+&&&&&&&&&&&1&&1&&1&&1&&3&20\\
+\hline
+&&&&&&&&&&1&&3&&2&&3&&&4&49\\
+&&&&&&&1&&3&&5&&7&&7&&4&&5&160\\
+&&&&&&3&&6&&14&&16&&21&&13&&7&6&494\\
+&&&2&&7&&18&&33&&47&&55&&49&&29&&7&1636\\
+\hline
+1&&5&&21&&46&&89&&126&&161&&151&&120&&38&8&5410\\
+
+\end{tabular}
+\caption{\label{trk2rep}The rank 2 algebra (\ref{rk2km}) seen from one
+of its standard $\mathfrak{sl}_2$ subalgebras.}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 560
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{tabular}{ccccccccccccccccccc|c|c}
+
+18&17&16&15&14&13&12&11&10&9&8&7&6&5&4&3&2&1&0&$P_n$/$l$&dim\\
+
+\hline
+
+&&&&&&&&&&&&&&&1&&&&1&4\\
+
+&&&&&&&&&&&&&&1&&&&1&2&6\\
+
+&&&&&&&&&&&1&&1&&1&&1&&3&20\\
+
+\hline
+
+&&&&&&&&&&1&&3&&2&&3&&&4&49\\
+
+&&&&&&&1&&3&&5&&7&&7&&4&&5&160\\
+
+&&&&&&3&&6&&14&&16&&21&&13&&7&6&494\\
+
+&&&2&&7&&18&&33&&47&&55&&49&&29&&7&1636\\
+
+\hline
+
+1&&5&&21&&46&&89&&126&&161&&151&&120&&38&8&5410\\
+
+
+
+\end{tabular}
+
+\caption{\label{trk2rep}The rank 2 algebra (\ref{rk2km}) seen from one
+
+of its standard $\mathfrak{sl}_2$ subalgebras.}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 561
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{tabular}{ccccccccccccccccccccccc|c|c}
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}
+\begin{center}
+\begin{tabular}{ccccccccccccccccccccccc|c|c}
+22&21&20&19&18&17&16&15&14&13&12&11&10&9&8&7&6&5&4&3&2&1&0&$P_n/l$&dim\\
+\hline
+&&&&&&&&&&&&&&&&&&&&&&&1&0\\
+&&&&&&&&&&&&&&&&&&&&&&&2&0\\
+&&&&&&&&&&&&&&&&&&&&&&&3&0\\
+\hline
+&&&&&&&&&&&&1&&&&&&&&&&&4&11\\
+&&&&&&&&&1&&1&&1&&1&&&&&&&&5&44\\
+&&&&&&1&&2&&3&&4&&3&&2&&1&&&&&6&176\\
+&&&1&&3&&6&&10&&12&&12&&10&&6&&3&&1&&7&704\\
+\hline
+1&&3&&10&&19&&31&&39&&44&&39&&31&&19&&10&&2&8&2750\\
+\end{tabular}
+\caption{\label{trk2ideal}The ideal $\mathfrak{i}$ described in the
+text for the rank 2 algebra (\ref{rk2km}).}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 562
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{tabular}{ccccccccccccccccccccccc|c|c}
+
+22&21&20&19&18&17&16&15&14&13&12&11&10&9&8&7&6&5&4&3&2&1&0&$P_n/l$&dim\\
+
+\hline
+
+&&&&&&&&&&&&&&&&&&&&&&&1&0\\
+
+&&&&&&&&&&&&&&&&&&&&&&&2&0\\
+
+&&&&&&&&&&&&&&&&&&&&&&&3&0\\
+
+\hline
+
+&&&&&&&&&&&&1&&&&&&&&&&&4&11\\
+
+&&&&&&&&&1&&1&&1&&1&&&&&&&&5&44\\
+
+&&&&&&1&&2&&3&&4&&3&&2&&1&&&&&6&176\\
+
+&&&1&&3&&6&&10&&12&&12&&10&&6&&3&&1&&7&704\\
+
+\hline
+
+1&&3&&10&&19&&31&&39&&44&&39&&31&&19&&10&&2&8&2750\\
+
+\end{tabular}
+
+\caption{\label{trk2ideal}The ideal $\mathfrak{i}$ described in the
+
+text for the rank 2 algebra (\ref{rk2km}).}
+
+\end{center}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 563
+```
+{% raw %}
+\begin{center}\begin{table}[h]
+  \begin{tabular}{|l*{5}{|c}|l}
+    \cline{2-6}
+    \multicolumn{1}{c}{}&\multicolumn{5}{|c|}{Dimension}&\\
+    \cline{1-6}
+    \small{Stable Branes}&01&23&45&67&89\\\cline{1-6}
+    D9&\tic&\tic&\tic&\tic&\tic&
+    \multirow{4}{2cm}{\begin{tabular}{lp{2cm}}
+	$\left.\phantom{\llap{$\biggl\}^{\bigl\}}$}}\right\}$&
+	$\mathbbm R^{3,1}$ branes
+    \end{tabular}}\\
+    D5$_1$&\tic&\tic&\tic&&\\
+    D5$_2$&\tic&\tic&&\tic&\\
+    D5$_3$&\tic&\tic&&&\tic\\\cline{1-6}
+    D5$_{1,2}$&\tic&&\tic&\tic&&
+    \multirow{4}{2cm}{\begin{tabular}{lp{2cm}}
+	$\left.\phantom{\llap{$\biggl\}^{\bigl\}}$}}\right\}$&
+	cosmic strings
+    \end{tabular}}\\
+    D5$_{1,3}$&\tic&&\tic&&\tic\\
+    D5$_{2,3}$&\tic&&&\tic&\tic\\
+    D1$_0$&\tic&&&&\\
+    \cline{1-6}
+  \end{tabular}
+  \caption{Stable configurations of D-branes. The labels on the the 
+    D-branes indicate which of the three 2-cycles they wrap in the
+    compactification dimensions and an empty spot indicates no
+    wrapping/presence.  For simplicity the cosmic strings are placed
+    along the 1-direction.}\label{stable_table}
+\end{table}\end{center}
+
+{% endraw %}
+```
+## Example Number: 564
+```
+{% raw %}
+\begin{center}\begin{table}[h]
+
+  \begin{tabular}{|l*{5}{|c}|l}
+
+    \cline{2-6}
+
+    \multicolumn{1}{c}{}&\multicolumn{5}{|c|}{Dimension}&\\
+
+    \cline{1-6}
+
+    \small{Stable Branes}&01&23&45&67&89\\\cline{1-6}
+
+    D9&\tic&\tic&\tic&\tic&\tic&
+
+    \multirow{4}{2cm}{\begin{tabular}{lp{2cm}}
+
+	$\left.\phantom{\llap{$\biggl\}^{\bigl\}}$}}\right\}$&
+
+	$\mathbbm R^{3,1}$ branes
+
+    \end{tabular}}\\
+
+    D5$_1$&\tic&\tic&\tic&&\\
+
+    D5$_2$&\tic&\tic&&\tic&\\
+
+    D5$_3$&\tic&\tic&&&\tic\\\cline{1-6}
+
+    D5$_{1,2}$&\tic&&\tic&\tic&&
+
+    \multirow{4}{2cm}{\begin{tabular}{lp{2cm}}
+
+	$\left.\phantom{\llap{$\biggl\}^{\bigl\}}$}}\right\}$&
+
+	cosmic strings
+
+    \end{tabular}}\\
+
+    D5$_{1,3}$&\tic&&\tic&&\tic\\
+
+    D5$_{2,3}$&\tic&&&\tic&\tic\\
+
+    D1$_0$&\tic&&&&\\
+
+    \cline{1-6}
+
+  \end{tabular}
+
+  \caption{Stable configurations of D-branes. The labels on the the 
+
+    D-branes indicate which of the three 2-cycles they wrap in the
+
+    compactification dimensions and an empty spot indicates no
+
+    wrapping/presence.  For simplicity the cosmic strings are placed
+
+    along the 1-direction.}\label{stable_table}
+
+\end{table}\end{center}
+
+{% endraw %}
+```
+## Example Number: 565
+```
+{% raw %}
+\begin{center}\begin{table}[h]
+    \begin{tabular}{|l|*{4}{c|}}\cline{2-5}
+      \multicolumn{1}{c|}{}&Inflation&
+      \multicolumn{3}{|c|}{Cosmic String Types}\\
+      \cline{1-1}\cline{3-5}
+      Inflaton& Possible& Allowed&
+      Kibble& Thermal\\\hline
+      D$(9-\bar9)$&$\times$&&&\\\hline
+      D$(7-\bar7)_{1,2}$
+      &\tic&1$_0$,3$_1$,3$_2$,5$_{1,2}$&5$_{1,2}$&-\\\hline
+      D$(7-\bar7)_{1,3}$
+      &\tic&1$_0$,3$_1$,3$_3$,5$_{1,3}$&5$_{1,3}$&-\\\hline
+      D$(5-\bar5)_1$&\tic&1$_0$,3$_1$&3$_1$&1$_0$\\\hline
+      D$(5-\bar5)_3$&\tic&1$_0$,3$_3$&$3_3$&-\\\hline
+      D$(3-\bar3)_0$&\tic&1$_0$&1$_0$&-\\\hline
+      D$(1-\bar1)$&$\times$&&&\\\hline
+    \end{tabular}
+    \caption{Various inflatons and the cosmic strings to which they
+    decay for a brane world built of sets of D$5_1$ and D$5_2$ branes.
+    The cosmic string types allowed are determined by K-theoretic
+    analysis of the non-BPS systems.  Since the Hubble size is
+    greater than the compactification radii, the Kibble mechanism is
+    capable of producing only defects localized in the three large
+    spacial dimensions.  Cosmic strings can be thermally produced if
+    unstable states are able to persist until reheating.
+    }\label{inflatons}
+\end{table}\end{center}
+
+{% endraw %}
+```
+## Example Number: 566
+```
+{% raw %}
+\begin{center}\begin{table}[h]
+
+    \begin{tabular}{|l|*{4}{c|}}\cline{2-5}
+
+      \multicolumn{1}{c|}{}&Inflation&
+
+      \multicolumn{3}{|c|}{Cosmic String Types}\\
+
+      \cline{1-1}\cline{3-5}
+
+      Inflaton& Possible& Allowed&
+
+      Kibble& Thermal\\\hline
+
+      D$(9-\bar9)$&$\times$&&&\\\hline
+
+      D$(7-\bar7)_{1,2}$
+
+      &\tic&1$_0$,3$_1$,3$_2$,5$_{1,2}$&5$_{1,2}$&-\\\hline
+
+      D$(7-\bar7)_{1,3}$
+
+      &\tic&1$_0$,3$_1$,3$_3$,5$_{1,3}$&5$_{1,3}$&-\\\hline
+
+      D$(5-\bar5)_1$&\tic&1$_0$,3$_1$&3$_1$&1$_0$\\\hline
+
+      D$(5-\bar5)_3$&\tic&1$_0$,3$_3$&$3_3$&-\\\hline
+
+      D$(3-\bar3)_0$&\tic&1$_0$&1$_0$&-\\\hline
+
+      D$(1-\bar1)$&$\times$&&&\\\hline
+
+    \end{tabular}
+
+    \caption{Various inflatons and the cosmic strings to which they
+
+    decay for a brane world built of sets of D$5_1$ and D$5_2$ branes.
+
+    The cosmic string types allowed are determined by K-theoretic
+
+    analysis of the non-BPS systems.  Since the Hubble size is
+
+    greater than the compactification radii, the Kibble mechanism is
+
+    capable of producing only defects localized in the three large
+
+    spacial dimensions.  Cosmic strings can be thermally produced if
+
+    unstable states are able to persist until reheating.
+
+    }\label{inflatons}
+
+\end{table}\end{center}
+
+{% endraw %}
+```
+## Example Number: 567
+```
+{% raw %}
+\begin{table}
+\begin{center}
+\begin{tabular}[t]{c||c|c|c|c|c|c|c}
+$r$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
+$c^{(r)}$    & 0.785 & 1.009 & 1.140 & 1.242 & 1.327 & 1.400 & 1.46 \\
+$c^{(r)}(2)$ &       &       & 1.140 & 1.206 & 1.229 & 1.225 & 1.200 \\
+\hline
+\\
+$r$ & 8 & 9 & 10 & 11 &  &  &  \\
+\hline
+$c^{(r)}(2)$ & 1.164 & 1.118 & 1.067 & 1.013 & & &\\
+\end{tabular}
+\end{center}
+\caption{{\footnotesize Numerical values of the integrals 
+$c^{(r)}, c^{(r)}(2)$. Numerical errors are estimated as $\pm1$ on the 
+last digit quoted.}}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 568
+```
+{% raw %}
+\begin{table}
+
+\begin{center}
+
+\begin{tabular}[t]{c||c|c|c|c|c|c|c}
+
+$r$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+
+\hline
+
+$c^{(r)}$    & 0.785 & 1.009 & 1.140 & 1.242 & 1.327 & 1.400 & 1.46 \\
+
+$c^{(r)}(2)$ &       &       & 1.140 & 1.206 & 1.229 & 1.225 & 1.200 \\
+
+\hline
+
+\\
+
+$r$ & 8 & 9 & 10 & 11 &  &  &  \\
+
+\hline
+
+$c^{(r)}(2)$ & 1.164 & 1.118 & 1.067 & 1.013 & & &\\
+
+\end{tabular}
+
+\end{center}
+
+\caption{{\footnotesize Numerical values of the integrals 
+
+$c^{(r)}, c^{(r)}(2)$. Numerical errors are estimated as $\pm1$ on the 
+
+last digit quoted.}}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 569
+```
+{% raw %}
+\begin{table}
+\caption{Coefficients of the terms in the cocycle function for conformal fields
+on Anti de Sitter space with spin 0 and 1/2 with Dirichlet (D),  Robin (R) and
+mixed (M) boundary conditions. The spinors are Majorana. 
+$\delta$ is the contribution due to the delta-function potential instead of a
+boundary.}
+\renewcommand{\arraystretch}{1.5}
+\begin{ruledtabular}
+\begin{tabular}{rrrrrrrrrr}
+spin&background&$\alpha_0$&$\alpha_1$&$\alpha_2$&$\alpha_3$&$\alpha_4$
+&$\alpha_5$&$\alpha_6$&$\alpha_7$
+\\\hline
+$0$&D&$\frac{17}{1920}$&$-\frac1{128}$&$\frac5{192}$
+&$\frac1{48}$&$-\frac{9}{768}$&$-\frac{11}{3072}$&$-\frac1{16}$&$\frac1{64}$\\
+$0$&R&$-\frac{17}{1920}$&$\frac1{128}$&$-\frac1{48}$
+&$-\frac1{48}$&$\frac{5}{768}$&$\frac1{15360}$&$\frac1{32}$&$-\frac1{64}$\\
+$1/2$&M&$0$&$0$&$\frac1{48}$&$0$&$-\frac1{96}$&$-\frac{11}{1280}$
+&$-\frac3{32}$&$0$\\
+$0$&$\delta$&$0$&$0$&$\frac1{192}$&$0$&$-\frac1{192}$
+&$-\frac{9}{2560}$&$-\frac1{32}$&$0$\\
+\end{tabular}
+\end{ruledtabular}
+\label{taba1}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 570
+```
+{% raw %}
+\begin{table}
+
+\caption{Coefficients of the terms in the cocycle function for conformal fields
+
+on Anti de Sitter space with spin 0 and 1/2 with Dirichlet (D),  Robin (R) and
+
+mixed (M) boundary conditions. The spinors are Majorana. 
+
+$\delta$ is the contribution due to the delta-function potential instead of a
+
+boundary.}
+
+\renewcommand{\arraystretch}{1.5}
+
+\begin{ruledtabular}
+
+\begin{tabular}{rrrrrrrrrr}
+
+spin&background&$\alpha_0$&$\alpha_1$&$\alpha_2$&$\alpha_3$&$\alpha_4$
+
+&$\alpha_5$&$\alpha_6$&$\alpha_7$
+
+\\\hline
+
+$0$&D&$\frac{17}{1920}$&$-\frac1{128}$&$\frac5{192}$
+
+&$\frac1{48}$&$-\frac{9}{768}$&$-\frac{11}{3072}$&$-\frac1{16}$&$\frac1{64}$\\
+
+$0$&R&$-\frac{17}{1920}$&$\frac1{128}$&$-\frac1{48}$
+
+&$-\frac1{48}$&$\frac{5}{768}$&$\frac1{15360}$&$\frac1{32}$&$-\frac1{64}$\\
+
+$1/2$&M&$0$&$0$&$\frac1{48}$&$0$&$-\frac1{96}$&$-\frac{11}{1280}$
+
+&$-\frac3{32}$&$0$\\
+
+$0$&$\delta$&$0$&$0$&$\frac1{192}$&$0$&$-\frac1{192}$
+
+&$-\frac{9}{2560}$&$-\frac1{32}$&$0$\\
+
+\end{tabular}
+
+\end{ruledtabular}
+
+\label{taba1}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 571
+```
+{% raw %}
+\begin{table}
+
+\caption{Coefficients of the terms in the cocycle function for conformal fields
+
+on Anti de Sitter space with spin 0 and 1/2 with Dirichlet (D),  Robin (R) and
+
+mixed (M) boundary conditions. The spinors are Majorana. 
+
+[end-of-con]
+
+
+[start-of-table]
+
+\begin{table}
+\caption{Coefficients of the terms in the cocycle function for conformal fields
+on Anti de Sitter space with spin 0 and 1/2 with Dirichlet (D),  Robin (R) and
+mixed (M) boundary conditions. The spinors are Majorana. 
+$\delta$ is the contribution due to the delta-function potential instead of a
+boundary.}
+\renewcommand{\arraystretch}{1.5}
+\begin{ruledtabular}
+\begin{tabular}{rrrrr}
+spin&background&$c_0$&$c_2$&$c_4$\\
+\hline
+$0$&D&$-\frac{203}{3072}$&$\frac{30}{3072}$&$\frac{393}{3072}$\\
+$0$&R&$\frac{481}{15360}$&$-\frac{498}{15360}$&$-\frac{1779}{15360}$\\
+$1/2$&M&$-\frac{393}{3840}$&$-\frac{226}{3840}$&$\frac{167}{3840}$\\
+$0$&$\delta$&$-\frac{89}{2560}$&$-\frac{58}{2560}$&$\frac{31}{2560}$\\
+\end{tabular}
+\end{ruledtabular}
+\label{taba2}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 572
+```
+{% raw %}
+\begin{table}
+
+\caption{Coefficients of the terms in the cocycle function for conformal fields
+
+on Anti de Sitter space with spin 0 and 1/2 with Dirichlet (D),  Robin (R) and
+
+mixed (M) boundary conditions. The spinors are Majorana. 
+
+$\delta$ is the contribution due to the delta-function potential instead of a
+
+boundary.}
+
+\renewcommand{\arraystretch}{1.5}
+
+\begin{ruledtabular}
+
+\begin{tabular}{rrrrr}
+
+spin&background&$c_0$&$c_2$&$c_4$\\
+
+\hline
+
+$0$&D&$-\frac{203}{3072}$&$\frac{30}{3072}$&$\frac{393}{3072}$\\
+
+$0$&R&$\frac{481}{15360}$&$-\frac{498}{15360}$&$-\frac{1779}{15360}$\\
+
+$1/2$&M&$-\frac{393}{3840}$&$-\frac{226}{3840}$&$\frac{167}{3840}$\\
+
+$0$&$\delta$&$-\frac{89}{2560}$&$-\frac{58}{2560}$&$\frac{31}{2560}$\\
+
+\end{tabular}
+
+\end{ruledtabular}
+
+\label{taba2}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 573
+```
+{% raw %}
+\begin{table}[h]
+ \begin{tabular}{|c|c|c|c|c|c|}\hline
+ dim & name & holonomy & Killing spinor & $\sharp$ spacetime SUSY
+ & base of the cone \\\hline\hline
+ 4 & hyper K\"ahler & $SU(2)$ & (2,0) & 16 & tri-Sasakian\\ \hline
+ 6 &Calabi-Yau & $SU(3)$ & (1,1) & 8 &  Sasaki-Einstein \\ \hline
+ 7 & $G_2$ & $G_2$ & 1 & 4 & nearly K\"ahler \\ \hline
+ 8 & hyper K\"ahler & $Sp(2)$ & (3,0) & 6 & tri-Sasakian \\ \hline
+ 8 &Calabi-Yau & $SU(4)$ & (2,0) & 4 & Sasaki-Einstein\\ \hline
+ 8 & $Spin(7)$ & $Spin(7)$ & (1,0) & 2 & weak $G_2$\\ \hline
+ \end{tabular}
+\caption{We summarize the relation between the special holonomies on 
+ the cone $C(X_{m-1})$ and the geometrical structures on 
+ the Einstein spaces $X_{m-1}$.}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 574
+```
+{% raw %}
+\begin{table}[h]
+
+ \begin{tabular}{|c|c|c|c|c|c|}\hline
+
+ dim & name & holonomy & Killing spinor & $\sharp$ spacetime SUSY
+
+ & base of the cone \\\hline\hline
+
+ 4 & hyper K\"ahler & $SU(2)$ & (2,0) & 16 & tri-Sasakian\\ \hline
+
+ 6 &Calabi-Yau & $SU(3)$ & (1,1) & 8 &  Sasaki-Einstein \\ \hline
+
+ 7 & $G_2$ & $G_2$ & 1 & 4 & nearly K\"ahler \\ \hline
+
+ 8 & hyper K\"ahler & $Sp(2)$ & (3,0) & 6 & tri-Sasakian \\ \hline
+
+ 8 &Calabi-Yau & $SU(4)$ & (2,0) & 4 & Sasaki-Einstein\\ \hline
+
+ 8 & $Spin(7)$ & $Spin(7)$ & (1,0) & 2 & weak $G_2$\\ \hline
+
+ \end{tabular}
+
+\caption{We summarize the relation between the special holonomies on 
+
+ the cone $C(X_{m-1})$ and the geometrical structures on 
+
+ the Einstein spaces $X_{m-1}$.}
+
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 575
+```
+{% raw %}
+\begin{table}[h]
+ \begin{tabular}{|c|c|c|c|c|}\hline
+ dim & name & worldsheet SUSY & algebra 
+                               & structure of massive 
+ reps. \\\hline\hline
+ 4 & hyper K\"ahler & $\cN=4$ & $SU(2)_1$ & $SO(4)_1$ \\ \hline
+ 6 &Calabi-Yau & $\cN=2$ & $U(1)_{3/2}$ & $SO(2)_1\times SU(2)_1$  \\ \hline
+ 7 & $G_2$ & $\cN=1$  & tri-critical Ising 
+   & $SO(1)_1 \times U(1)_{3/2}$ \\ \hline
+ 8 & hyper K\"ahler & $\cN=4$ & $SU(2)_2$ & 
+   $SO(4)_1 \times SU(2)_1$ \\ \hline
+ 8 &Calabi-Yau & $\cN=2$ & $U(1)_2$ & $SO(2)_1\times U(1)_{3/2}$\\ \hline
+ 8 & $Spin(7)$ & $\cN=1$ & Ising &  $SO(1)_1\times$ 
+ tri-critical Ising\\ \hline
+ \end{tabular}
+\caption{We summarize the algebraic structures of worldsheet theories 
+describing manifolds with special holonomies. The ``structure for
+the massive reps.'' is the algebraic structure which is manifest in
+the characters of massive representations.}
+\end{table}
+
+{% endraw %}
+```
+## Example Number: 576
+```
+{% raw %}
+\begin{table}[h]
+
+ \begin{tabular}{|c|c|c|c|c|}\hline
+
+ dim & name & worldsheet SUSY & algebra 
+
+                               & structure of massive 
+
+ reps. \\\hline\hline
+
+ 4 & hyper K\"ahler & $\cN=4$ & $SU(2)_1$ & $SO(4)_1$ \\ \hline
+
+ 6 &Calabi-Yau & $\cN=2$ & $U(1)_{3/2}$ & $SO(2)_1\times SU(2)_1$  \\ \hline
+
+ 7 & $G_2$ & $\cN=1$  & tri-critical Ising 
+
+   & $SO(1)_1 \times U(1)_{3/2}$ \\ \hline
+
+ 8 & hyper K\"ahler & $\cN=4$ & $SU(2)_2$ & 
+
+   $SO(4)_1 \times SU(2)_1$ \\ \hline
+
+ 8 &Calabi-Yau & $\cN=2$ & $U(1)_2$ & $SO(2)_1\times U(1)_{3/2}$\\ \hline
+
+ 8 & $Spin(7)$ & $\cN=1$ & Ising &  $SO(1)_1\times$ 
+
+ tri-critical Ising\\ \hline
+
+ \end{tabular}
+
+\caption{We summarize the algebraic structures of worldsheet theories 
+
+describing manifolds with special holonomies. The ``structure for
+
+the massive reps.'' is the algebraic structure which is manifest in
+
+the characters of massive representations.}
+
+\end{table}
+
+{% endraw %}
+```
+1,1,2,3,1,2,1)$
 
 $\,\,\leftarrow$\\
 
@@ -35302,7934 +55606,4 @@ _n = ( \x {\ov C})_{  \b} {\ov {\cal Q}}^{ \b}_{n }& N_c {\ov {\cal Q}}^{ \b}_{n
 & {\ov \na}_{\dot \a} {\cal P}_0 = 0
 & \mbox{\rm Irregular}   \\
  {\cal P}_1  \equiv {\cal P}_{\a} C^{\a} &  \na_{ ( \a} {\cal P}_{\b )} =0 & \na_{\a}^{\dag} {\cal P}_{\a} + 
- {\ov \na}_{\dot \a}^{\dag} {\ov {\cal P}}_{\dot \a} = 0 
-& \mbox{\rm Irregular}   \\
-{\cal P}_{n \geq 2}  & ( C \na ) {\cal P}_{n} =0 & ( C \na)^{\dag} {\cal P}_{n} = 0  
-& \mbox{\rm Regular}   \\
-{\cal Q}_{0}^{\dot \b}  &    \na_{\a} {\ov {\cal Q}}^{\a} 
-+
-  {\ov \na}_{\dot \b} Q^{\dot \b} =0
-&    \na_{\a} {  {\cal Q}}_{\dot \b} = 0
-& \mbox{\rm Irregular} \\
-{\cal Q}_{1}^{\dot \b}, {\cal S}_0  &    \na_{(\a} { {\cal Q}}_{\b)}^{\dot \g} =0
-&    \na_{\a}^{\dag} {\cal S}_0 +  {\ov \na}_{\dot \b}^{\dag} {\ov {\cal Q}}^{\a }_{\dot \b} = 0 
-& \mbox{\rm Irregular}    \\
-{\cal Q}_{n \geq 2}^{\dot \b}  & ( C \na ) {\cal Q}_{n}^{\dot \b} =0 & ( C \na)^{\dag} {\cal Q}_{n}^{\dot \b} = 0 
-& \mbox{\rm Regular}    \\
-
-{\cal R}_{0}  &   \na_{\a} {\cal R}_{0} =0 &    
-& \mbox{\rm Irregular}   \\
-
-{\cal R}_{n \geq 1}  & ( C \na ) {\cal R}_{n} =0 & ( C \na)^{\dag} {\cal R}_{n} = 0   
-& \mbox{\rm Regular} \\
-
-
-\end{array}$ }}
-\end{table}
-
-```
-## Example Number: 462
-```
-\begin{table}[hptb]
-
-\caption{  Equations from $d_1$ and $d_1^{\dag}$ }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\large $\begin{array}{llllll}  
-
-
-
-\la{d1d1dagtable}
-
-  {\rm Term} &   \mbox{First Equation}&  \mbox{Second Equation}&  \mbox{\rm Reg or Irreg?}     \\
-
- {\cal P}_0 & \na_{\a} {\cal P}_0 
-
-& {\ov \na}_{\dot \a} {\cal P}_0 = 0
-
-& \mbox{\rm Irregular}   \\
-
- {\cal P}_1  \equiv {\cal P}_{\a} C^{\a} &  \na_{ ( \a} {\cal P}_{\b )} =0 & \na_{\a}^{\dag} {\cal P}_{\a} + 
-
- {\ov \na}_{\dot \a}^{\dag} {\ov {\cal P}}_{\dot \a} = 0 
-
-& \mbox{\rm Irregular}   \\
-
-{\cal P}_{n \geq 2}  & ( C \na ) {\cal P}_{n} =0 & ( C \na)^{\dag} {\cal P}_{n} = 0  
-
-& \mbox{\rm Regular}   \\
-
-{\cal Q}_{0}^{\dot \b}  &    \na_{\a} {\ov {\cal Q}}^{\a} 
-
-+
-
-  {\ov \na}_{\dot \b} Q^{\dot \b} =0
-
-&    \na_{\a} {  {\cal Q}}_{\dot \b} = 0
-
-& \mbox{\rm Irregular} \\
-
-{\cal Q}_{1}^{\dot \b}, {\cal S}_0  &    \na_{(\a} { {\cal Q}}_{\b)}^{\dot \g} =0
-
-&    \na_{\a}^{\dag} {\cal S}_0 +  {\ov \na}_{\dot \b}^{\dag} {\ov {\cal Q}}^{\a }_{\dot \b} = 0 
-
-& \mbox{\rm Irregular}    \\
-
-{\cal Q}_{n \geq 2}^{\dot \b}  & ( C \na ) {\cal Q}_{n}^{\dot \b} =0 & ( C \na)^{\dag} {\cal Q}_{n}^{\dot \b} = 0 
-
-& \mbox{\rm Regular}    \\
-
-
-
-{\cal R}_{0}  &   \na_{\a} {\cal R}_{0} =0 &    
-
-& \mbox{\rm Irregular}   \\
-
-
-
-{\cal R}_{n \geq 1}  & ( C \na ) {\cal R}_{n} =0 & ( C \na)^{\dag} {\cal R}_{n} = 0   
-
-& \mbox{\rm Regular} \\
-
-
-
-
-
-\end{array}$ }}
-
-\end{table}
-
-```
-## Example Number: 463
-```
-\begin{table}[hptb]
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{ Equations from $d_2$   }
-\vspace{.1in}
-\framebox{ 
-{\large $\begin{array}{llllll}  
-
-\la{d2table}
- {\rm Term} &  d_2  \mbox{ Equation}&  \mbox{ Maps To }
-&\mbox{\rm Reg or Irreg?}    \\   
-{\cal P}_1 & \lt ( \pa_{  \a \dot \b } + {  \na}_{  \a} {\ov \na}_{\dot \b}\rt )
-{\cal P}^{\a }  + (\na)^2 {\ov {\cal P}}_{\dot \b} =0  & {\cal Q}_{0,\dot \b}   
-& \mbox{\rm Irregular}    \\
-
-{\cal P}_{n \geq 2}  &  C_{\a}^{\dag} \pa_{  \a \dot \b }  {\cal P}_{n } =0  & {\cal Q}_{n-1,\dot \b}    
-& \mbox{\rm Regular}     \\
-
-{\cal S}_0, {\cal Q}_1 &             (\na)^2 {\cal S}_0 + \lt ( \pa + \na {\ov \na} \rt )_{\a \dot \b}  {\cal Q}_1^{\a \dot \b}   =0
-  &  {\cal R}_{0}  
-& \mbox{\rm Irregular}    \\
-
-{\cal Q}_{n \geq 2}  &  C_{\a}^{\dag} \pa_{  \a \dot \b }  {\cal Q}^{\dot \b}_{n} =0  &  {\cal R}_{n-1}   
-& \mbox{\rm Regular}    \\
-
-
-\end{array}$ }}
-\end{table}
-
-```
-## Example Number: 464
-```
-\begin{table}[hptb]
-
-\caption{ Equations from $d_2$   }
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\large $\begin{array}{llllll}  
-
-
-
-\la{d2table}
-
- {\rm Term} &  d_2  \mbox{ Equation}&  \mbox{ Maps To }
-
-&\mbox{\rm Reg or Irreg?}    \\   
-
-{\cal P}_1 & \lt ( \pa_{  \a \dot \b } + {  \na}_{  \a} {\ov \na}_{\dot \b}\rt )
-
-{\cal P}^{\a }  + (\na)^2 {\ov {\cal P}}_{\dot \b} =0  & {\cal Q}_{0,\dot \b}   
-
-& \mbox{\rm Irregular}    \\
-
-
-
-{\cal P}_{n \geq 2}  &  C_{\a}^{\dag} \pa_{  \a \dot \b }  {\cal P}_{n } =0  & {\cal Q}_{n-1,\dot \b}    
-
-& \mbox{\rm Regular}     \\
-
-
-
-{\cal S}_0, {\cal Q}_1 &             (\na)^2 {\cal S}_0 + \lt ( \pa + \na {\ov \na} \rt )_{\a \dot \b}  {\cal Q}_1^{\a \dot \b}   =0
-
-  &  {\cal R}_{0}  
-
-& \mbox{\rm Irregular}    \\
-
-
-
-{\cal Q}_{n \geq 2}  &  C_{\a}^{\dag} \pa_{  \a \dot \b }  {\cal Q}^{\dot \b}_{n} =0  &  {\cal R}_{n-1}   
-
-& \mbox{\rm Regular}    \\
-
-
-
-
-
-\end{array}$ }}
-
-\end{table}
-
-```
-## Example Number: 465
-```
-\begin{table}[hptb]
-
-\caption{ Equations from  $d_2^{\dag}$  }
-
-\vspace{.1in}
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{ Equations from  $d_2^{\dag}$  }
-\vspace{.1in}
-\framebox{ 
-{\large $\begin{array}{llllll}  
-\la{d2dagtable}
- {\rm Term} &    \mbox{First Equation} &  \mbox{ Maps To } 
-& \mbox{\rm Reg or Irreg?}       \\   
-
-{\cal Q}_{0,\dot \b}  &     C_{\a} \pa_{  \a \dot \b }^{\dag}   {\cal Q}_{0,\dot \b} =0         
-  & {\cal P}_1   & \mbox{\rm Irregular}      \\
-
-{\cal Q}_{1,\dot \b}  &     C_{\a} \pa_{  \a \dot \b }^{\dag}   {\cal Q}_{1,\dot \b} =0         
-  & {\cal P}_2    & \mbox{\rm Irregular}     \\
-
-{\cal Q}_{n \geq 2,\dot \b}  &     C_{\a} \pa_{  \a \dot \b }^{\dag}   {\cal Q}_{n,\dot \b} =0         
-  & {\cal P}_{n+1}  & \mbox{\rm Regular}     \\
-
-
-{\cal R}_0 &      \pa_{  \a \dot \b }^{\dag}   {\cal R}_{0 } =0  &  
-{\cal Q}_1 & \mbox{\rm Irregular}    \\
-
-{\cal R}_0 &      (\na)^{2 \dag} {\cal R}_0 + {\ov \na}^{2 \dag} {\ov {\cal R}}_0= 0         &  {\cal S}_0 & \mbox{\rm Irregular}    \\
-
-{\cal R}_{n \geq 1}  &   C_{\a}^{\dag} \pa_{  \a \dot \b }^{\dag}  {\cal R}_{n } =0  & {\cal Q}_{n+1 }  & \mbox{\rm Regular}    \\
-
-\end{array}$ }}
-\end{table}
-
-```
-## Example Number: 466
-```
-\begin{table}[hptb]
-
-\caption{ Equations from  $d_2^{\dag}$  }
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\large $\begin{array}{llllll}  
-
-\la{d2dagtable}
-
- {\rm Term} &    \mbox{First Equation} &  \mbox{ Maps To } 
-
-& \mbox{\rm Reg or Irreg?}       \\   
-
-
-
-{\cal Q}_{0,\dot \b}  &     C_{\a} \pa_{  \a \dot \b }^{\dag}   {\cal Q}_{0,\dot \b} =0         
-
-  & {\cal P}_1   & \mbox{\rm Irregular}      \\
-
-
-
-{\cal Q}_{1,\dot \b}  &     C_{\a} \pa_{  \a \dot \b }^{\dag}   {\cal Q}_{1,\dot \b} =0         
-
-  & {\cal P}_2    & \mbox{\rm Irregular}     \\
-
-
-
-{\cal Q}_{n \geq 2,\dot \b}  &     C_{\a} \pa_{  \a \dot \b }^{\dag}   {\cal Q}_{n,\dot \b} =0         
-
-  & {\cal P}_{n+1}  & \mbox{\rm Regular}     \\
-
-
-
-
-
-{\cal R}_0 &      \pa_{  \a \dot \b }^{\dag}   {\cal R}_{0 } =0  &  
-
-{\cal Q}_1 & \mbox{\rm Irregular}    \\
-
-
-
-{\cal R}_0 &      (\na)^{2 \dag} {\cal R}_0 + {\ov \na}^{2 \dag} {\ov {\cal R}}_0= 0         &  {\cal S}_0 & \mbox{\rm Irregular}    \\
-
-
-
-{\cal R}_{n \geq 1}  &   C_{\a}^{\dag} \pa_{  \a \dot \b }^{\dag}  {\cal R}_{n } =0  & {\cal Q}_{n+1 }  & \mbox{\rm Regular}    \\
-
-
-
-\end{array}$ }}
-
-\end{table}
-
-```
-## Example Number: 467
-```
-\begin{table}[hpbt]
-\caption{\Large First Table for Scalars with ${\rm Dimension}  = -2$:   
-  $N_{\rm Form}=3,4, 5$.  }
-\la{minustwoscalars}
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\\N_{\rm Form} = 4 &&
-N_{\rm Form} =  5 
-\\
-(C \x^2 C)   k_i  A^i
-  & \stackrel{d_1}{\lra} &  
-(C \x^2 C)   k_i  (C \y^i)
-\\ 
-(C \x^2 C)    {\ov k}^i
- \A_i
-   \in 
-E_{\infty} 
-\\ 
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 468
-```
-\begin{table}[hpbt]
-
-\caption{\Large First Table for Scalars with ${\rm Dimension}  = -2$:   
-
-  $N_{\rm Form}=3,4, 5$.  }
-
-\la{minustwoscalars}
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\\N_{\rm Form} = 4 &&
-
-N_{\rm Form} =  5 
-
-\\
-
-(C \x^2 C)   k_i  A^i
-
-  & \stackrel{d_1}{\lra} &  
-
-(C \x^2 C)   k_i  (C \y^i)
-
-\\ 
-
-(C \x^2 C)    {\ov k}^i
-
- \A_i
-
-   \in 
-
-E_{\infty} 
-
-\\ 
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 469
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for Scalars with ${\rm Dimension}  = -2$:   The Mapping   $E_{\infty} \leftrightarrow {\cal H}$.}
-
-\vspace{.1in}
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Second Table for Scalars with ${\rm Dimension}  = -2$:   The Mapping   $E_{\infty} \leftrightarrow {\cal H}$.}
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{minustwoscalars2}
-\\
-E_{\infty} 
-&&  {\cal H}_{\rm Fock} 
-&&  {\cal H}_{\rm LIP} 
-\\
-\\
- (C \x^2 C)    {\ov k}^i
- \A_i 
-& \Lra 
-&
-(\x^4) {\ov k}^i
- \oF_{1,i} + \cdots
-& \Lra 
-&
-
-\int d^4 x \; {\ov k}^i
- \oF_{1,i} 
-\\ 
-
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 470
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for Scalars with ${\rm Dimension}  = -2$:   The Mapping   $E_{\infty} \leftrightarrow {\cal H}$.}
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{minustwoscalars2}
-
-\\
-
-E_{\infty} 
-
-&&  {\cal H}_{\rm Fock} 
-
-&&  {\cal H}_{\rm LIP} 
-
-\\
-
-\\
-
- (C \x^2 C)    {\ov k}^i
-
- \A_i 
-
-& \Lra 
-
-&
-
-(\x^4) {\ov k}^i
-
- \oF_{1,i} + \cdots
-
-& \Lra 
-
-&
-
-
-
-\int d^4 x \; {\ov k}^i
-
- \oF_{1,i} 
-
-\\ 
-
-
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 471
-```
-\begin{table}[hptb]
-\caption{\Large First Table for Scalars with ${\rm Dimension}  = -1$:   
-Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
-\la{minusonescalars3}
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccccccc}  
-\\
-N_{\rm Form} = 3 &&
-N_{\rm Form} = 4  \\
-
-
-\\
-
-(C \x \oC)  e_i   A^i  
-&   \stackrel{d_6}{\lra} &
-(C \x^2 C)e_i   \lt \{
-  m  \og^{ij} \A_j
-+
-\og^{ijk}   \A_j  \A_k
-\rt \}
-\\
-
-
-\begin{array}{c} (C \x \oC)     A^k 
-\\
-\lt \{
- g_{ik} {\ov k}^{i}
-+
-2 g_{ijk} {\ov k}^{ij}
-\rt \}
-\\
-\end{array}  
-& \stackrel{d_6^{\dag}}{\longleftarrow} & 
-\begin{array}{c}  
-(C \x^2 C)  \\
-\lt \{
-m {\ov k}^i
- \A_i +
- {\ov k}^{ij}\A_j  \A_i
-\rt \}
-\\
-\end{array}  
-\\ 
-\\ 
-
-
-(C \x \oC)   \ove^j  \A_i  
-&  \stackrel{d_6}{\lra} &
-(\oC \x^2 \oC) 
-\ove^j \lt \{
-m g_{ij} A^j + 
- g_{ijk} A^j A^k 
-\rt \}
-\\
-
-
-
-\\
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 472
-```
-\begin{table}[hptb]
-
-\caption{\Large First Table for Scalars with ${\rm Dimension}  = -1$:   
-
-Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
-
-\la{minusonescalars3}
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccccccc}  
-
-\\
-
-N_{\rm Form} = 3 &&
-
-N_{\rm Form} = 4  \\
-
-
-
-
-
-\\
-
-
-
-(C \x \oC)  e_i   A^i  
-
-&   \stackrel{d_6}{\lra} &
-
-(C \x^2 C)e_i   \lt \{
-
-  m  \og^{ij} \A_j
-
-+
-
-\og^{ijk}   \A_j  \A_k
-
-\rt \}
-
-\\
-
-
-
-
-
-\begin{array}{c} (C \x \oC)     A^k 
-
-\\
-
-\lt \{
-
- g_{ik} {\ov k}^{i}
-
-+
-
-2 g_{ijk} {\ov k}^{ij}
-
-\rt \}
-
-\\
-
-\end{array}  
-
-& \stackrel{d_6^{\dag}}{\longleftarrow} & 
-
-\begin{array}{c}  
-
-(C \x^2 C)  \\
-
-\lt \{
-
-m {\ov k}^i
-
- \A_i +
-
- {\ov k}^{ij}\A_j  \A_i
-
-\rt \}
-
-\\
-
-\end{array}  
-
-\\ 
-
-\\ 
-
-
-
-
-
-(C \x \oC)   \ove^j  \A_i  
-
-&  \stackrel{d_6}{\lra} &
-
-(\oC \x^2 \oC) 
-
-\ove^j \lt \{
-
-m g_{ij} A^j + 
-
- g_{ijk} A^j A^k 
-
-\rt \}
-
-\\
-
-
-
-
-
-
-
-\\
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 473
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for Scalars with ${\rm Dimension}  = -1$:   
-
-Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Second Table for Scalars with ${\rm Dimension}  = -1$:   
-Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-\la{minusonescalars1}
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccccccc}  
-\\
-N_{\rm Form} = 4 &&
-N_{\rm Form} =  5 
-\\
-
-
-(C \x^2 C)   m  A^i
-  & \stackrel{d_1}{\lra} &  
-(C \x^2 C)   m  (C \y^i)
-\\ 
-(C \x^2 C) f_{(ik)}  A^k  A^i
-  & \stackrel{d_1}{\lra} &  
-(C \x^2 C) f_{(ik)} A^k  (C \y^i)
-\\
-
-
-(C \x^2 C)   \A_j  A^i
- & \stackrel{d_1}{\lra} &  
-(C \x^2 C)  \A_j  (C \y^i)
-\\ \\
-
-
-\\
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 474
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for Scalars with ${\rm Dimension}  = -1$:   
-
-Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-\la{minusonescalars1}
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccccccc}  
-
-\\
-
-N_{\rm Form} = 4 &&
-
-N_{\rm Form} =  5 
-
-\\
-
-
-
-
-
-(C \x^2 C)   m  A^i
-
-  & \stackrel{d_1}{\lra} &  
-
-(C \x^2 C)   m  (C \y^i)
-
-\\ 
-
-(C \x^2 C) f_{(ik)}  A^k  A^i
-
-  & \stackrel{d_1}{\lra} &  
-
-(C \x^2 C) f_{(ik)} A^k  (C \y^i)
-
-\\
-
-
-
-
-
-(C \x^2 C)   \A_j  A^i
-
- & \stackrel{d_1}{\lra} &  
-
-(C \x^2 C)  \A_j  (C \y^i)
-
-\\ \\
-
-
-
-
-
-\\
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 475
-```
-\begin{table}[hptb]
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Third Table for Scalars with ${\rm Dimension}  = -1$:   
-Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
-
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccccc}  
-\la{minusonescalars2}
-\\
-N_{\rm Form} = 5 &&
-N_{\rm Form} = 6 
-\\
-(C \x^2 C) f_{[ik]} ( C \y^i) A^k
- & \stackrel{d_1}{\lra}  &
-(C \x^2 C) f_{[ik]} 
-\lt \{
-( C \y^i)  ( C \y^k)
-\rt \}
-\\
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 476
-```
-\begin{table}[hptb]
-
-\caption{\Large Third Table for Scalars with ${\rm Dimension}  = -1$:   
-
-Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccccc}  
-
-\la{minusonescalars2}
-
-\\
-
-N_{\rm Form} = 5 &&
-
-N_{\rm Form} = 6 
-
-\\
-
-(C \x^2 C) f_{[ik]} ( C \y^i) A^k
-
- & \stackrel{d_1}{\lra}  &
-
-(C \x^2 C) f_{[ik]} 
-
-\lt \{
-
-( C \y^i)  ( C \y^k)
-
-\rt \}
-
-\\
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 477
-```
-\begin{table}[hptb]
-\caption{\Large Fourth Table for Scalars with ${\rm Dimension}  = -1$:   
-Equations arising from Table \ref{minusonescalars3} }
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{minusonescalars4}
-\\
-e_i        \og^{ij} 
-&=& 0
-\\
-e_i \og^{ijk} 
-&=& 0
-\\
- k_i \og^{ik}  + 2
-k_{ij} \og^{ijk} 
-&=& 0
-\\
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 478
-```
-\begin{table}[hptb]
-
-\caption{\Large Fourth Table for Scalars with ${\rm Dimension}  = -1$:   
-
-Equations arising from Table \ref{minusonescalars3} }
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{minusonescalars4}
-
-\\
-
-e_i        \og^{ij} 
-
-&=& 0
-
-\\
-
-e_i \og^{ijk} 
-
-&=& 0
-
-\\
-
- k_i \og^{ik}  + 2
-
-k_{ij} \og^{ijk} 
-
-&=& 0
-
-\\
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 479
-```
-\begin{table}[phtb]
-
-\caption{\Large Fifth Table for Scalars with ${\rm Dimension}  = -1$:   
-
-Mappings of $E_{\infty} \ra {\cal H}$. These are subject to the constraints in Table \ref{minusonescalars4} }
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[phtb]
-\caption{\Large Fifth Table for Scalars with ${\rm Dimension}  = -1$:   
-Mappings of $E_{\infty} \ra {\cal H}$. These are subject to the constraints in Table \ref{minusonescalars4} }
-
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{minusonescalars5}
-\\
-E_{\infty} &&  {\cal H}_{\rm Fock} \\
-\\
- (C \x^2 C) \lt \{
-  {\ov k}^i
-m \A_i + {\ov k}^{ij}
-\A_i \A_j \rt \} & \Lra &
-(\x^4)
-\;  \lt \{
- m {\ov k}^i \oF_{1,i}  +
-{\ov k}^{ij}
-\oF_{2,ij}  \rt \} 
-+ \cdots
-\\ 
-(C \x \oC)  e_i   A^i  
-& \Lra &
-(\x^4)
-e_i  \oG^i 
-+\cdots
-\\
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 480
-```
-\begin{table}[phtb]
-
-\caption{\Large Fifth Table for Scalars with ${\rm Dimension}  = -1$:   
-
-Mappings of $E_{\infty} \ra {\cal H}$. These are subject to the constraints in Table \ref{minusonescalars4} }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{minusonescalars5}
-
-\\
-
-E_{\infty} &&  {\cal H}_{\rm Fock} \\
-
-\\
-
- (C \x^2 C) \lt \{
-
-  {\ov k}^i
-
-m \A_i + {\ov k}^{ij}
-
-\A_i \A_j \rt \} & \Lra &
-
-(\x^4)
-
-\;  \lt \{
-
- m {\ov k}^i \oF_{1,i}  +
-
-{\ov k}^{ij}
-
-\oF_{2,ij}  \rt \} 
-
-+ \cdots
-
-\\ 
-
-(C \x \oC)  e_i   A^i  
-
-& \Lra &
-
-(\x^4)
-
-e_i  \oG^i 
-
-+\cdots
-
-\\
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 481
-```
-\begin{table}[phtb]
-
-\caption{\Large Sixth Table for Scalars with ${\rm Dimension}  = -1$:   Mappings of ${\cal H}_{\rm Fock} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table \ref{minusonescalars4} }
-
-
-
-\vspace{.1in}
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[phtb]
-\caption{\Large Sixth Table for Scalars with ${\rm Dimension}  = -1$:   Mappings of ${\cal H}_{\rm Fock} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table \ref{minusonescalars4} }
-
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{minusonescalars6}
-\\
- {\cal H}_{\rm Fock} 
-&&
-  {\cal H}_{\rm LIP} \\
-\\
-(\x^4)
-\;  \lt \{
- m {\ov k}^i \oF_{1,i}  +
-{\ov k}^{ij}
-\oF_{2,ij}  \rt \} 
-+ \cdots
-& \Lra &
-\int d^4 x \;
-\;  \lt \{
- m {\ov k}^i \oF_{1,i}  +
-{\ov k}^{ij}
-\oF_{2,ij}  \rt \} 
-\\ 
-(\x^4)
-e_i  \oG^i 
-+\cdots
-& \Lra &
-\int d^4 x \;
-e_i  \oG^i 
-\\
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 482
-```
-\begin{table}[phtb]
-
-\caption{\Large Sixth Table for Scalars with ${\rm Dimension}  = -1$:   Mappings of ${\cal H}_{\rm Fock} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table \ref{minusonescalars4} }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{minusonescalars6}
-
-\\
-
- {\cal H}_{\rm Fock} 
-
-&&
-
-  {\cal H}_{\rm LIP} \\
-
-\\
-
-(\x^4)
-
-\;  \lt \{
-
- m {\ov k}^i \oF_{1,i}  +
-
-{\ov k}^{ij}
-
-\oF_{2,ij}  \rt \} 
-
-+ \cdots
-
-& \Lra &
-
-\int d^4 x \;
-
-\;  \lt \{
-
- m {\ov k}^i \oF_{1,i}  +
-
-{\ov k}^{ij}
-
-\oF_{2,ij}  \rt \} 
-
-\\ 
-
-(\x^4)
-
-e_i  \oG^i 
-
-+\cdots
-
-& \Lra &
-
-\int d^4 x \;
-
-e_i  \oG^i 
-
-\\
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 483
-```
-\begin{table}[hptb]
-\caption{\Large First Table for Scalars with ${\rm Dimension}  = 0$:   
-Mappings of $N_{\rm Form}=2 \leftrightarrow N_{\rm Form} =  3$.  }
-
-
-\vspace{.1in}
-\framebox{ 
-{\Large  $\begin{array}{ccccccc}  
-\la{zeroscalars1}
-\\
-N_{\rm Form} = 2 &&
-N_{\rm Form} = 3 
-\\
-(\y^i \x \oC)      &\stackrel{d_1}{\lra} &  
-(\x \oC)^{\a} \oC^{\dot \b} A^i_{\a \dot \b}   
-\\
-(C \x \oy_i)       &\stackrel{d_1}{\lra} &  
-(\x C)^{\dot \b} C^{\a} \A_{i \dot \b \a}   
-\\
-  
-
-
-\\
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 484
-```
-\begin{table}[hptb]
-
-\caption{\Large First Table for Scalars with ${\rm Dimension}  = 0$:   
-
-Mappings of $N_{\rm Form}=2 \leftrightarrow N_{\rm Form} =  3$.  }
-
-
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large  $\begin{array}{ccccccc}  
-
-\la{zeroscalars1}
-
-\\
-
-N_{\rm Form} = 2 &&
-
-N_{\rm Form} = 3 
-
-\\
-
-(\y^i \x \oC)      &\stackrel{d_1}{\lra} &  
-
-(\x \oC)^{\a} \oC^{\dot \b} A^i_{\a \dot \b}   
-
-\\
-
-(C \x \oy_i)       &\stackrel{d_1}{\lra} &  
-
-(\x C)^{\dot \b} C^{\a} \A_{i \dot \b \a}   
-
-\\
-
-  
-
-
-
-
-
-\\
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 485
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for Scalars with ${\rm Dimension}  = 0$:   
-
-Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
-
-\Large
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Second Table for Scalars with ${\rm Dimension}  = 0$:   
-Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
-\Large
-
-\vspace{.1in}
-\framebox{ 
-{   $\begin{array}{ccccccc}  
-\la{zeroscalars4}
-\\
- N_{\rm Form} = 3 
-&&
-N_{\rm Form} =   4
-\\
-
-
-
-(C \x \oC)  f_{ij} A^j A^i  
-&   \stackrel{d_2}{\lra} &
-(C \x^2 C)  f_{ij} (\y^i \y^j)
-\\
-
-
-(C \x \oC)   \of^{ij}   \A_i \A_j  
-&  \stackrel{d_2}{\lra} &
-(\oC \x^2 \oC) 
- \of^{ij} (\oy_i \oy_j)
-\\
-\\
-\begin{array}{c}
-(C \x \oC)
-\\
-\lt \{
-  e_i  m A^i 
-+ \ove^j  m \A_i   
-+  e_i^j  A^i   \A_j  
-\rt \}
-\end{array}
-&   \stackrel{d_6}{\lra} &
-\lt \{
-\begin{array}{c}
-(C \x^2 C)e_i   m
-\\
-\lt \{
-  m  \og^{ij} \A_j
-+
-\og^{ijk}   \A_j  \A_k
-\rt \}
-\\+
-(\oC \x^2 \oC) 
-\ove^i m 
-\\
-\lt \{
-m g_{ij} A^j + 
- g_{ijk} A^j A^k 
-\rt \}
-\\
-+(\oC \x^2 \oC) 
-e_i^j  A^i   
-\\
-\lt \{
-m g_{jk} A^k + 
- g_{jkl} A^k A^l 
-\rt \}
-\\
-+
-(C \x^2 C)  
- e_i^j   \A_j 
-\\
-\lt \{
-  m  \og^{ik} \A_k
-+
-\og^{ikl}   \A_k  \A_l
-\rt \}
-\end{array}
-\rt.
-\\
-\\
-\lt.
-\begin{array}{c}
-(C \x \oC) A^i
-\\
-\lt \{
-m \lt (
- 2 \ok^j g_{ij} 
-+
- 2 \ok^{jk} g_{ijk} 
-\rt )  
-\rt.
-\\
-+
-\lt.
- \lt (
-  2  \ok^{jq} g_{ij} 
-+
-6   \ok^{jkq} g_{ijk} 
-\rt )  \A_q \rt \}
-\\
-+*
-\\
-\end{array}
-\rt \}
-&   \stackrel{d_6^{\dag}}{\lla} &
-
-\begin{array}{c}
-(C \x^2 C) 
-\lt \{
- m^2 \ok^i \A_i
-\rt.
-\\
-\lt.
- + m \ok^{ij}\A_i \A_j
- +  \ok^{ijk}\A_i \A_j
-\A_k
-\rt \}
-\\
-+
-(\oC \x^2 \oC)
-\lt \{
-  m^2 k_i A^i
-\rt.
-\\
-\lt.
- + m k_{ij} A^i A^j 
- + m k_{ijk} A^i A^j A^k
-\rt \}
-\end{array}
-\\
-\\
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 486
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for Scalars with ${\rm Dimension}  = 0$:   
-
-Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
-
-\Large
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{   $\begin{array}{ccccccc}  
-
-\la{zeroscalars4}
-
-\\
-
- N_{\rm Form} = 3 
-
-&&
-
-N_{\rm Form} =   4
-
-\\
-
-
-
-
-
-
-
-(C \x \oC)  f_{ij} A^j A^i  
-
-&   \stackrel{d_2}{\lra} &
-
-(C \x^2 C)  f_{ij} (\y^i \y^j)
-
-\\
-
-
-
-
-
-(C \x \oC)   \of^{ij}   \A_i \A_j  
-
-&  \stackrel{d_2}{\lra} &
-
-(\oC \x^2 \oC) 
-
- \of^{ij} (\oy_i \oy_j)
-
-\\
-
-\\
-
-\begin{array}{c}
-
-(C \x \oC)
-
-\\
-
-\lt \{
-
-  e_i  m A^i 
-
-+ \ove^j  m \A_i   
-
-+  e_i^j  A^i   \A_j  
-
-\rt \}
-
-\end{array}
-
-&   \stackrel{d_6}{\lra} &
-
-\lt \{
-
-\begin{array}{c}
-
-(C \x^2 C)e_i   m
-
-\\
-
-\lt \{
-
-  m  \og^{ij} \A_j
-
-+
-
-\og^{ijk}   \A_j  \A_k
-
-\rt \}
-
-\\+
-
-(\oC \x^2 \oC) 
-
-\ove^i m 
-
-\\
-
-\lt \{
-
-m g_{ij} A^j + 
-
- g_{ijk} A^j A^k 
-
-\rt \}
-
-\\
-
-+(\oC \x^2 \oC) 
-
-e_i^j  A^i   
-
-\\
-
-\lt \{
-
-m g_{jk} A^k + 
-
- g_{jkl} A^k A^l 
-
-\rt \}
-
-\\
-
-+
-
-(C \x^2 C)  
-
- e_i^j   \A_j 
-
-\\
-
-\lt \{
-
-  m  \og^{ik} \A_k
-
-+
-
-\og^{ikl}   \A_k  \A_l
-
-\rt \}
-
-\end{array}
-
-\rt.
-
-\\
-
-\\
-
-\lt.
-
-\begin{array}{c}
-
-(C \x \oC) A^i
-
-\\
-
-\lt \{
-
-m \lt (
-
- 2 \ok^j g_{ij} 
-
-+
-
- 2 \ok^{jk} g_{ijk} 
-
-\rt )  
-
-\rt.
-
-\\
-
-+
-
-\lt.
-
- \lt (
-
-  2  \ok^{jq} g_{ij} 
-
-+
-
-6   \ok^{jkq} g_{ijk} 
-
-\rt )  \A_q \rt \}
-
-\\
-
-+*
-
-\\
-
-\end{array}
-
-\rt \}
-
-&   \stackrel{d_6^{\dag}}{\lla} &
-
-
-
-\begin{array}{c}
-
-(C \x^2 C) 
-
-\lt \{
-
- m^2 \ok^i \A_i
-
-\rt.
-
-\\
-
-\lt.
-
- + m \ok^{ij}\A_i \A_j
-
- +  \ok^{ijk}\A_i \A_j
-
-\A_k
-
-\rt \}
-
-\\
-
-+
-
-(\oC \x^2 \oC)
-
-\lt \{
-
-  m^2 k_i A^i
-
-\rt.
-
-\\
-
-\lt.
-
- + m k_{ij} A^i A^j 
-
- + m k_{ijk} A^i A^j A^k
-
-\rt \}
-
-\end{array}
-
-\\
-
-\\
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 487
-```
-\begin{table}[hptb]
-
-\caption{\Large Third Table for Scalars with ${\rm Dimension}  = 0$:   
-
-Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Third Table for Scalars with ${\rm Dimension}  = 0$:   
-Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-\vspace{.1in}
-\framebox{ 
-{\Large   $\begin{array}{ccccccc}  
-\la{zeroscalars2}
-\\
-N_{\rm Form} = 4 &&
-N_{\rm Form} =  5 
-\\
-
-(C \x^2 C)   m^2  A^i 
-&\stackrel{d_1}{\lra}   
-&(C \x^2 C)   m^2  (C \y^i) 
-
-\\ 
-(C \x^2 C)  m A^k  A^i
-&\stackrel{d_1}{\lra}   
-&(C \x^2 C)    m A^k   (C \y^i) 
-
-\\ 
-(C \x^2 C)  A^l A^k  A^i
-&\stackrel{d_1}{\lra}   
-&(C \x^2 C)    A^l A^k   (C \y^i) 
-
-\\
-(C \x^2 C)  m \A_j  A^i
-&\stackrel{d_1}{\lra}   
-&(C \x^2 C)    m \A_j (C \y^i) 
-
-\\
-(C \x^2 C)  A^l \A_j  A^i
-&\stackrel{d_1}{\lra}   
-&(C \x^2 C)    A^l \A_j (C \y^i) 
-
-\\
-(C \x^2 C)  \A_l \A_j  A^i
-&\stackrel{d_1}{\lra}   
-&(C \x^2 C)    \A_l \A_j (C \y^i) 
-\\
-
-(C \x^2 C)  (\oy_i \oy_j )
-&\stackrel{d_1}{\lra}   
-&(C \x^2 C)    \oy_i^{\dot \b} \A_{j \dot \b \g} C^{\g}
- \\
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 488
-```
-\begin{table}[hptb]
-
-\caption{\Large Third Table for Scalars with ${\rm Dimension}  = 0$:   
-
-Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large   $\begin{array}{ccccccc}  
-
-\la{zeroscalars2}
-
-\\
-
-N_{\rm Form} = 4 &&
-
-N_{\rm Form} =  5 
-
-\\
-
-
-
-(C \x^2 C)   m^2  A^i 
-
-&\stackrel{d_1}{\lra}   
-
-&(C \x^2 C)   m^2  (C \y^i) 
-
-
-
-\\ 
-
-(C \x^2 C)  m A^k  A^i
-
-&\stackrel{d_1}{\lra}   
-
-&(C \x^2 C)    m A^k   (C \y^i) 
-
-
-
-\\ 
-
-(C \x^2 C)  A^l A^k  A^i
-
-&\stackrel{d_1}{\lra}   
-
-&(C \x^2 C)    A^l A^k   (C \y^i) 
-
-
-
-\\
-
-(C \x^2 C)  m \A_j  A^i
-
-&\stackrel{d_1}{\lra}   
-
-&(C \x^2 C)    m \A_j (C \y^i) 
-
-
-
-\\
-
-(C \x^2 C)  A^l \A_j  A^i
-
-&\stackrel{d_1}{\lra}   
-
-&(C \x^2 C)    A^l \A_j (C \y^i) 
-
-
-
-\\
-
-(C \x^2 C)  \A_l \A_j  A^i
-
-&\stackrel{d_1}{\lra}   
-
-&(C \x^2 C)    \A_l \A_j (C \y^i) 
-
-\\
-
-
-
-(C \x^2 C)  (\oy_i \oy_j )
-
-&\stackrel{d_1}{\lra}   
-
-&(C \x^2 C)    \oy_i^{\dot \b} \A_{j \dot \b \g} C^{\g}
-
- \\
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 489
-```
-\begin{table}[hptb]
-
-\caption{\Large Fourth Table for Scalars with ${\rm Dimension}  = 0$:   
-
-Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Fourth Table for Scalars with ${\rm Dimension}  = 0$:   
-Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
-
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccccc}  
-\la{zeroscalars3}
-\\
-N_{\rm Form} = 5 &&
-N_{\rm Form} = 6 
-\\
-(C \x^2 C) f_{[ijk]} ( C \y^i)( C \y^j) A^k
- & \stackrel{d_1}{\lra}  &
-(C \x^2 C) f_{[ijk]} 
-\lt \{
-( C \y^i)( C \y^j) ( C \y^k)
-\rt \}
-\\
-
-(C \x^2 C) \of^{[ij]} ( C \pa \A_i \oy_j) 
- & \stackrel{d_1}{\lra}  &
-(C \x^2 C) \of^{[ij]} ( C \pa \A_i \pa \A_j C) 
-\\
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 490
-```
-\begin{table}[hptb]
-
-\caption{\Large Fourth Table for Scalars with ${\rm Dimension}  = 0$:   
-
-Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccccc}  
-
-\la{zeroscalars3}
-
-\\
-
-N_{\rm Form} = 5 &&
-
-N_{\rm Form} = 6 
-
-\\
-
-(C \x^2 C) f_{[ijk]} ( C \y^i)( C \y^j) A^k
-
- & \stackrel{d_1}{\lra}  &
-
-(C \x^2 C) f_{[ijk]} 
-
-\lt \{
-
-( C \y^i)( C \y^j) ( C \y^k)
-
-\rt \}
-
-\\
-
-
-
-(C \x^2 C) \of^{[ij]} ( C \pa \A_i \oy_j) 
-
- & \stackrel{d_1}{\lra}  &
-
-(C \x^2 C) \of^{[ij]} ( C \pa \A_i \pa \A_j C) 
-
-\\
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 491
-```
-\begin{table}[hptb]
-\caption{\Large Fifth Table for Scalars with ${\rm Dimension}  = 0$:   
-Equations arising from Table \ref{zeroscalars4} }
-
-
-
-\vspace{.1in}
-\framebox{ 
-{\Large  $\begin{array}{ccc}  
-\la{zeroscalars5}
-\\
-
-
-\\
-e_i  \og^{ij} 
-&=&0
-\\
-e_i  \og^{ijk}  
-+
- e_i^{(j} 
- \og^{k)i} 
-&=&0
-\\
-e_{(i}^q  
- g_{kl)q}
-&=&0
-\\
-\\
- \lt (
- \ok^j g_{ij} 
-+
-  \ok^{jk} g_{ijk} 
-\rt )  
-&=&0
-
-\\
- \lt (
-2  \ok^{jq} g_{ij} 
-+
-6   \ok^{jkq} g_{ijk} 
-+*
-\rt ) 
-&=&0
-\\
-
-
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 492
-```
-\begin{table}[hptb]
-
-\caption{\Large Fifth Table for Scalars with ${\rm Dimension}  = 0$:   
-
-Equations arising from Table \ref{zeroscalars4} }
-
-
-
-
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large  $\begin{array}{ccc}  
-
-\la{zeroscalars5}
-
-\\
-
-
-
-
-
-\\
-
-e_i  \og^{ij} 
-
-&=&0
-
-\\
-
-e_i  \og^{ijk}  
-
-+
-
- e_i^{(j} 
-
- \og^{k)i} 
-
-&=&0
-
-\\
-
-e_{(i}^q  
-
- g_{kl)q}
-
-&=&0
-
-\\
-
-\\
-
- \lt (
-
- \ok^j g_{ij} 
-
-+
-
-  \ok^{jk} g_{ijk} 
-
-\rt )  
-
-&=&0
-
-
-
-\\
-
- \lt (
-
-2  \ok^{jq} g_{ij} 
-
-+
-
-6   \ok^{jkq} g_{ijk} 
-
-+*
-
-\rt ) 
-
-&=&0
-
-\\
-
-
-
-
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 493
-```
-\begin{table}[hptb]
-\caption{\Large Sixth Table for Scalars with ${\rm Dimension}  = 0$:  
-Mapping $E_{\infty} \ra {\cal H}_{\rm Fock}$. These are subject to the constraints in Table  \ref{zeroscalars5} }
-
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{zeroscalars6}
-\\
-E_{\infty} &&  {\cal H}_{\rm Fock}\\
-\\
-\begin{array}{c}
- (C \x^2 C) \lt \{
- {\ov k}^i
-m^2 \A_i 
-\rt.
-\\
-\lt.
-+ m{\ov k}^{ij}
-\A_i \A_j 
-+ {\ov k}^{ijk}
-\A_i \A_j \A_k
-\rt \} 
-\end{array}
-& \Lra &
-\begin{array}{c}
-(\x^4)
- \;  \lt \{
-m^2 {\ov k}^i \oF_{1,i}  
-\rt.
-\\
-\lt.
-+
-m {\ov k}^{ij}
-\oF_{2,ij} 
-  +
-{\ov k}^{ijk}
-\oF_{3,ijk}  \rt \} 
-\\
-+
-\cdots
-\end{array}
-\\ 
-\\
-\begin{array}{c}
-(C \x \oC) \lt \{
- e_i  m A^i  
-+ \ove^i  m \A_i  
-\rt.
-\\
-\lt.
-+ e_i^j   A^i \A_j  
-\rt \}
-\end{array}
-& \Lra &
-\begin{array}{c}
-(\x^4)
-\lt \{
- e_i m \oG^i -  m
-\ove^i \G_i 
-\rt.
-\\
-+  e_i^j \lt (
-\oG^i \A_j 
--
-\G_j A^i 
-\rt.
-\\
-\lt.
-\lt.
--
-Y^{\a}_j \y^{i \a} 
-+
-\oY^{i \dot \a} \oy_{j}^{\dot \a} 
- \rt )
-\rt \}
-\\
-+\cdots
-\end{array}
-
-\\
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 494
-```
-\begin{table}[hptb]
-
-\caption{\Large Sixth Table for Scalars with ${\rm Dimension}  = 0$:  
-
-Mapping $E_{\infty} \ra {\cal H}_{\rm Fock}$. These are subject to the constraints in Table  \ref{zeroscalars5} }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{zeroscalars6}
-
-\\
-
-E_{\infty} &&  {\cal H}_{\rm Fock}\\
-
-\\
-
-\begin{array}{c}
-
- (C \x^2 C) \lt \{
-
- {\ov k}^i
-
-m^2 \A_i 
-
-\rt.
-
-\\
-
-\lt.
-
-+ m{\ov k}^{ij}
-
-\A_i \A_j 
-
-+ {\ov k}^{ijk}
-
-\A_i \A_j \A_k
-
-\rt \} 
-
-\end{array}
-
-& \Lra &
-
-\begin{array}{c}
-
-(\x^4)
-
- \;  \lt \{
-
-m^2 {\ov k}^i \oF_{1,i}  
-
-\rt.
-
-\\
-
-\lt.
-
-+
-
-m {\ov k}^{ij}
-
-\oF_{2,ij} 
-
-  +
-
-{\ov k}^{ijk}
-
-\oF_{3,ijk}  \rt \} 
-
-\\
-
-+
-
-\cdots
-
-\end{array}
-
-\\ 
-
-\\
-
-\begin{array}{c}
-
-(C \x \oC) \lt \{
-
- e_i  m A^i  
-
-+ \ove^i  m \A_i  
-
-\rt.
-
-\\
-
-\lt.
-
-+ e_i^j   A^i \A_j  
-
-\rt \}
-
-\end{array}
-
-& \Lra &
-
-\begin{array}{c}
-
-(\x^4)
-
-\lt \{
-
- e_i m \oG^i -  m
-
-\ove^i \G_i 
-
-\rt.
-
-\\
-
-+  e_i^j \lt (
-
-\oG^i \A_j 
-
--
-
-\G_j A^i 
-
-\rt.
-
-\\
-
-\lt.
-
-\lt.
-
--
-
-Y^{\a}_j \y^{i \a} 
-
-+
-
-\oY^{i \dot \a} \oy_{j}^{\dot \a} 
-
- \rt )
-
-\rt \}
-
-\\
-
-+\cdots
-
-\end{array}
-
-
-
-\\
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 495
-```
-\begin{table}[hptb]
-\caption{\Large Seventh Table for Scalars with ${\rm Dimension}  = 0$:  
-Mapping ${\cal H}_{\rm Fock} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table  \ref{zeroscalars5} }
-
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{zeroscalars7}
-\\
- {\cal H}_{\rm Fock}
-&& 
- {\cal H}_{\rm LIP}\\
-\\
-\begin{array}{c}
-(\x^4) \;  \lt \{
-m^2 {\ov k}^i \oF_{1,i}  
-\rt.
-\\
-\lt.
-+
-m {\ov k}^{ij}
-\oF_{2,ij} 
-  +
-{\ov k}^{ijk}
-\oF_{3,ijk}  \rt \}
-\\
-+ \cdots 
-\end{array} 
-& \Lra &
-\begin{array}{c}
-\int d^4 x \;  \lt \{
-m^2 {\ov k}^i \oF_{1,i}  
-\rt.
-\\
-\lt.
-+
-m {\ov k}^{ij}
-\oF_{2,ij} 
-  +
-{\ov k}^{ijk}
-\oF_{3,ijk}  \rt \} 
-\end{array}
-\\ 
-\\
-\begin{array}{c}
-(\x^4)
-\lt \{
- e_i m \oG^i -  m
-\ove^i \G_i 
-\rt.
-\\
-\lt.
-+  e_i^j \lt (
-\oG^i \A_j 
--
-\G_j A^i 
-\rt.
-\rt.
-\\
-\lt.
-\lt.
--
-Y^{\a}_j \y^{i \a} 
-+
-\oY^{i \dot \a} \oy_{j}^{\dot \a} 
- \rt )
-\rt \}
-\\
-+ \cdots
-\end{array}
-& \Lra &
-\begin{array}{c}
-\int d^4 x \;  
-\lt \{
- e_i m \oG^i -  m
-\ove^i \G_i 
-\rt.
-\\
-\lt.
-+  e_i^j \lt (
-\oG^i \A_j 
--
-\G_j A^i 
-\rt.
-\rt.
-\\
-\lt.
-\lt.
--
-Y^{\a}_j \y^{i \a} 
-+
-\oY^{i \dot \a} \oy_{j}^{\dot \a} 
- \rt )
-\rt \}
-\end{array}
-\\
-
-\\
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 496
-```
-\begin{table}[hptb]
-
-\caption{\Large Seventh Table for Scalars with ${\rm Dimension}  = 0$:  
-
-Mapping ${\cal H}_{\rm Fock} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table  \ref{zeroscalars5} }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{zeroscalars7}
-
-\\
-
- {\cal H}_{\rm Fock}
-
-&& 
-
- {\cal H}_{\rm LIP}\\
-
-\\
-
-\begin{array}{c}
-
-(\x^4) \;  \lt \{
-
-m^2 {\ov k}^i \oF_{1,i}  
-
-\rt.
-
-\\
-
-\lt.
-
-+
-
-m {\ov k}^{ij}
-
-\oF_{2,ij} 
-
-  +
-
-{\ov k}^{ijk}
-
-\oF_{3,ijk}  \rt \}
-
-\\
-
-+ \cdots 
-
-\end{array} 
-
-& \Lra &
-
-\begin{array}{c}
-
-\int d^4 x \;  \lt \{
-
-m^2 {\ov k}^i \oF_{1,i}  
-
-\rt.
-
-\\
-
-\lt.
-
-+
-
-m {\ov k}^{ij}
-
-\oF_{2,ij} 
-
-  +
-
-{\ov k}^{ijk}
-
-\oF_{3,ijk}  \rt \} 
-
-\end{array}
-
-\\ 
-
-\\
-
-\begin{array}{c}
-
-(\x^4)
-
-\lt \{
-
- e_i m \oG^i -  m
-
-\ove^i \G_i 
-
-\rt.
-
-\\
-
-\lt.
-
-+  e_i^j \lt (
-
-\oG^i \A_j 
-
--
-
-\G_j A^i 
-
-\rt.
-
-\rt.
-
-\\
-
-\lt.
-
-\lt.
-
--
-
-Y^{\a}_j \y^{i \a} 
-
-+
-
-\oY^{i \dot \a} \oy_{j}^{\dot \a} 
-
- \rt )
-
-\rt \}
-
-\\
-
-+ \cdots
-
-\end{array}
-
-& \Lra &
-
-\begin{array}{c}
-
-\int d^4 x \;  
-
-\lt \{
-
- e_i m \oG^i -  m
-
-\ove^i \G_i 
-
-\rt.
-
-\\
-
-\lt.
-
-+  e_i^j \lt (
-
-\oG^i \A_j 
-
--
-
-\G_j A^i 
-
-\rt.
-
-\rt.
-
-\\
-
-\lt.
-
-\lt.
-
--
-
-Y^{\a}_j \y^{i \a} 
-
-+
-
-\oY^{i \dot \a} \oy_{j}^{\dot \a} 
-
- \rt )
-
-\rt \}
-
-\end{array}
-
-\\
-
-
-
-\\
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 497
-```
-\begin{table}[hptb]
-\caption{\Large First Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{5}{2}$:   
-Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
-
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccccc}  
-\la{fivehalfscalars1}\\
-N_{\rm Form} = 5 &&
-N_{\rm Form} =  6 
-\\
-
- (C \x^2 C) (\f C)
-f_{j}  A^j 
- & \stackrel{d_1}{\lra} 
-&
-  (C \x^2 C)  (\f C)
-f_{j} (C \y^j) 
-\\
-
- (C \x^2 C) (\f C)
-\oh^{j}  \A_j 
- & \in &
-E_{\infty}  \\
-
-
-
-\\
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 498
-```
-\begin{table}[hptb]
-
-\caption{\Large First Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{5}{2}$:   
-
-Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccccc}  
-
-\la{fivehalfscalars1}\\
-
-N_{\rm Form} = 5 &&
-
-N_{\rm Form} =  6 
-
-\\
-
-
-
- (C \x^2 C) (\f C)
-
-f_{j}  A^j 
-
- & \stackrel{d_1}{\lra} 
-
-&
-
-  (C \x^2 C)  (\f C)
-
-f_{j} (C \y^j) 
-
-\\
-
-
-
- (C \x^2 C) (\f C)
-
-\oh^{j}  \A_j 
-
- & \in &
-
-E_{\infty}  \\
-
-
-
-
-
-
-
-\\
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 499
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{5}{2}$:   
-
-Mapping of   $E_{\infty} \ra {\cal H}_{\rm LIP}$.  There are no constraints. }
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{5}{2}$:   
-Mapping of   $E_{\infty} \ra {\cal H}_{\rm LIP}$.  There are no constraints. }
-
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{fivehalfscalars2}.
-\\
-E_{\infty} &&  {\cal H}_{\rm LIP}\\
-\\
-(C \x \oC) \f^{\a} C_{\a} \lt \{
-  \oh^i   \A_i   
-\rt \}
-& \lra &
-\int d^4 x \;  
-\f^{\a} C_{\a}  \lt \{
- \oh^i   \oF_{1,i}  
-\rt \}
-\\
-
- 
-  \\
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 500
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{5}{2}$:   
-
-Mapping of   $E_{\infty} \ra {\cal H}_{\rm LIP}$.  There are no constraints. }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{fivehalfscalars2}.
-
-\\
-
-E_{\infty} &&  {\cal H}_{\rm LIP}\\
-
-\\
-
-(C \x \oC) \f^{\a} C_{\a} \lt \{
-
-  \oh^i   \A_i   
-
-\rt \}
-
-& \lra &
-
-\int d^4 x \;  
-
-\f^{\a} C_{\a}  \lt \{
-
- \oh^i   \oF_{1,i}  
-
-\rt \}
-
-\\
-
-
-
- 
-
-  \\
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 501
-```
-\begin{table}[hptb]
-\caption{\Large First Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
-Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{threehalfscalars2}\\
-N_{\rm Form} = 4 &&
-N_{\rm Form} =  5 
-\\
-
- (\oC \x^2 \oC)  (\f \y^i)
- & \stackrel{d_1}{\lra} 
-&
- (\oC \x^2 \oC)  (\f \pa A^i \oC)
-\\
- (C \x^2 C)  f_i (\f \y^i)
- & \stackrel{d_5}{\lra} 
-&
-\begin{array}{c} 
- (C \x^2 C)  (\f C) f_i
-\;
-\\
-\lt \{ m {\og}^{ij} \A_j + {\og}^{ijk} \A_j \A_k \rt \}
-\end{array}
-\\
-
- (C \x^2 C) \lt (
-  {\oh}^{j} g_{ij} + 2 {\oh}^{jk} g_{ijk}
-\rt )
- (\f \y^i) & \stackrel{d_5^{\dag}}{\longleftarrow} 
-&
-\begin{array}{c} 
- (C \x^2 C)  (\f C)  
-\;
-\\
-\lt \{ m {\oh}^{j} \A_j + {\oh}^{jk} \A_j \A_k \rt \}
-\end{array}
-\\
-
-\\
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 502
-```
-\begin{table}[hptb]
-
-\caption{\Large First Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
-
-Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{threehalfscalars2}\\
-
-N_{\rm Form} = 4 &&
-
-N_{\rm Form} =  5 
-
-\\
-
-
-
- (\oC \x^2 \oC)  (\f \y^i)
-
- & \stackrel{d_1}{\lra} 
-
-&
-
- (\oC \x^2 \oC)  (\f \pa A^i \oC)
-
-\\
-
- (C \x^2 C)  f_i (\f \y^i)
-
- & \stackrel{d_5}{\lra} 
-
-&
-
-\begin{array}{c} 
-
- (C \x^2 C)  (\f C) f_i
-
-\;
-
-\\
-
-\lt \{ m {\og}^{ij} \A_j + {\og}^{ijk} \A_j \A_k \rt \}
-
-\end{array}
-
-\\
-
-
-
- (C \x^2 C) \lt (
-
-  {\oh}^{j} g_{ij} + 2 {\oh}^{jk} g_{ijk}
-
-\rt )
-
- (\f \y^i) & \stackrel{d_5^{\dag}}{\longleftarrow} 
-
-&
-
-\begin{array}{c} 
-
- (C \x^2 C)  (\f C)  
-
-\;
-
-\\
-
-\lt \{ m {\oh}^{j} \A_j + {\oh}^{jk} \A_j \A_k \rt \}
-
-\end{array}
-
-\\
-
-
-
-\\
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 503
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
-
-Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
-
-
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
-Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
-
-
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccccc}  
-\la{threehalfscalars1}\\
-N_{\rm Form} = 5 &&
-N_{\rm Form} =  6 
-\\
-
- (C \x^2 C) (\f C)
-f_{j} m A^j 
- & \stackrel{d_1}{\lra} 
-&
-  (C \x^2 C)  (\f C)
-f_{j}m (C \y^j) 
-\\
-
- (C \x^2 C) (\f C)
-f_{ij} A^i A^j 
- & \stackrel{d_1}{\lra} 
-&
-  (C \x^2 C)  (\f C)
-f_{ij} A^i (C \y^j) 
-\\
-
- (C \x^2 C) (\f C)
-f_{j}^i \A_i A^j 
- & \stackrel{d_1}{\lra} 
-&
-  (C \x^2 C)  (\f C)
-f_{j}^i \A_i 
- (C \y^j) 
-\\
-
-
-
-\\
-\end{array}$ }}
-\end{table}
-
-```
-## Example Number: 504
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
-
-Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
-
-
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccccc}  
-
-\la{threehalfscalars1}\\
-
-N_{\rm Form} = 5 &&
-
-N_{\rm Form} =  6 
-
-\\
-
-
-
- (C \x^2 C) (\f C)
-
-f_{j} m A^j 
-
- & \stackrel{d_1}{\lra} 
-
-&
-
-  (C \x^2 C)  (\f C)
-
-f_{j}m (C \y^j) 
-
-\\
-
-
-
- (C \x^2 C) (\f C)
-
-f_{ij} A^i A^j 
-
- & \stackrel{d_1}{\lra} 
-
-&
-
-  (C \x^2 C)  (\f C)
-
-f_{ij} A^i (C \y^j) 
-
-\\
-
-
-
- (C \x^2 C) (\f C)
-
-f_{j}^i \A_i A^j 
-
- & \stackrel{d_1}{\lra} 
-
-&
-
-  (C \x^2 C)  (\f C)
-
-f_{j}^i \A_i 
-
- (C \y^j) 
-
-\\
-
-
-
-
-
-
-
-\\
-
-\end{array}$ }}
-
-\end{table}
-
-```
-## Example Number: 505
-```
-\begin{table}[hptb]
-
-\caption{\Large Third Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
-
-Equations arising from Table \ref{threehalfscalars2}. } 
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Third Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
-Equations arising from Table \ref{threehalfscalars2}. } 
-
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{threehalfscalars3}
-\\
-f_i  \og^{ij} 
-&=&0
-\\
-f_i  \og^{ijk}  
-&=&0
-\\
-\lt (
- \oh^j g_{ij} 
-+
-2 \oh^{jk} g_{ijk} 
-\rt )  
-&=&0
-\\
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 506
-```
-\begin{table}[hptb]
-
-\caption{\Large Third Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
-
-Equations arising from Table \ref{threehalfscalars2}. } 
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{threehalfscalars3}
-
-\\
-
-f_i  \og^{ij} 
-
-&=&0
-
-\\
-
-f_i  \og^{ijk}  
-
-&=&0
-
-\\
-
-\lt (
-
- \oh^j g_{ij} 
-
-+
-
-2 \oh^{jk} g_{ijk} 
-
-\rt )  
-
-&=&0
-
-\\
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 507
-```
-\begin{table}[hptb]
-\caption{\Large Fourth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
-Mapping $E_{\infty} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table  \ref{threehalfscalars3}. } 
-
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{threehalfscalars4}.
-\\
-E_{\infty} &&  {\cal H}_{\rm LIP}\\
-\\
- (C \x^2 C) 
-   f_i
- \f^{\a} \y^i_{\a}  & \lra &
-\int d^4 x \;  \lt \{ f_i
- \f^{\a} C_{\a} \oG^i   \rt \} 
-\\ 
-\begin{array}{c}
-(C \x^2 C) \f^{\a} C_{\a} 
-\\
-\lt \{
-   \oh^i  m \A_i  
-+ \oh^{ij}  \A_i \A_j  
-\rt \}
-\end{array}
-& \lra &
-\begin{array}{c}
-\int d^4 x \;  
-\f^{\a} C_{\a} 
-\\
- \lt \{
- \oh^i  m \oF_{1,i}  
-+ \oh^{ij}  \oF_{2,ij} \rt \}
-\end{array}
-\\
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 508
-```
-\begin{table}[hptb]
-
-\caption{\Large Fourth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{3}{2}$:   
-
-Mapping $E_{\infty} \ra {\cal H}_{\rm LIP}$. These are subject to the constraints in Table  \ref{threehalfscalars3}. } 
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{threehalfscalars4}.
-
-\\
-
-E_{\infty} &&  {\cal H}_{\rm LIP}\\
-
-\\
-
- (C \x^2 C) 
-
-   f_i
-
- \f^{\a} \y^i_{\a}  & \lra &
-
-\int d^4 x \;  \lt \{ f_i
-
- \f^{\a} C_{\a} \oG^i   \rt \} 
-
-\\ 
-
-\begin{array}{c}
-
-(C \x^2 C) \f^{\a} C_{\a} 
-
-\\
-
-\lt \{
-
-   \oh^i  m \A_i  
-
-+ \oh^{ij}  \A_i \A_j  
-
-\rt \}
-
-\end{array}
-
-& \lra &
-
-\begin{array}{c}
-
-\int d^4 x \;  
-
-\f^{\a} C_{\a} 
-
-\\
-
- \lt \{
-
- \oh^i  m \oF_{1,i}  
-
-+ \oh^{ij}  \oF_{2,ij} \rt \}
-
-\end{array}
-
-\\
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 509
-```
-\begin{table}[hptb]
-\caption{\Large First Table for spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-Mappings of $N_{\rm Form}=2 \leftrightarrow N_{\rm Form} =  3$. }
-
-
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{onehalfscalars1}
-\\
-N_{\rm Form} = 2 &&
-N_{\rm Form} = 3 
-\\
-(\f \x \oC)     A^i  
-& \stackrel{d_1}{\lra} & (C \x \oC)  
- (\f \y^i) 
-  \\
-(\f \x \oC)  \A_i   &\stackrel{d_1}{\lra} &   
- (\f \x \oC) (\oC  \oy_{j})
-\\
-
-\\
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 510
-```
-\begin{table}[hptb]
-
-\caption{\Large First Table for spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Mappings of $N_{\rm Form}=2 \leftrightarrow N_{\rm Form} =  3$. }
-
-
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{onehalfscalars1}
-
-\\
-
-N_{\rm Form} = 2 &&
-
-N_{\rm Form} = 3 
-
-\\
-
-(\f \x \oC)     A^i  
-
-& \stackrel{d_1}{\lra} & (C \x \oC)  
-
- (\f \y^i) 
-
-  \\
-
-(\f \x \oC)  \A_i   &\stackrel{d_1}{\lra} &   
-
- (\f \x \oC) (\oC  \oy_{j})
-
-\\
-
-
-
-\\
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 511
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
-
-
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
-
-
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{onehalfscalars2}
-\\
-N_{\rm Form} = 3 &&
-N_{\rm Form} = 4 
-\\
- (C \x \oy_i)  (\f C) & \stackrel{d_1}{\lra} & (C \x )^{\dot \b} \A_{i,\dot \b \a}  C^{\a}(\f C)
-\\
-
- 
-
-
-\\
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 512
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Mappings of $N_{\rm Form}=3 \leftrightarrow N_{\rm Form} =  4$.  }
-
-
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{onehalfscalars2}
-
-\\
-
-N_{\rm Form} = 3 &&
-
-N_{\rm Form} = 4 
-
-\\
-
- (C \x \oy_i)  (\f C) & \stackrel{d_1}{\lra} & (C \x )^{\dot \b} \A_{i,\dot \b \a}  C^{\a}(\f C)
-
-\\
-
-
-
- 
-
-
-
-
-
-\\
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 513
-```
-\begin{table}[hptb]
-
-\caption{\Large Third Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Third Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{onehalfscalars3}\\
-N_{\rm Form} = 4 &&
-N_{\rm Form} = 5 
-\\
- f_{ik} (C \x^2 C) A^k (\f \y^i) & \stackrel{d_1}{\lra} 
-&
-\begin{array}{c} 
- (C \x^2 C) f_{ik}(\f \y^i) \;
-( C \y^k) 
-\end{array}
-\\
-\\
-
- (\oC \x^2 \oC) f_{ik} A^k (\f \y^i) 
-& \stackrel{d_1}{\lra} 
-&
-\begin{array}{c} 
- (\oC \x^2 \oC) f_{ik} A^k (\f \pa A^i \oC) 
-
- 
-\end{array}
-\\
-\\
-
- (\oC \x^2 \oC) f_{i}^k \A_k (\f \y^i) & \stackrel{d_1}{\lra} 
-&
-\begin{array}{c} 
-
- (\oC \x^2 \oC)
-f_{i}^k\lt \{
- \A_k (\f \pa A^i \oC) 
-+ 
- (\oC \oy_k) (\f \y^i)
-\rt \}
-
-
-\end{array}
-\\
-\\
-
- (\oC \x^2 \oC) m (\f \y^i) & \stackrel{d_1}{\lra} 
-&
-\begin{array}{c} 
- (\oC \x^2 \oC)
- m (\f \pa A^i \oC) 
-\end{array}
-\\
-\\
-
- (C \x)^{\dot \b} A^i_{\a \dot \b} C^{\a}
- (\f C) & \stackrel{d_1}{\lra} 
-&
-\begin{array}{c} 
-(C \x)^{\dot \b} \y^i_{\g , \a \dot \b} C^{\a}
- C^{\g}
- (\f C) \end{array}
-\\
-\\
-
-
-
-
-
-\\
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 514
-```
-\begin{table}[hptb]
-
-\caption{\Large Third Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{onehalfscalars3}\\
-
-N_{\rm Form} = 4 &&
-
-N_{\rm Form} = 5 
-
-\\
-
- f_{ik} (C \x^2 C) A^k (\f \y^i) & \stackrel{d_1}{\lra} 
-
-&
-
-\begin{array}{c} 
-
- (C \x^2 C) f_{ik}(\f \y^i) \;
-
-( C \y^k) 
-
-\end{array}
-
-\\
-
-\\
-
-
-
- (\oC \x^2 \oC) f_{ik} A^k (\f \y^i) 
-
-& \stackrel{d_1}{\lra} 
-
-&
-
-\begin{array}{c} 
-
- (\oC \x^2 \oC) f_{ik} A^k (\f \pa A^i \oC) 
-
-
-
- 
-
-\end{array}
-
-\\
-
-\\
-
-
-
- (\oC \x^2 \oC) f_{i}^k \A_k (\f \y^i) & \stackrel{d_1}{\lra} 
-
-&
-
-\begin{array}{c} 
-
-
-
- (\oC \x^2 \oC)
-
-f_{i}^k\lt \{
-
- \A_k (\f \pa A^i \oC) 
-
-+ 
-
- (\oC \oy_k) (\f \y^i)
-
-\rt \}
-
-
-
-
-
-\end{array}
-
-\\
-
-\\
-
-
-
- (\oC \x^2 \oC) m (\f \y^i) & \stackrel{d_1}{\lra} 
-
-&
-
-\begin{array}{c} 
-
- (\oC \x^2 \oC)
-
- m (\f \pa A^i \oC) 
-
-\end{array}
-
-\\
-
-\\
-
-
-
- (C \x)^{\dot \b} A^i_{\a \dot \b} C^{\a}
-
- (\f C) & \stackrel{d_1}{\lra} 
-
-&
-
-\begin{array}{c} 
-
-(C \x)^{\dot \b} \y^i_{\g , \a \dot \b} C^{\a}
-
- C^{\g}
-
- (\f C) \end{array}
-
-\\
-
-\\
-
-
-
-
-
-
-
-
-
-
-
-\\
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 515
-```
-\begin{table}[hptb]
-\caption{\Large Fourth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   More  Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{onehalfscalars4}\\
-N_{\rm Form} = 4 &&
-N_{\rm Form} = 5 
-\\
-
-
- (C \x^2 C) (\f \y^i)
-\lt \{
-m  f_i 
-+ f_i^j  \A_j   \rt \}
-& \stackrel{d_5}{\lra} 
-&
-\begin{array}{c} 
- (C \x^2 C)  (\f C) \;
-\\
-\lt \{
-m  f_i 
-+ f_i^j  \A_j   \rt \} 
-\\
- \lt \{
-m {\og}^{ik} \A_k + {\og}^{ikq} \A_k \A_q
-\rt \}
-\end{array}
-\\
-\\
-
-
-\begin{array}{c} 
- (C \x^2 C)
-\\
- \lt \{
-m (\f \y^i)
-\rt.
-\\
-\lt (2 g_{ij} \oh^j +2 g_{ijk} \oh^{jk} \rt )
-\\
-\lt.
-+ 
- (\f \A_q \y^i)
-\rt.
-\\
-\lt.
-\lt (
-2 g_{ij} \oh^{jq} +
- 6 g_{ijk} \oh^{jkq} \rt )
-\rt \}
-\end{array} 
-& \stackrel{d_5^{\dag}}{\lla} 
-&
-\begin{array}{c} 
- (C \x^2 C)  (\f C) \;
-\\
- \lt \{
-m^2 {\oh}^{i} \A_i 
-+
-m {\oh}^{ij} \A_i 
-\A_j 
-\rt.
-\\
-\lt.
-+
- {\oh}^{ijk} \A_i 
-\A_j \A_k 
-\rt \}
-\end{array}
-\\
-
-
-
-\\
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 516
-```
-\begin{table}[hptb]
-
-\caption{\Large Fourth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   More  Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{onehalfscalars4}\\
-
-N_{\rm Form} = 4 &&
-
-N_{\rm Form} = 5 
-
-\\
-
-
-
-
-
- (C \x^2 C) (\f \y^i)
-
-\lt \{
-
-m  f_i 
-
-+ f_i^j  \A_j   \rt \}
-
-& \stackrel{d_5}{\lra} 
-
-&
-
-\begin{array}{c} 
-
- (C \x^2 C)  (\f C) \;
-
-\\
-
-\lt \{
-
-m  f_i 
-
-+ f_i^j  \A_j   \rt \} 
-
-\\
-
- \lt \{
-
-m {\og}^{ik} \A_k + {\og}^{ikq} \A_k \A_q
-
-\rt \}
-
-\end{array}
-
-\\
-
-\\
-
-
-
-
-
-\begin{array}{c} 
-
- (C \x^2 C)
-
-\\
-
- \lt \{
-
-m (\f \y^i)
-
-\rt.
-
-\\
-
-\lt (2 g_{ij} \oh^j +2 g_{ijk} \oh^{jk} \rt )
-
-\\
-
-\lt.
-
-+ 
-
- (\f \A_q \y^i)
-
-\rt.
-
-\\
-
-\lt.
-
-\lt (
-
-2 g_{ij} \oh^{jq} +
-
- 6 g_{ijk} \oh^{jkq} \rt )
-
-\rt \}
-
-\end{array} 
-
-& \stackrel{d_5^{\dag}}{\lla} 
-
-&
-
-\begin{array}{c} 
-
- (C \x^2 C)  (\f C) \;
-
-\\
-
- \lt \{
-
-m^2 {\oh}^{i} \A_i 
-
-+
-
-m {\oh}^{ij} \A_i 
-
-\A_j 
-
-\rt.
-
-\\
-
-\lt.
-
-+
-
- {\oh}^{ijk} \A_i 
-
-\A_j \A_k 
-
-\rt \}
-
-\end{array}
-
-\\
-
-
-
-
-
-
-
-\\
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 517
-```
-\begin{table}[hptb]
-
-\caption{\Large Fifth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
-
-
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Fifth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
-
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccccc}  
-\la{onehalfscalars5}
-\\
-N_{\rm Form} = 5 &&
-N_{\rm Form} = 6 
-\\
-(C \x^2 C) (\f C)  f_{ijk} A^i A^j A^k  
- & \stackrel{d_1}{\lra}  &
-\begin{array}{c}
-(C \x^2 C)(\f C)  f_{ijk} 
-\\
- A^i A^j   ( C \y^k)
-\\
-\end{array}
-\\
-
-
-\begin{array}{c} 
-
- (\oC \x^2 \oC)
-f_{i}^k
-\\
-\lt \{
- \A_k (\f \pa A^i \oC) 
-- 
- (\oC \oy_k) (\f \y^i)
-\rt \}
-\end{array}
- & \stackrel{d_1}{\lra}  &
-\begin{array}{c}
-(\oC \x^2 \oC) f_{j}^{i}  (\oy_i \oC)  (\f \pa A^j \oC) 
-\\
-\end{array}
-\\
-
-(C \x^2 C) (\f C) (\oy_i \oy_j)
- & \stackrel{d_1}{\lra}  &
-\begin{array}{c}
-(C \x^2 C) (\f C) (\oy_i \pa \A_j C)
-\\
-\end{array}
-\\
-
-\oC \x^2 \oC) A^i ( \f  \pa   \A_j \oC) 
- & \stackrel{d_1}{\lra}  &
-\begin{array}{c}
-\oC \x^2 \oC) A^i ( \f  \pa \oC) (\oy_j \oC)
-\\
-\end{array}
-\\
-
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 518
-```
-\begin{table}[hptb]
-
-\caption{\Large Fifth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Mappings of $N_{\rm Form}=5 \leftrightarrow N_{\rm Form} =  6$.  }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccccc}  
-
-\la{onehalfscalars5}
-
-\\
-
-N_{\rm Form} = 5 &&
-
-N_{\rm Form} = 6 
-
-\\
-
-(C \x^2 C) (\f C)  f_{ijk} A^i A^j A^k  
-
- & \stackrel{d_1}{\lra}  &
-
-\begin{array}{c}
-
-(C \x^2 C)(\f C)  f_{ijk} 
-
-\\
-
- A^i A^j   ( C \y^k)
-
-\\
-
-\end{array}
-
-\\
-
-
-
-
-
-\begin{array}{c} 
-
-
-
- (\oC \x^2 \oC)
-
-f_{i}^k
-
-\\
-
-\lt \{
-
- \A_k (\f \pa A^i \oC) 
-
-- 
-
- (\oC \oy_k) (\f \y^i)
-
-\rt \}
-
-\end{array}
-
- & \stackrel{d_1}{\lra}  &
-
-\begin{array}{c}
-
-(\oC \x^2 \oC) f_{j}^{i}  (\oy_i \oC)  (\f \pa A^j \oC) 
-
-\\
-
-\end{array}
-
-\\
-
-
-
-(C \x^2 C) (\f C) (\oy_i \oy_j)
-
- & \stackrel{d_1}{\lra}  &
-
-\begin{array}{c}
-
-(C \x^2 C) (\f C) (\oy_i \pa \A_j C)
-
-\\
-
-\end{array}
-
-\\
-
-
-
-\oC \x^2 \oC) A^i ( \f  \pa   \A_j \oC) 
-
- & \stackrel{d_1}{\lra}  &
-
-\begin{array}{c}
-
-\oC \x^2 \oC) A^i ( \f  \pa \oC) (\oy_j \oC)
-
-\\
-
-\end{array}
-
-\\
-
-
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 519
-```
-\begin{table}[hptb]
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Sixth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-Mappings of $N_{\rm Form}=6 \leftrightarrow N_{\rm Form} =  7$.  }
-
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccccc}  
-\la{onehalfscalars6}
-\\
-N_{\rm Form} = 6 &&
-N_{\rm Form} = 7 
-\\
-
-
-(C \x^2 C) (\f C) f_{ijk} A^i A^j ( C \y^k) 
- & \stackrel{d_1}{\lra}  &
-\begin{array}{c}
-(C \x^2 C)(\f C)  f_{ijk} 
-\\
-\lt \{ A^i  ( C \y^j) ( C \y^k)
-\rt \}
-\\
-\end{array}
-\\
-
-(\oC \x^2 \oC) (\oy_j \oC)  (\f \pa \A_i \oC)  
- & \stackrel{d_1}{\lra}  &
-\begin{array}{c}
-(\oC \x^2 \oC) (\oy_j \oC)  (\f \pa \oC) (\oC \oy_i )
-\\
-\end{array}
-\\
-
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 520
-```
-\begin{table}[hptb]
-
-\caption{\Large Sixth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Mappings of $N_{\rm Form}=6 \leftrightarrow N_{\rm Form} =  7$.  }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccccc}  
-
-\la{onehalfscalars6}
-
-\\
-
-N_{\rm Form} = 6 &&
-
-N_{\rm Form} = 7 
-
-\\
-
-
-
-
-
-(C \x^2 C) (\f C) f_{ijk} A^i A^j ( C \y^k) 
-
- & \stackrel{d_1}{\lra}  &
-
-\begin{array}{c}
-
-(C \x^2 C)(\f C)  f_{ijk} 
-
-\\
-
-\lt \{ A^i  ( C \y^j) ( C \y^k)
-
-\rt \}
-
-\\
-
-\end{array}
-
-\\
-
-
-
-(\oC \x^2 \oC) (\oy_j \oC)  (\f \pa \A_i \oC)  
-
- & \stackrel{d_1}{\lra}  &
-
-\begin{array}{c}
-
-(\oC \x^2 \oC) (\oy_j \oC)  (\f \pa \oC) (\oC \oy_i )
-
-\\
-
-\end{array}
-
-\\
-
-
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 521
-```
-\begin{table}[hptb]
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Seventh Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-Mappings of $N_{\rm Form}=7 \leftrightarrow N_{\rm Form} =  8$.  }
-
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccccc}  
-\la{onehalfscalars7}
-\\
-N_{\rm Form} = 7 &&
-N_{\rm Form} = 8 
-\\
-(C \x^2 C) (\f C) f_{[ijk]} ( C \y^i)( C \y^j) A^k
- & \stackrel{d_1}{\lra}  &
-\begin{array}{c}
-(C \x^2 C)(\f C)  f_{[ijk]} 
-\\
-\lt \{
-( C \y^i)( C \y^j) ( C \y^k)
-\rt \}
-\\
-\end{array}
-\\
-
-
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 522
-```
-\begin{table}[hptb]
-
-\caption{\Large Seventh Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Mappings of $N_{\rm Form}=7 \leftrightarrow N_{\rm Form} =  8$.  }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccccc}  
-
-\la{onehalfscalars7}
-
-\\
-
-N_{\rm Form} = 7 &&
-
-N_{\rm Form} = 8 
-
-\\
-
-(C \x^2 C) (\f C) f_{[ijk]} ( C \y^i)( C \y^j) A^k
-
- & \stackrel{d_1}{\lra}  &
-
-\begin{array}{c}
-
-(C \x^2 C)(\f C)  f_{[ijk]} 
-
-\\
-
-\lt \{
-
-( C \y^i)( C \y^j) ( C \y^k)
-
-\rt \}
-
-\\
-
-\end{array}
-
-\\
-
-
-
-
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 523
-```
-\begin{table}[hptb]
-\caption{\Large Eighth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:  Equations arising from Table \ref{onehalfscalars4}. }
-\vspace{.1in}
-\framebox{ 
- { \Large
- $\begin{array}{ccc}  
-\la{onehalfscalars8}
-\\
-   f_{i}^{j} {\og}^{ki}
-+   f_{i}^{k} {\og}^{ji}
-&=&0
-\\
-   f_{q}^{(i} {\og}^{jk)q}
-&=&0
-\\
-\lt (
-2 g_{ij} \oh^{jq} +
-6 g_{ijk} \oh^{jkq} \rt ) 
-&=&0
-\\
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 524
-```
-\begin{table}[hptb]
-
-\caption{\Large Eighth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:  Equations arising from Table \ref{onehalfscalars4}. }
-
-\vspace{.1in}
-
-\framebox{ 
-
- { \Large
-
- $\begin{array}{ccc}  
-
-\la{onehalfscalars8}
-
-\\
-
-   f_{i}^{j} {\og}^{ki}
-
-+   f_{i}^{k} {\og}^{ji}
-
-&=&0
-
-\\
-
-   f_{q}^{(i} {\og}^{jk)q}
-
-&=&0
-
-\\
-
-\lt (
-
-2 g_{ij} \oh^{jq} +
-
-6 g_{ijk} \oh^{jkq} \rt ) 
-
-&=&0
-
-\\
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 525
-```
-\begin{table}[hptb]
-\caption{\Large Ninth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-Mappings  of $E_{\infty} \ra {\cal H}_{\rm LIP}$.  These are subject to the constraints in Table \ref{onehalfscalars8}. } 
-
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccccc}  
-\la{onehalfscalars9}.
-\\
-E_{\infty} &&  {\cal H}_{\rm LIP}\\
-\\
- 
-\begin{array}{c}  
-(C \x^2 C) \f^{\a} C_{\a} \lt \{
-  
-h^i  m^2 \A_i  
-\rt.
-\\
-\lt.
-+ \oh^{ij} m \A_i \A_j  
-+ \oh^{ijk}  \A_i \A_j \A_k 
-\rt \}
-\end{array}
-& \lra &
-\begin{array}{c}  
-\int d^4 x \;  
-\f^{\a} C_{\a}  \lt \{
- \oh^i  m \oF_{1,i}  
-\rt.
-\\
-\lt.
-+ \oh^{ij}  \oF_{2,ij} 
-+ \oh^{ijk}  \oF_{3,ijk} \rt \}
-\end{array}
-\\
-\\
-\begin{array}{c}  
- (C \x^2 C) 
-\\
-\f^{\a} \y^i_{\a} 
-\lt \{
-    f_i^j \A_j
- \rt \}
-\end{array}
- & \lra &
-\begin{array}{c}  
-\int d^4 x \;
- \f^{\a} 
-\lt \{
-f_i^j
-\lt [
-\oG^{i} \A_j
-C_{\a} 
-\rt.
-\rt.
-\\
-\lt.
-+
-\lt (
-\pa_{\a \dot \b} A^i 
-+ C_{\a}\oY^{i}_{ \dot \b} \rt )
- \oy_{j}^{\dot \b}
-\lt.
--
-\y^i_{\a} 
-\oF_{1,i} \rt ]
-\rt \}
-\end{array}
-
-
-\end{array}$ } }
-\end{table}
-
-```
-## Example Number: 526
-```
-\begin{table}[hptb]
-
-\caption{\Large Ninth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Mappings  of $E_{\infty} \ra {\cal H}_{\rm LIP}$.  These are subject to the constraints in Table \ref{onehalfscalars8}. } 
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccccc}  
-
-\la{onehalfscalars9}.
-
-\\
-
-E_{\infty} &&  {\cal H}_{\rm LIP}\\
-
-\\
-
- 
-
-\begin{array}{c}  
-
-(C \x^2 C) \f^{\a} C_{\a} \lt \{
-
-  
-
-h^i  m^2 \A_i  
-
-\rt.
-
-\\
-
-\lt.
-
-+ \oh^{ij} m \A_i \A_j  
-
-+ \oh^{ijk}  \A_i \A_j \A_k 
-
-\rt \}
-
-\end{array}
-
-& \lra &
-
-\begin{array}{c}  
-
-\int d^4 x \;  
-
-\f^{\a} C_{\a}  \lt \{
-
- \oh^i  m \oF_{1,i}  
-
-\rt.
-
-\\
-
-\lt.
-
-+ \oh^{ij}  \oF_{2,ij} 
-
-+ \oh^{ijk}  \oF_{3,ijk} \rt \}
-
-\end{array}
-
-\\
-
-\\
-
-\begin{array}{c}  
-
- (C \x^2 C) 
-
-\\
-
-\f^{\a} \y^i_{\a} 
-
-\lt \{
-
-    f_i^j \A_j
-
- \rt \}
-
-\end{array}
-
- & \lra &
-
-\begin{array}{c}  
-
-\int d^4 x \;
-
- \f^{\a} 
-
-\lt \{
-
-f_i^j
-
-\lt [
-
-\oG^{i} \A_j
-
-C_{\a} 
-
-\rt.
-
-\rt.
-
-\\
-
-\lt.
-
-+
-
-\lt (
-
-\pa_{\a \dot \b} A^i 
-
-+ C_{\a}\oY^{i}_{ \dot \b} \rt )
-
- \oy_{j}^{\dot \b}
-
-\lt.
-
--
-
-\y^i_{\a} 
-
-\oF_{1,i} \rt ]
-
-\rt \}
-
-\end{array}
-
-
-
-
-
-\end{array}$ } }
-
-\end{table}
-
-```
-## Example Number: 527
-```
-\begin{table}[hptb]
-\caption{\Large Some Composite and Elementary Antichiral `Superfield' Multiplets}
-\la{Lowcompsup}
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{cccc}  
-\\
-{\rm Mult} &
-\A \;{\rm Term} &
-\oy \;{\rm Term} &
-\oF \;{\rm Term} 
-\\
-{\hat \A}_i
-&
-\A_i &
-\oy_{i \dot \b}
-&
-\oF_{1,i}
-\\
-{\hat ?}^i
-&
-?^i &
-\oY^{i}_{ \dot \b}
-&
-\oG^i
-\\
-\\
-{\hat \f}_{\a}
-&
-\f_{\a} 
-&
-W_{\a \dot \b}  
-&
-\F_{\a} 
-\\
-\\
-\begin{array}{c}
-{\hat \f}'_{\a}
-\\
-= {\widehat \y}^i_{\a}
-\end{array}
-&
-\begin{array}{c}
-{  \f}'_{\a}
-\\
-= { \y}^i_{\a}
-\end{array}
-&
-\begin{array}{c}
-{W}'_{\a \dot \b} =
-\\
-\lt (
-\pa_{\a \dot \b} A^i + C_{\a} \oY^i_{\dot \b} 
-\rt )
-\end{array}
-&
-\begin{array}{c}
-\F'_{\a} 
-\\=
-\oG^i C_{\a}
-\end{array}
-\\
-\\
-
-\begin{array}{c}
-{\hat \f}''_{\a}
-\\
-= {\widehat \y}^i_{\a} {\widehat \A}_j
-\end{array}
-&
-\begin{array}{c}
-{  \f}''_{\a}
-\\
-=
-\y^i_{\a} \A_j
-
-\end{array}
-&
-\begin{array}{c}
-{W}''_{\a \dot \b}
-=
-\lt \{
-\y^i_{\a} \oy_{j \dot \b}
-\rt.
-\\
-\lt.
-+
-\lt ( 
-\pa_{\a \dot \b} A^i + C_{\a} \oY^i_{\dot \b} 
-\rt ) \A_j
-\rt \}
-
-\end{array}
-&
-\begin{array}{c}
-\F''_{\a} 
-= \lt \{
-\oG^i C_{\a} \A_j 
-+
-\y^i_{\a} \oF_{1,j} 
-\rt.
-\\
-\lt.
-+ \lt ( 
-\pa_{\a \dot \b} A^i + C_{\a} \oY^i_{\dot \b} 
-\rt ) \oy^{\dot \b}_j
-\rt \}
-\end{array}
-\\
-\\
-
-
-
-&
-&
-{ \begin{array}{c}  
-
-\end{array}} 
-&
-
-\\
-
-\end{array}$
-}} 
-\end{table} 
-
-```
-## Example Number: 528
-```
-\begin{table}[hptb]
-
-\caption{\Large Some Composite and Elementary Antichiral `Superfield' Multiplets}
-
-\la{Lowcompsup}
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{cccc}  
-
-\\
-
-{\rm Mult} &
-
-\A \;{\rm Term} &
-
-\oy \;{\rm Term} &
-
-\oF \;{\rm Term} 
-
-\\
-
-{\hat \A}_i
-
-&
-
-\A_i &
-
-\oy_{i \dot \b}
-
-&
-
-\oF_{1,i}
-
-\\
-
-{\hat ?}^i
-
-&
-
-?^i &
-
-\oY^{i}_{ \dot \b}
-
-&
-
-\oG^i
-
-\\
-
-\\
-
-{\hat \f}_{\a}
-
-&
-
-\f_{\a} 
-
-&
-
-W_{\a \dot \b}  
-
-&
-
-\F_{\a} 
-
-\\
-
-\\
-
-\begin{array}{c}
-
-{\hat \f}'_{\a}
-
-\\
-
-= {\widehat \y}^i_{\a}
-
-\end{array}
-
-&
-
-\begin{array}{c}
-
-{  \f}'_{\a}
-
-\\
-
-= { \y}^i_{\a}
-
-\end{array}
-
-&
-
-\begin{array}{c}
-
-{W}'_{\a \dot \b} =
-
-\\
-
-\lt (
-
-\pa_{\a \dot \b} A^i + C_{\a} \oY^i_{\dot \b} 
-
-\rt )
-
-\end{array}
-
-&
-
-\begin{array}{c}
-
-\F'_{\a} 
-
-\\=
-
-\oG^i C_{\a}
-
-\end{array}
-
-\\
-
-\\
-
-
-
-\begin{array}{c}
-
-{\hat \f}''_{\a}
-
-\\
-
-= {\widehat \y}^i_{\a} {\widehat \A}_j
-
-\end{array}
-
-&
-
-\begin{array}{c}
-
-{  \f}''_{\a}
-
-\\
-
-=
-
-\y^i_{\a} \A_j
-
-
-
-\end{array}
-
-&
-
-\begin{array}{c}
-
-{W}''_{\a \dot \b}
-
-=
-
-\lt \{
-
-\y^i_{\a} \oy_{j \dot \b}
-
-\rt.
-
-\\
-
-\lt.
-
-+
-
-\lt ( 
-
-\pa_{\a \dot \b} A^i + C_{\a} \oY^i_{\dot \b} 
-
-\rt ) \A_j
-
-\rt \}
-
-
-
-\end{array}
-
-&
-
-\begin{array}{c}
-
-\F''_{\a} 
-
-= \lt \{
-
-\oG^i C_{\a} \A_j 
-
-+
-
-\y^i_{\a} \oF_{1,j} 
-
-\rt.
-
-\\
-
-\lt.
-
-+ \lt ( 
-
-\pa_{\a \dot \b} A^i + C_{\a} \oY^i_{\dot \b} 
-
-\rt ) \oy^{\dot \b}_j
-
-\rt \}
-
-\end{array}
-
-\\
-
-\\
-
-
-
-
-
-
-
-&
-
-&
-
-{ \begin{array}{c}  
-
-
-
-\end{array}} 
-
-&
-
-
-
-\\
-
-
-
-\end{array}$
-
-}} 
-
-\end{table} 
-
-```
-## Example Number: 529
-```
- \begin{table}[hptb]
-\caption{\Large   Antichiral Spinor Transformations}
-\la{antichiral}
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{lll}  
-\\
-\d \f_{\a}&= & 
-  W_{\a \dot   \b} {\oC}^{\dot   \b} 
-+ \x^{\g \dot \d} \partial_{\g \dot \d} \f_{\a}
-\\
- \d W_{\a \dot \b} &  =& 
-\pa_{ \g \dot \b }  \f_{\a} C^{\g} + \F_{\a} {\ov C}_{\dot \b}  
-+ \x^{\g \dot \d} \partial_{\g \dot \d}   W_{\a \dot \b} 
-\\
-\d
- \F_{\a} &  =&  \pa_{ \g \dot \b }  W_{\a}^{\;\; \dot \b}  C^{\g} 
- + \x^{\g \dot \d} \partial_{\g \dot \d}  \F_{\a}
-\\
-\end{array}$} }
-\end{table} 
-
-```
-## Example Number: 530
-```
- \begin{table}[hptb]
-
-\caption{\Large   Antichiral Spinor Transformations}
-
-\la{antichiral}
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{lll}  
-
-\\
-
-\d \f_{\a}&= & 
-
-  W_{\a \dot   \b} {\oC}^{\dot   \b} 
-
-+ \x^{\g \dot \d} \partial_{\g \dot \d} \f_{\a}
-
-\\
-
- \d W_{\a \dot \b} &  =& 
-
-\pa_{ \g \dot \b }  \f_{\a} C^{\g} + \F_{\a} {\ov C}_{\dot \b}  
-
-+ \x^{\g \dot \d} \partial_{\g \dot \d}   W_{\a \dot \b} 
-
-\\
-
-\d
-
- \F_{\a} &  =&  \pa_{ \g \dot \b }  W_{\a}^{\;\; \dot \b}  C^{\g} 
-
- + \x^{\g \dot \d} \partial_{\g \dot \d}  \F_{\a}
-
-\\
-
-\end{array}$} }
-
-\end{table} 
-
-```
-## Example Number: 531
-```
- \begin{table}[thbp]
-\caption{\Large   Antichiral Spinor Transformations}
-\la{primeantichiral}
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{lll}  
-\\
-\d \f'_{\a}&= & 
-  W'_{\a \dot   \b} {\oC}^{\dot   \b} 
-+ \x^{\g \dot \d} \partial_{\g \dot \d} \f'_{\a}
-\\
- \d W'_{\a \dot \b} &  =& 
-\pa_{ \g \dot \b }  \f'_{\a} C^{\g} + \F'_{\a} {\ov C}_{\dot \b}  
-+ \x^{\g \dot \d} \partial_{\g \dot \d}   W'_{\a \dot \b} 
-\\
-\d
- \F'_{\a} &  =&  \pa_{ \g \dot \b }  W_{\a}^{'\;\; \dot \b}  C^{\g} 
- + \x^{\g \dot \d} \partial_{\g \dot \d}  \F'_{\a}
-\\
-\end{array}$}} 
-\end{table} 
-
-```
-## Example Number: 532
-```
- \begin{table}[thbp]
-
-\caption{\Large   Antichiral Spinor Transformations}
-
-\la{primeantichiral}
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{lll}  
-
-\\
-
-\d \f'_{\a}&= & 
-
-  W'_{\a \dot   \b} {\oC}^{\dot   \b} 
-
-+ \x^{\g \dot \d} \partial_{\g \dot \d} \f'_{\a}
-
-\\
-
- \d W'_{\a \dot \b} &  =& 
-
-\pa_{ \g \dot \b }  \f'_{\a} C^{\g} + \F'_{\a} {\ov C}_{\dot \b}  
-
-+ \x^{\g \dot \d} \partial_{\g \dot \d}   W'_{\a \dot \b} 
-
-\\
-
-\d
-
- \F'_{\a} &  =&  \pa_{ \g \dot \b }  W_{\a}^{'\;\; \dot \b}  C^{\g} 
-
- + \x^{\g \dot \d} \partial_{\g \dot \d}  \F'_{\a}
-
-\\
-
-\end{array}$}} 
-
-\end{table} 
-
-```
-## Example Number: 533
-```
-\begin{table}
-\caption{\Large   Field, Composite and Zinn Source Transformations  including a spinor $\f_{\a}$ with dimension  $\fr{1}{2}$: This is free from ZMOF    term. }
-\framebox{
-{\Large $\begin{array}{lll}  
-\la{deltaInsertphionehalf} 
-\\
-\d A^i&= & 
-\fr{\d {\cal A}}{\d \G_i} 
-=  \y^{i}_{  \b} {  C}^{  \b} 
-+ \x^{\g \dot \d} \partial_{\g \dot \d} A^i
-\\
-\d {\ov A}_i&= & 
-\fr{\d {\cal A}}{\d {\ov \G}^i} 
-=  {\ov \y}_{i  \dot \b} {\ov  C}^{ \dot  \b} 
-+ \x^{\g \dot \d} \partial_{\g \dot \d} {\ov A}_i
-\\
-&&
-+ \lt (
-  f_i^j  \A_j 
-\rt )
-\f^{\a} C_{\a}  
-\\
-
-\d \y_{\a}^i &  =& 
-\fr{\d {\cal A}}{\d {  Y}_i^{   \a} } = 
-\pa_{ \a \dot \b }  A^{i} {\ov C}^{\dot \b}  
-+ 
-C_{\a}   
-F_1^i
-+ \x^{\g \dot \d} \partial_{\g \dot \d}  \y^{i}_{\a  }
-\\
-&& 
-+  f_j^i  \f^{\b} \y^j_{\b} C_{\a}   
-\\
-&&
-+  f_j^k  f_k^i  (\f)^2 A^j  C_{\a} 
-  
-\\
-
-\d
- {\ov \y}_{i \dot \a} &  =& 
-\fr{\d {\cal A}}{\d { {\ov Y}}^{i \dot   \a} } = 
-\pa_{ \a \dot \a }  {\ov A}_{i} { c}^{\a}  
-+ 
-{\ov C}_{\dot \a}   
-{\ov F}_{1,i}
-+ \x^{\g \dot \d} \partial_{\g \dot \d} 
- {\ov \y}_{i \dot \a} 
-\\
-&& 
-+  f_i^j  \f^{\b} C_{\b}   \oy_{j \dot \b}  
-\\
-\d \G_i 
-&= &
- \fr{\d {\cal A}}{\d A^i} 
-=
- - \fr{1}{2} \pa_{ \a \dot \b  }       \pa^{ \a \dot \b  }        {\ov  A}_{i} 
-\\
-&& +   m {g}_{iq} F_1^q  + g_{ijk} { F}_2^{jk}
- - \pa_{ \a \dot \b } Y_{i}^{ \a}    {\ov C}^{\dot \b}   
-+ \x^{\g \dot \d} \partial_{\g \dot \d} \G_i
-\\
-&& 
-+  f_i^j  \lt \{ 
-m g_{jk}  \f^{\b} \y^k_{\b}   
-+ 2 g_{jkl}  \f^{\b} A^k \y^l_{\b}   
-\rt \}
-+  f_i^j \f^{\a} \pa_{\a \dot \b  } \oy^{\dot \b}_j   
-\\
-&&
-+ 
-\f^{\a}\f_{\a}
-\lt \{
-f_i^j f_j^k {\ov F}_{1,k} 
-+
-f_k^j f_j^l A^k \lt ( m g_{il}  + 2 g_{ilq} A^q  
-\rt ) 
-\rt \} 
-\\
-
-
-
-
-\d {\ov \G}^i 
-&= & \fr{\d {\cal A}}{\d {\ov A}_i} 
-=
-- \fr{1}{2} \pa_{ \a \dot \b  }       \pa^{ \a \dot \b  }        { A}^{i} 
-\\
-&& 
-+  m {\ov g}^{ij} {\ov  F}_{1, k}  
-+  {\ov g}^{ijk}     {\ov  F}_{2,j k} 
-\\
-&& - \pa_{ \a \dot \b } {\ov Y}^{ i \dot \b}    { C}^{\a}   
-+ \x^{\g \dot \d} \partial_{\g \dot \d} 
- {\ov \G}^i
-\\
-&&
-+  f_j^i \f^{\a} C_{\a} \oG^j 
-\\
-\d Y_{i}^{ \a} 
-&=&\fr{\d {\cal A}}{\d {  \y}^i_{   \a}} 
-= 
--
-  \pa^{\a \dot \b  }   
-{\ov \y}_{i   \dot \b}
-+  m {g}_{iq}   
-\y^{q \a} 
-\\
-&&
- +
-2 g_{ijk}  \y^{j \a} A^k    
--
-\G_i  
- {  C}^{  \a}
-+ \x^{\g \dot \d} \partial_{\g \dot \d}  Y_{i}^{ \a}
-\\
-&& 
-+  f_i^j \oF_{1,j}  \f_{\a}  
-\\
-\d 
-{\ov Y}^{i \dot \a} 
-&=&\fr{\d {\cal A}}{\d {\ov \y}_i^{ \dot \a} 
-} 
-= 
--
-  \pa^{\b \dot \a  }   
-{ \y}^i_{ \b}
-+  m {\ov g}^{ik}   
-{\ov \y}_{k}^{\dot  \a} 
-\\
-&& +
-2 {\ov g}^{ijk} {\ov \y}_{j}^{\dot  \a} 
-{\ov A}_k  
--
-{\ov \G}^i  
- { \ov C}^{\dot  \a}
-+ \x^{\g \dot \d} \partial_{\g \dot \d}  
-{\ov Y}^{i \dot \a} 
-\\
-&&
-+  f_j^i \f^{\a} 
-\lt \{
-\pa_{\a \dot \a  } A^j  
-+ C_{\a} {\ov Y}^j_{ \dot \a  }    
-\rt \}
-\\
-\\
-\d C_{\a}
-&=&
-0
-\\
-\d  {\ov C}_{\dot \b}
-&=&
-0
-
-\end{array}$}} 
-\end{table}
-
-```
-## Example Number: 534
-```
-\begin{table}
-
-\caption{\Large   Field, Composite and Zinn Source Transformations  including a spinor $\f_{\a}$ with dimension  $\fr{1}{2}$: This is free from ZMOF    term. }
-
-\framebox{
-
-{\Large $\begin{array}{lll}  
-
-\la{deltaInsertphionehalf} 
-
-\\
-
-\d A^i&= & 
-
-\fr{\d {\cal A}}{\d \G_i} 
-
-=  \y^{i}_{  \b} {  C}^{  \b} 
-
-+ \x^{\g \dot \d} \partial_{\g \dot \d} A^i
-
-\\
-
-\d {\ov A}_i&= & 
-
-\fr{\d {\cal A}}{\d {\ov \G}^i} 
-
-=  {\ov \y}_{i  \dot \b} {\ov  C}^{ \dot  \b} 
-
-+ \x^{\g \dot \d} \partial_{\g \dot \d} {\ov A}_i
-
-\\
-
-&&
-
-+ \lt (
-
-  f_i^j  \A_j 
-
-\rt )
-
-\f^{\a} C_{\a}  
-
-\\
-
-
-
-\d \y_{\a}^i &  =& 
-
-\fr{\d {\cal A}}{\d {  Y}_i^{   \a} } = 
-
-\pa_{ \a \dot \b }  A^{i} {\ov C}^{\dot \b}  
-
-+ 
-
-C_{\a}   
-
-F_1^i
-
-+ \x^{\g \dot \d} \partial_{\g \dot \d}  \y^{i}_{\a  }
-
-\\
-
-&& 
-
-+  f_j^i  \f^{\b} \y^j_{\b} C_{\a}   
-
-\\
-
-&&
-
-+  f_j^k  f_k^i  (\f)^2 A^j  C_{\a} 
-
-  
-
-\\
-
-
-
-\d
-
- {\ov \y}_{i \dot \a} &  =& 
-
-\fr{\d {\cal A}}{\d { {\ov Y}}^{i \dot   \a} } = 
-
-\pa_{ \a \dot \a }  {\ov A}_{i} { c}^{\a}  
-
-+ 
-
-{\ov C}_{\dot \a}   
-
-{\ov F}_{1,i}
-
-+ \x^{\g \dot \d} \partial_{\g \dot \d} 
-
- {\ov \y}_{i \dot \a} 
-
-\\
-
-&& 
-
-+  f_i^j  \f^{\b} C_{\b}   \oy_{j \dot \b}  
-
-\\
-
-\d \G_i 
-
-&= &
-
- \fr{\d {\cal A}}{\d A^i} 
-
-=
-
- - \fr{1}{2} \pa_{ \a \dot \b  }       \pa^{ \a \dot \b  }        {\ov  A}_{i} 
-
-\\
-
-&& +   m {g}_{iq} F_1^q  + g_{ijk} { F}_2^{jk}
-
- - \pa_{ \a \dot \b } Y_{i}^{ \a}    {\ov C}^{\dot \b}   
-
-+ \x^{\g \dot \d} \partial_{\g \dot \d} \G_i
-
-\\
-
-&& 
-
-+  f_i^j  \lt \{ 
-
-m g_{jk}  \f^{\b} \y^k_{\b}   
-
-+ 2 g_{jkl}  \f^{\b} A^k \y^l_{\b}   
-
-\rt \}
-
-+  f_i^j \f^{\a} \pa_{\a \dot \b  } \oy^{\dot \b}_j   
-
-\\
-
-&&
-
-+ 
-
-\f^{\a}\f_{\a}
-
-\lt \{
-
-f_i^j f_j^k {\ov F}_{1,k} 
-
-+
-
-f_k^j f_j^l A^k \lt ( m g_{il}  + 2 g_{ilq} A^q  
-
-\rt ) 
-
-\rt \} 
-
-\\
-
-
-
-
-
-
-
-
-
-\d {\ov \G}^i 
-
-&= & \fr{\d {\cal A}}{\d {\ov A}_i} 
-
-=
-
-- \fr{1}{2} \pa_{ \a \dot \b  }       \pa^{ \a \dot \b  }        { A}^{i} 
-
-\\
-
-&& 
-
-+  m {\ov g}^{ij} {\ov  F}_{1, k}  
-
-+  {\ov g}^{ijk}     {\ov  F}_{2,j k} 
-
-\\
-
-&& - \pa_{ \a \dot \b } {\ov Y}^{ i \dot \b}    { C}^{\a}   
-
-+ \x^{\g \dot \d} \partial_{\g \dot \d} 
-
- {\ov \G}^i
-
-\\
-
-&&
-
-+  f_j^i \f^{\a} C_{\a} \oG^j 
-
-\\
-
-\d Y_{i}^{ \a} 
-
-&=&\fr{\d {\cal A}}{\d {  \y}^i_{   \a}} 
-
-= 
-
--
-
-  \pa^{\a \dot \b  }   
-
-{\ov \y}_{i   \dot \b}
-
-+  m {g}_{iq}   
-
-\y^{q \a} 
-
-\\
-
-&&
-
- +
-
-2 g_{ijk}  \y^{j \a} A^k    
-
--
-
-\G_i  
-
- {  C}^{  \a}
-
-+ \x^{\g \dot \d} \partial_{\g \dot \d}  Y_{i}^{ \a}
-
-\\
-
-&& 
-
-+  f_i^j \oF_{1,j}  \f_{\a}  
-
-\\
-
-\d 
-
-{\ov Y}^{i \dot \a} 
-
-&=&\fr{\d {\cal A}}{\d {\ov \y}_i^{ \dot \a} 
-
-} 
-
-= 
-
--
-
-  \pa^{\b \dot \a  }   
-
-{ \y}^i_{ \b}
-
-+  m {\ov g}^{ik}   
-
-{\ov \y}_{k}^{\dot  \a} 
-
-\\
-
-&& +
-
-2 {\ov g}^{ijk} {\ov \y}_{j}^{\dot  \a} 
-
-{\ov A}_k  
-
--
-
-{\ov \G}^i  
-
- { \ov C}^{\dot  \a}
-
-+ \x^{\g \dot \d} \partial_{\g \dot \d}  
-
-{\ov Y}^{i \dot \a} 
-
-\\
-
-&&
-
-+  f_j^i \f^{\a} 
-
-\lt \{
-
-\pa_{\a \dot \a  } A^j  
-
-+ C_{\a} {\ov Y}^j_{ \dot \a  }    
-
-\rt \}
-
-\\
-
-\\
-
-\d C_{\a}
-
-&=&
-
-0
-
-\\
-
-\d  {\ov C}_{\dot \b}
-
-&=&
-
-0
-
-
-
-\end{array}$}} 
-
-\end{table}
-
-```
-## Example Number: 535
-```
-\begin{table}[hptb]
-\caption{\Large First Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-\vspace{.1in}
-\framebox{ 
-{ \Large $\begin{array}{ccccccc}  
-\la{insertonehalfscalars1}\\
-N_{\rm Form} = 4 &&
-N_{\rm Form} =  5 
-
-\\
-
-\begin{array}{c} 
- (C \x^2 C) 
-\\
-\lt \{
-m \ok^{ij} \A_i
-\A_j
-+ {\ok}^{ijk} \A_i \A_j
-\A_k
-\rt \}
-\end{array}
- & \stackrel{d_7}{\lra} 
-&
-\begin{array}{c} 
- (C \x^2 C)  (\f C)  
-\\
-  \lt (  f_i^q \A_q
-\rt ) 
-\\
-\lt \{
- 2m \ok^{ij}  \A_j
-+ 3{\ok}^{ijk}   \A_j
-\A_k
-\rt \}
-\end{array}
-
-\\
-\\
-\begin{array}{c} 
- (C \x^2 C)
-\\
-\lt \{ 
-m \A_i \A_j \lt (
- 2  \oh^{ik} \of^{j}_k  
-\rt )
-\rt.
-\\
-\lt.
-+\A_i \A_j \A_k
-\lt (
- 3  \oh^{ijq} \of^{k}_q  
-\rt )
-\rt \}
-\end{array}
- & \stackrel{d_7^{\dag}}{\longleftarrow} 
-&
-\begin{array}{c} 
- (C \x^2 C)  (\f C)  
-\;
-\\
-  \lt \{ 
- m {\oh}^{ij}   \A_i
- \A_j+  {\oh}^{ijk}   \A_i
- \A_j \A_k \rt \}
-\end{array}
-\\
-
-\\
-\end{array}$ }}
-\end{table}
-
-```
-## Example Number: 536
-```
-\begin{table}[hptb]
-
-\caption{\Large First Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Mappings of $N_{\rm Form}=4 \leftrightarrow N_{\rm Form} =  5$.  }
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{ \Large $\begin{array}{ccccccc}  
-
-\la{insertonehalfscalars1}\\
-
-N_{\rm Form} = 4 &&
-
-N_{\rm Form} =  5 
-
-
-
-\\
-
-
-
-\begin{array}{c} 
-
- (C \x^2 C) 
-
-\\
-
-\lt \{
-
-m \ok^{ij} \A_i
-
-\A_j
-
-+ {\ok}^{ijk} \A_i \A_j
-
-\A_k
-
-\rt \}
-
-\end{array}
-
- & \stackrel{d_7}{\lra} 
-
-&
-
-\begin{array}{c} 
-
- (C \x^2 C)  (\f C)  
-
-\\
-
-  \lt (  f_i^q \A_q
-
-\rt ) 
-
-\\
-
-\lt \{
-
- 2m \ok^{ij}  \A_j
-
-+ 3{\ok}^{ijk}   \A_j
-
-\A_k
-
-\rt \}
-
-\end{array}
-
-
-
-\\
-
-\\
-
-\begin{array}{c} 
-
- (C \x^2 C)
-
-\\
-
-\lt \{ 
-
-m \A_i \A_j \lt (
-
- 2  \oh^{ik} \of^{j}_k  
-
-\rt )
-
-\rt.
-
-\\
-
-\lt.
-
-+\A_i \A_j \A_k
-
-\lt (
-
- 3  \oh^{ijq} \of^{k}_q  
-
-\rt )
-
-\rt \}
-
-\end{array}
-
- & \stackrel{d_7^{\dag}}{\longleftarrow} 
-
-&
-
-\begin{array}{c} 
-
- (C \x^2 C)  (\f C)  
-
-\;
-
-\\
-
-  \lt \{ 
-
- m {\oh}^{ij}   \A_i
-
- \A_j+  {\oh}^{ijk}   \A_i
-
- \A_j \A_k \rt \}
-
-\end{array}
-
-\\
-
-
-
-\\
-
-\end{array}$ }}
-
-\end{table}
-
-```
-## Example Number: 537
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:  Equations arising from Table \ref{insertonehalfscalars1}. }
-
-\vspace{.1in}
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:  Equations arising from Table \ref{insertonehalfscalars1}. }
-\vspace{.1in}
-\framebox{ 
- { \Large
- $\begin{array}{ccccc}  
-\la{insertonehalfscalars2}
- \\
- f_i^{(j} \ok^{k)i}
-&=&
-0
-& {\rm Ignore?}
-\\
-\\
- f_i^{(j} \ok^{kl)i}
-&=&
-0
-& {\rm Ignore?}
-\\
-\\
- 2  \oh^{ik} \of^{j}_k  
-&=&
-0
-& {\rm Keep}
-\\
- 3  \oh^{ijq} \of^{k}_q  
-&=&
-0
-& {\rm Keep}
-
-\end{array}$ }}
-\end{table}
-
-```
-## Example Number: 538
-```
-\begin{table}[hptb]
-
-\caption{\Large Second Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:  Equations arising from Table \ref{insertonehalfscalars1}. }
-
-\vspace{.1in}
-
-\framebox{ 
-
- { \Large
-
- $\begin{array}{ccccc}  
-
-\la{insertonehalfscalars2}
-
- \\
-
- f_i^{(j} \ok^{k)i}
-
-&=&
-
-0
-
-& {\rm Ignore?}
-
-\\
-
-\\
-
- f_i^{(j} \ok^{kl)i}
-
-&=&
-
-0
-
-& {\rm Ignore?}
-
-\\
-
-\\
-
- 2  \oh^{ik} \of^{j}_k  
-
-&=&
-
-0
-
-& {\rm Keep}
-
-\\
-
- 3  \oh^{ijq} \of^{k}_q  
-
-&=&
-
-0
-
-& {\rm Keep}
-
-
-
-\end{array}$ }}
-
-\end{table}
-
-```
-## Example Number: 539
-```
-\begin{table}[hptb]
-
-\caption{\Large Third Table for  action from inserted spinor coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Equations arising from 
-
-Table \ref{insertonehalfscalars2} and  Table \ref{onehalfscalars5} assuming non-renormalization. All the equations can be derived from the Generating Function ${\cal T}$ of Equation (\ref{onegenfunc}).} 
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[hptb]
-\caption{\Large Third Table for  action from inserted spinor coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-Equations arising from 
-Table \ref{insertonehalfscalars2} and  Table \ref{onehalfscalars5} assuming non-renormalization. All the equations can be derived from the Generating Function ${\cal T}$ of Equation (\ref{onegenfunc}).} 
-
-\vspace{.1in}
-\framebox{ 
- { \Large
- $\begin{array}{ccccc}  
-\la{insertonehalfscalars3}
-
-\\
- 
-   f_{i}^{j} {\og}^{ki}
-+   f_{i}^{k} {\og}^{ji}
-& =& \fr{\pa {{\cal T}} }{\pa h_{jk} } 
-=0
-\\
-   f_{q}^{(i} {\og}^{jk)q}
-& =& \fr{\pa {{\cal T}} }{\pa h_{ijk} } 
-=0
-\\
-\lt (
-2 g_{ij} \oh^{jq} +
-6 g_{ijk} \oh^{jkq} \rt ) 
-& =& \fr{\pa {\ov{\cal T}} }{\pa \of^i_j } 
-=0
-\\
- 2  \oh^{k(i} \of^{j)}_k  
-& =& \fr{1}{2} \fr{\pa {\ov{\cal T}} }{\pa g_{ij} } 
-=0
-\\
- 3  \oh^{q(ij} \of^{k)}_q  
-& =&  \fr{1}{2} \fr{\pa {\ov{\cal T}} }{\pa g_{ijk} } 
-=0
-\\
-
-\end{array}$ }}
-\end{table}
-
-```
-## Example Number: 540
-```
-\begin{table}[hptb]
-
-\caption{\Large Third Table for  action from inserted spinor coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Equations arising from 
-
-Table \ref{insertonehalfscalars2} and  Table \ref{onehalfscalars5} assuming non-renormalization. All the equations can be derived from the Generating Function ${\cal T}$ of Equation (\ref{onegenfunc}).} 
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
- { \Large
-
- $\begin{array}{ccccc}  
-
-\la{insertonehalfscalars3}
-
-
-
-\\
-
- 
-
-   f_{i}^{j} {\og}^{ki}
-
-+   f_{i}^{k} {\og}^{ji}
-
-& =& \fr{\pa {{\cal T}} }{\pa h_{jk} } 
-
-=0
-
-\\
-
-   f_{q}^{(i} {\og}^{jk)q}
-
-& =& \fr{\pa {{\cal T}} }{\pa h_{ijk} } 
-
-=0
-
-\\
-
-\lt (
-
-2 g_{ij} \oh^{jq} +
-
-6 g_{ijk} \oh^{jkq} \rt ) 
-
-& =& \fr{\pa {\ov{\cal T}} }{\pa \of^i_j } 
-
-=0
-
-\\
-
- 2  \oh^{k(i} \of^{j)}_k  
-
-& =& \fr{1}{2} \fr{\pa {\ov{\cal T}} }{\pa g_{ij} } 
-
-=0
-
-\\
-
- 3  \oh^{q(ij} \of^{k)}_q  
-
-& =&  \fr{1}{2} \fr{\pa {\ov{\cal T}} }{\pa g_{ijk} } 
-
-=0
-
-\\
-
-
-
-\end{array}$ }}
-
-\end{table}
-
-```
-## Example Number: 541
-```
-\begin{table}[hptb]
-\caption{\Large Fourth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-Mappings  of $E_{\infty} \ra {\cal H}$.  These are subject to the constraints in Table \ref{insertonehalfscalars3}, if we assume non-renormalization of the chiral action terms.
- } 
-
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccccc}  
-\la{insertonehalfscalars4}.
-\\
-E_{\infty} &&  {\cal H}\\
-\\
- 
-\begin{array}{c}  
-(C \x^2 C) \f^{\a} C_{\a} 
-\\
-\lt \{
- \oh^{ij} m \A_i \A_j  
-+ \oh^{ijk}  \A_i \A_j \A_k 
-\rt \}
-\end{array}
-& \lra &
-\begin{array}{c}  
-\int d^4 x \;  
-\f^{\a} C_{\a}  
-\\
-\lt \{
- m \oh^{ij}  \oF_{2,ij} 
-+ \oh^{ijk}  \oF_{3,ijk} \rt \}
-\end{array}
-\\
-\\
-\begin{array}{c}  
- (C \x^2 C) 
-\\
-\f^{\a} \y^i_{\a} 
-\lt \{
- f_i^j \A_j
- \rt \}
-\end{array}
- & \lra &
-\begin{array}{c}  
-\int d^4 x \;
- \f^{\a} 
-\lt \{
-f_i^j
-\lt [
-\oG^{i} \A_j
-C_{\a} 
-\rt.
-\rt.
-\\
-\lt.
-+
-\lt (
-\pa_{\a \dot \b} A^i 
-+ C_{\a}\oY^{i}_{ \dot \b} \rt )
- \oy_{j}^{\dot \b}
-\lt.
--
-\y^i_{\a} 
-\oF_{1,i} \rt ]
-\rt \}
-\end{array}
-
-
-\end{array}$ }}
-\end{table}
-
-```
-## Example Number: 542
-```
-\begin{table}[hptb]
-
-\caption{\Large Fourth Table for  spinors coupled to a constant source $\f_{\a}$ with  ${\rm Dimension} \; \f_{\a}  = \fr{1}{2}$:   
-
-Mappings  of $E_{\infty} \ra {\cal H}$.  These are subject to the constraints in Table \ref{insertonehalfscalars3}, if we assume non-renormalization of the chiral action terms.
-
- } 
-
-
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccccc}  
-
-\la{insertonehalfscalars4}.
-
-\\
-
-E_{\infty} &&  {\cal H}\\
-
-\\
-
- 
-
-\begin{array}{c}  
-
-(C \x^2 C) \f^{\a} C_{\a} 
-
-\\
-
-\lt \{
-
- \oh^{ij} m \A_i \A_j  
-
-+ \oh^{ijk}  \A_i \A_j \A_k 
-
-\rt \}
-
-\end{array}
-
-& \lra &
-
-\begin{array}{c}  
-
-\int d^4 x \;  
-
-\f^{\a} C_{\a}  
-
-\\
-
-\lt \{
-
- m \oh^{ij}  \oF_{2,ij} 
-
-+ \oh^{ijk}  \oF_{3,ijk} \rt \}
-
-\end{array}
-
-\\
-
-\\
-
-\begin{array}{c}  
-
- (C \x^2 C) 
-
-\\
-
-\f^{\a} \y^i_{\a} 
-
-\lt \{
-
- f_i^j \A_j
-
- \rt \}
-
-\end{array}
-
- & \lra &
-
-\begin{array}{c}  
-
-\int d^4 x \;
-
- \f^{\a} 
-
-\lt \{
-
-f_i^j
-
-\lt [
-
-\oG^{i} \A_j
-
-C_{\a} 
-
-\rt.
-
-\rt.
-
-\\
-
-\lt.
-
-+
-
-\lt (
-
-\pa_{\a \dot \b} A^i 
-
-+ C_{\a}\oY^{i}_{ \dot \b} \rt )
-
- \oy_{j}^{\dot \b}
-
-\lt.
-
--
-
-\y^i_{\a} 
-
-\oF_{1,i} \rt ]
-
-\rt \}
-
-\end{array}
-
-
-
-
-
-\end{array}$ }}
-
-\end{table}
-
-```
-## Example Number: 543
-```
- \begin{table}[thbp]
-\caption{\Large   First Two Spinor Invariants}
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccc}  
- \la{threespininv}
-{\rm Dim} \;\f = &\F_{\a}=\int d^2 \oq  & \oH C_{\a}  = \int d^2 \oq 
-\\
-\fr{1}{2} 
-&  \lt \{
-f_i^j {\widehat \y}^i_{\a} {\widehat \A}_j 
-\rt \}
-& 
-  \lt \{
-  
-\oh^{ij} m {\widehat \A}_i {\widehat \A}_j
-\rt.
-\\
-&&
-\lt.
-+
-\oh^{ijk} m {\widehat \A}_i {\widehat \A}_j
-{\widehat \A}_k
-\rt \} C_{\a} 
-\\
-
-
-- \fr{1}{2} 
-&  \lt \{
-f_i^j m {\widehat \y}^i_{\a} {\widehat \A}_j 
-\rt.
-& 
-  \lt \{
-\oh^{ij}  m^2 {\widehat \A}_i {\widehat \A}_j
-\rt.
-\\
-&
-\lt.
-+
-f_i^{jk}  {\widehat \y}^i_{\a} {\widehat \A}_j{\widehat \A}_k
-\rt \}
-&
-\lt.
-+
-\oh^{ijk} m {\widehat \A}_i {\widehat \A}_j
-{\widehat \A}_k
-\rt.
-\\
-&&
-\lt.
-+
-\oh^{ijkl}  {\widehat \A}_i {\widehat \A}_j
-{\widehat \A}_k
-{\widehat \A}_l
-\rt \} C_{\a} 
-\\
-\end{array}$
-}} \end{table} 
-
-```
-## Example Number: 544
-```
- \begin{table}[thbp]
-
-\caption{\Large   First Two Spinor Invariants}
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccc}  
-
- \la{threespininv}
-
-{\rm Dim} \;\f = &\F_{\a}=\int d^2 \oq  & \oH C_{\a}  = \int d^2 \oq 
-
-\\
-
-\fr{1}{2} 
-
-&  \lt \{
-
-f_i^j {\widehat \y}^i_{\a} {\widehat \A}_j 
-
-\rt \}
-
-& 
-
-  \lt \{
-
-  
-
-\oh^{ij} m {\widehat \A}_i {\widehat \A}_j
-
-\rt.
-
-\\
-
-&&
-
-\lt.
-
-+
-
-\oh^{ijk} m {\widehat \A}_i {\widehat \A}_j
-
-{\widehat \A}_k
-
-\rt \} C_{\a} 
-
-\\
-
-
-
-
-
-- \fr{1}{2} 
-
-&  \lt \{
-
-f_i^j m {\widehat \y}^i_{\a} {\widehat \A}_j 
-
-\rt.
-
-& 
-
-  \lt \{
-
-\oh^{ij}  m^2 {\widehat \A}_i {\widehat \A}_j
-
-\rt.
-
-\\
-
-&
-
-\lt.
-
-+
-
-f_i^{jk}  {\widehat \y}^i_{\a} {\widehat \A}_j{\widehat \A}_k
-
-\rt \}
-
-&
-
-\lt.
-
-+
-
-\oh^{ijk} m {\widehat \A}_i {\widehat \A}_j
-
-{\widehat \A}_k
-
-\rt.
-
-\\
-
-&&
-
-\lt.
-
-+
-
-\oh^{ijkl}  {\widehat \A}_i {\widehat \A}_j
-
-{\widehat \A}_k
-
-{\widehat \A}_l
-
-\rt \} C_{\a} 
-
-\\
-
-\end{array}$
-
-}} \end{table} 
-
-```
-## Example Number: 545
-```
- \begin{table}[thbp]
-
-\caption{\Large   ${\cal T}_{\rm Dim}$ for First Three  Spinor Invariants }
-
-[end-of-con]
-
-
-[start-of-table]
-
- \begin{table}[thbp]
-\caption{\Large   ${\cal T}_{\rm Dim}$ for First Three  Spinor Invariants }
- \la{threespininvT}
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccc}  
- {\rm Dim}\;\f =  & {\cal T}
-\\
-\fr{1}{2} 
-  &
-
-f_j^i 
-\lt ( 2 h_{ik} \og^{jk}  + 6 h_{ikl} \og^{jkl} \rt )
-
-\\
-\\
-\fr{-1}{2} 
-  &
-f_j^i 
-\lt ( 2 h_{ik} \og^{jk}  + 6 h_{ikl} \og^{jkl} \rt )
-
-+ f_j^{il} 
-\lt ( 2 h_{ikl} \og^{jk}  + 6 h_{iklq} \og^{jkq} \rt )
-
-\\
-
-
-
-\end{array}$
-} }
-\end{table} 
-
-```
-## Example Number: 546
-```
- \begin{table}[thbp]
-
-\caption{\Large   ${\cal T}_{\rm Dim}$ for First Three  Spinor Invariants }
-
- \la{threespininvT}
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccc}  
-
- {\rm Dim}\;\f =  & {\cal T}
-
-\\
-
-\fr{1}{2} 
-
-  &
-
-
-
-f_j^i 
-
-\lt ( 2 h_{ik} \og^{jk}  + 6 h_{ikl} \og^{jkl} \rt )
-
-
-
-\\
-
-\\
-
-\fr{-1}{2} 
-
-  &
-
-f_j^i 
-
-\lt ( 2 h_{ik} \og^{jk}  + 6 h_{ikl} \og^{jkl} \rt )
-
-
-
-+ f_j^{il} 
-
-\lt ( 2 h_{ikl} \og^{jk}  + 6 h_{iklq} \og^{jkq} \rt )
-
-
-
-\\
-
-
-
-
-
-
-
-\end{array}$
-
-} }
-
-\end{table} 
-
-```
-## Example Number: 547
-```
- \begin{table}[thbp]
-
-\caption{\Large   First Bispinor}
-
-\vspace{.1in}
-
-[end-of-con]
-
-
-[start-of-table]
-
- \begin{table}[thbp]
-\caption{\Large   First Bispinor}
-\vspace{.1in}
-\framebox{ 
-{\Large $\begin{array}{ccccc}  
- \la{bispininv}
- {\rm Dim} \; K_{\a \b} &Q_{(\a \b)}=\int d^2 \oq  & \F_{(\a} C_{\b)}  = \int d^2 \oq 
-& {\ov H} C_{\a}C_{\b}  = \int d^2 \oq 
-\\
-4
-&  k_{[ij]} {\widehat \y}^i_{(\a} {\widehat \y}^j_{\b)} & 
- \lt \{
-  f^{i}_j m {\widehat \y}^j_{(\a} 
-{\widehat \A}_i
-\rt.
-& 
- \lt \{
- {\ov h}^{ij} m^2  
-{\widehat \A}_i
-{\widehat \A}_j
-\rt.
-\\
-&&
-+
-\lt.  f^{ik}_j  {\widehat \y}^j_{(\a} 
-{\widehat \A}_i
-{\widehat \A}_k
-\rt \} C_{\b)} 
-&
-\lt.
-  {\ov h}^{ijk} m  
-{\widehat \A}_i
-{\widehat \A}_j
-{\widehat \A}_k
-\rt.
-\\
-&&&
-\lt.
-  {\ov h}^{ijkl}   
-{\widehat \A}_i
-{\widehat \A}_j
-{\widehat \A}_k
-{\widehat \A}_l
-\rt \}  C_{\a} C_{\b} 
-\\
-
-
-\end{array}$
-}} 
-\end{table} 
-
-```
-## Example Number: 548
-```
- \begin{table}[thbp]
-
-\caption{\Large   First Bispinor}
-
-\vspace{.1in}
-
-\framebox{ 
-
-{\Large $\begin{array}{ccccc}  
-
- \la{bispininv}
-
- {\rm Dim} \; K_{\a \b} &Q_{(\a \b)}=\int d^2 \oq  & \F_{(\a} C_{\b)}  = \int d^2 \oq 
-
-& {\ov H} C_{\a}C_{\b}  = \int d^2 \oq 
-
-\\
-
-4
-
-&  k_{[ij]} {\widehat \y}^i_{(\a} {\widehat \y}^j_{\b)} & 
-
- \lt \{
-
-  f^{i}_j m {\widehat \y}^j_{(\a} 
-
-{\widehat \A}_i
-
-\rt.
-
-& 
-
- \lt \{
-
- {\ov h}^{ij} m^2  
-
-{\widehat \A}_i
-
-{\widehat \A}_j
-
-\rt.
-
-\\
-
-&&
-
-+
-
-\lt.  f^{ik}_j  {\widehat \y}^j_{(\a} 
-
-{\widehat \A}_i
-
-{\widehat \A}_k
-
-\rt \} C_{\b)} 
-
-&
-
-\lt.
-
-  {\ov h}^{ijk} m  
-
-{\widehat \A}_i
-
-{\widehat \A}_j
-
-{\widehat \A}_k
-
-\rt.
-
-\\
-
-&&&
-
-\lt.
-
-  {\ov h}^{ijkl}   
-
-{\widehat \A}_i
-
-{\widehat \A}_j
-
-{\widehat \A}_k
-
-{\widehat \A}_l
-
-\rt \}  C_{\a} C_{\b} 
-
-\\
-
-
-
-
-
-\end{array}$
-
-}} 
-
-\end{table} 
-
-```
-## Example Number: 549
-```
-\begin{table}
-\begin{tabular}{|c|c|c|c|c|} \hline
-Orbifold & twist & 6D Lie lattice & Wilson line & further constraints 
-\\ \hline
-$Z_3$    & $(1,1,-2)/3$ & $SU(3)^3$ & $3a_{1,3,5}
- = 0$ & $a_{i+1} = a_i$, $(i=1,3,5)$ 
-\\ \hline
-$Z_4$ & $(1,1,-2)/4$ & $SO(5)^2\times SU(2)^2$ & 
-$2a_{2,4,5,6} = 0$ & 
-$a_1 = a_3=0$ \\ \hline
-$Z_6$-I & $(1,1,-2)/6$ & $SU(3)\times G_2^2$ & 
-$3a_1 = 0$ & $a_1 = a_2$, $a_{3-6} = 0$ \\ \hline
-$Z_6$-II & $(1,2,-3)/6$ & $SU(3)\times SU(2)^2 \times G_2$ & 
-$3a_1 = 2a_{3,4}= 0$ & $a_1 = a_2$, $a_{5,6}=0$ \\ \hline 
-$Z_7$ & $(1,2,-3)/7$ & $SU(7)$ & 
-$7a_1 =0$ & $a_1 =a_{2-6}$  \\ \hline
-$Z_8$-I & $(1,2,-3)/8$ & $SO(9) \times SO(5)$ & 
-$2a_{4,6} =0$ & $a_{1,2,3,5}=0$  \\ \hline
-$Z_8$-II & $(1,3,-4)/8$ & $SO(9)\times SU(2)^2$ & 
-$2a_{4-6}=0$ & $a_{1-3}=0$   \\ \hline
-$Z_{12}$-I & $(1,4,-5)/12$ & $SU(3) \times F_4$ & 
-$3a_1 =0$ & $a_1 = a_2$, $a_{3-6}=0$  \\ \hline
-$Z_{12}$-II & $(1,5,-6)/12$ & $SU(2)^2 \times F_4$ & 
-$2a_{1,2}=0$ & $a_{3-6}=0$  \\ \hline
-\end{tabular}
-\caption{Allowed discrete Wilson lines.}
-\end{table}
-
-```
-## Example Number: 550
-```
-\begin{table}
-
-\begin{tabular}{|c|c|c|c|c|} \hline
-
-Orbifold & twist & 6D Lie lattice & Wilson line & further constraints 
-
-\\ \hline
-
-$Z_3$    & $(1,1,-2)/3$ & $SU(3)^3$ & $3a_{1,3,5}
-
- = 0$ & $a_{i+1} = a_i$, $(i=1,3,5)$ 
-
-\\ \hline
-
-$Z_4$ & $(1,1,-2)/4$ & $SO(5)^2\times SU(2)^2$ & 
-
-$2a_{2,4,5,6} = 0$ & 
-
-$a_1 = a_3=0$ \\ \hline
-
-$Z_6$-I & $(1,1,-2)/6$ & $SU(3)\times G_2^2$ & 
-
-$3a_1 = 0$ & $a_1 = a_2$, $a_{3-6} = 0$ \\ \hline
-
-$Z_6$-II & $(1,2,-3)/6$ & $SU(3)\times SU(2)^2 \times G_2$ & 
-
-$3a_1 = 2a_{3,4}= 0$ & $a_1 = a_2$, $a_{5,6}=0$ \\ \hline 
-
-$Z_7$ & $(1,2,-3)/7$ & $SU(7)$ & 
-
-$7a_1 =0$ & $a_1 =a_{2-6}$  \\ \hline
-
-$Z_8$-I & $(1,2,-3)/8$ & $SO(9) \times SO(5)$ & 
-
-$2a_{4,6} =0$ & $a_{1,2,3,5}=0$  \\ \hline
-
-$Z_8$-II & $(1,3,-4)/8$ & $SO(9)\times SU(2)^2$ & 
-
-$2a_{4-6}=0$ & $a_{1-3}=0$   \\ \hline
-
-$Z_{12}$-I & $(1,4,-5)/12$ & $SU(3) \times F_4$ & 
-
-$3a_1 =0$ & $a_1 = a_2$, $a_{3-6}=0$  \\ \hline
-
-$Z_{12}$-II & $(1,5,-6)/12$ & $SU(2)^2 \times F_4$ & 
-
-$2a_{1,2}=0$ & $a_{3-6}=0$  \\ \hline
-
-\end{tabular}
-
-\caption{Allowed discrete Wilson lines.}
-
-\end{table}
-
-```
-## Example Number: 551
-```
-\begin{table}[ht]
- \begin{center} {\bf The spectral index for a transition
-     with regular $u$ and  $q>-1/2$}  \vspace{1mm}\\
-  \begin{tabular}{|c|c|c|c|c|c|c|}
-    \hline
-    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
-    case & $\gamma_{-}$ & $\gamma_{+}$ & kink? &
-    stable? & ampl. depends & $n$\\
-    &&&&& on transition? & \\
-    \hline\hline
-    1 & $-q$  & $ -1 $ & yes & no  & no & $3+2q$ \\
-    2 & $-q$  & $ 2  $ &  no & yes & no & $1-2q$\\
-    3 & $1+q$ & $ -1 $ &  no & yes & no & $1-2q$\\
-    4 & $1+q$ & $ 2 $ &  no & yes & yes& $1-2q$\\
-    \hline
-  \end{tabular}
- \end{center}
-\caption[Post-big bang spectral indices] {\label{t:n-u}Here we
-summarize the post-big bang spectral indices as a function of the
-pre- and post-big bang exponent of the pump field, if $u$ is
-regular through the transition.  The mild requirement on the
-transition ($\Delta_T$) for this to hold is mentioned in the
-text.}
-\end{table}
-
-```
-## Example Number: 552
-```
-\begin{table}[ht]
-
- \begin{center} {\bf The spectral index for a transition
-
-     with regular $u$ and  $q>-1/2$}  \vspace{1mm}\\
-
-  \begin{tabular}{|c|c|c|c|c|c|c|}
-
-    \hline
-
-    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
-
-    case & $\gamma_{-}$ & $\gamma_{+}$ & kink? &
-
-    stable? & ampl. depends & $n$\\
-
-    &&&&& on transition? & \\
-
-    \hline\hline
-
-    1 & $-q$  & $ -1 $ & yes & no  & no & $3+2q$ \\
-
-    2 & $-q$  & $ 2  $ &  no & yes & no & $1-2q$\\
-
-    3 & $1+q$ & $ -1 $ &  no & yes & no & $1-2q$\\
-
-    4 & $1+q$ & $ 2 $ &  no & yes & yes& $1-2q$\\
-
-    \hline
-
-  \end{tabular}
-
- \end{center}
-
-\caption[Post-big bang spectral indices] {\label{t:n-u}Here we
-
-summarize the post-big bang spectral indices as a function of the
-
-pre- and post-big bang exponent of the pump field, if $u$ is
-
-regular through the transition.  The mild requirement on the
-
-transition ($\Delta_T$) for this to hold is mentioned in the
-
-text.}
-
-\end{table}
-
-```
-## Example Number: 553
-```
-\begin{table}[ht]
-
- \begin{center} {\bf The spectral index for a transition
-
-     with regular $v$ and  $q\leqslant 1/2$} \vspace{1mm}\\
-
-  \begin{tabular}{|c|c|c|c|c|c|c|}
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[ht]
- \begin{center} {\bf The spectral index for a transition
-     with regular $v$ and  $q\leqslant 1/2$} \vspace{1mm}\\
-  \begin{tabular}{|c|c|c|c|c|c|c|}
-    \hline
-    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
-    case & $\gamma_{-}$ & $\gamma_{+}$ & kink? &
-    stable? & ampl. depends & $n$\\
-    &&&&& on transition? & \\
-    \hline\hline
-    1 & $ q$ & $ 1 $  &  no & yes & no & $3+2q$\\
-    2 & $ q$ & $ 0  $ & yes & no & no & $5-2q$ \\
-    3 & $1-q$ & $ 1  $ &  no & yes & yes & $3+2q$\\
-    4 & $1-q$ & $ 0  $ &  no & yes & no & $3+2q$\\
-    \hline
-  \end{tabular}
- \end{center}
-\caption[Post-big bang spectral indices] {\label{t:n-v<1/2}Here we
-summaries the post-big bang spectral indices as a function of the
-pre- and post-big bang exponent of the pump field, if $v$ is
-regular through the big bang and $q\leqslant 1/2$. The logarithmic
-corrections at $q=1/2$ are neglected. The mild requirement on the
-transition ($\Delta_T$) for this to hold is mentioned in the
-text.}
-\end{table}
-
-```
-## Example Number: 554
-```
-\begin{table}[ht]
-
- \begin{center} {\bf The spectral index for a transition
-
-     with regular $v$ and  $q\leqslant 1/2$} \vspace{1mm}\\
-
-  \begin{tabular}{|c|c|c|c|c|c|c|}
-
-    \hline
-
-    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
-
-    case & $\gamma_{-}$ & $\gamma_{+}$ & kink? &
-
-    stable? & ampl. depends & $n$\\
-
-    &&&&& on transition? & \\
-
-    \hline\hline
-
-    1 & $ q$ & $ 1 $  &  no & yes & no & $3+2q$\\
-
-    2 & $ q$ & $ 0  $ & yes & no & no & $5-2q$ \\
-
-    3 & $1-q$ & $ 1  $ &  no & yes & yes & $3+2q$\\
-
-    4 & $1-q$ & $ 0  $ &  no & yes & no & $3+2q$\\
-
-    \hline
-
-  \end{tabular}
-
- \end{center}
-
-\caption[Post-big bang spectral indices] {\label{t:n-v<1/2}Here we
-
-summaries the post-big bang spectral indices as a function of the
-
-pre- and post-big bang exponent of the pump field, if $v$ is
-
-regular through the big bang and $q\leqslant 1/2$. The logarithmic
-
-corrections at $q=1/2$ are neglected. The mild requirement on the
-
-transition ($\Delta_T$) for this to hold is mentioned in the
-
-text.}
-
-\end{table}
-
-```
-## Example Number: 555
-```
-\begin{table}[ht]
-
- \begin{center} {\bf The spectral index for a transition
-
-     with regular $v$ and  $q> 1/2$}  \vspace{1mm} \\
-
-  \begin{tabular}{|c|c|c|c|c|c|c|}
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}[ht]
- \begin{center} {\bf The spectral index for a transition
-     with regular $v$ and  $q> 1/2$}  \vspace{1mm} \\
-  \begin{tabular}{|c|c|c|c|c|c|c|}
-    \hline
-    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
-    case & $\gamma_{-}$ & $\gamma_{+}$ & kink? &
-    stable? & ampl. depends & $n$\\
-    &&&&& on transition? & \\
-    \hline\hline
-    1 & $ q$  & $ 1 $ &  no & yes & yes & $5-2q$\\
-    2 & $ q$  & $ 0 $ & no  & yes & no  & $5-2q$ \\
-    3 & $1-q$ & $ 1 $ &  no & yes & no  & $5-2q$\\
-    4 & $1-q$ & $ 0 $ & yes & no  & no  & $3+2q$\\
-    \hline
-  \end{tabular}
- \end{center}
-\caption[Post-big bang spectral indices] {\label{t:n-v>1/2}Here we
-summaries the post-big bang spectral indices as a function of the
-pre- and post-big bang exponent of the pump field, if $v$ is
-regular through the big bang and $q>1/2$. The mild requirement on
-the transition ($\Delta_T$) for this to hold is mentioned in the
-text.}
-\end{table}
-
-```
-## Example Number: 556
-```
-\begin{table}[ht]
-
- \begin{center} {\bf The spectral index for a transition
-
-     with regular $v$ and  $q> 1/2$}  \vspace{1mm} \\
-
-  \begin{tabular}{|c|c|c|c|c|c|c|}
-
-    \hline
-
-    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
-
-    case & $\gamma_{-}$ & $\gamma_{+}$ & kink? &
-
-    stable? & ampl. depends & $n$\\
-
-    &&&&& on transition? & \\
-
-    \hline\hline
-
-    1 & $ q$  & $ 1 $ &  no & yes & yes & $5-2q$\\
-
-    2 & $ q$  & $ 0 $ & no  & yes & no  & $5-2q$ \\
-
-    3 & $1-q$ & $ 1 $ &  no & yes & no  & $5-2q$\\
-
-    4 & $1-q$ & $ 0 $ & yes & no  & no  & $3+2q$\\
-
-    \hline
-
-  \end{tabular}
-
- \end{center}
-
-\caption[Post-big bang spectral indices] {\label{t:n-v>1/2}Here we
-
-summaries the post-big bang spectral indices as a function of the
-
-pre- and post-big bang exponent of the pump field, if $v$ is
-
-regular through the big bang and $q>1/2$. The mild requirement on
-
-the transition ($\Delta_T$) for this to hold is mentioned in the
-
-text.}
-
-\end{table}
-
-```
-## Example Number: 557
-```
-\begin{table}
-\begin{tabular}{c|rrrrrrrrrrrrrrrrrrr}
-$m/n$&0&1&2&3&4&5&6&7&8&9&10&11&12\\
-\hline
-0&&1&&&&&&&&&&&\\
-1&1&1&1&1&&&&&&&&&\\
-2&&1&1&2&1&1&&&&&&&\\
-3&&1&2&3&4&4&3&2&1&&&&\\
-4&&&1&4&6&9&9&9&6&4&1&&\\
-5&&&1&4&9&16&23&27&27&23&16&9&4\\
-6&&&&3&9&23&39&60&73&80&73&60&39\\
-7&&&&2&9&27&60&107&162&211&240&240&211\\
-8&&&&1&6&27&73&162&288&449&600&720&758\\
-9&&&&&4&23&80&211&449&808&1267&1754&2167\\
-10&&&&&1&16&73&240&600&1267&2278&3630&5130\\
-11&&&&&&9&60&240&720&1754&3630&6559&10531\\
-12&&&&&&4&39&211&758&2167&5130&10531&19022\\
-\end{tabular}
-\caption{\label{trk2mul} Multiplicities for the rank 2 hyperbolic
-KM algebra determined by (\ref{rk2km}).}
-\end{table}
-
-```
-## Example Number: 558
-```
-\begin{table}
-
-\begin{tabular}{c|rrrrrrrrrrrrrrrrrrr}
-
-$m/n$&0&1&2&3&4&5&6&7&8&9&10&11&12\\
-
-\hline
-
-0&&1&&&&&&&&&&&\\
-
-1&1&1&1&1&&&&&&&&&\\
-
-2&&1&1&2&1&1&&&&&&&\\
-
-3&&1&2&3&4&4&3&2&1&&&&\\
-
-4&&&1&4&6&9&9&9&6&4&1&&\\
-
-5&&&1&4&9&16&23&27&27&23&16&9&4\\
-
-6&&&&3&9&23&39&60&73&80&73&60&39\\
-
-7&&&&2&9&27&60&107&162&211&240&240&211\\
-
-8&&&&1&6&27&73&162&288&449&600&720&758\\
-
-9&&&&&4&23&80&211&449&808&1267&1754&2167\\
-
-10&&&&&1&16&73&240&600&1267&2278&3630&5130\\
-
-11&&&&&&9&60&240&720&1754&3630&6559&10531\\
-
-12&&&&&&4&39&211&758&2167&5130&10531&19022\\
-
-\end{tabular}
-
-\caption{\label{trk2mul} Multiplicities for the rank 2 hyperbolic
-
-KM algebra determined by (\ref{rk2km}).}
-
-\end{table}
-
-```
-## Example Number: 559
-```
-\begin{table}
-\begin{center}
-\begin{tabular}{ccccccccccccccccccc|c|c}
-18&17&16&15&14&13&12&11&10&9&8&7&6&5&4&3&2&1&0&$P_n$/$l$&dim\\
-\hline
-&&&&&&&&&&&&&&&1&&&&1&4\\
-&&&&&&&&&&&&&&1&&&&1&2&6\\
-&&&&&&&&&&&1&&1&&1&&1&&3&20\\
-\hline
-&&&&&&&&&&1&&3&&2&&3&&&4&49\\
-&&&&&&&1&&3&&5&&7&&7&&4&&5&160\\
-&&&&&&3&&6&&14&&16&&21&&13&&7&6&494\\
-&&&2&&7&&18&&33&&47&&55&&49&&29&&7&1636\\
-\hline
-1&&5&&21&&46&&89&&126&&161&&151&&120&&38&8&5410\\
-
-\end{tabular}
-\caption{\label{trk2rep}The rank 2 algebra (\ref{rk2km}) seen from one
-of its standard $\mathfrak{sl}_2$ subalgebras.}
-\end{center}
-\end{table}
-
-```
-## Example Number: 560
-```
-\begin{table}
-
-\begin{center}
-
-\begin{tabular}{ccccccccccccccccccc|c|c}
-
-18&17&16&15&14&13&12&11&10&9&8&7&6&5&4&3&2&1&0&$P_n$/$l$&dim\\
-
-\hline
-
-&&&&&&&&&&&&&&&1&&&&1&4\\
-
-&&&&&&&&&&&&&&1&&&&1&2&6\\
-
-&&&&&&&&&&&1&&1&&1&&1&&3&20\\
-
-\hline
-
-&&&&&&&&&&1&&3&&2&&3&&&4&49\\
-
-&&&&&&&1&&3&&5&&7&&7&&4&&5&160\\
-
-&&&&&&3&&6&&14&&16&&21&&13&&7&6&494\\
-
-&&&2&&7&&18&&33&&47&&55&&49&&29&&7&1636\\
-
-\hline
-
-1&&5&&21&&46&&89&&126&&161&&151&&120&&38&8&5410\\
-
-
-
-\end{tabular}
-
-\caption{\label{trk2rep}The rank 2 algebra (\ref{rk2km}) seen from one
-
-of its standard $\mathfrak{sl}_2$ subalgebras.}
-
-\end{center}
-
-\end{table}
-
-```
-## Example Number: 561
-```
-\begin{table}
-
-\begin{center}
-
-\begin{tabular}{ccccccccccccccccccccccc|c|c}
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}
-\begin{center}
-\begin{tabular}{ccccccccccccccccccccccc|c|c}
-22&21&20&19&18&17&16&15&14&13&12&11&10&9&8&7&6&5&4&3&2&1&0&$P_n/l$&dim\\
-\hline
-&&&&&&&&&&&&&&&&&&&&&&&1&0\\
-&&&&&&&&&&&&&&&&&&&&&&&2&0\\
-&&&&&&&&&&&&&&&&&&&&&&&3&0\\
-\hline
-&&&&&&&&&&&&1&&&&&&&&&&&4&11\\
-&&&&&&&&&1&&1&&1&&1&&&&&&&&5&44\\
-&&&&&&1&&2&&3&&4&&3&&2&&1&&&&&6&176\\
-&&&1&&3&&6&&10&&12&&12&&10&&6&&3&&1&&7&704\\
-\hline
-1&&3&&10&&19&&31&&39&&44&&39&&31&&19&&10&&2&8&2750\\
-\end{tabular}
-\caption{\label{trk2ideal}The ideal $\mathfrak{i}$ described in the
-text for the rank 2 algebra (\ref{rk2km}).}
-\end{center}
-\end{table}
-
-```
-## Example Number: 562
-```
-\begin{table}
-
-\begin{center}
-
-\begin{tabular}{ccccccccccccccccccccccc|c|c}
-
-22&21&20&19&18&17&16&15&14&13&12&11&10&9&8&7&6&5&4&3&2&1&0&$P_n/l$&dim\\
-
-\hline
-
-&&&&&&&&&&&&&&&&&&&&&&&1&0\\
-
-&&&&&&&&&&&&&&&&&&&&&&&2&0\\
-
-&&&&&&&&&&&&&&&&&&&&&&&3&0\\
-
-\hline
-
-&&&&&&&&&&&&1&&&&&&&&&&&4&11\\
-
-&&&&&&&&&1&&1&&1&&1&&&&&&&&5&44\\
-
-&&&&&&1&&2&&3&&4&&3&&2&&1&&&&&6&176\\
-
-&&&1&&3&&6&&10&&12&&12&&10&&6&&3&&1&&7&704\\
-
-\hline
-
-1&&3&&10&&19&&31&&39&&44&&39&&31&&19&&10&&2&8&2750\\
-
-\end{tabular}
-
-\caption{\label{trk2ideal}The ideal $\mathfrak{i}$ described in the
-
-text for the rank 2 algebra (\ref{rk2km}).}
-
-\end{center}
-
-\end{table}
-
-```
-## Example Number: 563
-```
-\begin{center}\begin{table}[h]
-  \begin{tabular}{|l*{5}{|c}|l}
-    \cline{2-6}
-    \multicolumn{1}{c}{}&\multicolumn{5}{|c|}{Dimension}&\\
-    \cline{1-6}
-    \small{Stable Branes}&01&23&45&67&89\\\cline{1-6}
-    D9&\tic&\tic&\tic&\tic&\tic&
-    \multirow{4}{2cm}{\begin{tabular}{lp{2cm}}
-	$\left.\phantom{\llap{$\biggl\}^{\bigl\}}$}}\right\}$&
-	$\mathbbm R^{3,1}$ branes
-    \end{tabular}}\\
-    D5$_1$&\tic&\tic&\tic&&\\
-    D5$_2$&\tic&\tic&&\tic&\\
-    D5$_3$&\tic&\tic&&&\tic\\\cline{1-6}
-    D5$_{1,2}$&\tic&&\tic&\tic&&
-    \multirow{4}{2cm}{\begin{tabular}{lp{2cm}}
-	$\left.\phantom{\llap{$\biggl\}^{\bigl\}}$}}\right\}$&
-	cosmic strings
-    \end{tabular}}\\
-    D5$_{1,3}$&\tic&&\tic&&\tic\\
-    D5$_{2,3}$&\tic&&&\tic&\tic\\
-    D1$_0$&\tic&&&&\\
-    \cline{1-6}
-  \end{tabular}
-  \caption{Stable configurations of D-branes. The labels on the the 
-    D-branes indicate which of the three 2-cycles they wrap in the
-    compactification dimensions and an empty spot indicates no
-    wrapping/presence.  For simplicity the cosmic strings are placed
-    along the 1-direction.}\label{stable_table}
-\end{table}\end{center}
-
-```
-## Example Number: 564
-```
-\begin{center}\begin{table}[h]
-
-  \begin{tabular}{|l*{5}{|c}|l}
-
-    \cline{2-6}
-
-    \multicolumn{1}{c}{}&\multicolumn{5}{|c|}{Dimension}&\\
-
-    \cline{1-6}
-
-    \small{Stable Branes}&01&23&45&67&89\\\cline{1-6}
-
-    D9&\tic&\tic&\tic&\tic&\tic&
-
-    \multirow{4}{2cm}{\begin{tabular}{lp{2cm}}
-
-	$\left.\phantom{\llap{$\biggl\}^{\bigl\}}$}}\right\}$&
-
-	$\mathbbm R^{3,1}$ branes
-
-    \end{tabular}}\\
-
-    D5$_1$&\tic&\tic&\tic&&\\
-
-    D5$_2$&\tic&\tic&&\tic&\\
-
-    D5$_3$&\tic&\tic&&&\tic\\\cline{1-6}
-
-    D5$_{1,2}$&\tic&&\tic&\tic&&
-
-    \multirow{4}{2cm}{\begin{tabular}{lp{2cm}}
-
-	$\left.\phantom{\llap{$\biggl\}^{\bigl\}}$}}\right\}$&
-
-	cosmic strings
-
-    \end{tabular}}\\
-
-    D5$_{1,3}$&\tic&&\tic&&\tic\\
-
-    D5$_{2,3}$&\tic&&&\tic&\tic\\
-
-    D1$_0$&\tic&&&&\\
-
-    \cline{1-6}
-
-  \end{tabular}
-
-  \caption{Stable configurations of D-branes. The labels on the the 
-
-    D-branes indicate which of the three 2-cycles they wrap in the
-
-    compactification dimensions and an empty spot indicates no
-
-    wrapping/presence.  For simplicity the cosmic strings are placed
-
-    along the 1-direction.}\label{stable_table}
-
-\end{table}\end{center}
-
-```
-## Example Number: 565
-```
-\begin{center}\begin{table}[h]
-    \begin{tabular}{|l|*{4}{c|}}\cline{2-5}
-      \multicolumn{1}{c|}{}&Inflation&
-      \multicolumn{3}{|c|}{Cosmic String Types}\\
-      \cline{1-1}\cline{3-5}
-      Inflaton& Possible& Allowed&
-      Kibble& Thermal\\\hline
-      D$(9-\bar9)$&$\times$&&&\\\hline
-      D$(7-\bar7)_{1,2}$
-      &\tic&1$_0$,3$_1$,3$_2$,5$_{1,2}$&5$_{1,2}$&-\\\hline
-      D$(7-\bar7)_{1,3}$
-      &\tic&1$_0$,3$_1$,3$_3$,5$_{1,3}$&5$_{1,3}$&-\\\hline
-      D$(5-\bar5)_1$&\tic&1$_0$,3$_1$&3$_1$&1$_0$\\\hline
-      D$(5-\bar5)_3$&\tic&1$_0$,3$_3$&$3_3$&-\\\hline
-      D$(3-\bar3)_0$&\tic&1$_0$&1$_0$&-\\\hline
-      D$(1-\bar1)$&$\times$&&&\\\hline
-    \end{tabular}
-    \caption{Various inflatons and the cosmic strings to which they
-    decay for a brane world built of sets of D$5_1$ and D$5_2$ branes.
-    The cosmic string types allowed are determined by K-theoretic
-    analysis of the non-BPS systems.  Since the Hubble size is
-    greater than the compactification radii, the Kibble mechanism is
-    capable of producing only defects localized in the three large
-    spacial dimensions.  Cosmic strings can be thermally produced if
-    unstable states are able to persist until reheating.
-    }\label{inflatons}
-\end{table}\end{center}
-
-```
-## Example Number: 566
-```
-\begin{center}\begin{table}[h]
-
-    \begin{tabular}{|l|*{4}{c|}}\cline{2-5}
-
-      \multicolumn{1}{c|}{}&Inflation&
-
-      \multicolumn{3}{|c|}{Cosmic String Types}\\
-
-      \cline{1-1}\cline{3-5}
-
-      Inflaton& Possible& Allowed&
-
-      Kibble& Thermal\\\hline
-
-      D$(9-\bar9)$&$\times$&&&\\\hline
-
-      D$(7-\bar7)_{1,2}$
-
-      &\tic&1$_0$,3$_1$,3$_2$,5$_{1,2}$&5$_{1,2}$&-\\\hline
-
-      D$(7-\bar7)_{1,3}$
-
-      &\tic&1$_0$,3$_1$,3$_3$,5$_{1,3}$&5$_{1,3}$&-\\\hline
-
-      D$(5-\bar5)_1$&\tic&1$_0$,3$_1$&3$_1$&1$_0$\\\hline
-
-      D$(5-\bar5)_3$&\tic&1$_0$,3$_3$&$3_3$&-\\\hline
-
-      D$(3-\bar3)_0$&\tic&1$_0$&1$_0$&-\\\hline
-
-      D$(1-\bar1)$&$\times$&&&\\\hline
-
-    \end{tabular}
-
-    \caption{Various inflatons and the cosmic strings to which they
-
-    decay for a brane world built of sets of D$5_1$ and D$5_2$ branes.
-
-    The cosmic string types allowed are determined by K-theoretic
-
-    analysis of the non-BPS systems.  Since the Hubble size is
-
-    greater than the compactification radii, the Kibble mechanism is
-
-    capable of producing only defects localized in the three large
-
-    spacial dimensions.  Cosmic strings can be thermally produced if
-
-    unstable states are able to persist until reheating.
-
-    }\label{inflatons}
-
-\end{table}\end{center}
-
-```
-## Example Number: 567
-```
-\begin{table}
-\begin{center}
-\begin{tabular}[t]{c||c|c|c|c|c|c|c}
-$r$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
-\hline
-$c^{(r)}$    & 0.785 & 1.009 & 1.140 & 1.242 & 1.327 & 1.400 & 1.46 \\
-$c^{(r)}(2)$ &       &       & 1.140 & 1.206 & 1.229 & 1.225 & 1.200 \\
-\hline
-\\
-$r$ & 8 & 9 & 10 & 11 &  &  &  \\
-\hline
-$c^{(r)}(2)$ & 1.164 & 1.118 & 1.067 & 1.013 & & &\\
-\end{tabular}
-\end{center}
-\caption{{\footnotesize Numerical values of the integrals 
-$c^{(r)}, c^{(r)}(2)$. Numerical errors are estimated as $\pm1$ on the 
-last digit quoted.}}
-\end{table}
-
-```
-## Example Number: 568
-```
-\begin{table}
-
-\begin{center}
-
-\begin{tabular}[t]{c||c|c|c|c|c|c|c}
-
-$r$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
-
-\hline
-
-$c^{(r)}$    & 0.785 & 1.009 & 1.140 & 1.242 & 1.327 & 1.400 & 1.46 \\
-
-$c^{(r)}(2)$ &       &       & 1.140 & 1.206 & 1.229 & 1.225 & 1.200 \\
-
-\hline
-
-\\
-
-$r$ & 8 & 9 & 10 & 11 &  &  &  \\
-
-\hline
-
-$c^{(r)}(2)$ & 1.164 & 1.118 & 1.067 & 1.013 & & &\\
-
-\end{tabular}
-
-\end{center}
-
-\caption{{\footnotesize Numerical values of the integrals 
-
-$c^{(r)}, c^{(r)}(2)$. Numerical errors are estimated as $\pm1$ on the 
-
-last digit quoted.}}
-
-\end{table}
-
-```
-## Example Number: 569
-```
-\begin{table}
-\caption{Coefficients of the terms in the cocycle function for conformal fields
-on Anti de Sitter space with spin 0 and 1/2 with Dirichlet (D),  Robin (R) and
-mixed (M) boundary conditions. The spinors are Majorana. 
-$\delta$ is the contribution due to the delta-function potential instead of a
-boundary.}
-\renewcommand{\arraystretch}{1.5}
-\begin{ruledtabular}
-\begin{tabular}{rrrrrrrrrr}
-spin&background&$\alpha_0$&$\alpha_1$&$\alpha_2$&$\alpha_3$&$\alpha_4$
-&$\alpha_5$&$\alpha_6$&$\alpha_7$
-\\\hline
-$0$&D&$\frac{17}{1920}$&$-\frac1{128}$&$\frac5{192}$
-&$\frac1{48}$&$-\frac{9}{768}$&$-\frac{11}{3072}$&$-\frac1{16}$&$\frac1{64}$\\
-$0$&R&$-\frac{17}{1920}$&$\frac1{128}$&$-\frac1{48}$
-&$-\frac1{48}$&$\frac{5}{768}$&$\frac1{15360}$&$\frac1{32}$&$-\frac1{64}$\\
-$1/2$&M&$0$&$0$&$\frac1{48}$&$0$&$-\frac1{96}$&$-\frac{11}{1280}$
-&$-\frac3{32}$&$0$\\
-$0$&$\delta$&$0$&$0$&$\frac1{192}$&$0$&$-\frac1{192}$
-&$-\frac{9}{2560}$&$-\frac1{32}$&$0$\\
-\end{tabular}
-\end{ruledtabular}
-\label{taba1}
-\end{table}
-
-```
-## Example Number: 570
-```
-\begin{table}
-
-\caption{Coefficients of the terms in the cocycle function for conformal fields
-
-on Anti de Sitter space with spin 0 and 1/2 with Dirichlet (D),  Robin (R) and
-
-mixed (M) boundary conditions. The spinors are Majorana. 
-
-$\delta$ is the contribution due to the delta-function potential instead of a
-
-boundary.}
-
-\renewcommand{\arraystretch}{1.5}
-
-\begin{ruledtabular}
-
-\begin{tabular}{rrrrrrrrrr}
-
-spin&background&$\alpha_0$&$\alpha_1$&$\alpha_2$&$\alpha_3$&$\alpha_4$
-
-&$\alpha_5$&$\alpha_6$&$\alpha_7$
-
-\\\hline
-
-$0$&D&$\frac{17}{1920}$&$-\frac1{128}$&$\frac5{192}$
-
-&$\frac1{48}$&$-\frac{9}{768}$&$-\frac{11}{3072}$&$-\frac1{16}$&$\frac1{64}$\\
-
-$0$&R&$-\frac{17}{1920}$&$\frac1{128}$&$-\frac1{48}$
-
-&$-\frac1{48}$&$\frac{5}{768}$&$\frac1{15360}$&$\frac1{32}$&$-\frac1{64}$\\
-
-$1/2$&M&$0$&$0$&$\frac1{48}$&$0$&$-\frac1{96}$&$-\frac{11}{1280}$
-
-&$-\frac3{32}$&$0$\\
-
-$0$&$\delta$&$0$&$0$&$\frac1{192}$&$0$&$-\frac1{192}$
-
-&$-\frac{9}{2560}$&$-\frac1{32}$&$0$\\
-
-\end{tabular}
-
-\end{ruledtabular}
-
-\label{taba1}
-
-\end{table}
-
-```
-## Example Number: 571
-```
-\begin{table}
-
-\caption{Coefficients of the terms in the cocycle function for conformal fields
-
-on Anti de Sitter space with spin 0 and 1/2 with Dirichlet (D),  Robin (R) and
-
-mixed (M) boundary conditions. The spinors are Majorana. 
-
-[end-of-con]
-
-
-[start-of-table]
-
-\begin{table}
-\caption{Coefficients of the terms in the cocycle function for conformal fields
-on Anti de Sitter space with spin 0 and 1/2 with Dirichlet (D),  Robin (R) and
-mixed (M) boundary conditions. The spinors are Majorana. 
-$\delta$ is the contribution due to the delta-function potential instead of a
-boundary.}
-\renewcommand{\arraystretch}{1.5}
-\begin{ruledtabular}
-\begin{tabular}{rrrrr}
-spin&background&$c_0$&$c_2$&$c_4$\\
-\hline
-$0$&D&$-\frac{203}{3072}$&$\frac{30}{3072}$&$\frac{393}{3072}$\\
-$0$&R&$\frac{481}{15360}$&$-\frac{498}{15360}$&$-\frac{1779}{15360}$\\
-$1/2$&M&$-\frac{393}{3840}$&$-\frac{226}{3840}$&$\frac{167}{3840}$\\
-$0$&$\delta$&$-\frac{89}{2560}$&$-\frac{58}{2560}$&$\frac{31}{2560}$\\
-\end{tabular}
-\end{ruledtabular}
-\label{taba2}
-\end{table}
-
-```
-## Example Number: 572
-```
-\begin{table}
-
-\caption{Coefficients of the terms in the cocycle function for conformal fields
-
-on Anti de Sitter space with spin 0 and 1/2 with Dirichlet (D),  Robin (R) and
-
-mixed (M) boundary conditions. The spinors are Majorana. 
-
-$\delta$ is the contribution due to the delta-function potential instead of a
-
-boundary.}
-
-\renewcommand{\arraystretch}{1.5}
-
-\begin{ruledtabular}
-
-\begin{tabular}{rrrrr}
-
-spin&background&$c_0$&$c_2$&$c_4$\\
-
-\hline
-
-$0$&D&$-\frac{203}{3072}$&$\frac{30}{3072}$&$\frac{393}{3072}$\\
-
-$0$&R&$\frac{481}{15360}$&$-\frac{498}{15360}$&$-\frac{1779}{15360}$\\
-
-$1/2$&M&$-\frac{393}{3840}$&$-\frac{226}{3840}$&$\frac{167}{3840}$\\
-
-$0$&$\delta$&$-\frac{89}{2560}$&$-\frac{58}{2560}$&$\frac{31}{2560}$\\
-
-\end{tabular}
-
-\end{ruledtabular}
-
-\label{taba2}
-
-\end{table}
-
-```
-## Example Number: 573
-```
-\begin{table}[h]
- \begin{tabular}{|c|c|c|c|c|c|}\hline
- dim & name & holonomy & Killing spinor & $\sharp$ spacetime SUSY
- & base of the cone \\\hline\hline
- 4 & hyper K\"ahler & $SU(2)$ & (2,0) & 16 & tri-Sasakian\\ \hline
- 6 &Calabi-Yau & $SU(3)$ & (1,1) & 8 &  Sasaki-Einstein \\ \hline
- 7 & $G_2$ & $G_2$ & 1 & 4 & nearly K\"ahler \\ \hline
- 8 & hyper K\"ahler & $Sp(2)$ & (3,0) & 6 & tri-Sasakian \\ \hline
- 8 &Calabi-Yau & $SU(4)$ & (2,0) & 4 & Sasaki-Einstein\\ \hline
- 8 & $Spin(7)$ & $Spin(7)$ & (1,0) & 2 & weak $G_2$\\ \hline
- \end{tabular}
-\caption{We summarize the relation between the special holonomies on 
- the cone $C(X_{m-1})$ and the geometrical structures on 
- the Einstein spaces $X_{m-1}$.}
-\end{table}
-
-```
-## Example Number: 574
-```
-\begin{table}[h]
-
- \begin{tabular}{|c|c|c|c|c|c|}\hline
-
- dim & name & holonomy & Killing spinor & $\sharp$ spacetime SUSY
-
- & base of the cone \\\hline\hline
-
- 4 & hyper K\"ahler & $SU(2)$ & (2,0) & 16 & tri-Sasakian\\ \hline
-
- 6 &Calabi-Yau & $SU(3)$ & (1,1) & 8 &  Sasaki-Einstein \\ \hline
-
- 7 & $G_2$ & $G_2$ & 1 & 4 & nearly K\"ahler \\ \hline
-
- 8 & hyper K\"ahler & $Sp(2)$ & (3,0) & 6 & tri-Sasakian \\ \hline
-
- 8 &Calabi-Yau & $SU(4)$ & (2,0) & 4 & Sasaki-Einstein\\ \hline
-
- 8 & $Spin(7)$ & $Spin(7)$ & (1,0) & 2 & weak $G_2$\\ \hline
-
- \end{tabular}
-
-\caption{We summarize the relation between the special holonomies on 
-
- the cone $C(X_{m-1})$ and the geometrical structures on 
-
- the Einstein spaces $X_{m-1}$.}
-
-\end{table}
-
-```
-## Example Number: 575
-```
-\begin{table}[h]
- \begin{tabular}{|c|c|c|c|c|}\hline
- dim & name & worldsheet SUSY & algebra 
-                               & structure of massive 
- reps. \\\hline\hline
- 4 & hyper K\"ahler & $\cN=4$ & $SU(2)_1$ & $SO(4)_1$ \\ \hline
- 6 &Calabi-Yau & $\cN=2$ & $U(1)_{3/2}$ & $SO(2)_1\times SU(2)_1$  \\ \hline
- 7 & $G_2$ & $\cN=1$  & tri-critical Ising 
-   & $SO(1)_1 \times U(1)_{3/2}$ \\ \hline
- 8 & hyper K\"ahler & $\cN=4$ & $SU(2)_2$ & 
-   $SO(4)_1 \times SU(2)_1$ \\ \hline
- 8 &Calabi-Yau & $\cN=2$ & $U(1)_2$ & $SO(2)_1\times U(1)_{3/2}$\\ \hline
- 8 & $Spin(7)$ & $\cN=1$ & Ising &  $SO(1)_1\times$ 
- tri-critical Ising\\ \hline
- \end{tabular}
-\caption{We summarize the algebraic structures of worldsheet theories 
-describing manifolds with special holonomies. The ``structure for
-the massive reps.'' is the algebraic structure which is manifest in
-the characters of massive representations.}
-\end{table}
-
-```
-## Example Number: 576
-```
-\begin{table}[h]
-
- \begin{tabular}{|c|c|c|c|c|}\hline
-
- dim & name & worldsheet SUSY & algebra 
-
-                               & structure of massive 
-
- reps. \\\hline\hline
-
- 4 & hyper K\"ahler & $\cN=4$ & $SU(2)_1$ & $SO(4)_1$ \\ \hline
-
- 6 &Calabi-Yau & $\cN=2$ & $U(1)_{3/2}$ & $SO(2)_1\times SU(2)_1$  \\ \hline
-
- 7 & $G_2$ & $\cN=1$  & tri-critical Ising 
-
-   & $SO(1)_1 \times U(1)_{3/2}$ \\ \hline
-
- 8 & hyper K\"ahler & $\cN=4$ & $SU(2)_2$ & 
-
-   $SO(4)_1 \times SU(2)_1$ \\ \hline
-
- 8 &Calabi-Yau & $\cN=2$ & $U(1)_2$ & $SO(2)_1\times U(1)_{3/2}$\\ \hline
-
- 8 & $Spin(7)$ & $\cN=1$ & Ising &  $SO(1)_1\times$ 
-
- tri-critical Ising\\ \hline
-
- \end{tabular}
-
-\caption{We summarize the algebraic structures of worldsheet theories 
-
-describing manifolds with special holonomies. The ``structure for
-
-the massive reps.'' is the algebraic structure which is manifest in
-
-the characters of massive representations.}
-
-\end{table}
-
-```
+ {
