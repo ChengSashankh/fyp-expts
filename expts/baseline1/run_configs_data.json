@@ -1,0 +1,41 @@
+{
+    "name": "seq2seq-baseline",
+    "logfile": "./outputs/run_log.txt",
+    "stage_configs": [
+        {
+            "name": "grep_stage",
+            "start_patterns": [ "" ],
+            "end_patterns": [ "" ],
+            "ref_string": "\\label{",
+            "context_size_before": 3,
+            "context_size_after": 3,
+            "documents_source_dir": ""
+        },
+        {
+            "name": "df_to_file",
+            "output_file": "./outputs/post_grep.csv"
+        },
+        {
+            "name": "equation_tokenization_stage"
+        },
+        {
+            "name": "filter_entries_in_df",
+            "drop_if_contains": "",
+            "drop_if_equals": ""
+        },
+        {
+            "name": "linguistic_preprocess",
+            "stemming": "Yes"
+        },
+        {
+            "name": "anonymize_equations_in_dataframe"
+        },
+        {
+            "name": "df_to_file",
+            "output_file": "./outputs/post_filtering.csv"
+        },
+        {
+            "name": "create_seq2seq_datastructures"
+        }
+    ]
+}
