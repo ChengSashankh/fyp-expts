@@ -1,1 +1,4 @@
 *.bk
+dataset/
+fyp/
+__pycache__/
