@@ -3,6 +3,7 @@ from stages.stage import Stage
 import multiprocessing
 import ast 
 import pickle
+from progressbar import ProgressBar 
 
 RELATION_NODE = 'relation'
 VARIABLE_NODE = 'variable'
@@ -89,17 +90,17 @@ class CreateGraphDatastructures(Stage):
   
   def tokens_to_graph(self, tokens):
     # Classify tokens as operator/relation and variable nodes
-    pool = multiprocessing.Pool()
+    pool = multiprocessing.Pool(processes=8)
     are_operators = pool.map(self.is_operator, tokens)
 
     operators = [tokens[i] for i in range(len(tokens)) if are_operators[i]]
     variables = [tokens[i] for i in range(len(tokens)) if not are_operators[i]]
 
     # Create the Graph Nodes
-    pool = multiprocessing.Pool()
+    pool = multiprocessing.Pool(processes=8)
     operator_nodes = pool.map(self.create_relation_node, operators)
 
-    pool = multiprocessing.Pool()
+    pool = multiprocessing.Pool(processes=8)
     variable_nodes = pool.map(self.create_variable_node, variables)
 
     parse_nodes = []
@@ -112,12 +113,19 @@ class CreateGraphDatastructures(Stage):
 
     token2node = {}
     adj_list = {} 
+    node_id = {}
+    id_ctr = 1
+
     for i, o in enumerate(operator_nodes):
-      token2node[operators[i]] = operator_nodes[i]
+      token2node[tuple(operators[i])] = operator_nodes[i]
+      node_id[o] = id_ctr
+      id_ctr += 1
       adj_list[o] = []
     
-    for v in variable_nodes:
-      token2node[variables[i]] = variable_nodes[i]
+    for i, v in enumerate(variable_nodes):
+      token2node[tuple(variables[i])] = variable_nodes[i]
+      node_id[v] = id_ctr
+      id_ctr += 1
       adj_list[v] = []
     
     # Populate adjacency list
@@ -131,8 +139,8 @@ class CreateGraphDatastructures(Stage):
           prev = i
         else: 
           # If this is not the first variable, add bidirectional proximity edges in the equation graph
-          adj_list[token2node.get(tokens[prev])].append([token2node.get(tokens[i]), PROXIMITY_EDGE])
-          adj_list[token2node.get(tokens[i])].append([token2node.get(tokens[prev]), PROXIMITY_EDGE])
+          adj_list[token2node.get(tuple(tokens[prev]))].append([token2node.get(tuple(tokens[i])), PROXIMITY_EDGE])
+          adj_list[token2node.get(tuple(tokens[i]))].append([token2node.get(tuple(tokens[prev])), PROXIMITY_EDGE])
 
     ## (Operator-Variable Edges) Add all variables for each operator
 
@@ -161,6 +169,11 @@ class CreateGraphDatastructures(Stage):
 
           compressed_equation.append(parse_node)
           
+          node_id[parse_node] = id_ctr
+          parse_node_token = ['PARSE' + str(id_ctr), 'PARSE'  + str(id_ctr)]
+          id_ctr += 1
+
+          
           # Add to adjacency list
           adj_list[parse_node] = []
           
@@ -169,8 +182,8 @@ class CreateGraphDatastructures(Stage):
           end = i
           for i in range(start, end + 1):
             # Add bidirectional nodes
-            adj_list[parse_node].append([token2node.get(tokens[i]), PARSE_EDGE])
-            adj_list[token2node.get(tokens[i])].append([parse_node, PARSE_EDGE])
+            adj_list[parse_node].append([token2node.get(tuple(tokens[i])), PARSE_EDGE])
+            adj_list[token2node.get(tuple(tokens[i]))].append([parse_node, PARSE_EDGE])
 
           # Remove the opening bracket
           stack.pop()
@@ -186,12 +199,12 @@ class CreateGraphDatastructures(Stage):
       # On finding operator
       if self.is_operator(tokens[i]):
         if i - 1 >= 0:
-          adj_list[token2node.get(tokens[i - 1])].append([token2node.get(tokens[i]), OPERATOR_EDGE])
-          adj_list[token2node.get(tokens[i])].append([token2node.get(tokens[i - 1]), OPERATOR_EDGE])
+          adj_list[token2node.get(tuple(tokens[i - 1]))].append([token2node.get(tuple(tokens[i])), OPERATOR_EDGE])
+          adj_list[token2node.get(tuple(tokens[i]))].append([token2node.get(tuple(tokens[i - 1])), OPERATOR_EDGE])
         
         if i + 1 <= len(tokens):
-          adj_list[token2node.get(tokens[i + 1])].append([token2node.get(tokens[i]), OPERATOR_EDGE])
-          adj_list[token2node.get(tokens[i])].append([token2node.get(tokens[i + 1]), OPERATOR_EDGE])
+          adj_list[token2node.get(tuple(tokens[i + 1]))].append([token2node.get(tuple(tokens[i])), OPERATOR_EDGE])
+          adj_list[token2node.get(tuple(tokens[i]))].append([token2node.get(tuple(tokens[i + 1])), OPERATOR_EDGE])
     
     # We are now done. We return all the Graph data structures needed.
     return adj_list, token2node, compressed_equation
@@ -199,7 +212,7 @@ class CreateGraphDatastructures(Stage):
   # TODO: Implement
   def turn_equations_into_graph(self, equations):
     # Get array form of tokenized equations
-    pool = multiprocessing.Pool()
+    pool = multiprocessing.Pool(processes=8)
     equations = pool.map(self.from_string_to_array, equations)
 
     # Get graph ds corresponding to each equation
@@ -207,8 +220,15 @@ class CreateGraphDatastructures(Stage):
     token2nodes = []
     compressed_equations = []
 
+    error_ctr = 0
     for equation in equations:
-      adj_list, token2node, compressed_equation = self.tokens_to_graph(equation)
+      try:
+        adj_list, token2node, compressed_equation = self.tokens_to_graph(equation)
+      except Exception as e:
+        error_ctr += 1
+        print ('Error: ' + str(error_ctr))
+        # print (e)
+      
       adj_lists.append(adj_list)
       token2nodes.append(token2node)
       compressed_equations.append(compressed_equation)
@@ -221,11 +241,37 @@ class CreateGraphDatastructures(Stage):
     
     return 0
   
+  def write_adj_list_to_file(self, equations):
+    # Read all adjacency list pickles
+    adj_lists = []
+    for i in range(len(equations)):
+      adj_lists.append(pickle.load(open('./outputs/pickles/adj_list_' + str(i) + '.pkl', 'rb')))
+    
+    # Write in text form
+    for i in range(len(equations)):
+      with open('./outputs/adj_lists/adj_list_' + str(i) + '.txt', 'w') as file:
+        ctr = 1
+        node2num = {}
+        for key in adj_lists[i]:
+          node2num[key] = ctr
+          ctr += 1
+        
+        for key in adj_lists[i]:
+          line = str(node2num.get(key))
+
+          for n in adj_lists[i][key]:
+            line = line + ' ' + str(node2num.get(n[0]))
+          
+          line = line + '\n'
+          file.write(line)
+    
+    return 0
+  
   def process_all_equations(self, equations):
-    pool = multiprocessing.Pool()
-    pool.map(self.turn_equation_into_graph, equations)
+    self.turn_equations_into_graph(equations)
 
   def run(self, df):
     equations = df['equation']
     self.process_all_equations(equations)
+    self.write_adj_list_to_file(equations)
     return './outputs/pickles/'
