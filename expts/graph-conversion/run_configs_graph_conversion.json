@@ -6,7 +6,8 @@
             "name": "load_df_from_csv"
         },
         {
-            "name": "create_graph_datastructures"
+            "name": "create_graph_datastructures",
+            "output_file": "./outputs/outputfile.txt"
         }
     ]
 }
