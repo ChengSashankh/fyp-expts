@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Equation Search</title>
+        <style>
+            body {
+                text-align: center;
+            }
+            input {
+                margin: 20px;
+            }
+            form {
+                font-size: 20px;
+            }
+            .results-area {
+                width: 100%;
+                height: 60%;
+                overflow: scroll;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            function searchAPICall() {
+                var xmlHttp = new XMLHttpRequest();
+                let contextTerm = document.getElementById('con').value;
+                let equationTerm = document.getElementById('eqn').value;
+                xmlHttp.open( "GET", "http://localhost:3000/query/" + contextTerm + "/" + equationTerm + "/TODO", false ); 
+                xmlHttp.send( null );
+                const res = JSON.parse(xmlHttp.responseText);
+                console.log(res)
+                document.getElementById('results-box').innerHTML = res;
+            }
+        </script>
+        <h1>Equation Search Interface</h1>
+        <br/>
+        <form onsubmit="searchAPICall()">
+            Context Terms: <input id="con" type="text" placeholder="Context terms" value=""><br>
+            Equation Terms: <input id="eqn" type="text" placeholder="Equation terms" value=""><br>
+            <input type="submit" value="search">
+        </form>
+        <div id="results-box" class="results-area">
+        </div>
+    </body>
+</html>

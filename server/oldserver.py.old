@@ -1,0 +1,30 @@
+import flask
+from flask import request, jsonify
+
+app = flask.Flask(__name__)
+app.config['DEBUG'] = True
+
+@app.route('/', methods=['GET'])
+def home_page():
+  return "<h1>Equation Search Interface</h1><p>Enter your equation below</p>"
+
+@app.route('/context_query', methods=['GET'])
+def query_by_context():
+  if 'context_query' in request.args:
+    context_query = str(request.args['context'])
+    print (context_query)
+  else:
+    return "Error: No query term provided"
+  return "<h1>Equation Search Interface</h1><p>Enter your equation below</p>"
+
+# @app.route('/', methods=['GET'])
+# def home_page():
+#   return "<h1>Equation Search Interface</h1><p>Enter your equation below</p>"
+
+# @app.route('/', methods=['GET'])
+# def home_page():
+#   return "<h1>Equation Search Interface</h1><p>Enter your equation below</p>"
+
+
+
+app.run(port=4000)
