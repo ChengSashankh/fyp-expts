@@ -22,7 +22,7 @@ from keras.layers import Input, LSTM, Dense
 from keras.models import load_model
 
 # Set appropriately
-running_on_colab = false
+running_on_colab = False
 
 ############################ Disk Paths ############################
 
@@ -35,7 +35,7 @@ if running_on_colab:
     path_root = '/content/gdrive/My Drive/'
 else:
     # Set path root to go from HDD
-    path_root = '/home/cksash/Documents/data/'
+    path_root = '/home/cksash/Documents/data/pickles'
 
 # Define constants
 data_path = os.path.join(path_root, 'tokenized/dataset_with_tokens.csv')
@@ -58,19 +58,19 @@ latex_operator_set = set(['+', '-', '=', '*', '/', '^', '_', '(', ')', '[', ']']
 # Load all the data structures needed for training
 # Save everything so far to file 
 
-ip_vocab = pickle.load(open(os.path.join(path_root, 'final_ds/interim_ip_vocab.pkl'), 'rb'))
-ip_word2int = pickle.load(open(os.path.join(path_root, 'final_ds/interim_ip_word2int.pkl'), 'rb'))
-ip_int2word = pickle.load(open(os.path.join(path_root, 'final_ds/interim_ip_int2word.pkl'), 'rb'))
-ip_seq_lengths = pickle.load(open(os.path.join(path_root, 'final_ds/interim_ip_seq_lengths.pkl'), 'rb'))
+ip_vocab = pickle.load(open(os.path.join(path_root, 'interim_ip_vocab.pkl'), 'rb'))
+ip_word2int = pickle.load(open(os.path.join(path_root, 'interim_ip_word2int.pkl'), 'rb'))
+ip_int2word = pickle.load(open(os.path.join(path_root, 'interim_ip_int2word.pkl'), 'rb'))
+ip_seq_lengths = pickle.load(open(os.path.join(path_root, 'interim_ip_seq_lengths.pkl'), 'rb'))
 
-op_vocab = pickle.load(open(os.path.join(path_root, 'final_ds/interim_op_vocab.pkl'), 'rb'))
-op_word2int = pickle.load(open(os.path.join(path_root, 'final_ds/interim_op_word2int.pkl'), 'rb'))
-op_int2word = pickle.load(open(os.path.join(path_root, 'final_ds/interim_op_int2word.pkl'), 'rb'))
-op_seq_lengths = pickle.load(open(os.path.join(path_root, 'final_ds/interim_op_seq_lengths.pkl'), 'rb'))
-freq = pickle.load(open(os.path.join(path_root, 'final_ds/interim_op_freq.pkl'), 'rb'))
+op_vocab = pickle.load(open(os.path.join(path_root, 'interim_op_vocab.pkl'), 'rb'))
+op_word2int = pickle.load(open(os.path.join(path_root, 'interim_op_word2int.pkl'), 'rb'))
+op_int2word = pickle.load(open(os.path.join(path_root, 'interim_op_int2word.pkl'), 'rb'))
+op_seq_lengths = pickle.load(open(os.path.join(path_root, 'interim_op_seq_lengths.pkl'), 'rb'))
+freq = pickle.load(open(os.path.join(path_root, 'interim_op_freq.pkl'), 'rb'))
 
-sh_ip_wordLists = pickle.load(open(os.path.join(path_root, 'final_ds/interim_sh_ip_wordLists.pkl'), 'rb'))
-sh_op_wordLists = pickle.load(open(os.path.join(path_root, 'final_ds/interim_sh_op_wordLists.pkl'), 'rb'))
+sh_ip_wordLists = pickle.load(open(os.path.join(path_root, 'interim_sh_ip_wordLists.pkl'), 'rb'))
+sh_op_wordLists = pickle.load(open(os.path.join(path_root, 'interim_sh_op_wordLists.pkl'), 'rb'))
 
 print ('Done loading all datastructures from pickles')
 
@@ -119,13 +119,14 @@ decoder_outputs = decoder_dense(decoder_outputs)
 model = Model([encoder_inputs, decoder_inputs], decoder_outputs)
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
+print (model.metrics_names)
 ######################### Model Execution ##########################
 
-# Start from checkpoint
-model = load_model(os.path.join(path_root, 'final_ds/s2s.h5'))
-start_from = 1236
+# # Start from checkpoint
+# model = load_model(os.path.join(path_root, 'final_ds/s2s.h5'))
+start_from = 0
 
-logfile = open(os.path.join(path_root, 'final_ds/traininglog.txt'), 'a')
+logfile = open(os.path.join(path_root, 'traininglog.txt'), 'a')
 # Handle input data batch-wise
 for e in range(epochs):
   i1 = 0
@@ -171,5 +172,5 @@ for e in range(epochs):
     print (str(e)+ ',' + str(i1 - 1) + ',' + str(testloss))
 
     # Save model
-    model.save(os.path.join(path_root, '/final_ds/s2s.h5'))
+    model.save(os.path.join(path_root, 's2s.h5'))
 

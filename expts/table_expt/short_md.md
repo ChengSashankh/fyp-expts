@@ -14155,5 +14155,6431 @@ different states of the graviton multiplet depend on the
 
 parameters $m_i$. They are given in Table \ref{spectrum}.
 
+
+
+
+
+
+
+
+
+
+
 {% endraw %}
 ```
+
+Example 200
+Table:
+
+```
+{% raw %}
+\begin{table}[p]
+\begin{center}
+\begin{tabular} {|c|l|c|c|}
+\cline{1-4}  helicities& acquired masses&degeneracy&n. of physical
+modes
+\\ \cline{1-4}
+2&0&1&2\\ $\frac{3}{2}$&$|m_i|$&2&12\\ 1&0&4&8\\ &$|m_i\pm m_j|,\;
+i<j$&2&24\\ $\frac{1}{2}$&$|m_i|$&8&48\\ &$|m_1\pm m_2\pm
+m_3|$&2&4\\ 0&0&6&6\\&$|m_i\pm m_j|\; i<j$&4&24
+\\\cline{1-4}
+\end{tabular}
+\caption{Mass spectrum of $N=6$ supergravity.}\label{spectrum6}
+\end{center}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+
+
+Similarly one could start with $N=6$ supergravity  (Section
+
+\ref{6to42}). In this case the number of  parameters is three and
+
+have the same interpretation as gravitino masses. The masses
+
+acquired by the helicity states of the $N=6$ graviton multiplet
+
+are given in Table \ref{spectrum6}.
+
+
+
+
+
+
+
+
+
+For $N'=4$ the theory is completely fixed. The gravitinos are
+
+{% endraw %}
+```
+
+Example 201
+Table:
+
+```
+{% raw %}
+\begin{table}[t]
+\begin{center}
+\begin{tabular}{|cc|c|}
+\,\,\,$l$\,\,\,
+& \,\,\,$p$\,\,\, &
+$W^{(0,l,p)}$
+\\
+\hline
+%
+$2$ & $0$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$\mbox{}$ \\
+$1/12$ \\ ${\scs ( 0, 0, 1 , 0 ; 2 )}$\\
+$\mbox{}$ 
+\end{tabular}
+%
+\parbox{7mm}{\begin{center}
+\begin{fmfgraph}(4,4)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{1w,0.5h}{v2}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v1,v2}
+\fmfdot{v1,v2}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 2, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,4)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{1/3w,0.5h}{v2}
+\fmfforce{2/3w,0.5h}{v3}
+\fmfforce{1w,0.5h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v2,v3}
+\fmfdot{v2,v3}
+\end{fmfgraph}\end{center}}
+%
+\\ 
+%
+$2$ & $1$ &
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$\mbox{}$ \\
+$1/8$ \\ ${\scs ( 2, 1, 0 , 0 ; 1 )}$\\
+$\mbox{}$ 
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph}(8,4)
+\setval
+\fmfleft{i1}
+\fmfright{o1}
+\fmf{plain,left=1}{i1,v1,i1}
+\fmf{plain,left=1}{o1,v1,o1}
+\fmfdot{v1}
+\end{fmfgraph}\end{center}}
+%
+\\
+\hline
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+$3$ & $0$  & 
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/24$ \\ ${\scs ( 0, 0, 0 , 0 ; 24 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{v2}
+\fmfforce{1w,1h}{v3}
+\fmfforce{0w,1h}{v4}
+\fmf{plain,right=1}{v1,v3,v1}
+\fmf{plain}{v1,v3}
+\fmf{plain}{v2,v4}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 0, 2, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{v2}
+\fmfforce{1w,1h}{v3}
+\fmfforce{0w,1h}{v4}
+\fmf{plain,right=1}{v1,v3,v1}
+\fmf{plain,right=0.4}{v1,v4}
+\fmf{plain,left=0.4}{v2,v3}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 1, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{2/3w,1/2h}{v3}
+\fmfforce{5/6w,0h}{v4}
+\fmfforce{5/6w,1h}{v5}
+\fmfforce{1w,1/2h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v3,v6,v3}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v4,v5}
+\fmfdot{v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{23mm}{\begin{center}
+\begin{fmfgraph}(20,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/5w,1/2h}{v2}
+\fmfforce{2/5w,1/2h}{v3}
+\fmfforce{3/5w,1/2h}{v4}
+\fmfforce{4/5w,1/2h}{v5}
+\fmfforce{1w,1/2h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v4,v5}
+\fmfdot{v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/48$ \\ ${\scs ( 3, 0, 0 , 0 ; 6 )}$
+\end{tabular}
+%
+\parbox{17mm}{\begin{center}
+\begin{fmfgraph}(13.856,12)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/4w,1/6h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{3/4w,1/6h}{v4}
+\fmfforce{1w,0h}{v5}
+\fmfforce{1/2w,2/3h}{v6}
+\fmfforce{1/2w,1h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain,left=1}{v6,v7,v6}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v4,v3}
+\fmf{plain}{v3,v6}
+\fmfdot{v2,v3,v4,v6}
+\end{fmfgraph}\end{center}} 
+%
+\\ 
+%
+$3$ & $1$ & 
+%
+\begin{tabular}{@{}c}
+$\mbox{}$ \\
+$1/8$ \\ ${\scs ( 0, 2, 0 , 0 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1w,1/2h}{v2}
+\fmfforce{1/2w,1h}{v3}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.4}{v3,v1}
+\fmf{plain,left=0.4}{v2,v3}
+\fmfdot{v1,v2,v3}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 1, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph}(4,8)
+\setval
+\fmfforce{0w,1/4h}{v1}
+\fmfforce{1w,1/4h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v1,v2}
+\fmfdot{v2,v3,v1}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/12$ \\ ${\scs ( 1, 0, 1 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{2/3w,1/2h}{v3}
+\fmfforce{1w,1/2h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v4}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmfdot{v4,v2,v3}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 2 , 1 , 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph}(16,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/4w,1/2h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{3/4w,1/2h}{v4}
+\fmfforce{1w,1/2h}{v5}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain}{v3,v4}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmfdot{v4,v2,v3}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 3, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph}(16,6)
+\setval
+\fmfforce{0w,1/3h}{v1}
+\fmfforce{1/4w,1/3h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{1w,1/3h}{v6}
+\fmfforce{3/4w,1/3h}{v5}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v5}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmfdot{v5,v2,v3}
+\end{fmfgraph}\end{center}} 
+%
+\\
+%
+$3$ &  $2$ &
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/48$ \\ ${\scs ( 0, 0, 0 , 1 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,4)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{1w,0.5h}{v2}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.4}{v1,v2,v1}
+\fmfdot{v1,v2}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,4)
+\setval
+\fmfleft{i1}
+\fmfright{o1}
+\fmf{plain,left=1}{i1,v1,i1}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{o1,v2,o1}
+\fmfdot{v1,v2}
+\end{fmfgraph}\end{center}}
+%
+\\ \hline 
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+$4$ & $0$ &
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/72$ \\ ${\scs ( 0, 0, 0 , 0 ; 72 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{0.25w,0.933h}{v2}
+\fmfforce{0.75w,0.933h}{v3}
+\fmfforce{1w,0.5h}{v4}
+\fmfforce{0.75w,0.067h}{v5}
+\fmfforce{0.25w,0.067h}{v6}
+\fmf{plain,right=1}{v1,v4,v1}
+\fmf{plain}{v1,v4}
+\fmf{plain}{v2,v5}
+\fmf{plain}{v3,v6}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{2mm}
+%
+\begin{tabular}{@{}c}
+$1/12$ \\ ${\scs ( 0, 0, 0 , 0 ; 12 )}$
+\end{tabular}
+% 
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{0.25w,0.933h}{v2}
+\fmfforce{0.75w,0.933h}{v3}
+\fmfforce{1w,0.5h}{v4}
+\fmfforce{0.75w,0.067h}{v5}
+\fmfforce{0.25w,0.067h}{v6}
+\fmf{plain,right=1}{v1,v4,v1}
+\fmf{plain}{v1,v4}
+\fmf{plain}{v2,v6}
+\fmf{plain}{v3,v5}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{2mm}
+%
+\begin{tabular}{@{}c}
+$1/48$ \\ ${\scs ( 0, 3, 0 , 0 ; 6 )}$
+\end{tabular}
+% 
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{0.25w,0.933h}{v2}
+\fmfforce{0.75w,0.933h}{v3}
+\fmfforce{1w,0.5h}{v4}
+\fmfforce{0.75w,0.067h}{v5}
+\fmfforce{0.25w,0.067h}{v6}
+\fmf{plain,right=1}{v1,v4,v1}
+\fmf{plain,right=0.7}{v2,v3}
+\fmf{plain,right=0.7}{v4,v5}
+\fmf{plain,right=0.7}{v6,v1}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}
+\end{center}} 
+%
+\hspace*{2mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 0, 2, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{0.25w,0.933h}{v2}
+\fmfforce{0.75w,0.933h}{v3}
+\fmfforce{1w,0.5h}{v4}
+\fmfforce{0.75w,0.067h}{v5}
+\fmfforce{0.25w,0.067h}{v6}
+\fmf{plain,right=1}{v1,v4,v1}
+\fmf{plain,right=0.7}{v2,v3}
+\fmf{plain}{v1,v4}
+\fmf{plain,right=0.7}{v5,v6}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{2mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0, 1, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{0.25w,0.933h}{v2}
+\fmfforce{0.75w,0.933h}{v3}
+\fmfforce{1w,0.5h}{v4}
+\fmfforce{0.75w,0.067h}{v5}
+\fmfforce{0.25w,0.067h}{v6}
+\fmf{plain,right=1}{v1,v4,v1}
+\fmf{plain,right=0.7}{v2,v3}
+\fmf{plain,right=0.2}{v4,v6}
+\fmf{plain,right=0.2}{v5,v1}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/32$ \\ ${\scs ( 0, 2, 0 , 0 ; 8 )}$
+\end{tabular}
+%
+\parbox{7mm}{\begin{center}
+\begin{fmfgraph}(4,12)
+\setval
+\fmfforce{0w,2/12h}{v1}
+\fmfforce{1w,2/12h}{v2}
+\fmfforce{1/2w,4/12h}{v3}
+\fmfforce{1/2w,8/12h}{v4}
+\fmfforce{0w,10/12h}{v5}
+\fmfforce{1w,10/12h}{v6}
+\fmf{plain,right=1}{v1,v2,v1}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v3,v4}
+\fmf{plain}{v5,v6}
+\fmf{plain,right=1}{v6,v5,v6}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}
+\end{center}}
+%
+\\ & & 
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/16$ \\ ${\scs ( 1 , 2 , 0 , 0 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,14)
+\setval
+\fmfforce{1/2w,0h}{v1}
+\fmfforce{1/2w,6/14h}{v2}
+\fmfforce{1/2w,10/14h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{0.155w,0.36h}{v5}
+\fmfforce{0.155w,0.068h}{v6}
+\fmfforce{0.845w,0.36h}{v7}
+\fmfforce{0.845w,0.068h}{v8}
+\fmf{plain}{v2,v3}
+\fmf{plain,right=1}{v1,v2,v1}
+\fmf{plain,right=1}{v4,v3,v4}
+\fmf{plain,right=0.4}{v6,v5}
+\fmf{plain,right=0.4}{v7,v8}
+\fmfdot{v2,v3,v5,v6,v7,v8}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 1 , 0 , 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,14)
+\setval
+\fmfforce{1/2w,0h}{v1}
+\fmfforce{1/2w,6/14h}{v2}
+\fmfforce{1/2w,10/14h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{0.155w,0.36h}{v5}
+\fmfforce{0.155w,0.068h}{v6}
+\fmfforce{0.845w,0.36h}{v7}
+\fmfforce{0.845w,0.068h}{v8}
+\fmf{plain}{v2,v3}
+\fmf{plain,right=1}{v1,v2,v1}
+\fmf{plain,right=1}{v4,v3,v4}
+\fmf{plain}{v6,v7}
+\fmf{plain}{v5,v8}
+\fmfdot{v2,v3,v5,v6,v7,v8}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 1 , 1 , 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,14)
+\setval
+\fmfforce{1/2w,0h}{v1}
+\fmfforce{1/2w,6/14h}{v2}
+\fmfforce{1/2w,10/14h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{0.155w,0.36h}{v5}
+\fmfforce{0.155w,0.068h}{v6}
+\fmfforce{0.845w,0.36h}{v7}
+\fmfforce{0.845w,0.068h}{v8}
+\fmf{plain}{v2,v3}
+\fmf{plain,right=1}{v1,v2,v1}
+\fmf{plain,right=1}{v4,v3,v4}
+\fmf{plain,right=0.4}{v5,v7}
+\fmf{plain,right=0.4}{v8,v6}
+\fmfdot{v2,v3,v5,v6,v7,v8}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2 , 1 , 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,14)
+\setval
+\fmfforce{0w,3/14h}{v1}
+\fmfforce{1w,3/14h}{v2}
+\fmfforce{0.9/6w,5/14h}{v5}
+\fmfforce{0.9/6w,1/14h}{v6}
+\fmfforce{5.1/6w,5/14h}{v7}
+\fmfforce{5.1/6w,1/14h}{v8}
+\fmfforce{5.1/6w,9/14h}{v3}
+\fmfforce{5.1/6w,13/14h}{v4}
+\fmfforce{0.9/6w,9/14h}{v9}
+\fmfforce{0.9/6w,13/14h}{v10}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v3,v7}
+\fmf{plain}{v5,v9}
+\fmf{plain,left=1}{v9,v10,v9}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain,left=0.5}{v6,v8}
+\fmfdot{v3,v5,v6,v7,v8,v9}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2 , 0 , 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{23mm}{\begin{center}
+\begin{fmfgraph}(20,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/5w,1/2h}{v2}
+\fmfforce{2/5w,1/2h}{v3}
+\fmfforce{3/5w,1/2h}{v4}
+\fmfforce{4/5w,1/2h}{v5}
+\fmfforce{1w,1/2h}{v6}
+\fmfforce{1/2w,0h}{v7}
+\fmfforce{1/2w,1h}{v8}
+\fmf{plain,right=1}{v1,v2,v1}
+\fmf{plain}{v3,v2}
+\fmf{plain,right=1}{v7,v8,v7}
+\fmf{plain}{v7,v8}
+\fmf{plain}{v4,v5}
+\fmf{plain,right=1}{v6,v5,v6}
+\fmfdot{v2,v3,v4,v5,v8,v7}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 1 , 2 , 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{7mm}{\begin{center}
+\begin{fmfgraph}(4,20)
+\setval
+\fmfforce{0w,1/10h}{v1}
+\fmfforce{1w,1/10h}{v2}
+\fmfforce{1/2w,1/5h}{v3}
+\fmfforce{1/2w,2/5h}{v4}
+\fmfforce{1/2w,3/5h}{v5}
+\fmfforce{1/2w,4/5h}{v6}
+\fmfforce{1/2w,1h}{v7}
+\fmf{plain,right=1}{v1,v2,v1}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v3,v4}
+\fmf{plain,right=1}{v4,v5,v4}
+\fmf{plain}{v6,v5}
+\fmf{plain,right=1}{v6,v7,v6}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}\end{center}} 
+%
+\\ & & 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$\mbox{}$ \\
+$1/32$ \\ ${\scs ( 2 , 1 , 0 , 0 ; 4 )}$\\
+$\mbox{}$ 
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph}(8,14)
+\setval
+\fmfforce{2/8w,2/14h}{v1}
+\fmfforce{6/8w,2/14h}{v2}
+\fmfforce{1/2w,4/14h}{v3}
+\fmfforce{1/2w,8/14h}{v4}
+\fmfforce{6.828/8w,10.828/14h}{v5}
+\fmfforce{1.171/8w,10.828/14h}{v6}
+\fmfforce{9.657/8w,13.657/14h}{v7}
+\fmfforce{-1.657/8w,13.657/14h}{v8}
+\fmf{plain,right=1}{v1,v2,v1}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v3,v4}
+\fmf{plain}{v4,v5}
+\fmf{plain}{v4,v6}
+\fmf{plain,right=1}{v7,v5,v7}
+\fmf{plain,right=1}{v6,v8,v6}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}\end{center}} 
+%
+\begin{tabular}{@{}c}
+$1/32$ \\ ${\scs ( 2 , 2 , 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{31mm}{\begin{center}
+\begin{fmfgraph}(28,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/7w,1/2h}{v2}
+\fmfforce{2/7w,1/2h}{v3}
+\fmfforce{3/7w,1/2h}{v4}
+\fmfforce{4/7w,1/2h}{v5}
+\fmfforce{5/7w,1/2h}{v6}
+\fmfforce{6/7w,1/2h}{v7}
+\fmfforce{1w,1/2h}{v8}
+\fmf{plain,right=1}{v1,v2,v1}
+\fmf{plain}{v2,v3}
+\fmf{plain,right=1}{v4,v3,v4}
+\fmf{plain}{v4,v5}
+\fmf{plain,right=1}{v6,v5,v6}
+\fmf{plain}{v6,v7}
+\fmf{plain,right=1}{v8,v7,v8}
+\fmfdot{v2,v3,v4,v5,v6,v7}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/48$ \\ ${\scs ( 3 , 0 , 0 , 0 ; 6 )}$
+\end{tabular}
+%
+\parbox{21mm}{\begin{center}
+\begin{fmfgraph}(20,20)
+\setval
+\fmfforce{1/2w,12/20h}{v1}
+\fmfforce{8.268/20w,9/20h}{v2}
+\fmfforce{11.732/20w,9/20h}{v3}
+\fmfforce{1/2w,8/20h}{v4}
+\fmfforce{1/2w,16/20h}{v5}
+\fmfforce{1/2w,1h}{v6}
+\fmfforce{4.804/20w,7/20h}{v7}
+\fmfforce{1.34/20w,5/20h}{v8}
+\fmfforce{15.196/20w,7/20h}{v9}
+\fmfforce{18.66/20w,5/20h}{v10}
+\fmf{plain,right=1}{v1,v4,v1}
+\fmf{plain,right=1}{v6,v5,v6}
+\fmf{plain,right=1}{v8,v7,v8}
+\fmf{plain,right=1}{v10,v9,v10}
+\fmf{plain}{v1,v5}
+\fmf{plain}{v2,v7}
+\fmf{plain}{v3,v9}
+\fmfdot{v1,v2,v3,v5,v7,v9}
+\end{fmfgraph}\end{center}} 
+%
+\begin{tabular}{@{}c}
+$1/32$ \\ ${\scs ( 3, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{14mm}{\begin{center}
+\begin{fmfgraph}(12,22)
+\setval
+\fmfforce{0.343/12w,0.343/22h}{v1}
+\fmfforce{11.657/12w,0.343/22h}{v2}
+\fmfforce{3.172/12w,3.17/22h}{v3}
+\fmfforce{8.828/12w,3.17/22h}{v4}
+\fmfforce{1/2w,6/22h}{v5}
+\fmfforce{1/2w,10/22h}{v6}
+\fmfforce{1/2w,14/22h}{v7}
+\fmfforce{1/2w,18/22h}{v8}
+\fmfforce{1/2w,1h}{v9}
+\fmf{plain,right=1}{v1,v3,v1}
+\fmf{plain}{v5,v4}
+\fmf{plain}{v5,v3}
+\fmf{plain,right=1}{v2,v4,v2}
+\fmf{plain}{v5,v6}
+\fmf{plain,right=1}{v7,v6,v7}
+\fmf{plain}{v7,v8}
+\fmf{plain,right=1}{v9,v8,v9}
+\fmfdot{v3,v4,v5,v6,v7,v8}
+\end{fmfgraph}\end{center}} 
+%
+\begin{tabular}{@{}c}
+$1/128$ \\ ${\scs ( 4, 0, 0 , 0 ; 8 )}$
+\end{tabular}
+%
+\parbox{13mm}{\begin{center}
+\begin{fmfgraph}(10,16)
+\setval
+\fmfforce{2/10w,0h}{v1}
+\fmfforce{2/10w,1/4h}{v2}
+\fmfforce{2/10w,2/4h}{v3}
+\fmfforce{2/10w,3/4h}{v4}
+\fmfforce{2/10w,1h}{v5}
+\fmfforce{8/10w,0h}{v6}
+\fmfforce{8/10w,1/4h}{v7}
+\fmfforce{8/10w,2/4h}{v8}
+\fmfforce{8/10w,3/4h}{v9}
+\fmfforce{8/10w,1h}{v10}
+\fmf{plain,right=1}{v1,v2,v1}
+\fmf{plain}{v2,v4}
+\fmf{plain,right=1}{v5,v4,v5}
+\fmf{plain,right=1}{v7,v6,v7}
+\fmf{plain}{v7,v9}
+\fmf{plain,right=1}{v10,v9,v10}
+\fmf{plain}{v3,v8}
+\fmfdot{v2,v3,v4,v7,v8,v9}
+\end{fmfgraph}\end{center}} 
+%
+\\ $4$ & $1$ &
+%
+\begin{tabular}{@{}c}
+$\mbox{}$ \\
+$1/8$ \\ ${\scs ( 0, 0, 0 , 0 ; 8 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{v2}
+\fmfforce{1w,1h}{v3}
+\fmfforce{0w,1h}{v4}
+\fmfforce{1/2w,1/2h}{v5}
+\fmf{plain,right=1}{v1,v3,v1}
+\fmf{plain}{v1,v3}
+\fmf{plain}{v2,v4}
+\fmfdot{v1,v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{13mm}{\begin{center}
+\begin{fmfgraph}(8,8)
+\setval
+\fmfforce{1/2w,1h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{0.85w,0.85h}{v3}
+\fmfforce{0.15w,0.85h}{v4}
+\fmfforce{1/2w,0.7h}{v5}
+\fmfforce{1/2w,0.3h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmf{plain}{v6,v2}
+\fmf{plain,right=0.4}{v5,v4}
+\fmf{plain,right=0.4}{v3,v5}
+\fmfdot{v2,v3,v4,v5,v6}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 0, 3, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{1/2w,1h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{0.25w,0.933h}{v3}
+\fmfforce{0.75w,0.933h}{v4}
+\fmfforce{0w,0.5h}{v5}
+\fmfforce{1w,0.5h}{v6}
+\fmf{plain,right=1}{v1,v2,v1}
+\fmf{plain,right=0.7}{v3,v4}
+\fmf{plain,right=0.4}{v2,v5}
+\fmf{plain,right=0.4}{v6,v2}
+\fmfdot{v2,v3,v4,v5,v6}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/32$ \\ ${\scs ( 0, 2, 0 , 0 ; 8 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4,8)
+\setval
+\fmfforce{1/2w,1h}{v1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmfforce{1/2w,0h}{v3}
+\fmfforce{1w,3/4h}{v4}
+\fmfforce{0w,3/4h}{v5}
+\fmfforce{1w,1/4h}{v6}
+\fmfforce{0w,1/4h}{v7}
+\fmf{plain,right=1}{v1,v2,v1}
+\fmf{plain,right=1}{v3,v2,v3}
+\fmf{plain}{v4,v5}
+\fmf{plain}{v6,v7}
+\fmfdot{v2,v4,v5,v6,v7}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 2, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/2w,1h}{v2}
+\fmfforce{1/2w,0h}{v3}
+\fmfforce{0.9w,0.75h}{v4}
+\fmfforce{0.9w,0.25h}{v5}
+\fmf{plain,right=1}{v2,v3,v2}
+\fmf{plain}{v2,v3}
+\fmf{plain,right=0.4}{v1,v2}
+\fmf{plain,right=0.4}{v4,v5}
+\fmfdot{v1,v3,v2,v4,v5}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$\\ 
+${\scs ( 1, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,10)
+\setval
+\fmfforce{0w,0.3h}{v1}
+\fmfforce{1w,0.3h}{v2}
+\fmfforce{0.5w,0.6h}{v3}
+\fmfforce{0.5w,1h}{v4}
+\fmfforce{0.15w,0.5h}{v5}
+\fmfforce{0.15w,0.1h}{v6}
+\fmfforce{0.85w,0.5h}{v7}
+\fmfforce{0.85w,0.1h}{v8}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.5}{v5,v6}
+\fmf{plain,left=0.5}{v8,v7}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmfdot{v3,v5,v6,v7,v8}
+\end{fmfgraph}\end{center}} 
+%
+\\ & &
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/8$\\ 
+${\scs ( 1, 1, 0 , 0 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,10)
+\setval
+\fmfforce{0w,0.3h}{v1}
+\fmfforce{1w,0.3h}{v2}
+\fmfforce{0.5w,0.6h}{v3}
+\fmfforce{0.5w,1h}{v4}
+\fmfforce{0.15w,0.5h}{v5}
+\fmfforce{0.15w,0.1h}{v6}
+\fmfforce{0.85w,0.5h}{v7}
+\fmfforce{0.85w,0.1h}{v8}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,right=0.5}{v5,v7}
+\fmf{plain,right=0.5}{v8,v6}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmfdot{v3,v5,v6,v7,v8}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$\\ 
+${\scs ( 1, 0, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,10)
+\setval
+\fmfforce{0w,0.3h}{v1}
+\fmfforce{1w,0.3h}{v2}
+\fmfforce{0.5w,0.6h}{v3}
+\fmfforce{0.5w,1h}{v4}
+\fmfforce{0.15w,0.5h}{v5}
+\fmfforce{0.15w,0.1h}{v6}
+\fmfforce{0.85w,0.5h}{v7}
+\fmfforce{0.85w,0.1h}{v8}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v5,v8}
+\fmf{plain}{v7,v6}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmfdot{v3,v5,v6,v7,v8}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$\\ 
+${\scs ( 1, 2, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,14)
+\setval
+\fmfforce{0w,3/14h}{v1}
+\fmfforce{1w,3/14h}{v2}
+\fmfforce{0.15w,5/14h}{v5}
+\fmfforce{0.15w,1/14h}{v6}
+\fmfforce{0.85w,5/14h}{v7}
+\fmfforce{0.85w,1/14h}{v8}
+\fmfforce{0.85w,9/14h}{v3}
+\fmfforce{0.85w,13/14h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v3,v7}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain,right=0.5}{v5,v7}
+\fmf{plain,right=0.5}{v8,v6}
+\fmfdot{v3,v5,v6,v7,v8}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/12$\\ 
+${\scs ( 1, 0, 0 , 0 ; 6 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,14)
+\setval
+\fmfforce{0w,3/14h}{v1}
+\fmfforce{1w,3/14h}{v2}
+\fmfforce{1/2w,0h}{v3}
+\fmfforce{1/2w,6/14h}{v4}
+\fmfforce{1/2w,10/14h}{v5}
+\fmfforce{1/2w,1h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v3,v5}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmfdot{v1,v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/24$ \\ ${\scs ( 0, 1, 1 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{7mm}{\begin{center}
+\begin{fmfgraph}(4,12)
+\setval
+\fmfforce{0w,1/6h}{v1}
+\fmfforce{1w,1/6h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{1/2w,2/3h}{v4}
+\fmfforce{1/2w,1h}{v5}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v5,v3}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmfdot{v1,v2,v3,v4,v5}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 2, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{7mm}{\begin{center}
+\begin{fmfgraph}(4,16)
+\setval
+\fmfforce{1/2w,0h}{v1}
+\fmfforce{1/2w,1/4h}{v2}
+\fmfforce{0w,3/8h}{v3}
+\fmfforce{1w,3/8h}{v4}
+\fmfforce{1/2w,2/4h}{v5}
+\fmfforce{1/2w,3/4h}{v6}
+\fmfforce{1/2w,1h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v2,v5,v2}
+\fmf{plain}{v4,v3}
+\fmf{plain}{v6,v5}
+\fmf{plain,left=1}{v6,v7,v6}
+\fmfdot{v2,v3,v4,v5,v6}
+\end{fmfgraph}\end{center}}
+%
+\\ & & 
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/16$ \\ ${\scs ( 1, 2, 0 , 0 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{7mm}{\begin{center}
+\begin{fmfgraph}(4,16)
+\setval
+\fmfforce{0w,1/8h}{v1}
+\fmfforce{1w,1/8h}{v2}
+\fmfforce{1/2w,1/4h}{v3}
+\fmfforce{1/2w,2/4h}{v4}
+\fmfforce{1/2w,3/4h}{v5}
+\fmfforce{1/2w,4/4h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v1,v2}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v4,v5}
+\fmf{plain,left=1}{v6,v5,v6}
+\fmfdot{v1,v2,v3,v4,v5}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm} 
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 1, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{7mm}{\begin{center}
+\begin{fmfgraph}(4,16)
+\setval
+\fmfforce{0w,1/8h}{v1}
+\fmfforce{1w,1/8h}{v2}
+\fmfforce{1/2w,1/4h}{v3}
+\fmfforce{1/2w,2/4h}{v4}
+\fmfforce{1/2w,3/4h}{v5}
+\fmfforce{1/2w,4/4h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v1,v2}
+\fmf{plain,left=1}{v5,v4,v5}
+\fmf{plain}{v4,v3}
+\fmf{plain,left=1}{v6,v5,v6}
+\fmfdot{v1,v2,v3,v4,v5}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,14)
+\setval
+\fmfforce{0w,3/14h}{v1}
+\fmfforce{1/2w,6/14h}{v2}
+\fmfforce{1w,3/14h}{v4}
+\fmfforce{1/2w,0h}{v5}
+\fmfforce{1/2w,10/14h}{v6}
+\fmfforce{1/2w,1h}{v7}
+\fmf{plain,right=1}{v2,v5,v2}
+\fmf{plain,right=1}{v7,v6,v7}
+\fmf{plain,right=0.4}{v4,v5,v4}
+\fmf{plain}{v1,v4}
+\fmf{plain}{v2,v6}
+\fmfdot{v1,v2,v4,v5,v6}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$\\ 
+${\scs ( 1, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,14)
+\setval
+\fmfforce{0w,3/14h}{v1}
+\fmfforce{1w,3/14h}{v2}
+\fmfforce{0.5w,6/14h}{v3}
+\fmfforce{0.5w,10/14h}{v4}
+\fmfforce{0.5w,0h}{v5}
+\fmfforce{0.5w,1h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.4}{v1,v5}
+\fmf{plain,left=0.4}{v5,v2}
+\fmf{plain,left=1}{v4,v6,v4}
+\fmf{plain}{v3,v4}
+\fmfdot{v1,v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 2, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,14)
+\setval
+\fmfforce{0w,3.9/14h}{v1}
+\fmfforce{1w,3.9/14h}{v2}
+\fmfforce{0.2w,6.24/14h}{v3}
+\fmfforce{0.8w,6.24/14h}{v4}
+\fmfforce{0.2w,10.24/14h}{v5}
+\fmfforce{0.2w,14.24/14h}{v6}
+\fmfforce{1.2w,9.1/14h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v6,v5,v6}
+\fmf{plain,left=1}{v7,v4,v7}
+\fmf{plain}{v3,v5}
+\fmf{plain}{v1,v2}
+\fmfdot{v1,v2,v3,v4,v5}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,16)
+\setval
+\fmfforce{0w,1/8h}{v1}
+\fmfforce{2/3w,1/8h}{v2}
+\fmfforce{1/3w,1/4h}{v3}
+\fmfforce{1/3w,2/4h}{v4}
+\fmfforce{1/3w,3/4h}{v5}
+\fmfforce{1/3w,4/4h}{v6}
+\fmfforce{1w,2/4h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v5,v3}
+\fmf{plain,left=1}{v6,v5,v6}
+\fmf{plain,left=1}{v7,v4,v7}
+\fmfdot{v1,v2,v3,v4,v5}
+\end{fmfgraph}\end{center}}
+%
+\\ && 
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/32$ \\ ${\scs ( 2, 1, 0 , 0 ; 4 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph}(16,6)
+\setval
+\fmfforce{0w,2/3h}{v1}
+\fmfforce{1/4w,2/3h}{v2}
+\fmfforce{2/4w,2/3h}{v3}
+\fmfforce{3/4w,2/3h}{v4}
+\fmfforce{4/4w,2/3h}{v5}
+\fmfforce{6/16w,1/3h}{v6}
+\fmfforce{10/16w,1/3h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v4,v2}
+\fmf{plain,left=1}{v5,v4,v5}
+\fmf{plain}{v6,v7}
+\fmf{plain,left=1}{v6,v7,v6}
+\fmfdot{v2,v3,v4,v6,v7}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2, 2, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{27mm}{\begin{center}
+\begin{fmfgraph}(24,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/6w,1/2h}{v2}
+\fmfforce{2/6w,1/2h}{v3}
+\fmfforce{3/6w,1/2h}{v4}
+\fmfforce{4/6w,1/2h}{v5}
+\fmfforce{5/6w,1/2h}{v6}
+\fmfforce{1w,1/2h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v3}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v4,v5}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmf{plain,left=1}{v6,v7,v6}
+\fmfdot{v2,v3,v4,v5,v6}
+\end{fmfgraph}\end{center}}
+% 
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/32$ \\ ${\scs ( 2, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{27mm}{\begin{center}
+\begin{fmfgraph}(24,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/6w,1/2h}{v2}
+\fmfforce{2/6w,1/2h}{v3}
+\fmfforce{3/6w,1/2h}{v4}
+\fmfforce{4/6w,1/2h}{v5}
+\fmfforce{5/6w,1/2h}{v6}
+\fmfforce{1w,1/2h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v3}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain,left=1}{v5,v4,v5}
+\fmf{plain}{v5,v6}
+\fmf{plain,left=1}{v7,v6,v7}
+\fmfdot{v2,v3,v4,v5,v6}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 3, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{24mm}{\begin{center}
+\begin{fmfgraph}(20,8)
+\setval
+\fmfforce{0w,1/4h}{v1}
+\fmfforce{1/5w,1/4h}{v2}
+\fmfforce{2/5w,1/4h}{v3}
+\fmfforce{3/5w,1/4h}{v4}
+\fmfforce{4/5w,1/4h}{v5}
+\fmfforce{1w,1/4h}{v6}
+\fmfforce{1/2w,1/2h}{v7}
+\fmfforce{1/2w,1h}{v8}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v3}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v5,v4}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmf{plain,left=1}{v7,v8,v7}
+\fmfdot{v2,v3,v4,v5,v7}
+\end{fmfgraph}\end{center}}
+%
+\\ && 
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/24$ \\ ${\scs ( 1, 1, 1 , 0 ; 1 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{24mm}{\begin{center}
+\begin{fmfgraph}(20,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/5w,1/2h}{v2}
+\fmfforce{2/5w,1/2h}{v3}
+\fmfforce{3/5w,1/2h}{v4}
+\fmfforce{4/5w,1/2h}{v5}
+\fmfforce{1w,1/2h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v3}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v6,v4}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmfdot{v2,v3,v4,v5,v6}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm} 
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 2, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{16mm}{\begin{center}
+\begin{fmfgraph}(12,12)
+\setval
+\fmfforce{0w,1/6h}{v1}
+\fmfforce{1/3w,1/6h}{v2}
+\fmfforce{2/3w,1/6h}{v3}
+\fmfforce{3/3w,1/6h}{v4}
+\fmfforce{1/6w,1/3h}{v5}
+\fmfforce{1/6w,2/3h}{v6}
+\fmfforce{1/6w,3/3h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v1,v3}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v6,v5}
+\fmf{plain,left=1}{v7,v6,v7}
+\fmfdot{v1,v2,v3,v5,v6}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/48$ \\ ${\scs ( 2, 0, 1 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{20mm}{\begin{center}
+\begin{fmfgraph}(16,10)
+\setval
+\fmfforce{0w,2/10h}{v1}
+\fmfforce{1/4w,2/10h}{v2}
+\fmfforce{2/4w,2/10h}{v3}
+\fmfforce{3/4w,2/10h}{v4}
+\fmfforce{4/4w,2/10h}{v5}
+\fmfforce{1/2w,6/10h}{v6}
+\fmfforce{1/2w,10/10h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v4}
+\fmf{plain,left=1}{v5,v4,v5}
+\fmf{plain}{v3,v7}
+\fmf{plain,left=1}{v7,v6,v7}
+\fmfdot{v2,v3,v4,v6,v7}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 3, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{27mm}{\begin{center}
+\begin{fmfgraph}(24,6)
+\setval
+\fmfforce{0w,1/3h}{v1}
+\fmfforce{1/6w,1/3h}{v2}
+\fmfforce{2/6w,1/3h}{v3}
+\fmfforce{3/6w,1/3h}{v4}
+\fmfforce{4/6w,1/3h}{v5}
+\fmfforce{5/6w,1/3h}{v6}
+\fmfforce{1w,1/3h}{v7}
+\fmfforce{4/6w,1h}{v8}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v3}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v6,v4}
+\fmf{plain,left=1}{v7,v6,v7}
+\fmf{plain,left=1}{v8,v5,v8}
+\fmfdot{v2,v3,v4,v5,v6}
+\end{fmfgraph}\end{center}}
+%
+\\ &&
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/32$ \\ ${\scs ( 3, 1, 0 , 0 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph}(16,14)
+\setval
+\fmfforce{0w,2/14h}{v1}
+\fmfforce{1/4w,2/14h}{v2}
+\fmfforce{2/4w,2/14h}{v3}
+\fmfforce{3/4w,2/14h}{v4}
+\fmfforce{1w,2/14h}{v5}
+\fmfforce{1/2w,6/14h}{v6}
+\fmfforce{1/2w,10/14h}{v7}
+\fmfforce{1/2w,1h}{v8}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v4}
+\fmf{plain,left=1}{v5,v4,v5}
+\fmf{plain,left=1}{v3,v6,v3}
+\fmf{plain}{v7,v6}
+\fmf{plain,left=1}{v8,v7,v8}
+\fmfdot{v2,v3,v4,v7,v6}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/32$ \\ ${\scs ( 3, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph}(16,14)
+\setval
+\fmfforce{0w,2/14h}{v1}
+\fmfforce{1/4w,2/14h}{v2}
+\fmfforce{2/4w,2/14h}{v3}
+\fmfforce{3/4w,2/14h}{v4}
+\fmfforce{1w,2/14h}{v5}
+\fmfforce{1/2w,6/14h}{v6}
+\fmfforce{1/2w,10/14h}{v7}
+\fmfforce{1/2w,1h}{v8}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v4}
+\fmf{plain,left=1}{v5,v4,v5}
+\fmf{plain}{v3,v6}
+\fmf{plain,left=1}{v7,v6,v7}
+\fmf{plain,left=1}{v8,v7,v8}
+\fmfdot{v2,v3,v4,v7,v6}
+\end{fmfgraph}\end{center}}
+% 
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/32$ \\ ${\scs ( 4, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph}(16,14)
+\setval
+\fmfforce{0w,2/14h}{v1}
+\fmfforce{1/4w,2/14h}{v2}
+\fmfforce{2/4w,2/14h}{v3}
+\fmfforce{3/4w,2/14h}{v4}
+\fmfforce{1w,2/14h}{v5}
+\fmfforce{1/2w,6/14h}{v6}
+\fmfforce{1/2w,10/14h}{v7}
+\fmfforce{1/2w,1h}{v8}
+\fmfforce{12/16w,6/14h}{v9}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v4}
+\fmf{plain,left=1}{v5,v4,v5}
+\fmf{plain}{v3,v7}
+\fmf{plain,left=1}{v8,v7,v8}
+\fmf{plain,left=1}{v9,v6,v9}
+\fmfdot{v2,v3,v4,v7,v6}
+\end{fmfgraph}\end{center}}
+% 
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/384$ \\ ${\scs ( 4, 0, 0 , 0 ; 24 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph}(16,16)
+\setval
+\fmfforce{1/2w,0h}{v1}
+\fmfforce{1/2w,1/4h}{v2}
+\fmfforce{0w,1/2h}{v3}
+\fmfforce{1/4w,1/2h}{v4}
+\fmfforce{2/4w,1/2h}{v5}
+\fmfforce{3/4w,1/2h}{v6}
+\fmfforce{1w,1/2h}{v7}
+\fmfforce{1/2w,3/4h}{v8}
+\fmfforce{1/2w,1h}{v9}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v8}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v4,v6}
+\fmf{plain,left=1}{v6,v7,v6}
+\fmf{plain,left=1}{v9,v8,v9}
+\fmfdot{v2,v4,v5,v6,v8}
+\end{fmfgraph}\end{center}}
+%
+\\ $4$ & $2$ &
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$\mbox{}$ \\
+$1/8$ \\ ${\scs ( 0, 1, 0 , 0 ; 4 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{1w,0.5h}{v2}
+\fmfforce{1/2w,0.7h}{v3}
+\fmfforce{1/2w,0.3h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.4}{v1,v2,v1}
+\fmf{plain}{v4,v3}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 0, 3, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4.5,4.5)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{v2}
+\fmfforce{1w,1h}{v3}
+\fmfforce{0w,1h}{v4}
+\fmf{plain,left=1}{v1,v3,v1}
+\fmf{plain,right=0.4}{v3,v2}
+\fmf{plain,right=0.4}{v4,v3}
+\fmf{plain,right=0.4}{v1,v4}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4.5,4.5)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{v2}
+\fmfforce{1w,1h}{v3}
+\fmfforce{0w,1h}{v4}
+\fmf{plain,left=1}{v1,v3,v1}
+\fmf{plain,right=0.4}{v3,v2}
+\fmf{plain}{v1,v3}
+\fmf{plain,right=0.4}{v1,v4}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/24$ \\ ${\scs ( 0, 1, 1 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4,10)
+\setval
+\fmfforce{0w,1/5h}{v1}
+\fmfforce{1w,1/5h}{v2}
+\fmfforce{0w,4/5h}{v3}
+\fmfforce{1w,4/5h}{v4}
+\fmf{plain,left=1}{v4,v3,v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v4,v3}
+\fmf{plain,right=0.3}{v3,v1}
+\fmf{plain,right=0.3}{v2,v4}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,10)
+\setval
+\fmfforce{0w,3/10h}{v1}
+\fmfforce{1/2w,6/10h}{v2}
+\fmfforce{1w,3/10h}{v4}
+\fmfforce{1/2w,0h}{v5}
+\fmfforce{1/2w,1h}{v6}
+\fmf{plain,right=1}{v2,v5,v2}
+\fmf{plain,right=1}{v2,v6,v2}
+\fmf{plain,right=0.4}{v4,v5,v4}
+\fmf{plain}{v1,v4}
+\fmfdot{v1,v2,v4,v5}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$\\ 
+${\scs ( 1, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,10)
+\setval
+\fmfforce{0w,0.3h}{v1}
+\fmfforce{1w,0.3h}{v2}
+\fmfforce{0.5w,0.6h}{v3}
+\fmfforce{0.5w,1h}{v4}
+\fmfforce{0.5w,0h}{v5}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.4}{v1,v5}
+\fmf{plain,left=0.4}{v5,v2}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmfdot{v1,v2,v3,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\\ &&
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/16$ \\ ${\scs ( 1, 2, 0 , 0 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{7mm}{\begin{center}
+\begin{fmfgraph}(4,12)
+\setval
+\fmfforce{0w,1/6h}{v1}
+\fmfforce{1w,1/6h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{1/2w,2/3h}{v4}
+\fmfforce{1/2w,1h}{v5}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain}{v1,v2}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2, 0, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{1/2w,0h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{2/3w,1/2h}{v5}
+\fmfforce{1w,1/2h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v2,v5,v2}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmf{plain}{v3,v4}
+\fmfdot{v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(6,9.75)
+\setval
+\fmfforce{0w,0.3h}{v1}
+\fmfforce{1w,0.3h}{v2}
+\fmfforce{0.2w,0.55h}{v3}
+\fmfforce{0.8w,0.55h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v1,v2}
+\fmfi{plain}{reverse fullcircle scaled 0.7w shifted (1.02w,0.72h)}
+\fmfi{plain}{reverse fullcircle scaled 0.7w shifted (-0.02w,0.72h)}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2, 2, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{23mm}{\begin{center}
+\begin{fmfgraph}(20,8)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/5w,1/2h}{v2}
+\fmfforce{2/5w,1/2h}{v3}
+\fmfforce{3/5w,1/2h}{v4}
+\fmfforce{4/5w,1/2h}{v5}
+\fmfforce{1w,1/2h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v3}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmfdot{v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 3, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,16)
+\setval
+\fmfforce{1/2w,1/4h}{v1}
+\fmfforce{1/2w,2/4h}{v2}
+\fmfforce{1/2w,3/4h}{v3}
+\fmfforce{0.355662432w,5/16h}{v4}
+\fmfforce{0.64433568w,5/16h}{v5}
+\fmfforce{0.067w,3/16h}{v6}
+\fmfforce{0.933w,3/16h}{v7}
+\fmfforce{1/2w,1h}{v8}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v3}
+\fmf{plain,left=1}{v8,v3,v8}
+\fmf{plain,left=1}{v4,v6,v4}
+\fmf{plain,left=1}{v5,v7,v5}
+\fmfdot{v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\\ & &
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/24$ \\ 
+${\scs ( 1, 0, 1 , 0 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,14)
+\setval
+\fmfforce{0w,3/14h}{v1}
+\fmfforce{1w,3/14h}{v2}
+\fmfforce{0.5w,6/14h}{v3}
+\fmfforce{0.5w,10/14h}{v4}
+\fmfforce{0.5w,1h}{v5}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.4}{v1,v2,v1}
+\fmf{plain}{v4,v3}
+\fmf{plain,left=1}{v5,v4,v5}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ 
+${\scs ( 2, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,8)
+\setval
+\fmfforce{0w,1/4h}{v1}
+\fmfforce{1/3w,1/4h}{v2}
+\fmfforce{2/3w,1/4h}{v3}
+\fmfforce{1w,1/4h}{v4}
+\fmfforce{5/6w,1/2h}{v5}
+\fmfforce{5/6w,1h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmf{plain}{v4,v2}
+\fmfdot{v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/72$ \\ 
+${\scs ( 0, 0, 2 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{2/3w,1/2h}{v3}
+\fmfforce{1w,1/2h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v1,v4}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/24$ \\ ${\scs ( 1, 1, 1 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{23mm}{\begin{center}
+\begin{fmfgraph}(16,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/4w,1/2h}{v2}
+\fmfforce{2/4w,1/2h}{v3}
+\fmfforce{3/4w,1/2h}{v4}
+\fmfforce{1w,1/2h}{v5}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v3,v2,v3}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain}{v3,v5}
+\fmfdot{v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 1, 2, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{17mm}{\begin{center}
+\begin{fmfgraph}(14,6)
+\setval
+\fmfforce{8/14w,1/2h}{v1}
+\fmfforce{1w,1/2h}{v2}
+\fmfforce{11/14w,1h}{v3}
+\fmfforce{0w,1/2h}{v4}
+\fmfforce{4/14w,1/2h}{v5}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain,left=0.4}{v3,v1}
+\fmf{plain,left=0.4}{v2,v3}
+\fmf{plain}{v5,v1}
+\fmfdot{v1,v2,v3,v5}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm} $\mbox{}$
+%
+\\ &&
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/32$ \\ 
+${\scs ( 2, 2, 0 , 0 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{23mm}{\begin{center}
+\begin{fmfgraph}(20,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/5w,1/2h}{v2}
+\fmfforce{2/5w,1/2h}{v3}
+\fmfforce{3/5w,1/2h}{v4}
+\fmfforce{4/5w,1/2h}{v5}
+\fmfforce{1w,1/2h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain}{v4,v3}
+\fmf{plain,left=1}{v5,v4,v5}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmf{plain}{v4,v3}
+\fmfdot{v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ 
+${\scs ( 3, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{23mm}{\begin{center}
+\begin{fmfgraph}(20,6)
+\setval
+\fmfforce{0w,1/3h}{v1}
+\fmfforce{1/5w,1/3h}{v2}
+\fmfforce{2/5w,1/3h}{v3}
+\fmfforce{3/5w,1/3h}{v4}
+\fmfforce{4/5w,1/3h}{v5}
+\fmfforce{1w,1/3h}{v6}
+\fmfforce{2/5w,1h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v6,v5,v6}
+\fmf{plain,left=1}{v5,v4,v5}
+\fmf{plain,left=1}{v3,v7,v3}
+\fmf{plain}{v4,v2}
+\fmfdot{v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/32$ \\ 
+${\scs ( 3, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph}(16,10)
+\setval
+\fmfforce{0w,1/5h}{v1}
+\fmfforce{1/4w,1/5h}{v2}
+\fmfforce{2/4w,1/5h}{v3}
+\fmfforce{3/4w,1/5h}{v4}
+\fmfforce{1w,1/5h}{v5}
+\fmfforce{1/2w,3/5h}{v6}
+\fmfforce{1/2w,1h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain,left=1}{v3,v6,v3}
+\fmf{plain,left=1}{v6,v7,v6}
+\fmf{plain}{v4,v2}
+\fmfdot{v2,v3,v4,v6}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/24$ \\ 
+${\scs ( 2, 0, 1 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph}(16,6)
+\setval
+\fmfforce{0w,1/3h}{v1}
+\fmfforce{1/4w,1/3h}{v2}
+\fmfforce{2/4w,1/3h}{v3}
+\fmfforce{3/4w,1/3h}{v4}
+\fmfforce{1w,1/3h}{v5}
+\fmfforce{1/2w,1h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain,left=1}{v3,v6,v3}
+\fmf{plain}{v5,v2}
+\fmfdot{v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\\ &&
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/48$ \\ 
+${\scs ( 2, 0, 1 , 0 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{23mm}{\begin{center}
+\begin{fmfgraph}(20,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/5w,1/2h}{v2}
+\fmfforce{2/5w,1/2h}{v3}
+\fmfforce{3/5w,1/2h}{v4}
+\fmfforce{4/5w,1/2h}{v5}
+\fmfforce{1w,1/2h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v4,v3,v4}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmf{plain}{v5,v2}
+\fmfdot{v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/32$\\ 
+${\scs ( 4, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{23mm}{\begin{center}
+\begin{fmfgraph}(22,6)
+\setval
+\fmfforce{0w,1/3h}{v1}
+\fmfforce{4/22w,1/3h}{v2}
+\fmfforce{8/22w,1/3h}{v3}
+\fmfforce{14/22w,1/3h}{v4}
+\fmfforce{18/22w,1/3h}{v5}
+\fmfforce{1w,1/3h}{v6}
+\fmfforce{8/22w,1h}{v7}
+\fmfforce{14/22w,1h}{v8}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v6,v5,v6}
+\fmf{plain,left=1}{v8,v4,v8}
+\fmf{plain,left=1}{v3,v7,v3}
+\fmf{plain}{v5,v2}
+\fmfdot{v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\\
+%
+$4$& $3$ &
+%
+\begin{tabular}{@{}c}
+$\mbox{}$ \\
+$1/48$ \\ 
+${\scs ( 0, 3, 0 , 0 ; 6 )}$ \\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0.5w,0h}{v1}
+\fmfforce{0.5w,1h}{v2}
+\fmfforce{0.066987w,0.25h}{v3}
+\fmfforce{0.93301w,0.25h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v3,v4}
+\fmf{plain}{v2,v4}
+\fmfdot{v2,v3,v4}
+\end{fmfgraph}
+\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/24$\\ 
+${\scs ( 1, 0, 1 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,10)
+\setval
+\fmfforce{0w,0.3h}{v1}
+\fmfforce{1w,0.3h}{v2}
+\fmfforce{0.5w,0.6h}{v3}
+\fmfforce{0.5w,1h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.4}{v1,v2,v1}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmfdot{v1,v2,v3}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/48$\\ 
+${\scs ( 3, 0, 0 , 0 ; 6 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,12)
+\setval
+\fmfforce{1/2w,1/3h}{v1}
+\fmfforce{1/2w,2/3h}{v2}
+\fmfforce{1/2w,1h}{v3}
+\fmfforce{0.355662432w,0.416666666h}{v4}
+\fmfforce{0.64433568w,0.416666666h}{v5}
+\fmfforce{0.067w,1/4h}{v6}
+\fmfforce{0.933w,1/4h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{v4,v6,v4}
+\fmf{plain,left=1}{v5,v7,v5}
+\fmfdot{v2,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/32$\\ 
+${\scs ( 2, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph}(16,4)
+\setval
+\fmfleft{i1}
+\fmfright{o1}
+\fmf{plain,left=1}{i1,v1,i1}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{o1,v3,o1}
+\fmfdot{v1,v2,v3}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\end{tabular}
+\end{center}
+\caption{Connected vacuum diagrams and their 
+weights of the $\phi^3$-$\phi^4$-theory without currents
+up to four loops. Withing each loop order $l$ the diagrams are
+distinguished with respect to the number $p$ of $4$-vertices.
+Each diagram is characterized by the
+vector $(S,D,T,F;N$) whose components specify the number of self-, double,
+triple, fourfold connections, and of the identical vertex permutations,
+respectively.}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+nan
+{% endraw %}
+```
+
+Example 202
+Table:
+
+```
+{% raw %}
+\begin{table}[t]
+\begin{center}
+\begin{tabular}{|ccc|c|}
+\,\,\,$n$\,\,\,
+&\,\,\,$l$\,\,\,
+& \,\,\,$p$\,\,\, &
+$W^{(n ,l,p)}$
+\\
+\hline
+$1$ & $1$ & $0$ &
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+\begin{tabular}{@{}c}
+$1/2$ \\ ${\scs ( 1, 0, 0 , 0 , 1 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmfforce{1w,1/2h}{v3}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain}{v1,v2}
+\fmfdot{v2}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\end{fmfgraph*}\end{center}}
+%
+\\ \hline 
+$1$ &$2$ & $1$ &
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+\begin{tabular}{@{}c}
+$1/6$ \\ ${\scs ( 0, 0, 1 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmfforce{1w,1/2h}{v3}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain}{v1,v3}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{2/3w,1/2h}{v3}
+\fmfforce{1w,1/2h}{v4}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v1,v2}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 2, 0, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,6)
+\setval
+\fmfforce{0w,1/3h}{v1}
+\fmfforce{1/3w,1/3h}{v2}
+\fmfforce{2/3w,1/3h}{v3}
+\fmfforce{1w,1/3h}{v4}
+\fmfforce{1/3w,1h}{v5}
+\fmf{plain,left=1}{v2,v5,v2}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v1,v3}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\end{fmfgraph*}\end{center}}
+%
+\\ $1$ & $2$ & $0$ &
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmfforce{1w,1/2h}{v3}
+\fmfforce{3/4w,0h}{v4}
+\fmfforce{3/4w,1h}{v5}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v4,v5}
+\fmfdot{v2,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph*}(16,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/4w,1/2h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{3/4w,1/2h}{v4}
+\fmfforce{1w,1/2h}{v5}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v3,v4}
+\fmfdot{v2,v4,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 2, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,13.856)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmfforce{3/4w,1/4h}{v3}
+\fmfforce{3/4w,3/4h}{v4}
+\fmfforce{1w,0h}{v5}
+\fmfforce{1w,1h}{v6}
+\fmf{plain,left=1}{v3,v5,v3}
+\fmf{plain,left=1}{v4,v6,v4}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v2,v4}
+\fmfdot{v2,v4,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\end{fmfgraph*}\end{center}} \\ \hline\hline
+$2$ & $1$ & $1$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1h}{v3}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain}{v1,w1}
+\fmfdot{v2}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\\ $2$ &$1$ & $0$ &
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{2/3w,1/2h}{v3}
+\fmfforce{1w,1/2h}{w1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v3,w1}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v1,w1}
+\fmf{plain}{v2,v3}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\\ \hline $2$ &$2$ & $2$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/12$ \\ ${\scs ( 0, 0, 1 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{2/3w,1/2h}{v3}
+\fmfforce{1w,1/2h}{w1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain}{v1,w1}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 1, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v1,w1}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 2, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{17mm}{\begin{center}
+\begin{fmfgraph*}(14,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{2/7w,0h}{v2}
+\fmfforce{5/7w,0h}{v3}
+\fmfforce{2/7w,1h}{v4}
+\fmfforce{5/7w,1h}{v5}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,left=1}{v2,v4,v2}
+\fmf{plain,left=1}{v3,v5,v3}
+\fmf{plain}{v1,w1}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\\ $2$ &$2$ & $1$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph*}(16,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/4w,1/2h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{3/4w,1/2h}{v4}
+\fmfforce{1w,1/2h}{w1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v4,w1}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0, 1, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(8,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1w,0h}{w1}
+\fmfforce{1/2w,1h}{v3}
+\fmfforce{1/4w,1/2h}{v4}
+\fmfforce{3/4w,1/2h}{v5}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain}{v1,w1}
+\fmf{plain}{v4,v5}
+\fmfdot{v2,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/2$ \\ ${\scs ( 0, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{14.5mm}{\begin{center}
+\begin{fmfgraph*}(11.464,3)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{4/11.464w,0h}{v2}
+\fmfforce{7.464/11.464w,0h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{1/2w,-1/3h}{v7}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,right=1}{v4,v7,v4}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v4,v2}
+\fmf{plain}{v3,w1}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{14.5mm}{\begin{center}
+\begin{fmfgraph*}(11.464,7)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{4/11.464w,0h}{v2}
+\fmfforce{7.464/11.464w,0h}{v3}
+\fmfforce{1/2w,3/7h}{v4}
+\fmfforce{1/2w,1h}{v5}
+\fmfforce{1/2w,-1/7h}{v7}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,right=1}{v4,v7,v4}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v3,w1}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/12$ \\ ${\scs ( 0, 0, 1 , 0 ;2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,right=1}{v4,v3,v4}
+\fmf{plain}{v1,w1}
+\fmf{plain}{v4,v2}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\\ &&&
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph*}(16,6)
+\setval
+\fmfforce{0w,1/3h}{v1}
+\fmfforce{1/4w,1/3h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{3/4w,1/3h}{v4}
+\fmfforce{3/4w,1h}{v5}
+\fmfforce{1w,1/3h}{w1}
+\fmf{plain,right=1}{v2,v3,v2}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain}{v1,v2}
+\fmf{plain}{w1,v3}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 1, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,12)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{1/2w,2/3h}{v4}
+\fmfforce{1/2w,1h}{v5}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,right=1}{v3,v4,v3}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain}{v1,w1}
+\fmf{plain}{v2,v3}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 1, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,12)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1w,0h}{w1}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{1/2w,2/3h}{v4}
+\fmfforce{1/2w,1h}{v5}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain}{v3,v4}
+\fmf{plain}{v1,w1}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,10)
+\setval
+\fmfforce{0w,1/5h}{v1}
+\fmfforce{1/3w,1/5h}{v2}
+\fmfforce{2/3w,1/5h}{v3}
+\fmfforce{2/3w,3/5h}{v4}
+\fmfforce{2/3w,1h}{v5}
+\fmfforce{1w,1/5h}{w1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain}{w1,v3}
+\fmf{plain}{v3,v4}
+\fmf{plain}{v1,v2}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 2, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,12)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1w,0h}{w1}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{1/2w,2/3h}{v4}
+\fmfforce{1/2w,1h}{v5}
+\fmfforce{0w,1/3h}{v6}
+\fmf{plain,left=1}{v6,v3,v6}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain}{v2,v4}
+\fmf{plain}{v1,w1}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\\ &&&
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 2, 0, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/3w,0h}{v2}
+\fmfforce{1/3w,1/2h}{v3}
+\fmfforce{1/3w,1h}{v4}
+\fmfforce{2/3w,0h}{v5}
+\fmfforce{2/3w,1/2h}{v6}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,left=1}{v4,v3,v4}
+\fmf{plain,left=1}{v6,v5,v6}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v1,w1}
+\fmfdot{v2,v3,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2, 0, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,16)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmfforce{1/2w,3/4h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{1/2w,1/4h}{v5}
+\fmfforce{1/2w,0h}{v6}
+\fmfforce{1w,1/2h}{w1}
+\fmf{plain,left=1}{v4,v3,v4}
+\fmf{plain,left=1}{v6,v5,v6}
+\fmf{plain}{v5,v3}
+\fmf{plain}{v1,w1}
+\fmfdot{v2,v3,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\\ $2$ &$2$ & $0$ &
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 0, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{2/3w,1/2h}{v3}
+\fmfforce{1w,1/2h}{w1}
+\fmfforce{1/2w,0h}{v4}
+\fmfforce{1/2w,1h}{v5}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v3,w1}
+\fmf{plain}{v4,v5}
+\fmfdot{v2,v3,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,4)
+\setval
+\fmfforce{1/3w,0h}{v1}
+\fmfforce{2/3w,0h}{v2}
+\fmfforce{2/3w,1h}{v3}
+\fmfforce{1/3w,1h}{v4}
+\fmfforce{0w,0h}{v5}
+\fmfforce{1w,0h}{v6}
+\fmf{plain,right=1}{v1,v3,v1}
+\fmf{plain}{v1,v5}
+\fmf{plain}{v2,v6}
+\fmf{plain,right=0.5}{v4,v3}
+\fmfdot{v1,v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v6}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0, 1, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1w,0h}{w1}
+\fmfforce{1/4w,3/4h}{v3}
+\fmfforce{3/4w,3/4h}{v4}
+\fmfforce{1/2w,1/2h}{v5}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v1,w1}
+\fmf{plain}{v3,v4}
+\fmf{plain}{v5,v2}
+\fmfdot{v2,v3,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{23mm}{\begin{center}
+\begin{fmfgraph*}(20,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/5w,1/2h}{v2}
+\fmfforce{2/5w,1/2h}{v3}
+\fmfforce{3/5w,1/2h}{v4}
+\fmfforce{4/5w,1/2h}{v5}
+\fmfforce{1w,1/2h}{w1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v3,v4}
+\fmf{plain}{v5,w1}
+\fmfdot{v2,v3,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 1, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,16)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/4h}{v3}
+\fmfforce{1/2w,1/2h}{v4}
+\fmfforce{1/2w,3/4h}{v5}
+\fmfforce{1/2w,1h}{v6}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v4,v5}
+\fmf{plain}{v1,w1}
+\fmfdot{v2,v3,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\\ & && 
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph*}(16,10)
+\setval
+\fmfforce{0w,1/5h}{v1}
+\fmfforce{1/4w,1/5h}{v2}
+\fmfforce{1/4w,3/5h}{v3}
+\fmfforce{1/4w,1h}{v4}
+\fmfforce{1/2w,1/5h}{v5}
+\fmfforce{3/4w,1/5h}{v6}
+\fmfforce{1w,1/5h}{w1}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmf{plain}{v6,w1}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v1,v5}
+\fmfdot{v2,v3,v5,v6}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{14.5mm}{\begin{center}
+\begin{fmfgraph*}(11.464,11)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{4/11.464w,0h}{v2}
+\fmfforce{7.464/11.464w,0h}{v3}
+\fmfforce{1/2w,3/11h}{v4}
+\fmfforce{1/2w,7/11h}{v5}
+\fmfforce{1/2w,1h}{v6}
+\fmfforce{1/2w,-1/11h}{v7}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,right=1}{v4,v7,v4}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v3,w1}
+\fmf{plain}{v4,v5}
+\fmfdot{v2,v3,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 2, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{17mm}{\begin{center}
+\begin{fmfgraph*}(14,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{4/14w,0h}{v2}
+\fmfforce{4/14w,1/2h}{v3}
+\fmfforce{4/14w,1h}{v4}
+\fmfforce{10/14w,0h}{v5}
+\fmfforce{10/14w,1/2h}{v6}
+\fmfforce{10/14w,1h}{v7}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,right=1}{v3,v4,v3}
+\fmf{plain,left=1}{v6,v7,v6}
+\fmf{plain}{v1,w1}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v6,v5}
+\fmfdot{v2,v3,v6,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2, 0, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\hspace*{3mm}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{0.067w,3/4h}{v4}
+\fmfforce{0.933w,3/4h}{v5}
+\fmfforce{-0.366w,1h}{v6}
+\fmfforce{1.366w,1h}{v7}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,right=1}{v4,v6,v4}
+\fmf{plain,left=1}{v5,v7,v5}
+\fmf{plain}{v1,w1}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v3,v4}
+\fmf{plain}{v3,v5}
+\fmfdot{v2,v3,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}} \\ \hline\hline
+%
+$3$ &$0$ & $0$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/6$ \\ ${\scs ( 0, 0, 0 , 0 ; 6 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(6.928,12)
+\setval
+\fmfforce{1/2w,5/6h}{v1}
+\fmfforce{1w,1/4h}{w1}
+\fmfforce{0w,1/4h}{u1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmf{plain}{v2,v1}
+\fmf{plain}{v2,w1}
+\fmf{plain}{v2,u1}
+\fmfdot{v2}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\end{fmfgraph*}\end{center}}
+%
+\\ \hline $3$ &$1$ & $1$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/6$ \\ ${\scs ( 0, 0, 0 , 0 ; 6 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,12)
+\setval
+\fmfforce{1/2w,1/3h}{v1}
+\fmfforce{1/2w,2/3h}{v2}
+\fmfforce{1/2w,1h}{v3}
+\fmfforce{0.355662432w,0.416666666h}{v4}
+\fmfforce{0.64433568w,0.416666666h}{v5}
+\fmfforce{0.067w,1/4h}{v6}
+\fmfforce{0.933w,1/4h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v4,v6}
+\fmf{plain}{v5,v7}
+\fmfdot{v2,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v6}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v7}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,12)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{1/2w,1h}{u1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{1/2w,2/3h}{v4}
+\fmf{plain,right=1}{v4,v3,v4}
+\fmf{plain}{w1,v1}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v4,u1}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+%
+\parbox{17mm}{\begin{center}
+\begin{fmfgraph*}(14,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{4/14w,0h}{v2}
+\fmfforce{4/14w,1/2h}{v3}
+\fmfforce{4/14w,1h}{v4}
+\fmfforce{10/14w,0h}{v5}
+\fmfforce{10/14w,1/2h}{u1}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,right=1}{v3,v4,v3}
+\fmf{plain}{u1,v5}
+\fmf{plain}{v1,w1}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v6,v5}
+\fmfdot{v2,v3,v6,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\end{fmfgraph*}\end{center}}
+%
+\\ $3$ &$1$ & $0$ &
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{1/2w,1h}{u1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmf{plain,right=1}{v2,v3,v2}
+\fmf{plain}{w1,v1}
+\fmf{plain}{v3,u1}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{1/2w,1h}{u1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{0w,1/2h}{v4}
+\fmf{plain,right=1}{v4,v3,v4}
+\fmf{plain}{w1,v1}
+\fmf{plain}{v2,u1}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/12$ \\ ${\scs ( 1, 0, 0 , 0 ; 6 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,12)
+\setval
+\fmfforce{0w,1/3h}{v1}
+\fmfforce{1w,1/3h}{w1}
+\fmfforce{1/2w,0h}{u1}
+\fmfforce{1/2w,1/3h}{v2}
+\fmfforce{1/2w,2/3h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmf{plain,right=1}{v4,v3,v4}
+\fmf{plain}{w1,v1}
+\fmf{plain}{v3,u1}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\end{fmfgraph*}\end{center}} \\ \hline \hline
+$4$ &$0$ & $1$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/24$ \\ ${\scs ( 0, 0, 0 , 0 ; 24 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,12)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1w,1/2h}{w1}
+\fmfforce{1/2w,1/6h}{u1}
+\fmfforce{1/2w,5/6h}{x1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmf{plain}{w1,v1}
+\fmf{plain}{x1,u1}
+\fmfdot{v2}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\\ $4$ &$0$ & $0$ & 
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0, 0, 0 , 0 ; 8 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{0w,1h}{u1}
+\fmfforce{1w,1h}{x1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1h}{v3}
+\fmf{plain}{w1,v1}
+\fmf{plain}{v2,v3}
+\fmf{plain}{x1,u1}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\\ \hline $4$ &$1$ & $2$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 0, 1, 0 , 0 ; 8 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{0w,1h}{u1}
+\fmfforce{1w,1h}{x1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1h}{v3}
+\fmf{plain,right=1}{v2,v3,v2}
+\fmf{plain}{w1,v1}
+\fmf{plain}{x1,u1}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/12$ \\ ${\scs ( 1, 0, 0 , 0 ; 6 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,8)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1w,1/2h}{w1}
+\fmfforce{1/3w,0h}{u1}
+\fmfforce{1/3w,1h}{x1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{2/3w,1/2h}{v3}
+\fmfforce{2/3w,1h}{v4}
+\fmf{plain,right=1}{v4,v3,v4}
+\fmf{plain}{w1,v1}
+\fmf{plain}{x1,u1}
+\fmfdot{v2,v3}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\\ $4$ &$1$ & $1$ & 
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0,0, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{14.5mm}{\begin{center}
+\begin{fmfgraph*}(11.464,3)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{4/11.464w,0h}{v2}
+\fmfforce{7.464/11.464w,0h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{1/2w,-1/3h}{v7}
+\fmfforce{1w,0h}{w1}
+\fmfforce{1.732/11.464w,1h}{u1}
+\fmfforce{9.732/11.464w,1h}{x1}
+\fmf{plain,right=1}{v4,v7,v4}
+\fmf{plain}{u1,x1}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v3,w1}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/12$ \\ ${\scs ( 0,1, 0 , 0 ; 6 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,16)
+\setval
+\fmfforce{0w,1/4h}{v1}
+\fmfforce{1w,1/4h}{w1}
+\fmfforce{1/2w,0h}{u1}
+\fmfforce{1/2w,1h}{x1}
+\fmfforce{1/2w,1/4h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{1/2w,3/4h}{v4}
+\fmf{plain,right=1}{v4,v3,v4}
+\fmf{plain}{v2,v3}
+\fmf{plain}{w1,v1}
+\fmf{plain}{v3,u1}
+\fmf{plain}{v4,x1}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0,1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,12)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{0w,1/3h}{u1}
+\fmfforce{1/2w,1h}{x1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{1/2w,2/3h}{v4}
+\fmf{plain,right=1}{v4,v3,v4}
+\fmf{plain}{v2,v3}
+\fmf{plain}{w1,v1}
+\fmf{plain}{v3,u1}
+\fmf{plain}{v4,x1}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0,1, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{0w,1h}{u1}
+\fmfforce{1w,1h}{x1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmf{plain,right=1}{v4,v3,v4}
+\fmf{plain}{v2,v3}
+\fmf{plain}{u1,x1}
+\fmf{plain}{v1,w1}
+\fmf{plain}{v4,x1}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\\ &&&
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1,0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,12)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{0w,1/3h}{u1}
+\fmfforce{1/2w,1h}{x1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{1/2w,2/3h}{v4}
+\fmfforce{0w,2/3h}{v5}
+\fmf{plain,right=1}{v4,v5,v4}
+\fmf{plain}{v2,v3}
+\fmf{plain}{w1,v1}
+\fmf{plain}{v3,u1}
+\fmf{plain}{v2,x1}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 1,0, 0 , 0 ; 8 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{0w,1h}{u1}
+\fmfforce{1w,1h}{x1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{0w,1/2h}{v5}
+\fmf{plain,right=1}{v3,v5,v3}
+\fmf{plain}{w1,v1}
+\fmf{plain}{x1,u1}
+\fmf{plain}{v2,v4}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/12$ \\ ${\scs ( 1,0, 0 , 0 ; 6 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,12)
+\setval
+\fmfforce{0w,1/3h}{v1}
+\fmfforce{1w,1/3h}{w1}
+\fmfforce{1/3w,0h}{u1}
+\fmfforce{1/3w,2/3h}{x1}
+\fmfforce{1/3w,1/3h}{v2}
+\fmfforce{2/3w,1/3h}{v3}
+\fmfforce{2/3w,2/3h}{v4}
+\fmfforce{2/3w,1h}{v5}
+\fmf{plain,right=1}{v4,v5,v4}
+\fmf{plain}{v3,v4}
+\fmf{plain}{w1,v1}
+\fmf{plain}{x1,u1}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 1,0, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,12)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{0w,1/3h}{u1}
+\fmfforce{1w,1/3h}{x1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{1/2w,2/3h}{v4}
+\fmfforce{1/2w,1h}{v5}
+\fmf{plain,right=1}{v4,v5,v4}
+\fmf{plain}{v2,v4}
+\fmf{plain}{w1,v1}
+\fmf{plain}{x1,u1}
+\fmfdot{v2,v3,v4}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\\ $4$ &$1$ & $0$ & 
+%
+%	
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0,0, 0 , 0 ; 8 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,12)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1w,1/2h}{w1}
+\fmfforce{1/2w,0h}{u1}
+\fmfforce{1/2w,1h}{x1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{2/3w,1/2h}{v4}
+\fmfforce{1/2w,2/3h}{v5}
+\fmf{plain,right=1}{v4,v2,v4}
+\fmf{plain}{v1,v2}
+\fmf{plain}{u1,v3}
+\fmf{plain}{w1,v4}
+\fmf{plain}{x1,v5}
+\fmfdot{v2,v3,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 0,1, 0 , 0 ; 8 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,12)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{0w,1h}{u1}
+\fmfforce{1w,1h}{x1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{1/2w,2/3h}{v4}
+\fmfforce{1/2w,1h}{v5}
+\fmf{plain,right=1}{v4,v3,v4}
+\fmf{plain}{v2,v3}
+\fmf{plain}{u1,x1}
+\fmf{plain}{v1,w1}
+\fmf{plain}{v4,v5}
+\fmfdot{v2,v3,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0,0, 0 , 0 , 4 )}$
+\end{tabular}
+%
+\parbox{14.5mm}{\begin{center}
+\begin{fmfgraph*}(11.464,7)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{4/11.464w,0h}{v2}
+\fmfforce{7.464/11.464w,0h}{v3}
+\fmfforce{1/2w,3/7h}{v4}
+\fmfforce{1/2w,1h}{v5}
+\fmfforce{1/2w,-1/7h}{v7}
+\fmfforce{1w,0h}{w1}
+\fmfforce{1.732/11.464w,1h}{u1}
+\fmfforce{9.732/11.464w,1h}{x1}
+\fmf{plain,right=1}{v4,v7,v4}
+\fmf{plain}{u1,x1}
+\fmf{plain}{v1,v2}
+\fmf{plain}{v3,w1}
+\fmf{plain}{v4,v5}
+\fmfdot{v2,v3,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\\ && &
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0,1, 0 , 0 , 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,16)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{0w,1/4h}{u1}
+\fmfforce{1/2w,1h}{x1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/4h}{v3}
+\fmfforce{1/2w,1/2h}{v4}
+\fmfforce{1/2w,3/4h}{v5}
+\fmf{plain,right=1}{v4,v5,v4}
+\fmf{plain}{v1,w1}
+\fmf{plain}{v2,v4}
+\fmf{plain}{x1,v5}
+\fmf{plain}{u1,v3}
+\fmfdot{v2,v3,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1,0, 0 , 0 , 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,16)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{0w,1/4h}{u1}
+\fmfforce{1w,1/2h}{x1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/4h}{v3}
+\fmfforce{1/2w,1/2h}{v4}
+\fmfforce{1/2w,3/4h}{v5}
+\fmfforce{1/2w,1h}{v6}
+\fmf{plain,right=1}{v5,v6,v5}
+\fmf{plain}{v1,w1}
+\fmf{plain}{v2,v5}
+\fmf{plain}{x1,v4}
+\fmf{plain}{u1,v3}
+\fmfdot{v2,v3,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 1,0, 0 , 0 ; 8 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{2/3w,0h}{w1}
+\fmfforce{0w,1h}{u1}
+\fmfforce{2/3w,1h}{x1}
+\fmfforce{1/3w,0h}{v2}
+\fmfforce{1/3w,1/2h}{v3}
+\fmfforce{1/3w,1h}{v4}
+\fmfforce{2/3w,1/2h}{v5}
+\fmfforce{1w,1/2h}{v6}
+\fmf{plain,right=1}{v5,v6,v5}
+\fmf{plain}{v1,w1}
+\fmf{plain}{v2,v4}
+\fmf{plain}{v3,v5}
+\fmf{plain}{x1,u1}
+\fmfdot{v2,v3,v4,v5}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{u1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{v1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{w1}
+\fmfv{decor.shape=cross,decor.filled=shaded,decor.size=3thick}{x1}
+\end{fmfgraph*}\end{center}}
+\end{tabular}
+\end{center}
+\caption{Connected vacuum diagrams and their weights for the 
+$\phi^3$-$\phi^4$-theory with $n=1,2,3,4$ currents for the respective
+first two loop orders. Withing each loop order $l$ the diagrams are
+distinguished with respect to the number $p$ of $4$-vertices.
+Each diagram is characterized by the
+vector $(S,D,T,F;N$) whose components specify the number of self, double,
+triple, fourfold connections, and of the identical vertex permutations,
+respectively.}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+nan
+{% endraw %}
+```
+
+Example 203
+Table:
+
+```
+{% raw %}
+\begin{table}[t]
+\begin{center}
+\begin{tabular}{|cc|c|}
+\,\,\,$l$\,\,\,
+& \,\,\,$p$\,\,\, &
+$\Gamma^{(0,l,p)}$
+\\
+\hline
+%
+$2$ & $0$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$\mbox{}$ \\
+$1/12$ \\ ${\scs ( 0, 0, 1 , 0 ; 2 )}$\\
+$\mbox{}$ 
+\end{tabular}
+%
+\parbox{7mm}{\begin{center}
+\begin{fmfgraph}(4,4)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{1w,0.5h}{v2}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v1,v2}
+\fmfdot{v1,v2}
+\end{fmfgraph}\end{center}}
+%
+\\ 
+%
+$2$ & $1$ &
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$\mbox{}$ \\
+$1/8$ \\ ${\scs ( 2, 1, 0 , 0 ; 1 )}$\\
+$\mbox{}$ 
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph}(8,4)
+\setval
+\fmfleft{i1}
+\fmfright{o1}
+\fmf{plain,left=1}{i1,v1,i1}
+\fmf{plain,left=1}{o1,v1,o1}
+\fmfdot{v1}
+\end{fmfgraph}\end{center}}
+%
+\\
+\hline
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+$3$ & $0$  & 
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/24$ \\ ${\scs ( 0, 0, 0 , 0 ; 24 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{v2}
+\fmfforce{1w,1h}{v3}
+\fmfforce{0w,1h}{v4}
+\fmf{plain,right=1}{v1,v3,v1}
+\fmf{plain}{v1,v3}
+\fmf{plain}{v2,v4}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 0, 2, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{v2}
+\fmfforce{1w,1h}{v3}
+\fmfforce{0w,1h}{v4}
+\fmf{plain,right=1}{v1,v3,v1}
+\fmf{plain,right=0.4}{v1,v4}
+\fmf{plain,left=0.4}{v2,v3}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\\ 
+%
+$3$ & $1$ & 
+%
+\begin{tabular}{@{}c}
+$\mbox{}$ \\
+$1/8$ \\ ${\scs ( 0, 2, 0 , 0 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1w,1/2h}{v2}
+\fmfforce{1/2w,1h}{v3}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.4}{v3,v1}
+\fmf{plain,left=0.4}{v2,v3}
+\fmfdot{v1,v2,v3}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 1, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph}(4,8)
+\setval
+\fmfforce{0w,1/4h}{v1}
+\fmfforce{1w,1/4h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain}{v1,v2}
+\fmfdot{v2,v3,v1}
+\end{fmfgraph}\end{center}} 
+%
+\\
+%
+$3$ &  $2$ &
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/48$ \\ ${\scs ( 0, 0, 0 , 1 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,4)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{1w,0.5h}{v2}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.4}{v1,v2,v1}
+\fmfdot{v1,v2}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,4)
+\setval
+\fmfleft{i1}
+\fmfright{o1}
+\fmf{plain,left=1}{i1,v1,i1}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{o1,v2,o1}
+\fmfdot{v1,v2}
+\end{fmfgraph}\end{center}}
+%
+\\ \hline 
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+$4$ & $0$ &
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/72$ \\ ${\scs ( 0, 0, 0 , 0 ; 72 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{0.25w,0.933h}{v2}
+\fmfforce{0.75w,0.933h}{v3}
+\fmfforce{1w,0.5h}{v4}
+\fmfforce{0.75w,0.067h}{v5}
+\fmfforce{0.25w,0.067h}{v6}
+\fmf{plain,right=1}{v1,v4,v1}
+\fmf{plain}{v1,v4}
+\fmf{plain}{v2,v5}
+\fmf{plain}{v3,v6}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{2mm}
+%
+\begin{tabular}{@{}c}
+$1/12$ \\ ${\scs ( 0, 0, 0 , 0 ; 12 )}$
+\end{tabular}
+% 
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{0.25w,0.933h}{v2}
+\fmfforce{0.75w,0.933h}{v3}
+\fmfforce{1w,0.5h}{v4}
+\fmfforce{0.75w,0.067h}{v5}
+\fmfforce{0.25w,0.067h}{v6}
+\fmf{plain,right=1}{v1,v4,v1}
+\fmf{plain}{v1,v4}
+\fmf{plain}{v2,v6}
+\fmf{plain}{v3,v5}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{2mm}
+%
+\begin{tabular}{@{}c}
+$1/48$ \\ ${\scs ( 0, 3, 0 , 0 ; 6 )}$
+\end{tabular}
+% 
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{0.25w,0.933h}{v2}
+\fmfforce{0.75w,0.933h}{v3}
+\fmfforce{1w,0.5h}{v4}
+\fmfforce{0.75w,0.067h}{v5}
+\fmfforce{0.25w,0.067h}{v6}
+\fmf{plain,right=1}{v1,v4,v1}
+\fmf{plain,right=0.7}{v2,v3}
+\fmf{plain,right=0.7}{v4,v5}
+\fmf{plain,right=0.7}{v6,v1}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}
+\end{center}} 
+%
+\hspace*{2mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 0, 2, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{0.25w,0.933h}{v2}
+\fmfforce{0.75w,0.933h}{v3}
+\fmfforce{1w,0.5h}{v4}
+\fmfforce{0.75w,0.067h}{v5}
+\fmfforce{0.25w,0.067h}{v6}
+\fmf{plain,right=1}{v1,v4,v1}
+\fmf{plain,right=0.7}{v2,v3}
+\fmf{plain}{v1,v4}
+\fmf{plain,right=0.7}{v5,v6}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{2mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0, 1, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{0.25w,0.933h}{v2}
+\fmfforce{0.75w,0.933h}{v3}
+\fmfforce{1w,0.5h}{v4}
+\fmfforce{0.75w,0.067h}{v5}
+\fmfforce{0.25w,0.067h}{v6}
+\fmf{plain,right=1}{v1,v4,v1}
+\fmf{plain,right=0.7}{v2,v3}
+\fmf{plain,right=0.2}{v4,v6}
+\fmf{plain,right=0.2}{v5,v1}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}
+\end{center}}
+%
+\\ $4$ & $1$ &
+%
+\begin{tabular}{@{}c}
+$\mbox{}$ \\
+$1/8$ \\ ${\scs ( 0, 0, 0 , 0 ; 8 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{v2}
+\fmfforce{1w,1h}{v3}
+\fmfforce{0w,1h}{v4}
+\fmfforce{1/2w,1/2h}{v5}
+\fmf{plain,right=1}{v1,v3,v1}
+\fmf{plain}{v1,v3}
+\fmf{plain}{v2,v4}
+\fmfdot{v1,v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{13mm}{\begin{center}
+\begin{fmfgraph}(8,8)
+\setval
+\fmfforce{1/2w,1h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{0.85w,0.85h}{v3}
+\fmfforce{0.15w,0.85h}{v4}
+\fmfforce{1/2w,0.7h}{v5}
+\fmfforce{1/2w,0.3h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmf{plain}{v6,v2}
+\fmf{plain,right=0.4}{v5,v4}
+\fmf{plain,right=0.4}{v3,v5}
+\fmfdot{v2,v3,v4,v5,v6}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 0, 3, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{1/2w,1h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{0.25w,0.933h}{v3}
+\fmfforce{0.75w,0.933h}{v4}
+\fmfforce{0w,0.5h}{v5}
+\fmfforce{1w,0.5h}{v6}
+\fmf{plain,right=1}{v1,v2,v1}
+\fmf{plain,right=0.7}{v3,v4}
+\fmf{plain,right=0.4}{v2,v5}
+\fmf{plain,right=0.4}{v6,v2}
+\fmfdot{v2,v3,v4,v5,v6}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/32$ \\ ${\scs ( 0, 2, 0 , 0 ; 8 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4,8)
+\setval
+\fmfforce{1/2w,1h}{v1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmfforce{1/2w,0h}{v3}
+\fmfforce{1w,3/4h}{v4}
+\fmfforce{0w,3/4h}{v5}
+\fmfforce{1w,1/4h}{v6}
+\fmfforce{0w,1/4h}{v7}
+\fmf{plain,right=1}{v1,v2,v1}
+\fmf{plain,right=1}{v3,v2,v3}
+\fmf{plain}{v4,v5}
+\fmf{plain}{v6,v7}
+\fmfdot{v2,v4,v5,v6,v7}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 2, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/2w,1h}{v2}
+\fmfforce{1/2w,0h}{v3}
+\fmfforce{0.9w,0.75h}{v4}
+\fmfforce{0.9w,0.25h}{v5}
+\fmf{plain,right=1}{v2,v3,v2}
+\fmf{plain}{v2,v3}
+\fmf{plain,right=0.4}{v1,v2}
+\fmf{plain,right=0.4}{v4,v5}
+\fmfdot{v1,v3,v2,v4,v5}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$\\ 
+${\scs ( 1, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,10)
+\setval
+\fmfforce{0w,0.3h}{v1}
+\fmfforce{1w,0.3h}{v2}
+\fmfforce{0.5w,0.6h}{v3}
+\fmfforce{0.5w,1h}{v4}
+\fmfforce{0.15w,0.5h}{v5}
+\fmfforce{0.15w,0.1h}{v6}
+\fmfforce{0.85w,0.5h}{v7}
+\fmfforce{0.85w,0.1h}{v8}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.5}{v5,v6}
+\fmf{plain,left=0.5}{v8,v7}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmfdot{v3,v5,v6,v7,v8}
+\end{fmfgraph}\end{center}} 
+%
+\\ & &
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/8$\\ 
+${\scs ( 1, 1, 0 , 0 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,10)
+\setval
+\fmfforce{0w,0.3h}{v1}
+\fmfforce{1w,0.3h}{v2}
+\fmfforce{0.5w,0.6h}{v3}
+\fmfforce{0.5w,1h}{v4}
+\fmfforce{0.15w,0.5h}{v5}
+\fmfforce{0.15w,0.1h}{v6}
+\fmfforce{0.85w,0.5h}{v7}
+\fmfforce{0.85w,0.1h}{v8}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,right=0.5}{v5,v7}
+\fmf{plain,right=0.5}{v8,v6}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmfdot{v3,v5,v6,v7,v8}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$\\ 
+${\scs ( 1, 0, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,10)
+\setval
+\fmfforce{0w,0.3h}{v1}
+\fmfforce{1w,0.3h}{v2}
+\fmfforce{0.5w,0.6h}{v3}
+\fmfforce{0.5w,1h}{v4}
+\fmfforce{0.15w,0.5h}{v5}
+\fmfforce{0.15w,0.1h}{v6}
+\fmfforce{0.85w,0.5h}{v7}
+\fmfforce{0.85w,0.1h}{v8}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v5,v8}
+\fmf{plain}{v7,v6}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmfdot{v3,v5,v6,v7,v8}
+\end{fmfgraph}\end{center}} 
+%
+\\ $4$ & $2$ &
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$\mbox{}$ \\
+$1/8$ \\ ${\scs ( 0, 1, 0 , 0 ; 4 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0w,0.5h}{v1}
+\fmfforce{1w,0.5h}{v2}
+\fmfforce{1/2w,0.7h}{v3}
+\fmfforce{1/2w,0.3h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.4}{v1,v2,v1}
+\fmf{plain}{v4,v3}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 0, 3, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4.5,4.5)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{v2}
+\fmfforce{1w,1h}{v3}
+\fmfforce{0w,1h}{v4}
+\fmf{plain,left=1}{v1,v3,v1}
+\fmf{plain,right=0.4}{v3,v2}
+\fmf{plain,right=0.4}{v4,v3}
+\fmf{plain,right=0.4}{v1,v4}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4.5,4.5)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{v2}
+\fmfforce{1w,1h}{v3}
+\fmfforce{0w,1h}{v4}
+\fmf{plain,left=1}{v1,v3,v1}
+\fmf{plain,right=0.4}{v3,v2}
+\fmf{plain}{v1,v3}
+\fmf{plain,right=0.4}{v1,v4}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/24$ \\ ${\scs ( 0, 1, 1 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(4,10)
+\setval
+\fmfforce{0w,1/5h}{v1}
+\fmfforce{1w,1/5h}{v2}
+\fmfforce{0w,4/5h}{v3}
+\fmfforce{1w,4/5h}{v4}
+\fmf{plain,left=1}{v4,v3,v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v4,v3}
+\fmf{plain,right=0.3}{v3,v1}
+\fmf{plain,right=0.3}{v2,v4}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,10)
+\setval
+\fmfforce{0w,3/10h}{v1}
+\fmfforce{1/2w,6/10h}{v2}
+\fmfforce{1w,3/10h}{v4}
+\fmfforce{1/2w,0h}{v5}
+\fmfforce{1/2w,1h}{v6}
+\fmf{plain,right=1}{v2,v5,v2}
+\fmf{plain,right=1}{v2,v6,v2}
+\fmf{plain,right=0.4}{v4,v5,v4}
+\fmf{plain}{v1,v4}
+\fmfdot{v1,v2,v4,v5}
+\end{fmfgraph}
+\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$\\ 
+${\scs ( 1, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,10)
+\setval
+\fmfforce{0w,0.3h}{v1}
+\fmfforce{1w,0.3h}{v2}
+\fmfforce{0.5w,0.6h}{v3}
+\fmfforce{0.5w,1h}{v4}
+\fmfforce{0.5w,0h}{v5}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.4}{v1,v5}
+\fmf{plain,left=0.4}{v5,v2}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmfdot{v1,v2,v3,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\\ &&
+%
+\begin{tabular}{@{}c}
+$\mbox{}$\\
+$1/16$ \\ ${\scs ( 1, 2, 0 , 0 ; 2 )}$\\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{7mm}{\begin{center}
+\begin{fmfgraph}(4,12)
+\setval
+\fmfforce{0w,1/6h}{v1}
+\fmfforce{1w,1/6h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{1/2w,2/3h}{v4}
+\fmfforce{1/2w,1h}{v5}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{plain}{v1,v2}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2, 0, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{1/2w,0h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{2/3w,1/2h}{v5}
+\fmfforce{1w,1/2h}{v6}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v2,v5,v2}
+\fmf{plain,left=1}{v5,v6,v5}
+\fmf{plain}{v3,v4}
+\fmfdot{v2,v3,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 2, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(6,9.75)
+\setval
+\fmfforce{0w,0.3h}{v1}
+\fmfforce{1w,0.3h}{v2}
+\fmfforce{0.2w,0.55h}{v3}
+\fmfforce{0.8w,0.55h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v1,v2}
+\fmfi{plain}{reverse fullcircle scaled 0.7w shifted (1.02w,0.72h)}
+\fmfi{plain}{reverse fullcircle scaled 0.7w shifted (-0.02w,0.72h)}
+\fmfdot{v1,v2,v3,v4}
+\end{fmfgraph}\end{center}}
+%
+\\
+%
+$4$& $3$ &
+%
+\begin{tabular}{@{}c}
+$\mbox{}$ \\
+$1/48$ \\ 
+${\scs ( 0, 3, 0 , 0 ; 6 )}$ \\
+$\mbox{}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,6)
+\setval
+\fmfforce{0.5w,0h}{v1}
+\fmfforce{0.5w,1h}{v2}
+\fmfforce{0.066987w,0.25h}{v3}
+\fmfforce{0.93301w,0.25h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain}{v2,v3}
+\fmf{plain}{v3,v4}
+\fmf{plain}{v2,v4}
+\fmfdot{v2,v3,v4}
+\end{fmfgraph}
+\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/24$\\ 
+${\scs ( 1, 0, 1 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{9mm}{\begin{center}
+\begin{fmfgraph}(6,10)
+\setval
+\fmfforce{0w,0.3h}{v1}
+\fmfforce{1w,0.3h}{v2}
+\fmfforce{0.5w,0.6h}{v3}
+\fmfforce{0.5w,1h}{v4}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=0.4}{v1,v2,v1}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmfdot{v1,v2,v3}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/48$\\ 
+${\scs ( 3, 0, 0 , 0 ; 6 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,12)
+\setval
+\fmfforce{1/2w,1/3h}{v1}
+\fmfforce{1/2w,2/3h}{v2}
+\fmfforce{1/2w,1h}{v3}
+\fmfforce{0.355662432w,0.416666666h}{v4}
+\fmfforce{0.64433568w,0.416666666h}{v5}
+\fmfforce{0.067w,1/4h}{v6}
+\fmfforce{0.933w,1/4h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{v4,v6,v4}
+\fmf{plain,left=1}{v5,v7,v5}
+\fmfdot{v2,v4,v5}
+\end{fmfgraph}\end{center}} 
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/32$\\ 
+${\scs ( 2, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph}(16,4)
+\setval
+\fmfleft{i1}
+\fmfright{o1}
+\fmf{plain,left=1}{i1,v1,i1}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{o1,v3,o1}
+\fmfdot{v1,v2,v3}
+\end{fmfgraph}\end{center}}
+%
+\hspace*{1mm}
+%
+\end{tabular}
+\end{center}
+\caption{One-particle irreducible vacuum diagrams and their 
+weights of the $\phi^3$-$\phi^4$-theory without field expectation values
+up to four loops. Within each loop order $l$ the diagrams are 
+distinguished with respect to the number $p$ of $4$-vertices.
+Each diagram is characterized by the
+vector $(S,D,T,F;N$) whose components specify the number of self-, double,
+triple, fourfold connections, and of the identical vertex permutations,
+respectively.}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+nan
+{% endraw %}
+```
+
+Example 204
+Table:
+
+```
+{% raw %}
+\begin{table}[t]
+\begin{center}
+\begin{tabular}{|ccc|c|}
+\,\,\,$n$\,\,\,
+&\,\,\,$l$\,\,\,
+& \,\,\,$p$\,\,\, &
+$\Gamma^{(n ,l,p)}$
+\\
+\hline
+$1$ & $1$ & $0$ &
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+\begin{tabular}{@{}c}
+$1/2$ \\ ${\scs ( 1, 0, 0 , 0 , 1 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmfforce{1w,1/2h}{v3}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{boson}{v1,v2}
+\fmfdot{v1,v2}
+\end{fmfgraph*}\end{center}}
+%
+\\ \hline 
+$1$ &$2$ & $1$ &
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+\begin{tabular}{@{}c}
+$1/6$ \\ ${\scs ( 0, 0, 1 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmfforce{1w,1/2h}{v3}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{boson}{v1,v2}
+\fmf{plain}{v2,v3}
+\fmfdot{v1,v2,v3}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{2/3w,1/2h}{v3}
+\fmfforce{1w,1/2h}{v4}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{boson}{v1,v2}
+\fmfdot{v1,v2,v3}
+\end{fmfgraph*}\end{center}}
+%
+\\ $1$ & $2$ & $0$ &
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmfforce{1w,1/2h}{v3}
+\fmfforce{3/4w,0h}{v4}
+\fmfforce{3/4w,1h}{v5}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{boson}{v1,v2}
+\fmf{plain}{v4,v5}
+\fmfdot{v1,v2,v4,v5}
+\end{fmfgraph*}\end{center}}\\ \hline\hline
+%
+$2$ & $1$ & $1$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1h}{v3}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{boson}{v1,w1}
+\fmfdot{v1,w1,v2}
+\end{fmfgraph*}\end{center}}
+%
+\\ $2$ &$1$ & $0$ &
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{2/3w,1/2h}{v3}
+\fmfforce{1w,1/2h}{w1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{boson}{v1,v2}
+\fmf{boson}{v3,w1}
+\fmfdot{v1,w1,v2,v3}
+\end{fmfgraph*}\end{center}}
+%
+\\ \hline $2$ &$2$ & $2$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/12$ \\ ${\scs ( 0, 0, 1 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{2/3w,1/2h}{v3}
+\fmfforce{1w,1/2h}{w1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain}{v2,v3}
+\fmf{boson}{v1,v2}
+\fmf{boson}{w1,v3}
+\fmfdot{v1,w1,v2,v3}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 1, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{boson}{v1,w1}
+\fmfdot{v1,w1,v2,v3}
+\end{fmfgraph*}\end{center}}
+%
+\\ $2$ &$2$ & $1$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0, 2, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{19mm}{\begin{center}
+\begin{fmfgraph*}(16,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/4w,1/2h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmfforce{3/4w,1/2h}{v4}
+\fmfforce{1w,1/2h}{w1}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{plain,left=1}{v3,v4,v3}
+\fmf{boson}{v1,v2}
+\fmf{boson}{v4,w1}
+\fmfdot{v1,w1,v2,v3,v4}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0, 1, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(8,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1w,0h}{w1}
+\fmfforce{1/2w,1h}{v3}
+\fmfforce{1/4w,1/2h}{v4}
+\fmfforce{3/4w,1/2h}{v5}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{boson}{v1,w1}
+\fmf{plain}{v4,v5}
+\fmfdot{v1,w1,v2,v4,v5}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/2$ \\ ${\scs ( 0, 1, 0 , 0 ; 1 )}$
+\end{tabular}
+%
+\parbox{14.5mm}{\begin{center}
+\begin{fmfgraph*}(11.464,3)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{4/11.464w,0h}{v2}
+\fmfforce{7.464/11.464w,0h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{1/2w,-1/3h}{v7}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,right=1}{v4,v7,v4}
+\fmf{boson}{v1,v2}
+\fmf{plain}{v4,v2}
+\fmf{boson}{v3,w1}
+\fmfdot{v1,w1,v2,v3,v4}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 1, 0, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{14.5mm}{\begin{center}
+\begin{fmfgraph*}(11.464,7)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{4/11.464w,0h}{v2}
+\fmfforce{7.464/11.464w,0h}{v3}
+\fmfforce{1/2w,3/7h}{v4}
+\fmfforce{1/2w,1h}{v5}
+\fmfforce{1/2w,-1/7h}{v7}
+\fmfforce{1w,0h}{w1}
+\fmf{plain,right=1}{v4,v7,v4}
+\fmf{plain,left=1}{v4,v5,v4}
+\fmf{boson}{v1,v2}
+\fmf{boson}{v3,w1}
+\fmfdot{v1,w1,v2,v3,v4}
+\end{fmfgraph*}\end{center}}
+%
+\\ $2$ &$2$ & $0$ &
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 0, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,4)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{2/3w,1/2h}{v3}
+\fmfforce{1w,1/2h}{w1}
+\fmfforce{1/2w,0h}{v4}
+\fmfforce{1/2w,1h}{v5}
+\fmf{plain,left=1}{v2,v3,v2}
+\fmf{boson}{v1,v2}
+\fmf{boson}{v3,w1}
+\fmf{plain}{v4,v5}
+\fmfdot{v1,w1,v2,v3,v4,v5}
+\end{fmfgraph*}\end{center}}
+%
+\hspace*{1mm}
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,4)
+\setval
+\fmfforce{1/3w,0h}{v1}
+\fmfforce{2/3w,0h}{v2}
+\fmfforce{2/3w,1h}{v3}
+\fmfforce{1/3w,1h}{v4}
+\fmfforce{0w,0h}{v5}
+\fmfforce{1w,0h}{v6}
+\fmf{plain,right=1}{v1,v3,v1}
+\fmf{boson}{v1,v5}
+\fmf{boson}{v2,v6}
+\fmf{plain,right=0.5}{v4,v3}
+\fmfdot{v1,v2,v3,v4,v5,v6}
+\end{fmfgraph}\end{center}} 
+%
+\\ \hline\hline
+%
+$3$ &$0$ & $0$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/6$ \\ ${\scs ( 0, 0, 0 , 0 ; 6 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(6.928,12)
+\setval
+\fmfforce{1/2w,5/6h}{v1}
+\fmfforce{1w,1/4h}{w1}
+\fmfforce{0w,1/4h}{u1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmf{boson}{v2,v1}
+\fmf{boson}{v2,w1}
+\fmf{boson}{v2,u1}
+\fmfdot{v1,w1,u1,v2}
+\end{fmfgraph*}\end{center}}
+%
+\\ \hline $3$ &$1$ & $1$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/6$ \\ ${\scs ( 0, 0, 0 , 0 ; 6 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph}(12,12)
+\setval
+\fmfforce{1/2w,1/3h}{v1}
+\fmfforce{1/2w,2/3h}{v2}
+\fmfforce{1/2w,1h}{v3}
+\fmfforce{0.355662432w,0.416666666h}{v4}
+\fmfforce{0.64433568w,0.416666666h}{v5}
+\fmfforce{0.067w,1/4h}{v6}
+\fmfforce{0.933w,1/4h}{v7}
+\fmf{plain,left=1}{v1,v2,v1}
+\fmf{boson}{v2,v3}
+\fmf{boson}{v4,v6}
+\fmf{boson}{v5,v7}
+\fmfdot{v2,v3,v4,v5,v6,v7}
+\end{fmfgraph}\end{center}} 
+%
+\\ $3$ &$1$ & $0$ &
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0, 1, 0 , 0 ; 2 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,8)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{1/2w,1h}{u1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1/2h}{v3}
+\fmf{plain,right=1}{v2,v3,v2}
+\fmf{boson}{w1,v1}
+\fmf{boson}{v3,u1}
+\fmfdot{u1,v1,w1,v2,v3}
+\end{fmfgraph*}\end{center}}  \\ \hline \hline
+%
+$4$ &$0$ & $1$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/24$ \\ ${\scs ( 0, 0, 0 , 0 ; 24 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,12)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1w,1/2h}{w1}
+\fmfforce{1/2w,1/6h}{u1}
+\fmfforce{1/2w,5/6h}{x1}
+\fmfforce{1/2w,1/2h}{v2}
+\fmf{boson}{w1,v1}
+\fmf{boson}{x1,u1}
+\fmfdot{u1,v1,w1,x1,v2}
+\end{fmfgraph*}\end{center}}
+%
+\\ \hline $4$ &$1$ & $2$ &
+%
+\hspace{-10pt}
+\rule[-10pt]{0pt}{26pt}
+%
+\begin{tabular}{@{}c}
+$1/16$ \\ ${\scs ( 0, 1, 0 , 0 ; 8 )}$
+\end{tabular}
+%
+\parbox{11mm}{\begin{center}
+\begin{fmfgraph*}(8,4)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{1w,0h}{w1}
+\fmfforce{0w,1h}{u1}
+\fmfforce{1w,1h}{x1}
+\fmfforce{1/2w,0h}{v2}
+\fmfforce{1/2w,1h}{v3}
+\fmf{plain,right=1}{v2,v3,v2}
+\fmf{boson}{w1,v1}
+\fmf{boson}{x1,u1}
+\fmfdot{u1,v1,w1,x1,v2,v3}
+\end{fmfgraph*}\end{center}}
+%
+\\ $4$ &$1$ & $1$ & 
+%
+\begin{tabular}{@{}c}
+$1/4$ \\ ${\scs ( 0,0, 0 , 0 ; 4 )}$
+\end{tabular}
+%
+\parbox{14.5mm}{\begin{center}
+\begin{fmfgraph*}(11.464,3)
+\setval
+\fmfforce{0w,0h}{v1}
+\fmfforce{4/11.464w,0h}{v2}
+\fmfforce{7.464/11.464w,0h}{v3}
+\fmfforce{1/2w,1h}{v4}
+\fmfforce{1/2w,-1/3h}{v7}
+\fmfforce{1w,0h}{w1}
+\fmfforce{1.732/11.464w,1h}{u1}
+\fmfforce{9.732/11.464w,1h}{x1}
+\fmf{plain,right=1}{v4,v7,v4}
+\fmf{boson}{u1,x1}
+\fmf{boson}{v1,v2}
+\fmf{boson}{v3,w1}
+\fmfdot{u1,v1,w1,x1,v2,v3,v4}
+\end{fmfgraph*}\end{center}}
+%
+\\ $4$ &$1$ & $0$ & 
+%
+%	
+\begin{tabular}{@{}c}
+$1/8$ \\ ${\scs ( 0,0, 0 , 0 ; 8 )}$
+\end{tabular}
+%
+\parbox{15mm}{\begin{center}
+\begin{fmfgraph*}(12,12)
+\setval
+\fmfforce{0w,1/2h}{v1}
+\fmfforce{1w,1/2h}{w1}
+\fmfforce{1/2w,0h}{u1}
+\fmfforce{1/2w,1h}{x1}
+\fmfforce{1/3w,1/2h}{v2}
+\fmfforce{1/2w,1/3h}{v3}
+\fmfforce{2/3w,1/2h}{v4}
+\fmfforce{1/2w,2/3h}{v5}
+\fmf{plain,right=1}{v4,v2,v4}
+\fmf{boson}{v1,v2}
+\fmf{boson}{u1,v3}
+\fmf{boson}{w1,v4}
+\fmf{boson}{x1,v5}
+\fmfdot{u1,v1,w1,x1,v2,v3,v4,v5}
+\end{fmfgraph*}\end{center}}
+%
+\end{tabular}
+\end{center}
+\caption{One-particle irreducible 
+vacuum diagrams and their weights for the 
+$\phi^3$-$\phi^4$-theory with $n=1,2,3,4$ field expectation values
+for the respective first two loop orders. Within each loop order $l$ the
+diagrams are distinguished with respect to the number $p$ of $4$-vertices.
+Each diagram is characterized 
+by the
+vector $(S,D,T,F;N$) whose components specify the number of self, double,
+triple, fourfold connections, and of the identical vertex permutations,
+respectively.}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+nan
+{% endraw %}
+```
+
+Example 205
+Table:
+
+```
+{% raw %}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{ccrrrr}
+{\sc charge}&D0&$\text{D2}_1$&$\text{D2}_2$&$\text{D4}_1$&$\text{D4}_2$\\
+&&&&&\\
+${\cal Q}_1$ & 0&0&0&$-1$&$2$\\
+${\cal Q}_2$ & 0&0&$-1$&$-1$&$2$\\
+${\cal Q}_3$ & $5(m_2-m_1)$&$-1$&0&$4$&$-3$\\
+${\cal Q}_4$ & $5m_1$&$1$&0&$-6$&$2$\\
+${\cal Q}_5$ & $5(m_2-m_1)$&0&$1$&$4$&$-3$  
+\end{tabular}
+\end{center}
+\caption{\small\sl Central charges corresponding to the bound states of branes}
+\label{frbrcharge}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+is ${\cal Q}_1 = (0,0,0,-1,2)$. This state has mass $2m_1-m_2$. 
+
+Under the action of $\M(\varpi)$, this gives rise to the charges of 
+
+four other states as ${\cal Q}_{i+1} = {\cal Q}_1 \M^i$, $i=1,2,3,4$.
+
+The five states thus obtained are bound states of one wrapped D0-brane and two
+
+D2- and two D4-branes, as can be identified from  $\varpi$. The states are 
+
+tabulated in Table~\ref{frbrcharge}.
+
+%%Charges
+
+\begin{table}[h]
+
+\begin{center}
+
+\begin{tabular}{ccrrrr}
+
+{\sc charge}&D0&$\text{D2}_1$&$\text{D2}_2$&$\text{D4}_1$&$\text{D4}_2$\\
+
+{% endraw %}
+```
+
+Example 206
+Table:
+
+```
+{% raw %}
+\begin{table}[htb]
+  \begin{center}
+  \renewcommand{\arraystretch}{1.4}
+  \setlength{\tabcolsep}{14pt}
+  \begin{tabular}{c|c|c|c|c|c}
+    $X$  &  $-\infty$ & $\cdots$ &  $0$ (sphere)  
+    & $\cdots$ &  $1$ (torus)  \\ \hline
+    $\ell$  &  $0$  &  $\nearrow$  &  $h\lambda N$  
+    &  $\nearrow$  &  $2h\lambda N$  \\ \hline
+    $R_+$  &  $\frac{2}{\pi}h\lambda N$  &  $\nearrow$  &  $h\lambda N$  
+    &  $\searrow$  &  $\frac{2}{\pi}h\lambda N$  \\ \hline
+    $R_-$  &  $\frac{2}{\pi}h\lambda N$  &  $\searrow$  &  $0$  
+    &  $\nearrow$  &  $\frac{2}{\pi}h\lambda N$  \\ \hline
+    $V_{\text{D2}}$  &  $NT_0$  &  $\searrow$  &  
+    $NT_0 - \frac{2}{3} NT_0 (h^2\lambda N)^2$  
+    &  $\nearrow$  &  $NT_0$  \\
+  \end{tabular}
+  \caption{The behaviors of $\ell$, $R_\pm$ and $V_{\text{D2}}$ in the 
+  limit of $h^2\lambda N \ll 1$.}
+  \label{tab:sum}
+  \end{center}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+  \frac{4(1-k^2)K(k)}{3E(k)^3} -
+
+  \frac{4-2X}{E(k)^2\big(1 \!\!-\!\! X/2 \!\!+\!\! \sqrt{1 \!\!-\!\! X}\big)} 
+
+  \right\} (h^2\lambda N)^2 . \label{eq:ene}
+
+\end{alignat}
+
+The results in the limit of $h^2\lambda N \ll 1$ 
+
+are collected in Table \ref{tab:sum}.
+
+As already mentioned, we see that $X\!=\!0$ corresponds to the spherical 
+
+D2-brane which agrees with the one obtained in \S\S\ref{subsec:sph}
+
+and $X\!=\!1$ corresponds to the toroidal D2-brane
+
+whose potential energy is equal to that of $N$ D0-branes.
+
+Even though the potential energy takes minimum for the spherical D2-brane,
+
+{% endraw %}
+```
+
+Example 207
+Table:
+
+```
+{% raw %}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Lattice & Size & $\Delta$ & $l_s/l_t$ \\
+\hline\hline
+A & $13 \times 12 \times 12 \times 12$ & 0.080064 & 1.00 \\ \hline
+B & $21 \times 20 \times  8 \times  8$ & 0.048795 & 0.40 \\ \hline
+C & $41 \times 40 \times  6 \times  6$ & 0.024693 & 0.15 \\ \hline
+\end{tabular}
+\end{center}
+\caption{Lattices used in the comparison, and their associated $\Delta$ and $l_s/l_t$ values.}
+\label{tab:lattparams}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+
+
+We will present the results of the comparison of the analytical results  Eqs.~(\ref{Trnonab}-
+
+\ref{Tmix23}) with their  numerical counterparts,
+
+for three different configurations, having different values of $\Delta$ and $l_s/l_t$. 
+
+The lattice sizes that we will use,
+
+together with their associated $\Delta$ and $l_s/l_t$ values, are detailed in Table~\ref{tab:lattparams}.
+
+
+
+
+
+\begin{table}[h!]
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|c|}
+\special{psfile=13121212_3nu_3d.eps voffset=380 hoffset=190 vscale=70.0 hscale=70.0}
+
+\special{psfile=21082008_3an_3d.eps voffset=190 hoffset=-15 vscale=70.0 hscale=70.0}
+
+\special{psfile=21082008_3nu_3d.eps voffset=190 hoffset=190 vscale=70.0 hscale=70.0}
+
+\special{psfile=41064006_3an_3d.eps voffset=000 hoffset=-15 vscale=70.0 hscale=70.0}
+
+\special{psfile=41064006_3nu_3d.eps voffset=000 hoffset=190 vscale=70.0 hscale=70.0}
+
+\caption{Invariant densities $\Phi_{33}^{(2)}$ for the configurations A, B, C of Table~\ref{tab:lattparams},
+
+from top to bottom, are shown. Plots in the left column display the analytical perturbative result,
+
+and plots in the right column display the exact (numerical) result.}
+
+\label{fig:twod_compt}
+
+\end{figure}
+
+
+\special{psfile=13121212_pnu_3d.eps voffset=380 hoffset=190 vscale=70.0 hscale=70.0}
+
+\special{psfile=21082008_pan_3d.eps voffset=190 hoffset=-15 vscale=70.0 hscale=70.0}
+
+\special{psfile=21082008_pnu_3d.eps voffset=190 hoffset=190 vscale=70.0 hscale=70.0}
+
+\special{psfile=41064006_pan_3d.eps voffset=000 hoffset=-15 vscale=70.0 hscale=70.0}
+
+\special{psfile=41064006_pnu_3d.eps voffset=000 hoffset=190 vscale=70.0 hscale=70.0}
+
+\caption{Invariant densities $\Phi_{11}^{(2)}$ for the configurations A, B, C of Table~\ref{tab:lattparams},
+
+from top to bottom, are shown. Plots in the left column display the analytical perturbative result,
+
+and plots in the right column display the exact (numerical) result.}
+
+\label{fig:twod_compp}
+
+\end{figure}
+
+
+\special{psfile=13121212_23nu_3d.eps voffset=380 hoffset=190 vscale=70.0 hscale=70.0}
+
+\special{psfile=21082008_23an_3d.eps voffset=190 hoffset=-15 vscale=70.0 hscale=70.0}
+
+\special{psfile=21082008_23nu_3d.eps voffset=190 hoffset=190 vscale=70.0 hscale=70.0}
+
+\special{psfile=41064006_23an_3d.eps voffset=000 hoffset=-15 vscale=70.0 hscale=70.0}
+
+\special{psfile=41064006_23nu_3d.eps voffset=000 hoffset=190 vscale=70.0 hscale=70.0}
+
+\caption{Invariant densities $\Phi_{23}^{(2)}$ for the configurations A, B, C of Table~\ref{tab:lattparams},
+
+from top to bottom, are shown. Plots in the left column display the analytical perturbative result,
+
+and plots in the right column display the exact (numerical) result.}
+
+\label{fig:twod_compmix}
+
+\end{figure}
+
+
+\special{psfile=p0+_21082008.eps voffset=160 hoffset=185 vscale=35.0 hscale=35.0}
+
+\special{psfile=p03_41064006.eps voffset=-20 hoffset=-15 vscale=35.0 hscale=35.0}
+
+\special{psfile=p0+_41064006.eps voffset=-20 hoffset=185 vscale=35.0 hscale=35.0}
+
+\caption{Comparison of exact and perturbative results for the electric field Euclidian
+
+time profiles $\Phi_{33}^{(1)}$ (left column) and $\Phi_{11}^{(1)}$ (right column) in the configurations
+
+A, B, C, from top to bottom, of Table~\ref{tab:lattparams}. The $x_0$ coordinate has been rescaled
+
+with the lattice spacing $a$ as defined in the text, and the center of the object has been set as
+
+origin of coordinates. The interpolating lines are intended to guide the eye.}
+
+\label{fig:oned}
+
+\end{figure}
+
+
+
+{% endraw %}
+```
+
+Example 208
+Table:
+
+```
+{% raw %}
+\begin{table}
+\begin{center}\def\st{\vrule height 3ex width 0ex}
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+
+Level & $\overline a_s$  & $\alpha_4^M$ & $\alpha_2^V$ &
+$2 \pi^2 \VV^M({8\over27})$ & $2 \pi^2 \VV^M(\overline a_s)$ 
+\st\\[1ex] \hline \hline
+
+$(1,2)$ & 0.296296 & 0.843752 & 0.592593 & 0.1712 & 0.1712 \st\\[1ex]
+\hline
+
+$(2,4)$ & 0.321374 & 0.200234 & 0.672892 & 0.0743 & 0.1254
+\st\\[1ex]
+\hline
+
+$(3,6)$ & 0.330107 & 0.200234 & 0.631329 & 0.0605 & 0.1221 \st\\[1ex]
+\hline
+
+$(4,8)$ & 0.331428 & 0.096999 & 0.633432 & 0.0444 & 0.1020 \st\\[1ex] \hline
+
+\end{tabular}
+\end{center}
+\caption{We show the variation of various quatities as a function
+of the level of the calculation. Here $\overline a_s$ denotes the maximal
+value possible for the string field marginal parameter. 
+The coefficient $\alpha_4^M$ 
+defines the leading quartic term in $a_s$ in 
+the effective potential on the $M$-branch.
+The coefficient $\alpha_2^V$ 
+defines the leading quadratic term in 
+$a_s$ in the effective potential on the
+$V$-branch. We also show the value of the potential, 
+normalized in units of the tension 
+of the brane, for the maximal value ($\overline a_s$) of $|a_s|$ 
+at level
+(1,2), and
+for the end of the range at each level.}
+\label{enable} 
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+from this figure that the effective potential becomes flatter as we
+
+increase the level of approximation. This can also be verified by
+
+computing the coefficient $\alpha_4^M$ of the $a_s^4$ term in the
+
+expression for the effective potential 
+
+(see, for example, \refb{sas}), which has been listed in 
+
+table \ref{enable} and is seen to decrease as we increase the level of
+
+approximation. These results for $\alpha_4^M$ are in agreement 
+
+with those
+
+of ref.\cite{0001201}. In
+
+each case we find a maximum value $\overline a_s$ of $|a_s|$ 
+
+beyond which
+of ref.\cite{0001201}. In
+
+each case we find a maximum value $\overline a_s$ of $|a_s|$ 
+
+beyond which
+
+the effective potential ceases to exist. These values have also been listed
+
+in
+
+table \ref{enable} and are  seen to converge rapidly to 
+
+about 0.33. 
+
+The
+
+same procedure can be carried out to determine the effective potential in
+
+the $V$-branch (by choosing different
+
+initial data for obtaining the solution). These results have been shown in
+
+{% endraw %}
+```
+
+Example 209
+Table:
+
+```
+{% raw %}
+\begin{table}
+\begin{center}\def\st{\vrule height 3ex width 0ex}
+\begin{tabular}{|c|c|c|c|c|} \hline
+
+Level & $\overline t_1$  & $t_1^{(0)}$ & $t_0^{(0)}$ &
+$t_2^{(0)}$
+\st\\[1ex] \hline \hline
+
+$(1,2)$ & 0.4092 & $\pm$ 0.21307 & 0.03336 & --- \st\\[1ex]
+\hline
+
+$(2,4)$ & 0.4462 & $\pm$ 0.29707 & 0.06964 & ---
+\st\\[1ex]
+\hline
+
+$(3,6)$ & 0.4598 & $\pm$ 0.31127 & 0.07693 & ---  \st\\[1ex]
+\hline
+
+$(4,8)$ & 0.4624 & $\pm$ 0.33625 & 0.09425 & $-0.0102$  \st\\[1ex] \hline
+
+\end{tabular}
+\end{center}
+\caption{We show the variation of various quatities as a function
+of the level of the calculation for $R=\sqrt{1.1}$. 
+Here $\overline t_1$ denotes the maximal
+value possible for the tachyon harmonic $t_1$. 
+The next three columns give the values of the tachyon 
+harmonics at 
+the lump
+solution of the equations of motion. 
+Note that as the
+level is increased, the vev of the nearly marginal
+tachyon harmonic $t_1$ increases.}
+\label{t2} 
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+Using the potential given in appendix \ref{a2}, and
+
+setting $R= \sqrt{1.1}$, we can calculate the value of
+
+the string field at the extremum of the potential representing
+
+the lump at different levels of
+
+approximation.
+
+In table \ref{t2} we have given the 
+
+values $t_0^{(0)}$, 
+
+$t_1^{(0)}$ and $t_2^{(0)}$ of the tachyon harmonics at this extremum.
+
+Further insight is obtained by consideration
+
+of the effective potentials $\VVV^M (t_1; R=\sqrt{1.1})$ obtained 
+
+at various approximation levels and shown in 
+however, this value of $t_1^{(0)}$ might not be a very accurate
+
+result, since even at level (4,8)  
+
+$\VV^M(a_s)=\VVV^M(\sqrt 2a_s, R=1)$ 
+
+receives an
+
+appreciable contribution, and hence causes a significant distortion of 
+
+the potential at $R=\sqrt{1.1}$. Indeed, the pattern in table~\ref{t2}
+
+suggests that at least at this radius, we are underestimating the
+
+value of $t_1^{(0)}$.
+
+
+
+\sectiono{Matching CFT and SFT Marginal Parameters} \label{s4}
+
+
+
+{% endraw %}
+```
+
+Example 210
+Table:
+
+```
+{% raw %}
+% \begin{table}
+% \caption{}
+% \label{}
+% \begin{tabular}{}
+% \end{tabular}
+% \end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+
+
+% figures follow here
+
+%
+
+% Here is an example of the general form of a figure:
+
+% Fill in the caption in the braces of the \caption{} command. Put the label
+
+% that you will use with \ref{} command in the braces of the \label{} command.
+
+%
+
+% \begin{figure}
+
+% \caption{}
+
+% \label{}
+
+% \end{figure}
+%
+
+% tables follow here
+
+%
+
+% Here is an example of the general form of a table:
+
+% Fill in the caption in the braces of the \caption{} command. Put the label
+
+% that you will use with \ref{} command in the braces of the \label{} command.
+
+% Insert the column specifiers (l, r, c, d, etc.) in the empty braces of the
+
+% \begin{tabular}{} command.
+
+%
+
+% \begin{table}
+
+% \caption{}
+
+{% endraw %}
+```
+
+Example 211
+Table:
+
+```
+{% raw %}
+\begin{table}[!htb]
+\begin{tabular}{cc}
+N=3\\
+\begin{tabular}{|c|c|c|}\hline
+$\chi^{0,0}_{0}*\theta^{(6)}_0~~0$&$\chi^{0,0}_2*\theta^{(6)}_0~~\frac{4}{5}$&$\chi^{0,0}_{4}*\theta^{(6)}_0~~\frac{2}{5}$\\\hline
+$\chi^{1,0}_{0}*\theta^{(6)}_0~~\frac{4}{3}$&$\chi^{1,0}_2*\theta^{(6)}_0~~\frac{2}{15}$&$\chi^{1,0}_{4}*\theta^{(6)}_0~~\frac{11}{15}$\\\hline
+$\chi^{2,0}_{0}*\theta^{(6)}_0~~\frac{4}{3}$&$\chi^{2,0}_2*\theta^{(6)}_0~~\frac{2}{15}$&$\chi^{2,0}_{4}*\theta^{(6)}_0~~\frac{11}{15}$\\\hline
+$\chi^{0,0}_{0}*\theta^{(6)}_{\pm3}~~\frac{3}{8}$&$\chi^{0,0}_2*\theta^{(6)}_{\pm3}~~\frac{47}{40}$&$\chi^{0,0}_{4}*\theta^{(6)}_{\pm3}~~\frac{31}{40}$\\\hline
+$\chi^{1,0}_{0}*\theta^{(6)}_{\pm3}~~\frac{41}{24}$&$\chi^{1,0}_2*\theta^{(6)}_{\pm3}~~\frac{61}{120}$&$\chi^{1,0}_{4}*\theta^{(6)}_{\pm3}~~\frac{133}{120}$\\\hline
+$\chi^{2,0}_{0}*\theta^{(6)}_{\pm3}~~\frac{41}{24}$&$\chi^{2,0}_2*\theta^{(6)}_{\pm3}~~\frac{61}{120}$&$\chi^{2,0}_{4}*\theta^{(6)}_{\pm3}~~\frac{133}{120}$\\\hline
+$\chi^{0,0}_{0}*\theta^{(6)}_6~~\frac{3}{2}$&$\chi^{0,0}_2*\theta^{(6)}_6~~\frac{23}{10}$&$\chi^{0,0}_{4}*\theta^{(6)}_6~~\frac{19}{10}$\\\hline
+$\chi^{1,0}_{0}*\theta^{(6)}_6~~\frac{17}{6}$&$\chi^{1,0}_2*\theta^{(6)}_6~~\frac{49}{30}$&$\chi^{1,0}_{4}*\theta^{(6)}_6~~\frac{67}{30}$\\\hline
+$\chi^{2,0}_{0}*\theta^{(6)}_6~~\frac{17}{6}$&$\chi^{2,0}_2*\theta^{(6)}_6~~\frac{49}{30}$&$\chi^{2,0}_{4}*\theta^{(6)}_6~~\frac{67}{30}$\\\hline
+\end{tabular}\\
+\end{tabular}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+nan
+{% endraw %}
+```
+
+Example 212
+Table:
+
+```
+{% raw %}
+\begin{table}[!htb]
+\begin{tabular}{cc}
+N=4\\
+\begin{tabular}{|c|c|c|c|}\hline
+$\chi^{0,0}_{0}*\theta^{(2)}_0~~0$&$\chi^{0,0}_{0,2}*\theta^{(2)}_0~~\frac{2}{3}$&$\chi^{0,0}_{2,0}*\theta^{(2)}_0~~\frac{2}{3}$&$\chi^{0,0}_{2,2}*\theta^{(2)}_0~~\frac{1}{3}$\\\hline
+$\chi^{1,0}_{1,1}*\theta^{(2)}_0~~\frac{1}{8}$&$\chi^{0,1}_{1,1}*\theta^{(2)}_1~~\frac{1}{4}$&$\chi^{2,1}_{1,1}*\theta^{(2)}_1~~\frac{3}{4}$&\\\hline
+$\chi^{1,1}_{0}*\theta^{(2)}_0~~\frac{7}{8}$&$\chi^{1,1}_{0,2}*\theta^{(2)}_0~~\frac{13}{24}$&$\chi^{1,1}_{2,0}*\theta^{(2)}_1~~\frac{13}{24}$&$\chi^{1,1}_{2,2}*\theta^{(2)}_1~~\frac{5}{24}$\\\hline
+$\chi^{2,0}_{0}*\theta^{(2)}_0~~\frac{1}{2}$&$\chi^{2,0}_{0,2}*\theta^{(2)}_0~~\frac{1}{6}$&$\chi^{2,0}_{2,0}*\theta^{(2)}_0~~\frac{1}{6}$&$\chi^{2,0}_{2,2}*\theta^{(2)}_0~~\frac{5}{6}$\\\hline
+$\chi^{3,0}_{1,1}*\theta^{(2)}_0~~\frac{1}{8}$&&&\\\hline
+$\chi^{3,1}_{0}*\theta^{(2)}_0~~\frac{7}{8}$&$\chi^{3,1}_{0,2}*\theta^{(2)}_0~~\frac{13}{24}$&$\chi^{3,1}_{2,0}*\theta^{(2)}_1~~\frac{13}{24}$&$\chi^{3,1}_{2,2}*\theta^{(2)}_1~~\frac{5}{24}$\\\hline
+\end{tabular}
+\end{tabular}
+\end{table}\\
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+nan
+{% endraw %}
+```
+
+Example 213
+Table:
+
+```
+{% raw %}
+\begin{table}
+\begin{center}
+{\small
+\begin{tabular}{cc}
+\hline\hline {\rm shadow couples} & {\rm mass relation}\\ \hline
+\\
+$(h^I_{ab},\ S^I)$ & $m^2_S=m^2_h+176-24\sqrt{m^2_h+36}$\\
+\\
+$(h^I_{ab},\ \Sigma^I)$ &
+$m^2_\Sigma=m^2_h+176+24\sqrt{m^2_h+36}$\\
+\\
+$(A^I_a,\ W^I_a)$ & $m^2_w=m^2_A+144-24\sqrt{m^2_A+4}$\\
+\\
+$(\psi^I_a,\ \lambda^I_L)$ & $m_{\lambda_L}=-m_\psi-16$\\
+\\
+\hline\hline
+\end{tabular}
+}
+\end{center}
+\caption{Shadow couples. The mass of each field is related to that
+of the shadow partner.} \label{shadowcouples}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+of the fields in each couple are related through equations
+
+(\ref{gmassh} -\ref{gmasschi}) to the same eigenvalue of the
+
+corresponding harmonic. This means that fields of different type,
+
+spin and mass are nevertheless linked by a relation which
+
+determines the mass of the one as a function of the other, as
+
+shown in table \ref{shadowcouples}. Furthermore, each field
+
+belongs to the same irrep of the isometry group of ${\cal M}^7$ as
+
+the shadow partner, which is just the conjugate representation of
+
+the associated harmonic.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%              TABLE   ON   SHADOW   COUPLES
+
+{% endraw %}
+```
+
+Example 214
+Table:
+
+```
+{% raw %}
+\begin{table}
+  \begin{center}
+{\small
+ \begin{tabular}{ccc|cc}
+      \hline\hline
+      Spin & Energy & $SO(3)$-Isospin  & Field & Harmonic\\
+      \hline &&&&\\
+      $2$ & $3$ & $0$ & $h_{ab}$ & $Y=1$\\
+      &&&&\\
+      $\ft32$ & $\ft52$ & $1$& $\chi^A_a$ &
+           $\Xi^A =\eta^A$ (Killing spinor) \\
+      &&&&\\
+      $1$  & $2$ & $1$ &$A_a^A$&
+      $Y^A_\alpha =\ft 12 \, \epsilon^{ABC} \,
+      {\bar \eta}^B \, \gamma_\alpha  \eta^C \equiv k^A_\alpha $
+      \\
+      &&&&\\
+      $\ft12$  & $\ft32$ & $0$ & $ \lambda_L$ & $\Xi=\ft 13
+      \,\epsilon^{ABC}\, \gamma_\alpha \, \eta^A \,{\bar \eta}^B \,
+      \gamma^\alpha  \eta^C $\\
+      &&&&\\
+      \hline\hline
+    \end{tabular}
+    }
+    \caption{The massless ${\cal N}=3$ graviton multiplet and
+    its Kaluza Klein origin.}
+    \label{ushorgrav}
+  \end{center}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+compactifications, independently on the internal manifold ${\cal
+
+M}^7$, there has to be a consistent coupling of a whole massive
+
+gravitino multiplet to the ${\cal N}=3$ $SO(3)$-gauged
+
+supergravity in four dimensions. Indeed the shadow partner of the
+
+${\cal N}=3$ graviton multiplet, displayed in table
+
+\ref{ushorgrav}, is a massive gravitino multiplet.
+
+%
+
+\begin{table}
+
+  \begin{center}
+
+{\small
+
+ \begin{tabular}{ccc|cc}
+
+{% endraw %}
+```
+
+Example 215
+Table:
+
+```
+{% raw %}
+\begin{table} [ht] 
+\vskip 10pt
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline & $\phi_1$ & $\phi_2$ & $\phi_3$ \\  
+\hline $N_0$ & $\pi/2$  & $\pi/2$  & $\pi/2$ \\  
+\hline $N_1$ & $\pi/2$  & 0  & $\pi$  \\  
+\hline $N_2$ & $\pi$  & $\pi/2$  & 0 \\  
+\hline $N_3$ & $\theta$ & $\pi-\theta$ & $\pi/2$ \\  
+\hline
+\end{tabular}
+\end{center}
+\caption{\small The position of the D3--branes on the compactifying
+torus; $\phi_i$ is the angle on the $(x^{2i+2},x^{2i+3})$ torus and 
+$\theta$ is a generic non--trivial angle. For each couple of constituent D3-branes, 
+it follows that $\sum_{i=1}^3 (\phi^{(\alpha)}_i-\phi^{(\beta)}_i)=0\;
+\mbox{mod}\;2\pi\;\,\forall \alpha,\beta=1,...,4$, this ensuring that it is a 
+configuration of 4 (bunches of) D3--branes at $SU(3)$ angle, \cite{jab,bala0}. 
+Notice that the above configuration has been chosen in such a way that setting 
+$\theta=0$ one recovers a four parameters solution, namely $4$ bunches of 
+D3--branes orthogonally intersecting.}
+\label{ND3brane}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+configurations corresponding to the generating solution with the
+
+chosen boundary condition on the scalar fields at infinity
+
+$\phi^\infty$. From the type IIB viewpoint we may think of a system of 
+
+D3--branes intersecting at non--trivial angles, but in such a way to preserve 
+
+1/8 supersymmetry; this can be achieved if the relative rotation between each couple 
+
+is a $SU(3)$ rotation, \cite{jab}. The configuration is depicted in table \ref{ND3brane}.
+
+
+
+\begin{table} [ht] 
+
+\vskip 10pt
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|c|}
+The actual D0--brane effective charge is thus $y^{78}=q_0$.
+
+
+
+The precise correspondence between the dressed charges (in the two 
+
+representations) and the parameters associated with the microscopic 
+
+configurations previously discussed (that is those characterizing the type 
+
+IIB configuration of table \ref{ND3brane}: $N_0,N_1,N_2,N_3,\theta$) is represented 
+
+in table \ref{IIAIIB}.
+
+
+
+\begin{table} [ht]
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|c|c|}
+
+{% endraw %}
+```
+
+Example 216
+Table:
+
+```
+{% raw %}
+\begin{table} [ht]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline type IIB D--branes & Charge & type IIA D--branes & & \\
+\hline 3--brane(468) & 0  & 6--brane  & $y^0$ & $x_{78}$\\
+\hline 3--brane(568) & $-N_1$   & 4--brane(6789)  & $y^1$ & $y^{12}$  \\
+\hline 3--brane(478) & $-N_2$   & 4--brane(4589)  & $y^2$ & $y^{34}$ \\   
+\hline 3--brane(469) & $-N_3 \cos^2\theta$  & 4--brane(4567) & $y^3$& $y^{56}$   \\
+\hline 3--brane(579) & $N_0+\sin^2\theta\,N_3$  & 0--brane  & $-x_0$  & $y_{78}$\\ 
+\hline 3--brane(479) & $\sin\theta\cos\theta\, N_3$   & 2--brane(45) & $x_1$ & $x_{12}$ \\   
+\hline 3--brane(569) & $-\sin\theta\cos\theta\, N_3$  & 2--brane(67)  & $x_2$& $x_{34}$ \\  
+\hline 3--brane(578) & 0  & 2--brane(89)  & $x_3$ & $x_{56}$ \\  
+\hline
+\end{tabular}
+\end{center}
+\caption{{\small The correspondence between type IIB and type IIA charges on the 
+different cycles of the compactifying torus. Notice how a $\theta\not= 0$ contribution 
+induces D2--brane and D0--brane effective charges while for $\theta=0$ one gets a four 
+parameter configuration.}}
+\label{IIAIIB}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+
+
+The precise correspondence between the dressed charges (in the two 
+
+representations) and the parameters associated with the microscopic 
+
+configurations previously discussed (that is those characterizing the type 
+
+IIB configuration of table \ref{ND3brane}: $N_0,N_1,N_2,N_3,\theta$) is represented 
+
+in table \ref{IIAIIB}.
+
+
+
+\begin{table} [ht]
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|c|c|}
+
+\hline type IIB D--branes & Charge & type IIA D--branes & & \\
+induces D2--brane and D0--brane effective charges while for $\theta=0$ one gets a four 
+
+parameter configuration.}}
+
+\label{IIAIIB}
+
+\end{table}
+
+
+
+Finally, according to relations (\ref{ourdress}) or (\ref{si}) and table \ref{IIAIIB} we finally
+
+get the precise  macroscopic/microscopic correspondence\footnote{Our normalizations 
+
+are the following. In general the $4$ dimensional charge of
+
+a wrapped  D$p$--brane is $Q_p\,=\,\hat \mu_p \cdot V_p/\sqrt{V_6}$
+
+where  $\hat \mu_p\,=\,\sqrt{2\pi}(2\pi\sqrt{\alpha'})^{3-p}$ is the
+
+normalized D$p$--brane charge  density in ten dimensions. Provided
+&&+\,4 \left(x_{78}y^{78}x_{12}y^{12} + x_{78}y^{78}x_{34}y^{34} + x_{78}y^{78}x_{56}y^{56} + 
+
+x_{12}y^{12}x_{34}y^{34} + x_{12}y^{12}x_{56}y^{56}+x_{34}y^{34}x_{56}y^{56}\right)
+
+\nonumber\\
+
+\label{ms}
+
+\eeqa}
+
+and consequently, upon use of table \ref{IIAIIB}, one can easily work out the expression of  
+
+the entropy $S=\pi\sqrt{J_4}$ written in terms of the microscopic parameters:  
+
+\beqa
+
+\label{entrmi}
+
+S_{micro}= 2\,\pi\,\sqrt{\cos^2\theta\left[N_0N_1N_2N_3 - \frac{1}{4}
+
+\sin^2\theta\, N^2_3\left(N_1-N_2\right)^2\right]} 
+
+{% endraw %}
+```
+
+Example 217
+Table:
+
+```
+{% raw %}
+\begin{table}
+\caption{\label{tab:1} 
+All anomaly free representations of simple groups $G$ with 
+a single basic holomorphic $G$ invariant. Entries 1-14 satisfy the 
+hypothesis of Theorem~III, entries 1,3,5,6 and 12 also 
+satisfy the hypothesis of Theorem~II. Pseudo-real representations are 
+{\em not} checked in the fourth column, real representations are 
+required in order that $(\partial W) T (\partial W)^{\dagger} 
+\propto \phi^{\dagger}T \phi$. 
+In the last column Dynkin labels are used to avoid complicated Young diagrams.}
+\setlength{\tabcolsep}{15mm}
+\renewcommand{\arraystretch}{1.5}
+\[
+\begin{array}{|c|c|c|c|c|} \hline
+& G & \rho &  \text{real} & \rho \otimes_s \rho \\ \hline \hline
+1& SU(N) & \Yfund + \overline{\Yfund} & \surd & 
+\Ysymm + \overline{\Ysymm} + Adj + {\Bbb I}    \\ 
+2 & SU(6) & \Ythreea & & [0,0,2,0,0] + adj     \\
+3 & SU(4)  &  \Yasymm & \surd & [0,2,0] + {\Bbb I} \\
+4 & SU(2) & \Ythrees  & & [2] + [6]     \\
+5 & SO(N)  & \Yfund & \surd & \Ysymm + {\Bbb I}  \\
+6 & SO(7),  & spinor & \surd & [0,0,2] + {\Bbb I}    \\
+7 & SO(9)   & spinor & \surd & \Yfund + [0,0,0,2] + {\Bbb I}  \\
+8 & SO(N), N=11,12,14 & spinor  & &  [0,...,0,2] + \left[
+\Yasymm + \Yfund , \; 
+\Yasymm , \;\Ythreea \right] \\
+9 & SO(10)  & 2 \; spinors &  & 3[0,0,0,0,2]+[0,0,1,0,0]+{\Bbb I} \\
+10 & Sp(2N)   & \Yfund +  \Yfund &  \surd  & 3[2,0,0,...,0] + [0,1,0,...,0] + 
+{\Bbb I}   \\
+11 & Sp(6)  & \Ythreea  &  &  [2,0,0]+[0,0,2]  \\
+12 & G_2  &  {\bf 7}   & \surd & [2,0]+ {\Bbb I}   \\
+13 & E_6   &  {\bf 27}  &  &  [2,0,0,0,0,0]+[1,0,0,0,0,0]  \\
+14 & E_7  &  {\bf 56}  &     &  [2,0,0,0,0,0,0]+[1,0,0,0,0,0,0]  \\ 
+\hline
+\end{array} \]
+\end{table} 
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+ $V(\phi_D) < V(\phi_0)$. \\
+
+
+
+\noindent
+
+{\it Example \ref{gauge}.7:} Theories having a single 
+
+basic invariant satisfy the hypothesis of Theorem~III 
+
+(see example~\ref{global}.4). Table \ref{tab:1} lists 
+
+all asymptotically free, anomaly free representations of simple groups 
+
+having a single basic invariant, they were obtained from \cite{dms}. 
+
+For all these theories $V(\phi_D)$, $G\phi_D$  
+
+the core of \df points in the boundary of 
+
+the  non-closed orbit $G^c \phi_0$, gives a lower bound 
+Among these representations, the real ones have the property 
+
+that, for any invariant $W$,  $\partial W(\phi) (-T) 
+
+(\partial W (\phi))^{\dagger} \propto \phi^{\dagger}T \phi$
+
+ (example~\ref{global}.4), this implies that \df points 
+
+satisfy the $MD-$flat condition eq.(\ref{m}).  
+
+For a subset of the real $\rho$'s in Table~\ref{tab:1} 
+
+the tensor decomposition 
+
+$\rho \otimes_s  \rho$ contains only two irreps, one of which  is a singlet, 
+
+For them, theorem~II holds in the entire configuration space, 
+
+and, as happens for SQCD, the stationary points of $V$ are $D-$flat, 
+
+a non generic feature among the theories satisfying the hypothesis of 
+
+{% endraw %}
+```
+
+Example 218
+Table:
+
+```
+{% raw %}
+\begin{table}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+space&generators&bosonic generators&fermionic generators\\
+\hline\hline
+$G$ & $ T_{\bar A}$ & $T_{\bar a}$ & $T_{\bar \a}$\\
+$C$ & $ C_A$ & $C_{a}$ & $C_{\a}$ \\
+$H$ & $ H_{A'}$ & $H_{a'}$ & $H_{\a'}$\\
+\hline
+\end{tabular}
+\end{center}
+\caption{Conventions for the generators of $G$, $C$, and $H$.
+\label{tab:algconv}}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+\S^{\bar A} T_{\bar A}$ by 
+
+\be
+
+\label{Sdef}
+
+\S^{A'} = \L^{A'} + \X^M L_M^{A'}, \qquad \S^{A} = \X^M L_M^{A}.
+
+\ee
+
+The notation is as in table~\ref{tab:algconv}: ${\bar A}$ runs over
+
+all the generators of $G$, $A'$ indexes the generators
+
+$H_{A'}$ of the stability group $H$, $A$ indexes the coset generators
+
+$C_A$ ({\em i.e.}, the generators of $G$ which are not generators of $H$),
+
+and $L = L^{\bar A} T_{\bar A}= L^{\bar A}_M dZ^M T_{\bar A}$.   
+
+Using the Maurer-Cartan equations, we can rephrase \eqn
+
+{% endraw %}
+```
+
+Example 219
+Table:
+
+```
+{% raw %}
+\begin{table}[hbtp]
+\begin{center}
+\begin{tabular}{|c|c|l|} \hline\hline
+Operator&Weight&Name\\ \hline
+$P_m$&1& Conformal Translations\\ \hline
+$Q$&$1/2$& Global Supersymmetries\\ \hline
+$M_{mn}$&0& Lorentz Rotations\\ \hline
+$D$&$0$&Dilatation\\ \hline
+$U^{~i}_j=(M'_{m'n'}, P'_{m'})$
+&$0$&$SO(6)$ Rotations of $S^5$\\ \hline
+$S$&$ - 1/2$&Special Supersymmetries\\ \hline
+$K_{m}$&$- 1$&Special Conformal Transformations\\ \hline
+\end{tabular}
+\end{center}
+\caption{$SU(2,2|4)$ generators in the superconformal basis.
+The $SO(6)$ rotation $U$ is a linear combination of  
+the $SO(5)$ rotation $M'_{m'n'}$  and the translation
+$P'_{m'}$ ($m',n'=1, \dots, 5$) on the 5-sphere.}
+\label{tab:generators}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+We now apply the formalism of the last section to compute the 
+
+superisometries of three distinct cosets of $G =
+
+SU(2,2|4)$.\footnote{Our conventions for spinors and for the $SU(2,2|4)$ 
+
+algebra are given in appendix A.}  The generators of $SU(2,2|4)$,
+
+together with their weights under dilatations, are listed in table
+
+\ref{tab:generators}. 
+
+\begin{table}[hbtp]
+
+\begin{center}
+
+\begin{tabular}{|c|c|l|} \hline\hline
+
+Operator&Weight&Name\\ \hline
+
+$P_m$&1& Conformal Translations\\ \hline
+  
+
+The coordinates $z^M$ of $C_{(10|16)}$ conjugate to the generators 
+
+$(P_m,
+
+Q^i, D, P_{m'}')$ are $(w^m, \l_i^{\a}, v, \varphi^{m'})$.
+
+%All generators of ${\bf G}$ with negative weight under $D$ (cfr.
+
+%Table~\ref{tab:generators})
+
+%\begin{table}[hbtp]
+
+%\begin{center}
+
+%\begin{tabular}{|c|c||l|} \hline
+
+%Operator&Weight&\\ \hline
+
+%$P_{m}$&1& translations\\ \hline
+
+{% endraw %}
+```
+
+Example 220
+Table:
+
+```
+{% raw %}
+\begin{table}[hbtp]
+\begin{center}
+\begin{tabular}{|c||c|c|c|} \hline
+&$C_{(10|32)}$&$C_{(10|16)}$&$C_{(4|16)}$\\ \hline\hline
+&&&\\
+$C$&$\frac{1}{2}(P_m+K_m),P'_{m'},D, Q, S$& $P_m,~~
+P'_{m'}, ~~ D, ~~ Q$ & $P_m, ~~~~~~Q$ \\ 
+ & & & \\ \hline
+&&&\\
+$H$& $\frac{1}{2}(P_m-K_m), M_{mn},
+M'_{m'n'} $ & $K_{m}, M_{mn},
+M'_{m'n'}, S$& $K_{m}, D, P'_{m'}, M_{mn},
+M'_{m'n'}, S$  \\
+&&& \\\hline
+\end{tabular}
+\end{center}
+\caption{Coset decompositions of $SU(2,2|4)$ Generators
+\label{tab:cosets}}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+%The notation ${\rm	
+
+%Span}(\cdots)$ denotes the group generated by $(\cdots)$.  
+
+
+
+The division of the $SU(2,2|4)$ generators into coset and
+
+stability group generators for each coset space is shown in table
+
+\ref{tab:cosets}.
+
+\begin{table}[hbtp]
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|} \hline
+
+&$C_{(10|32)}$&$C_{(10|16)}$&$C_{(4|16)}$\\ \hline\hline
+
+&&&\\
+
+{% endraw %}
+```
+
+Example 221
+Table:
+
+```
+{% raw %}
+%\begin{table}[hbtp]
+%\begin{center}
+%\begin{tabular}{|c|c||l|} \hline
+%Operator&Weight&\\ \hline
+%$P_{m}$&1& translations\\ \hline
+%$Q$&$1/2$& supersymmetry\\ \hline
+%$M_{mn}$&0& Lorentz rotations of $x^m$\\ \hline
+%$D$&0&dilatation\\ \hline
+%$U_i{}^j$ or $M'_{m'n'}, P'_{m'}$&0&SU$(4)$ or SO$(6)$ rotations\\ \hline
+%$S$&$- 1/2$&special supersymmetry\\ \hline
+%$K_{m}$&-1&special conformal transformations\\ \hline
+%\end{tabular}
+%\end{center}
+%\caption{$\su$ generators in the superconformal basis
+%\label{tab:generators}}
+%\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+We now apply the formalism of the last section to compute the 
+
+superisometries of three distinct cosets of $G =
+
+SU(2,2|4)$.\footnote{Our conventions for spinors and for the $SU(2,2|4)$ 
+
+algebra are given in appendix A.}  The generators of $SU(2,2|4)$,
+
+together with their weights under dilatations, are listed in table
+
+\ref{tab:generators}. 
+
+\begin{table}[hbtp]
+
+\begin{center}
+
+\begin{tabular}{|c|c|l|} \hline\hline
+
+Operator&Weight&Name\\ \hline
+
+$P_m$&1& Conformal Translations\\ \hline
+  
+
+The coordinates $z^M$ of $C_{(10|16)}$ conjugate to the generators 
+
+$(P_m,
+
+Q^i, D, P_{m'}')$ are $(w^m, \l_i^{\a}, v, \varphi^{m'})$.
+
+%All generators of ${\bf G}$ with negative weight under $D$ (cfr.
+
+%Table~\ref{tab:generators})
+
+%\begin{table}[hbtp]
+
+%\begin{center}
+
+%\begin{tabular}{|c|c||l|} \hline
+
+%Operator&Weight&\\ \hline
+
+%$P_{m}$&1& translations\\ \hline
+
+{% endraw %}
+```
+
+Example 222
+Table:
+
+```
+{% raw %}
+\begin{table}
+\begin{tabular}{|c|c|c|}
+Brane & Projector & Charge \\
+\hline
+Mw & $\G_{0m_1}$ & $\cZ^{m_1}$ \\
+\hline
+M2 & $\G_{0m_1m_2}$ & $\cZ^{m_1m_2}$ \\
+\hline
+M5 & $\G_{0m_1\dots m_5}$ & $\cZ^{m_1\dots m_5}$ \\
+\hline
+Mkk & $\G_{0m_1\dots m_6}$  & $\cZ^{0m_7\dots m_\sharp}$ \\
+\hline
+M9 & $\G_{0m_1\dots m_9}$ & $\cZ^{0m_\sharp}$ \\
+\end{tabular}
+\medskip
+\caption{Single branes preserving $\nu=\frac{1}{2}$, their supersymmetry
+projection condition and their charges.}
+\label{table1}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+\ee 
+
+Squaring eq. (\ref{single}), we derive that $\cM=\vert\cZ_1\vert$ and
+
+$\G_1\state=\pm\state$, from which we infere that $\nu=\frac{1}{2}$, due to
+
+(\ref{cond0}). In this way, we could rederive all $\nu=\frac{1}{2}$ BPS
+
+states associated with single branes which are summarized in table 
+
+\ref{table1}.
+
+
+
+Actually, the mapping between single branes and single projectors is one to two
+
+since given a single projector $\G_i$, there exists a second one $\7\G_i$
+
+such that $\G_i\7\G_i=\bI$, since $\Gamma_0\Gamma_1 \cdots \Gamma_{\sharp} = 
+
+\bI$.
+Equivalently, the coefficients in the linear combination 
+
+$\cP=\sum_i a^i\G_i$ parametrize an $S^{N-1}$ sphere, so that they can always
+
+be rewritten in terms of trigonometric functions.
+
+
+
+Notice that these states depend on the number of single branes $(N)$ forming
+
+them. For $N=1$, we recover the usual single branes (see table \ref{table1}), 
+
+whereas for $N\geq 2$, we find families of non-threshold bound states, since 
+
+their mass satisfies
+
+\[
+
+\cM_{1/2} \leq \sum_{i=1}^N \cM_{1/2}^{(i)}\,.
+
+\]
+
+{% endraw %}
+```
+
+Example 223
+Table:
+
+```
+{% raw %}
+\begin{table}
+\begin{tabular}{|c|c|c|c|c|}
+$\perp$ & M2 & M5 & Mkk & M9 \\
+\hline
+Mw & 1 & 1 & 1 & 1 \\
+\hline
+M2 & 0 & 1 & 0,2 & 1  \\
+\hline
+M5 & 1 & 1,3 & 1,3,5 & 5 \\
+\hline
+Mkk & 0,2 & 1,3,5 & 2,4 & 5 \\
+\end{tabular}
+\medskip
+\caption{Threshold bound states involving two single branes.}
+\label{table2}
+\end{table}
+
+{% endraw %}
+```
+References:
+
+```
+{% raw %}
+
+The above BPS state preserves $\nu=\frac{1}{4}$ since $[\G_1,\G_2]=0$
+
+and $\mbox{tr}\left(\G_1\G_2\right)=0$, by hypothesis. Of course, we could
+
+have derived the same conclusions by using an explicit representation
+
+of the $\G$ matrices in a basis where both, $\G_1$ and $\G_2$ were diagonal.
+
+We summarize all possible $\nu=\frac{1}{4}$ BPS configurations formed by
+
+two commuting single branes in table \ref{table2}. We use the notation
+
+$Mp\perp Mq(n)$, where $p$ and $q$ indicate the space dimensions along which
+
+the branes are extended, whereas $n$ stands for the common space dimensions.
+
+
+
+On the other hand, in the anticommuting case, when squaring eq. (\ref{eigen}),
+
+we derive that the BPS mass is given by
+Equations (\ref{m41}) and (\ref{m4a}) describe a threshold bound state
+
+(intersection), whose components are the previously discussed $\nu=\frac{1}{2}$
+
+BPS states. As such, they will be characterized by two integer positive numbers
+
+$(N_1,N_2)$ describing the number of single branes in both subsystems. The
+
+particular case $N_1=N_2=1$ corresponds to the standard intersection
+
+of two branes (see table \ref{table2}). Now we see there are more general 
+
+configurations involving non-threshold bound states in both subsystems. As 
+
+before, all needed information is already contained in tables \ref{table2}
+
+and \ref{table3}. For example, for $N_1=1$ and $N_2=2$ one can find, among 
+
+many others
+
+\bea
+
+
+On the other hand, equations (\ref{m42}) and (\ref{m4b}) describe 
+
+non-threshold bound states built from $\nu=\frac{1}{2}$ BPS states and the
+
+above $\nu=\frac{1}{4}$ ones. As such, they will depend on three integer
+
+numbers $(N_i)$. Let us comment on the easiest examples. When
+
+$N_1=N_2=N_3=1$, take any configuration in table \ref{table2} and look for a 
+
+third single brane whose associated single projector anticommutes with the 
+
+latter two. For example, one can derive $2^2 5^1\{4,1,1\}$ from 
+
+$M2\perp M5(1)$, $5^2 6^1\{2,7,0\}$ from $Mkk\perp M5(3)$ or 
+
+$6^3\{4,4,2,0\}$ from $Mkk\perp Mkk(2)$.

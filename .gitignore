@@ -1,1 +1,8 @@
 *.bk
+dataset/
+fyp/
+__pycache__/
+.vscode
+checkpoint*
+traininglog
+node_modules

@@ -1,0 +1,13 @@
+{
+    "name": "seq2seq-baseline",
+    "logfile": "./outputs/run_log.txt",
+    "stage_configs": [
+        {
+            "name": "load_df_from_csv"
+        },
+        {
+            "name": "create_graph_datastructures",
+            "output_file": "./outputs/outputfile.txt"
+        }
+    ]
+}
