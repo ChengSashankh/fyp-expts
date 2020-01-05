@@ -11,11 +11,9 @@ PARSE_NODE    = 'parse'
 
 class GraphNode:
 
-  def __init__(self, value, node_type, tag):
+  def __init__(self, value, node_type):
     self.type = node_type
     self.value = value
-    self.tag = tag
-    # TODO: This is unused. Do we need this?
     self.neighbors = []
   
   def add_neighbors(self, new_neighbors):
@@ -36,6 +34,12 @@ class CreateGraphDatastructures(Stage):
 
   def from_string_to_array(self, equation):
     return ast.literal_eval(equation) 
+  
+  def from_string_to_array_wrapper(self, equations):
+    pool = multiprocessing.Pool(processes=8)
+    equations = pool.map(self.from_string_to_array, equations)
+
+    return equations
   
   def is_operator(self, token):
     character_operators = set(list('=^-+/_'))
@@ -79,29 +83,90 @@ class CreateGraphDatastructures(Stage):
     
     if token[1] in macro_operators:
       return macro_operators[token[1]]
-  
-  # Return node for a given operator
-  def create_relation_node(self, token):
-    return GraphNode(token[1], RELATION_NODE, token[0])
 
-  # Return node for a given operator
-  def create_variable_node(self, token):
-    return GraphNode(token[1], VARIABLE_NODE, token[0])
+  def create_graph_node(self, token, node_type):
+    return GraphNode(token, node_type)
+
+  # Rewriting old graph creation code properly
+  def get_graph_from_tokenized_equation(self, tokens):
+    # Classify tokens as operator and variable nodes
+    pool = multiprocessing.Pool(processes=8)
+    is_operator = pool.map(self.is_operator, tokens)
+
+    # Create nodes for each token
+    nodes = []
+    for i, token in enumerate(tokens):
+      if is_operator[i]:
+        nodes.append(self.create_graph_node(token, RELATION_NODE))
+      else:
+        nodes.append(self.create_graph_node(token, VARIABLE_NODE))
+    
+    # Add all proximity edge
+    for i in range(len(nodes)):
+      # Add bidirectional edge
+      if i > 0: 
+        nodes[i - 1].neigbours.append(nodes[i])
+        nodes[i].neigbours.append(nodes[i - 1])
+
+    # Create the intermediate nodes
+
+    ## Use braces to identify sub-parts of equations and represent using intermediate state nodes
+    braces_open = '{[('
+    braces_close = '}])'
+    brackets = []
+    stack = []
+    
+    ## Identify the braces for intermediate nodes
+    for i in range(len(tokens)):
+      # Brace open node
+      if tokens[i][1] in braces_open:
+        stack.append([i, tokens[i][1]])
+      
+      # Brace close node
+      if tokens[i][1] in braces_close:
+        brace_type_index = braces_close.index(tokens[i][1])
+        start = brackets.pop()
+        end = i
+
+        # brackets.append((braces_open[brace_type_index], braces_close[brace_type_index], start, end))
+        brackets.append((start, end))
+    
+    # Create the intermediate nodes
+    intermediate_nodes = []
+    for brace in brackets:
+      intermediate_nodes.append()
+
+
+
+
   
   def tokens_to_graph(self, tokens):
     # Classify tokens as operator/relation and variable nodes
-    pool = multiprocessing.Pool(processes=8)
-    are_operators = pool.map(self.is_operator, tokens)
+    # pool = multiprocessing.Pool(processes=8)
+    # are_operators = pool.map(self.is_operator, tokens)
 
-    operators = [tokens[i] for i in range(len(tokens)) if are_operators[i]]
-    variables = [tokens[i] for i in range(len(tokens)) if not are_operators[i]]
+    is_operator = []
+    for token in tokens:
+      is_operator.append(self.is_operator(token))
+
+    operators = [tokens[i] for i in range(len(tokens)) if is_operator[i]]
+    variables = [tokens[i] for i in range(len(tokens)) if not is_operator[i]]
 
     # Create the Graph Nodes
-    pool = multiprocessing.Pool(processes=8)
-    operator_nodes = pool.map(self.create_relation_node, operators)
+    
+    # pool = multiprocessing.Pool(processes=8)
+    # operator_nodes = pool.map(self.create_relation_node, operators)
 
-    pool = multiprocessing.Pool(processes=8)
-    variable_nodes = pool.map(self.create_variable_node, variables)
+    operator_nodes = []
+    for operator in operators:
+      operator_nodes.append(self.create_relation_node(operator))
+
+    # pool = multiprocessing.Pool(processes=8)
+    # variable_nodes = pool.map(self.create_variable_node, variables)
+
+    variable_nodes = []
+    for variable in variables:
+      variable_nodes.append(self.create_variable_node(variable))
 
     parse_nodes = []
 
@@ -188,6 +253,7 @@ class CreateGraphDatastructures(Stage):
           # Remove the opening bracket
           stack.pop()
         else:
+          print (stack)
           raise Exception('Braces don\'t match')
       
       # All other nodes
@@ -209,25 +275,26 @@ class CreateGraphDatastructures(Stage):
     # We are now done. We return all the Graph data structures needed.
     return adj_list, token2node, compressed_equation
 
-  # TODO: Implement
+  # Main: Convert equations into graph
   def turn_equations_into_graph(self, equations):
-    # Get array form of tokenized equations
-    pool = multiprocessing.Pool(processes=8)
-    equations = pool.map(self.from_string_to_array, equations)
+    # Get array form of tokenized equations from strings
+    equations = self.from_string_to_array_wrapper(equations)
 
     # Get graph ds corresponding to each equation
+    adj_matrix = []
     adj_lists = []
     token2nodes = []
     compressed_equations = []
 
     error_ctr = 0
+    # pbar = ProgressBar()
     for equation in equations:
       try:
         adj_list, token2node, compressed_equation = self.tokens_to_graph(equation)
       except Exception as e:
         error_ctr += 1
         print ('Error: ' + str(error_ctr))
-        # print (e)
+        print (e)
       
       adj_lists.append(adj_list)
       token2nodes.append(token2node)
@@ -235,17 +302,27 @@ class CreateGraphDatastructures(Stage):
     
     # Save graph ds for each to file
     for i in range(len(equations)):
-      pickle.dump(adj_lists[i], open('./outputs/pickles/adj_list_' + str(i) + '.pkl', 'wb'))
-      pickle.dump(token2nodes[i], open('./outputs/pickles/token2node_' + str(i) + '.pkl', 'wb'))
-      pickle.dump(compressed_equations[i], open('./outputs/pickles/compressed_equation_' + str(i) + '.pkl', 'wb'))
-    
+      fptr = open('./outputs/pickles/adj_list_' + str(i) + '.pkl', 'wb')
+      pickle.dump(adj_lists[i], fptr)
+      fptr.close()
+
+      fptr = open('./outputs/pickles/token2node_' + str(i) + '.pkl', 'wb')
+      pickle.dump(token2nodes[i], fptr)
+      fptr.close()
+      
+      fptr = open('./outputs/pickles/compressed_equation_' + str(i) + '.pkl', 'wb')     
+      pickle.dump(compressed_equations[i], fptr)
+      fptr.close()
+
     return 0
   
   def write_adj_list_to_file(self, equations):
     # Read all adjacency list pickles
     adj_lists = []
     for i in range(len(equations)):
-      adj_lists.append(pickle.load(open('./outputs/pickles/adj_list_' + str(i) + '.pkl', 'rb')))
+      fptr = open('./outputs/pickles/adj_list_' + str(i) + '.pkl', 'rb')
+      adj_lists.append(pickle.load(fptr))
+      fptr.close()
     
     # Write in text form
     for i in range(len(equations)):
