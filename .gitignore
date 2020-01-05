@@ -6,3 +6,6 @@ __pycache__/
 checkpoint*
 traininglog
 node_modules
+adj_list*
+compressed_equation*
+token2node*
