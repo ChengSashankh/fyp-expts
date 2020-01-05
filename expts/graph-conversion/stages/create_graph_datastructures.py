@@ -1,4 +1,5 @@
 from stages.stage import Stage
+from stages.graph-node import GraphNode
 
 import multiprocessing
 import ast 
@@ -8,17 +9,6 @@ from progressbar import ProgressBar
 RELATION_NODE = 'relation'
 VARIABLE_NODE = 'variable'
 PARSE_NODE    = 'parse'
-
-class GraphNode:
-
-  def __init__(self, value, node_type):
-    self.type = node_type
-    self.value = value
-    self.neighbors = []
-  
-  def add_neighbors(self, new_neighbors):
-    for n in new_neighbors:
-      self.neighbors.append(n)
 
 '''
 Open DataFrame from CSV file.
@@ -135,10 +125,7 @@ class CreateGraphDatastructures(Stage):
     intermediate_nodes = []
     for brace in brackets:
       intermediate_nodes.append()
-
-
-
-
+                                 
   
   def tokens_to_graph(self, tokens):
     # Classify tokens as operator/relation and variable nodes
