@@ -1,0 +1,134 @@
+  def tokens_to_graph(self, tokens):
+    # Classify tokens as operator/relation and variable nodes
+    # pool = multiprocessing.Pool(processes=8)
+    # are_operators = pool.map(self.is_operator, tokens)
+
+    # is_operator = []
+    # for token in tokens:
+    #   is_operator.append(self.is_operator(token))
+
+    # operators = [tokens[i] for i in range(len(tokens)) if is_operator[i]]
+    # variables = [tokens[i] for i in range(len(tokens)) if not is_operator[i]]
+
+    # # Create the Graph Nodes
+    
+    # # pool = multiprocessing.Pool(processes=8)
+    # # operator_nodes = pool.map(self.create_relation_node, operators)
+
+    # operator_nodes = []
+    # for operator in operators:
+    #   operator_nodes.append(self.create_relation_node(operator))
+
+    # # pool = multiprocessing.Pool(processes=8)
+    # # variable_nodes = pool.map(self.create_variable_node, variables)
+
+    # variable_nodes = []
+    # for variable in variables:
+    #   variable_nodes.append(self.create_variable_node(variable))
+
+    parse_nodes = []
+
+    # Initialize adjacency list
+    # adj_list will contain integer pairs (neighbour_node, edge_type)
+    PROXIMITY_EDGE = 0
+    OPERATOR_EDGE = 1
+    PARSE_EDGE = 2
+
+    token2node = {}
+    adj_list = {} 
+    node_id = {}
+    id_ctr = 1
+
+    for i, o in enumerate(operator_nodes):
+      token2node[tuple(operators[i])] = operator_nodes[i]
+      node_id[o] = id_ctr
+      id_ctr += 1
+      adj_list[o] = []
+    
+    for i, v in enumerate(variable_nodes):
+      token2node[tuple(variables[i])] = variable_nodes[i]
+      node_id[v] = id_ctr
+      id_ctr += 1
+      adj_list[v] = []
+    
+    # # Populate adjacency list
+    # ## (Proximity Edges) Connect all adjacent variables
+    # prev = -1
+    # for i in range(len(tokens)):
+    #   # On finding variable
+    #   if not self.is_operator(tokens[i]):
+    #     if prev < 0:
+    #       # If this is the first variable
+    #       prev = i
+    #     else: 
+    #       # If this is not the first variable, add bidirectional proximity edges in the equation graph
+    #       adj_list[token2node.get(tuple(tokens[prev]))].append([token2node.get(tuple(tokens[i])), PROXIMITY_EDGE])
+    #       adj_list[token2node.get(tuple(tokens[i]))].append([token2node.get(tuple(tokens[prev])), PROXIMITY_EDGE])
+
+    ## (Operator-Variable Edges) Add all variables for each operator
+
+    ### Use braces to identify sub-parts of equations and represent using intermediate state nodes
+    # braces_open = '{[('
+    # braces_close = '}])'
+    # stack = []
+
+    # compressed_equation = []
+    # for i in range(len(tokens)):
+    #   # Brace open node
+    #   if tokens[i][1] in braces_open:
+    #     stack.append([i, tokens[i][1]])
+
+    #   # Brace close node
+    #   elif tokens[i][1] in braces_close:
+    #     brace = stack[len(stack) - 1]
+    #     if braces_close.index(tokens[i][1]) == braces_open.index(brace[1]):
+    #       # Create parse node
+    #       parse_node = GraphNode(
+    #          'PARSE[' + str(brace[0]) + '-' + str(i) + ']',
+    #          PARSE_NODE,
+    #          'PARSE')
+          
+    #       parse_nodes.append(parse_node)
+
+    #       compressed_equation.append(parse_node)
+          
+    #       node_id[parse_node] = id_ctr
+    #       parse_node_token = ['PARSE' + str(id_ctr), 'PARSE'  + str(id_ctr)]
+    #       id_ctr += 1
+
+          
+    #       # Add to adjacency list
+    #       adj_list[parse_node] = []
+          
+    #       # Add edges from parse node to all containing nodes
+    #       start = brace[0]
+    #       end = i
+    #       for i in range(start, end + 1):
+    #         # Add bidirectional nodes
+    #         adj_list[parse_node].append([token2node.get(tuple(tokens[i])), PARSE_EDGE])
+    #         adj_list[token2node.get(tuple(tokens[i]))].append([parse_node, PARSE_EDGE])
+
+    #       # Remove the opening bracket
+    #       stack.pop()
+    #     else:
+    #       print (stack)
+    #       raise Exception('Braces don\'t match')
+      
+    #   # All other nodes
+    #   else:
+    #     compressed_equation.append(tokens[i])
+
+    # Adding relations on the adjacency list
+    for i in range(len(compressed_equation)):
+      # On finding operator
+      if self.is_operator(tokens[i]):
+        if i - 1 >= 0:
+          adj_list[token2node.get(tuple(tokens[i - 1]))].append([token2node.get(tuple(tokens[i])), OPERATOR_EDGE])
+          adj_list[token2node.get(tuple(tokens[i]))].append([token2node.get(tuple(tokens[i - 1])), OPERATOR_EDGE])
+        
+        if i + 1 <= len(tokens):
+          adj_list[token2node.get(tuple(tokens[i + 1]))].append([token2node.get(tuple(tokens[i])), OPERATOR_EDGE])
+          adj_list[token2node.get(tuple(tokens[i]))].append([token2node.get(tuple(tokens[i + 1])), OPERATOR_EDGE])
+    
+    # We are now done. We return all the Graph data structures needed.
+    return adj_list, token2node, compressed_equation

@@ -23,5 +23,5 @@ class String2Array(Stage):
     return equations
 
   def run(self, df):
-    equations = df['equation']
-    return equations
+    df['equation'] = self.string_to_array(df['equation'])
+    return df

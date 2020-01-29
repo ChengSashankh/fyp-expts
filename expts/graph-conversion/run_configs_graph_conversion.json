@@ -3,7 +3,22 @@
     "logfile": "./outputs/run_log.txt",
     "stage_configs": [
         {
-            "name": "load_df_from_csv"
+            "name": "1load_df_from_csv"
+        },
+        {
+            "name": "2string_to_array"
+        },
+        {
+            "name": "3tokenize_equations"
+        },
+        {
+            "name": "4create_graph_datastructures"
+        },
+        {
+            "name": "get_ops_and_vars"
+        },
+        {
+            "name": "get_graph_nodes"
         },
         {
             "name": "create_graph_datastructures",

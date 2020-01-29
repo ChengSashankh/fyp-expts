@@ -58,8 +58,8 @@ class LoadDFFromCSV(Stage):
     vectors.savetxt('./outputs/node_vectors.txt')
 
   # TODO: Enforce max number of tokens in equation
-  def run(self, df):
-    tokenized_equations = df['equation']
+  def run(self, node_lists):
+    # tokenized_equations = df['equation']
     # All additional data structures needed for this stage will be input in this manner from an object if needed
     
     # num_equations = df.shape[0]
@@ -68,11 +68,11 @@ class LoadDFFromCSV(Stage):
 
     all_equations_vectors = []
 
-    for equation in tokenized_equations:
+    for nodes in node_lists:
       eqn_vectors = []
 
-      for token in equation:
-        eqn_vectors.append(self.get_features_from_token(token))
+      for node in nodes:
+        eqn_vectors.append(self.get_features_from_token(node.value))
     
       all_equations_vectors.append(eqn_vectors)
     
@@ -80,4 +80,4 @@ class LoadDFFromCSV(Stage):
 
     self.write_node_vectors_to_file(all_equations_vectors)
 
-    return all_equations_vectors
+    return node_lists
