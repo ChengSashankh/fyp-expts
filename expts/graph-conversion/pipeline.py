@@ -1,7 +1,11 @@
 from data_paths import DataPaths
 
-from stages.create_graph_datastructures import CreateGraphDatastructures
 from stages.load_df_from_csv import LoadDFFromCSV
+from stages.string_to_array import String2Array
+from stages.tokenize_equations import EquationTokenizationStage
+from stages.store_node_labels import StoreNodeLabels
+from stages.create_graph_datastructures import CreateGraphDatastructures
+from stages.get_node_vectors import GetNodeVectors
 
 import json
 
@@ -27,6 +31,18 @@ class Pipeline:
     if configs['name'] == 'load_df_from_csv':
       return LoadDFFromCSV(configs)
 
+    if configs['name'] == 'string_to_array':
+      return String2Array(configs)
+
+    if configs['name'] == 'tokenize_equations':
+      return EquationTokenizationStage(configs)
+    
+    if configs['name'] == 'store_node_labels':
+      return StoreNodeLabels(configs)
+
+    if configs['name'] == 'get_node_vectors':
+      return GetNodeVectors(configs)
+
   def create_pipeline_from_configs(self):
     self.stages = []
     for cfg in self.run_configs['stage_configs']:
@@ -37,7 +53,8 @@ class Pipeline:
     print ('At run stage')
     print (self.stages)
 
-    op = './test_df.csv'
+    # op = './test_df.csv'
+    op = '/Users/cksash/data/fyp/kdd/equations.csv'
     for stage in self.stages:
       print ('Running stage: ' + str(stage.name))
       op = stage.run(op)
