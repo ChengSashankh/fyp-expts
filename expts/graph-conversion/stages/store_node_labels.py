@@ -86,6 +86,7 @@ class StoreNodeLabels(Stage):
         all_labels = self.label_all_equations(node_lists)
 
         print("Shape of all labels: " + str(all_labels.shape))
+
         # Store the labels to file
         pickle.dump(all_labels, open('/Users/cksash/data/fyp/kdd/all_labels.pkl', 'wb'))
 

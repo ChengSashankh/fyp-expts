@@ -6,6 +6,7 @@ import pickle
 import numpy as np
 from progressbar import ProgressBar
 from numpy.testing import assert_array_equal
+import scipy.sparse as sp
 
 RELATION_NODE = 'relation'
 VARIABLE_NODE = 'variable'
@@ -213,21 +214,23 @@ class CreateGraphDatastructures(Stage):
     def get_adjmatrix_from_nodes(self, nodes):
         # Create empty ds
         adjmatrix = np.zeros([len(nodes), len(nodes)])
+        adjmatrix_sp = sp.dok_matrix((len(nodes), len(nodes)), dtype=np.int8)
 
         # Add all neighbors of node in adjlist
         for node in nodes:
             for n in node.neighbors:
                 adjmatrix[node.id][n.id] = 1
+                adjmatrix_sp[node.id][n.id] = 1
 
-        return adjmatrix
+        return adjmatrix, adjmatrix_sp
 
     def get_graph_ds_from_nodes(self, nodes):
         # Get adjmatrix
-        adjmatrix = self.get_adjmatrix_from_nodes(nodes)
+        adjmatrix, adjmatrix_sp = self.get_adjmatrix_from_nodes(nodes)
         # Get adjlist
         adjlist = self.get_adjlist_from_nodes(nodes)
 
-        return adjmatrix, adjlist, nodes
+        return adjmatrix, adjmatrix_sp, adjlist, nodes
 
     ####################### Main methods #####################
 
@@ -253,9 +256,9 @@ class CreateGraphDatastructures(Stage):
         nodes = self.add_relation_edges(nodes)
 
         # Get the adjlist and adjmatrix from this
-        adjmatrix, adjlist, nodes = self.get_graph_ds_from_nodes(nodes)
+        adjmatrix, adjmatrix_sp, adjlist, nodes = self.get_graph_ds_from_nodes(nodes)
 
-        return adjmatrix, adjlist, nodes
+        return adjmatrix, adjmatrix_sp, adjlist, nodes
 
     # Main: Convert equations into graph
     def get_graph_from_tokenized_equation(self, equations):
@@ -268,7 +271,7 @@ class CreateGraphDatastructures(Stage):
         pbar = ProgressBar()
         for equation in pbar(equations):
             # try:
-            adjmatrix, adjlist, nodes = self._get_graph_from_tokenized_equation(equation)
+            adjmatrix, adjmatrix_sp, adjlist, nodes = self._get_graph_from_tokenized_equation(equation)
 
             # Append
             adjmatrices.append(adjmatrix)
@@ -287,7 +290,15 @@ class CreateGraphDatastructures(Stage):
 
         # Merge and write - more useful now
         total_nodes = sum([len(n) for n in node_lists])
-        adj_matrix_merged = np.zeros([total_nodes, total_nodes])
+        # adj_matrix_merged = np.zeros([total_nodes, total_nodes])
+        adj_matrix_merged_sp = sp.dok_matrix((total_nodes, total_nodes), dtype=np.int8)
+        print (adj_matrix_merged_sp.shape)
+
+        sizes = [len(n) for n in node_lists]
+        graph_number = []
+        for idx, i in enumerate(sizes):
+            for j in range(i):
+                graph_number.append(idx + 1)
 
         curr_idx = 0
         for adj_matrix in adjmatrices:
@@ -295,24 +306,37 @@ class CreateGraphDatastructures(Stage):
             assert(adj_matrix.shape[0] == adj_matrix.shape[1])
 
             size = adj_matrix.shape[0]
-            adj_matrix_merged[curr_idx: curr_idx + size, curr_idx: curr_idx + size] = adj_matrix
+            print(adj_matrix.shape)
+
+            # adj_matrix_merged[curr_idx: curr_idx + size, curr_idx: curr_idx + size] = adj_matrix
+
+            # Merge into sparse matrix instead
+            for i in range(size):
+                for j in range(size):
+                    if adj_matrix[i][j] != 0:
+                        adj_matrix_merged_sp[curr_idx + i, curr_idx + j] = adj_matrix[i][j]
 
             # Check whether the assignment is correctly done
-            assert_array_equal(adj_matrix_merged[curr_idx: curr_idx + size, curr_idx: curr_idx + size], adj_matrix)
+            # assert_array_equal(adj_matrix_merged[curr_idx: curr_idx + size, curr_idx: curr_idx + size], adj_matrix)
 
             curr_idx = curr_idx + size
 
         # Check whether loop terminated correctly
         assert(curr_idx == total_nodes)
+        adj_matrix_merged_sp = adj_matrix_merged_sp.tocsr()
 
-        print("Shape of merged adjmatrix: " + str(adj_matrix_merged.shape))
+        print("Shape of merged adjmatrix: " + str(adj_matrix_merged_sp.shape))
 
         fptr = open('/Users/cksash/data/fyp/kdd/joined_adjmatrix.pkl', 'wb')
-        pickle.dump(adj_matrix_merged, fptr)
+        pickle.dump(adj_matrix_merged_sp, fptr)
 
         # 2. adjlist - but i dont need this now
         fptr = open('/Users/cksash/data/fyp/kdd/adjlists.pkl', 'wb')
         pickle.dump(adjlists, fptr)
+
+        # Save the graph numbers too
+        fptr = open('/Users/cksash/data/fyp/kdd/graph_number.pkl', 'wb')
+        pickle.dump(graph_number, fptr)
 
         return adjlists, adjmatrices, node_lists
 

@@ -14,6 +14,6 @@ class LoadDFFromCSV(Stage):
   def run(self, ip):
     df = pd.read_csv(ip)
     df.columns = ['Unnamed: 0', 'equation', 'contexts', 'refs', 'labels']
-    df = df[0: 100]
+    df = df[0: 10000]
 
     return df
