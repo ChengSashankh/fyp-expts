@@ -330,6 +330,9 @@ class CreateGraphDatastructures(Stage):
         fptr = open('/Users/cksash/data/fyp/kdd/joined_adjmatrix.pkl', 'wb')
         pickle.dump(adj_matrix_merged_sp, fptr)
 
+        fptr = open('/Users/cksash/data/fyp/kdd/EQUATIONS_A.txt', 'w')
+        fptr.write(str(adj_matrix_merged_sp))
+
         # 2. adjlist - but i dont need this now
         fptr = open('/Users/cksash/data/fyp/kdd/adjlists.pkl', 'wb')
         pickle.dump(adjlists, fptr)
@@ -337,6 +340,10 @@ class CreateGraphDatastructures(Stage):
         # Save the graph numbers too
         fptr = open('/Users/cksash/data/fyp/kdd/graph_number.pkl', 'wb')
         pickle.dump(graph_number, fptr)
+
+        fptr = open('/Users/cksash/data/fyp/kdd/EQUATIONS_graph_indicator.txt', 'w')
+        for n in graph_number:
+            fptr.write(str(n) + '\n')
 
         return adjlists, adjmatrices, node_lists
 

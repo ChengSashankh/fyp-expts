@@ -60,7 +60,6 @@ def linguistic_preprocess(contexts):
 
     return processed
 
-
 df = pd.read_csv('~/data/fyp/kdd/equations.csv')
 df = df[0: num_equations]
 print(df.columns)
@@ -79,4 +78,6 @@ for index, term_ids in enumerate(processed):
 
     assert (sum(labels[index]) == len(term_ids))
 
+np.savetxt(labels, 'EQUATIONS_graph_labels.txt')
 pickle.dump(labels, open('labels_words_first10000.pkl', 'wb'))
+

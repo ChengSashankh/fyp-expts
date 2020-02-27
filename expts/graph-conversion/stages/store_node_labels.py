@@ -39,15 +39,18 @@ class StoreNodeLabels(Stage):
 
     def get_labels_for_equation(self, tokenized_equation):
         labels = np.zeros([len(tokenized_equation), self.label_dim])
+        answers = []
         for i, token in enumerate(tokenized_equation):
             if self.is_operator(token):
                 labels[i][0] = 1
+                answers.append(0)
             else:
                 labels[i][1] = 1
+                answers.append(1)
 
             assert (np.sum(labels[i]) == 1)
 
-        return labels
+        return labels, answers
 
     def label_all_equations(self, node_lists):
         # max_len = 0
@@ -58,8 +61,14 @@ class StoreNodeLabels(Stage):
         all_labels = np.zeros([total_len, self.label_dim])
 
         count = 0
+
+        # These are not one hot
+        all_node_labels_direct = []
+
         for i, equation in enumerate(node_lists):
-            for j, label in enumerate(self.get_labels_for_equation(equation)):
+            labels, answers = self.get_labels_for_equation(equation)
+            all_node_labels_direct = [all_node_labels_direct] + answers
+            for j, label in enumerate(labels):
                 all_labels[count, :] = label
                 count += 1
 
@@ -67,7 +76,7 @@ class StoreNodeLabels(Stage):
         for label_one_hot in all_labels:
             assert (np.sum(label_one_hot) == 1)
 
-        return all_labels
+        return all_labels, answers
 
     def run(self, input_dict):
         df = input_dict['df']
@@ -83,11 +92,16 @@ class StoreNodeLabels(Stage):
         assert (type(tokenized_equations) == pd.core.series.Series)
         assert (type(tokenized_equations[0]) == list)
 
-        all_labels = self.label_all_equations(node_lists)
+        all_labels, labels_answers = self.label_all_equations(node_lists)
 
         print("Shape of all labels: " + str(all_labels.shape))
 
         # Store the labels to file
         pickle.dump(all_labels, open('/Users/cksash/data/fyp/kdd/all_labels.pkl', 'wb'))
+
+        # Store the labels directly for graph classification
+        fptr = open('/Users/cksash/data/fyp/kdd/EQUATIONS_node_labels.txt', 'w')
+        for ans in labels_answers:
+            fptr.write(str(ans) + '\n')
 
         return node_lists
